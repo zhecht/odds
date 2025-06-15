@@ -2441,6 +2441,12 @@ def writeEV(date, dinger, parx=False, silent=False):
 				devig(evData, playerFinal, ou, int(data[game][player]["dk"]), book="dk-dinger", promo="dk-dinger", game=game)
 				devig(evData, playerFinal, ou, int(data[game][player]["dk"]), book="dk")
 				devig(evData, playerFinal, ou, int(data[game][player]["dk"]) + 200, book="dk-200")
+
+				if "circa" in books:
+					try:
+						devig(evData, playerFinal, data[game][player]["circa"], int(data[game][player]["dk"]) + 200, book="dk-200-vs-circa")
+					except:
+						pass
 				pass
 			if "espn" in books:
 				o = int(data[game][player]["espn"].split("/")[0])
