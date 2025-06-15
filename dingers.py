@@ -3023,8 +3023,8 @@ if __name__ == '__main__':
 			try:
 				commitChanges()
 			except:
-				if os.path.exists("/mnt/c/Users/zhech/Documents/lines/.git/index.lock"):
-					os.system("rm /mnt/c/Users/zhech/Documents/lines/.git/index.lock")
+				if os.path.exists("/mnt/c/Users/zhech/Documents/odds/.git/index.lock"):
+					os.system("rm /mnt/c/Users/zhech/Documents/odds/.git/index.lock")
 				pass
 
 			if args.night:
