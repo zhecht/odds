@@ -1238,6 +1238,16 @@ def writeMGMSel(date):
 		driver.quit()
 		return
 
+	try:
+		WebDriverWait(driver, 10).until(
+			lambda d: d.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner").is_displayed()
+		)
+		pass
+	except:
+		print("not found")
+		driver.quit()
+		return
+
 	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
 	for div in divs:
 		try:
@@ -1263,11 +1273,6 @@ def writeMGMSel(date):
 		print("Event not found")
 		driver.quit()
 		return
-
-	banner = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner")
-	print(banner)
-	driver.quit()
-	return
 
 	seen = {}
 	data = nested_dict()
