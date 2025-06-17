@@ -1225,7 +1225,10 @@ def runMGM():
 	uc.loop().run_until_complete(writeMGM())
 
 def writeMGMSel(date):
-	driver = webdriver.Firefox()
+	options = webdriver.FirefoxOptions()
+	options.set_prefernece("geo.enabled", False)
+
+	driver = webdriver.Firefox(options=options)
 	driver.get("https://sports.mi.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75")
 
 	try:
