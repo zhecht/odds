@@ -1243,8 +1243,8 @@ def writeMGMSel(date):
 		try:
 			div.find_element(By.CSS_SELECTOR, "a").click()
 		except:
-			promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner")
-			print(promo)
+			promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner vn-icon")
+			promo.click()
 			break
 
 	for div in divs:
