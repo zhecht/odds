@@ -1230,7 +1230,7 @@ def writeMGMSel(date):
 	options.set_preference("geo.prompt.testing", True)  # Prevents location prompts
 	options.set_preference("geo.prompt.testing.allow", False)  # Blocks location access
 
-	driver = webdriver.Firefox(options=options)
+	driver = webdriver.Firefox()
 	driver.get("https://sports.mi.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75")
 
 	try:
