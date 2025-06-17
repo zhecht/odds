@@ -349,7 +349,7 @@ def convertMLBTeam(team):
 		return "bos"
 	elif t == "cii":
 		return "cin"
-	elif t in ["chi", "chy", "chk", "cws"]:
+	elif t in ["chi", "chy", "chk", "cws", "chv"]:
 		return "chw"
 	elif t in ["kan", "kcr"]:
 		return "kc"
