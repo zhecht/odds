@@ -1238,6 +1238,9 @@ def writeMGMSel(date):
 		driver.quit()
 		return
 
+	banner = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner")
+	print(banner)
+
 	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
 	for div in divs:
 		try:
