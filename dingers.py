@@ -1238,17 +1238,13 @@ def writeMGMSel(date):
 		driver.quit()
 		return
 
-	try:
-		WebDriverWait(driver, 10).until(
-			lambda d: d.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner").is_displayed()
-		)
-		pass
-	except:
-		print("ad not found")
-		driver.quit()
-		return
-
 	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
+	for div in divs:
+		try:
+			div.find_element(By.CSS_SELECTOR, "a").click()
+		except:
+			promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner")
+
 	for div in divs:
 		try:
 			t = div.find_element(By.CSS_SELECTOR, ".starting-time")
