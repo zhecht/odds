@@ -1244,7 +1244,7 @@ def writeMGMSel(date):
 		)
 		pass
 	except:
-		print("not found")
+		print("ad not found")
 		driver.quit()
 		return
 
