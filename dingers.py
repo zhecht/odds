@@ -615,7 +615,7 @@ def writeCirca(date):
 			if len(u) == 4 and u.startswith("7"):
 				u = "-"+u[1:]
 			ou = f"{o}/{u}".replace(",", "").replace(".", "").replace("~", "-").replace("--", "-")
-			ou = ou.replace("-~", "-")
+			ou = ou.replace("-~", "-").replace("/- 1000", "/-1000")
 			print(p,ou)
 			data[date][p[0]]["hr"][p[1]] = ou
 
