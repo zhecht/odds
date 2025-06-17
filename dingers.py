@@ -1235,6 +1235,18 @@ def writeMGMSel(date):
 
 	try:
 		WebDriverWait(driver, 10).until(
+			lambda d: d.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner fast-svg").is_displayed()
+		)
+		promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner fast-svg")
+		promo.click()
+		pass
+	except:
+		print("not found")
+		driver.quit()
+		return
+
+	try:
+		WebDriverWait(driver, 10).until(
 			lambda d: d.find_element(By.CSS_SELECTOR, "ms-six-pack-event").is_displayed()
 		)
 		pass
@@ -1242,15 +1254,6 @@ def writeMGMSel(date):
 		print("not found")
 		driver.quit()
 		return
-
-	time.sleep(1)
-	print("click")
-	promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner fast-svg")
-	promo.click()
-	time.sleep(3)
-	print("after")
-	driver.quit()
-	return
 
 	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
 	for div in divs:
