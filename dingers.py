@@ -1245,8 +1245,10 @@ def writeMGMSel(date):
 
 	time.sleep(3)
 	print("click")
-	promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner vn-icon")
-	promo.click()
+	#promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner vn-icon")
+	#promo.scroll_into_view()
+	#promo.click()
+	driver.find_element(By.CSS_SELECTOR, "body").click()
 	print("after")
 	driver.quit()
 	return
