@@ -522,14 +522,14 @@ def writeCirca(date):
 	for pageIdx, page in enumerate(pages):
 		page.save(f"out-{pageIdx}.png", "PNG")
 		img = Image.open(f"out-{pageIdx}.png")
-		bottom, top = 2310, 400
+		bottom, top = 2340, 400
 		left, right = 105, 430
 
 		#bottom, top = 2455, 374
 		#left,right = 145, 440
 
 		if pageIdx == 1:
-			bottom, top = 2375, 400
+			bottom, top = 2365, 400
 			left, right = 105, 420
 
 		h = 21
@@ -582,7 +582,7 @@ def writeCirca(date):
 
 		l,r = 665,725
 		if pageIdx == 1:
-			l,r = 670,725
+			l,r = 670,730
 			pass
 		undersImg = img.crop((l, top, r, bottom))
 
