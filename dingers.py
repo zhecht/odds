@@ -1241,9 +1241,7 @@ def writeMGMSel(date):
 		promo.click()
 		pass
 	except:
-		print("not found")
-		driver.quit()
-		return
+		print("no promo")
 
 	try:
 		WebDriverWait(driver, 10).until(
