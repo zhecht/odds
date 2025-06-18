@@ -1233,15 +1233,18 @@ def writeMGMSel(date):
 	driver = webdriver.Firefox()
 	driver.get("https://sports.mi.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75")
 
-	try:
-		WebDriverWait(driver, 10).until(
-			lambda d: d.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner fast-svg").is_displayed()
-		)
-		promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner fast-svg")
-		promo.click()
-		pass
-	except:
-		print("no promo")
+	if False:
+		try:
+			WebDriverWait(driver, 10).until(
+				lambda d: d.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner fast-svg").is_displayed()
+			)
+			promo = driver.find_element(By.CSS_SELECTOR, ".fullscreen-promo-banner fast-svg")
+			promo.click()
+			pass
+		except:
+			print("not found")
+			driver.quit()
+			return
 
 	try:
 		WebDriverWait(driver, 10).until(
