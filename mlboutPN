@@ -1,2157 +1,3643 @@
 [
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": true,
+    "hasAltTotal": true,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610759471,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": null,
+    "parentId": null,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "home",
-        "price": -137
+        "alignment": "home",
+        "name": "Cincinnati Reds",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          },
+          {
+            "period": 1
+          },
+          {
+            "period": 3
+          }
+        ]
       },
       {
-        "designation": "away",
-        "price": 124
+        "alignment": "away",
+        "name": "Minnesota Twins",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          },
+          {
+            "period": 1
+          },
+          {
+            "period": 3
+          }
+        ]
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "hasMoneyline": false,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 1,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 3,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 34,
+    "type": "matchup",
+    "units": "Regular",
+    "version": 604783172
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;3.5;home",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610769135,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": -140
+        "alignment": "neutral",
+        "id": 1610769136,
+        "name": "Minnesota Twins",
+        "order": 0,
+        "rotation": 2279
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": 119
+        "alignment": "neutral",
+        "id": 1610769137,
+        "name": "Cincinnati Reds",
+        "order": 0,
+        "rotation": 2280
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 2279,
+    "special": {
+      "category": "Next Run",
+      "description": "Team To Score 1st Run"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "1st Run",
+    "version": 427064016
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;3.5;away",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941016,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": -106
+        "alignment": "home",
+        "name": "Cincinnati Reds  (Hits+Runs+Errors)",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": -110
+        "alignment": "away",
+        "name": "Minnesota Twins  (Hits+Runs+Errors)",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "hasMoneyline": false,
+        "hasSpread": false,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 9975,
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "matchup",
+    "units": "Hits + Runs + Errors",
+    "version": 604782678
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;s;-1.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941017,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.5,
-        "price": 155
+        "alignment": "neutral",
+        "id": 1610941018,
+        "name": "Minnesota Twins 1, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": 1.5,
-        "price": -176
+        "alignment": "neutral",
+        "id": 1610941019,
+        "name": "Minnesota Twins 2, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941020,
+        "name": "Minnesota Twins 3, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941021,
+        "name": "Minnesota Twins 4, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941022,
+        "name": "Minnesota Twins 5, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941023,
+        "name": "Minnesota Twins 6, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941024,
+        "name": "Minnesota Twins 7, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941025,
+        "name": "Minnesota Twins 0, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941026,
+        "name": "Minnesota Twins 2, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 983
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941027,
+        "name": "Minnesota Twins 3, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 984
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941028,
+        "name": "Minnesota Twins 4, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 985
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941029,
+        "name": "Minnesota Twins 5, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 986
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941030,
+        "name": "Minnesota Twins 6, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 987
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941031,
+        "name": "Minnesota Twins 7, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 988
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941032,
+        "name": "Minnesota Twins 0, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 989
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941033,
+        "name": "Minnesota Twins 1, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 990
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941034,
+        "name": "Minnesota Twins 3, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 991
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941035,
+        "name": "Minnesota Twins 4, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 992
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941036,
+        "name": "Minnesota Twins 5, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 993
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941037,
+        "name": "Minnesota Twins 6, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 994
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941038,
+        "name": "Minnesota Twins 7, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 995
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941039,
+        "name": "Minnesota Twins 0, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 996
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941040,
+        "name": "Minnesota Twins 1, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 997
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941041,
+        "name": "Minnesota Twins 2, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 998
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941042,
+        "name": "Minnesota Twins 4, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 999
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941043,
+        "name": "Minnesota Twins 5, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 1000
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941044,
+        "name": "Minnesota Twins 6, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 1001
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941045,
+        "name": "Minnesota Twins 7, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 1002
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941046,
+        "name": "Minnesota Twins 0, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1003
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941047,
+        "name": "Minnesota Twins 1, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1004
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941048,
+        "name": "Minnesota Twins 2, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1005
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941049,
+        "name": "Minnesota Twins 3, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1006
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941050,
+        "name": "Minnesota Twins 5, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1007
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941051,
+        "name": "Minnesota Twins 6, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1008
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941052,
+        "name": "Minnesota Twins 7, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1009
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941053,
+        "name": "Minnesota Twins 0, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1010
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941054,
+        "name": "Minnesota Twins 1, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1011
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941055,
+        "name": "Minnesota Twins 2, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1012
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941056,
+        "name": "Minnesota Twins 3, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1013
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941057,
+        "name": "Minnesota Twins 4, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1014
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941058,
+        "name": "Minnesota Twins 6, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1015
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941059,
+        "name": "Minnesota Twins 7, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1016
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941060,
+        "name": "Minnesota Twins 0, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1017
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941061,
+        "name": "Minnesota Twins 1, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1018
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941062,
+        "name": "Minnesota Twins 2, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1019
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941063,
+        "name": "Minnesota Twins 3, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1020
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941064,
+        "name": "Minnesota Twins 4, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1021
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941065,
+        "name": "Minnesota Twins 5, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1022
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941066,
+        "name": "Minnesota Twins 7, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1023
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941067,
+        "name": "Minnesota Twins 0, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1024
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941068,
+        "name": "Minnesota Twins 1, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1025
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941069,
+        "name": "Minnesota Twins 2, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1026
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941070,
+        "name": "Minnesota Twins 3, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1027
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941071,
+        "name": "Minnesota Twins 4, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1028
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941072,
+        "name": "Minnesota Twins 5, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1029
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941073,
+        "name": "Minnesota Twins 6, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1030
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941074,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.5,
-        "price": -245
+        "alignment": "neutral",
+        "id": 1610941075,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": -1.5,
-        "price": 195
+        "alignment": "neutral",
+        "id": 1610941076,
+        "name": "Even",
+        "order": 0,
+        "rotation": 976
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Minnesota Twins Runs Odd/Even"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941077,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": -198
+        "alignment": "neutral",
+        "id": 1610941078,
+        "name": "Minnesota Twins & Over 4.5",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": 165
+        "alignment": "neutral",
+        "id": 1610941079,
+        "name": "Cincinnati Reds & Over 4.5",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941080,
+        "name": "Draw & Over 4.5",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941081,
+        "name": "Minnesota Twins & Under 4.5",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941082,
+        "name": "Cincinnati Reds & Under 4.5",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941083,
+        "name": "Draw & Under 4.5",
+        "order": 0,
+        "rotation": 980
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Double Result",
+      "description": "1st Half Winner/Total 4.5 Runs"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-1.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941084,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": 107
+        "alignment": "neutral",
+        "id": 1610941085,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -123
+        "alignment": "neutral",
+        "id": 1610941086,
+        "name": "Even",
+        "order": 0,
+        "rotation": 976
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Cincinnati Reds Runs Odd/Even"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-2.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941087,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -2.0,
-        "price": 207
+        "alignment": "neutral",
+        "id": 1610941088,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": 2.0,
-        "price": -248
+        "alignment": "neutral",
+        "id": 1610941089,
+        "name": "Even",
+        "order": 0,
+        "rotation": 976
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Cincinnati Reds Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-2.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941090,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -2.5,
-        "price": 235
+        "alignment": "neutral",
+        "id": 1610941091,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": 2.5,
-        "price": -296
+        "alignment": "neutral",
+        "id": 1610941092,
+        "name": "Even",
+        "order": 0,
+        "rotation": 976
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-3.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941093,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -3.0,
-        "price": 317
+        "alignment": "neutral",
+        "id": 1610941094,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": 3.0,
-        "price": -442
+        "alignment": "neutral",
+        "id": 1610941095,
+        "name": "Even",
+        "order": 0,
+        "rotation": 976
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Minnesota Twins Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;7.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941096,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.5,
-        "price": -113
+        "alignment": "neutral",
+        "id": 1610941097,
+        "name": "0",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 7.5,
-        "price": 101
+        "alignment": "neutral",
+        "id": 1610941098,
+        "name": "1",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941099,
+        "name": "2",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941100,
+        "name": "3",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941101,
+        "name": "4",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941102,
+        "name": "5",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941103,
+        "name": "6",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941104,
+        "name": "7",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941105,
+        "name": "8+",
+        "order": 0,
+        "rotation": 983
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Cincinnati Reds Exact Total Runs"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;4.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941106,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.5,
-        "price": -575
+        "alignment": "neutral",
+        "id": 1610941107,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 4.5,
-        "price": 402
+        "alignment": "neutral",
+        "id": 1610941108,
+        "name": "Even",
+        "order": 0,
+        "rotation": 976
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;6.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941109,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 6.0,
-        "price": -245
+        "alignment": "neutral",
+        "id": 1610941110,
+        "name": "0",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 6.0,
-        "price": 209
+        "alignment": "neutral",
+        "id": 1610941111,
+        "name": "1",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941112,
+        "name": "2",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941113,
+        "name": "3",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941114,
+        "name": "4",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941115,
+        "name": "5",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941116,
+        "name": "6",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941117,
+        "name": "7",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941118,
+        "name": "8+",
+        "order": 0,
+        "rotation": 983
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Minnesota Twins Exact Total Runs"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;6.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941119,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 6.5,
-        "price": -189
+        "alignment": "neutral",
+        "id": 1610941120,
+        "name": "Minnesota Twins & Over 8.5",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 6.5,
-        "price": 165
+        "alignment": "neutral",
+        "id": 1610941121,
+        "name": "Cincinnati Reds & Over 8.5",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941122,
+        "name": "Minnesota Twins & Under 8.5",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941123,
+        "name": "Cincinnati Reds & Under 8.5",
+        "order": 0,
+        "rotation": 978
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Double Result",
+      "description": "Winner/Total 8.5 Runs"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;7.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941124,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.0,
-        "price": -152
+        "alignment": "neutral",
+        "id": 1610941125,
+        "name": "Minnesota Twins By 1",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 7.0,
-        "price": 134
+        "alignment": "neutral",
+        "id": 1610941126,
+        "name": "Minnesota Twins By 2",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941127,
+        "name": "Minnesota Twins By 3",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941128,
+        "name": "Minnesota Twins By 4",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941129,
+        "name": "Minnesota Twins By 5+",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941130,
+        "name": "Cincinnati Reds By 1",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941131,
+        "name": "Cincinnati Reds By 2",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941132,
+        "name": "Cincinnati Reds By 3",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941133,
+        "name": "Cincinnati Reds By 4",
+        "order": 0,
+        "rotation": 983
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941134,
+        "name": "Cincinnati Reds By 5+",
+        "order": 0,
+        "rotation": 984
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;8.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941135,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 8.0,
-        "price": 105
+        "alignment": "neutral",
+        "id": 1610941136,
+        "name": "Minnesota Twins By 1 - 2",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 8.0,
-        "price": -118
+        "alignment": "neutral",
+        "id": 1610941137,
+        "name": "Minnesota Twins By 3 - 4",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941138,
+        "name": "Minnesota Twins By 5 - 6",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941139,
+        "name": "Minnesota Twins By 7+",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941140,
+        "name": "Cincinnati Reds By 1 - 2",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941141,
+        "name": "Cincinnati Reds By 3 - 4",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941142,
+        "name": "Cincinnati Reds By 5 - 6",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941143,
+        "name": "Cincinnati Reds By 7+",
+        "order": 0,
+        "rotation": 982
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin Range"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;8.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941144,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 8.5,
-        "price": 122
+        "alignment": "neutral",
+        "id": 1610941145,
+        "name": "1",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 8.5,
-        "price": -137
+        "alignment": "neutral",
+        "id": 1610941146,
+        "name": "2",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941147,
+        "name": "3",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941148,
+        "name": "4",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941149,
+        "name": "5",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941150,
+        "name": "6",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941151,
+        "name": "7",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941152,
+        "name": "8",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941153,
+        "name": "9",
+        "order": 0,
+        "rotation": 983
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941154,
+        "name": "10",
+        "order": 0,
+        "rotation": 984
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941155,
+        "name": "11",
+        "order": 0,
+        "rotation": 985
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941156,
+        "name": "12",
+        "order": 0,
+        "rotation": 986
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941157,
+        "name": "13",
+        "order": 0,
+        "rotation": 987
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941158,
+        "name": "14",
+        "order": 0,
+        "rotation": 988
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941159,
+        "name": "15+",
+        "order": 0,
+        "rotation": 989
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;9.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941160,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 9.0,
-        "price": 158
+        "alignment": "neutral",
+        "id": 1610941161,
+        "name": "1 - 3",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 9.0,
-        "price": -180
+        "alignment": "neutral",
+        "id": 1610941162,
+        "name": "4 - 6",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941163,
+        "name": "7 - 9",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941164,
+        "name": "10 - 12",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941165,
+        "name": "13+",
+        "order": 0,
+        "rotation": 979
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;11.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941166,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 11.5,
-        "price": 344
+        "alignment": "neutral",
+        "id": 1610941167,
+        "name": "Minnesota Twins By 1",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 11.5,
-        "price": -471
+        "alignment": "neutral",
+        "id": 1610941168,
+        "name": "Minnesota Twins By 2",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941169,
+        "name": "Minnesota Twins By 3+",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941170,
+        "name": "Tie",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941171,
+        "name": "Cincinnati Reds By 1",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941172,
+        "name": "Cincinnati Reds By 2",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941173,
+        "name": "Cincinnati Reds By 3+",
+        "order": 0,
+        "rotation": 981
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;2.5;home",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941174,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 2.5,
-        "price": 119
+        "alignment": "neutral",
+        "id": 1610941176,
+        "name": "0",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 2.5,
-        "price": -145
+        "alignment": "neutral",
+        "id": 1610941177,
+        "name": "1",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941178,
+        "name": "2",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941179,
+        "name": "3",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941180,
+        "name": "4",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941181,
+        "name": "5",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941182,
+        "name": "6",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941183,
+        "name": "7",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941184,
+        "name": "8",
+        "order": 0,
+        "rotation": 983
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941185,
+        "name": "9",
+        "order": 0,
+        "rotation": 984
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941186,
+        "name": "10",
+        "order": 0,
+        "rotation": 985
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941187,
+        "name": "11+",
+        "order": 0,
+        "rotation": 986
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;1.5;away",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941189,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 1.5,
-        "price": -125
+        "alignment": "neutral",
+        "id": 1610941190,
+        "name": "0 - 2",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "under",
-        "points": 1.5,
-        "price": 103
+        "alignment": "neutral",
+        "id": 1610941191,
+        "name": "3 - 4",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941192,
+        "name": "5 - 6",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941193,
+        "name": "7+",
+        "order": 0,
+        "rotation": 978
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;s;0.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941194,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": -137
+        "alignment": "neutral",
+        "id": 1610941195,
+        "name": "0",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": 119
+        "alignment": "neutral",
+        "id": 1610941196,
+        "name": "1",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941197,
+        "name": "2",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941198,
+        "name": "3",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941199,
+        "name": "4",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941200,
+        "name": "5+",
+        "order": 0,
+        "rotation": 980
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Minnesota Twins Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941201,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": -290
+        "alignment": "neutral",
+        "id": 1610941202,
+        "name": "0",
+        "order": 0,
+        "rotation": 975
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": 225
+        "alignment": "neutral",
+        "id": 1610941203,
+        "name": "1",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941204,
+        "name": "2",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941205,
+        "name": "3",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941206,
+        "name": "4",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941207,
+        "name": "5+",
+        "order": 0,
+        "rotation": 980
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
+    "periods": [
+      {
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Cincinnati Reds Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   },
   {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 0.5,
-        "price": -186
-      },
-      {
-        "designation": "away",
-        "points": -0.5,
-        "price": 156
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "home",
-        "points": -0.5,
-        "price": 103
-      },
-      {
-        "designation": "away",
-        "points": 0.5,
-        "price": -120
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "home",
-        "points": -1.0,
-        "price": 142
-      },
-      {
-        "designation": "away",
-        "points": 1.0,
-        "price": -172
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;ou;4.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 4.5,
-        "price": 102
-      },
-      {
-        "designation": "under",
-        "points": 4.5,
-        "price": -117
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;3.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 3.5,
-        "price": -170
-      },
-      {
-        "designation": "under",
-        "points": 3.5,
-        "price": 146
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;4.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 4.0,
-        "price": -132
-      },
-      {
-        "designation": "under",
-        "points": 4.0,
-        "price": 115
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 5.0,
-        "price": 136
-      },
-      {
-        "designation": "under",
-        "points": 5.0,
-        "price": -157
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 1,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 5.5,
-        "price": 166
-      },
-      {
-        "designation": "under",
-        "points": 5.5,
-        "price": -195
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;m",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 3,
-    "prices": [
-      {
-        "designation": "home",
-        "price": 261
-      },
-      {
-        "designation": "away",
-        "price": 337
-      },
-      {
-        "designation": "draw",
-        "price": -131
-      }
-    ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;s;0.0",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 3,
-    "prices": [
-      {
-        "designation": "home",
-        "points": 0.0,
-        "price": -136
-      },
-      {
-        "designation": "away",
-        "points": -0.0,
-        "price": 116
-      }
-    ],
-    "status": "open",
-    "type": "spread",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;ou;0.5",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610762647,
-    "period": 3,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 0.5,
-        "price": 100
-      },
-      {
-        "designation": "under",
-        "points": 0.5,
-        "price": -117
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610773164,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610773165,
-        "price": -128
-      },
-      {
-        "participantId": 1610773166,
-        "price": 109
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052376638
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;25.5",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941526,
-    "period": 0,
-    "prices": [
-      {
-        "designation": "over",
-        "points": 25.5,
-        "price": 103
-      },
-      {
-        "designation": "under",
-        "points": 25.5,
-        "price": -121
-      }
-    ],
-    "status": "open",
-    "type": "total",
-    "version": 3150322523
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941527,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941528,
-        "price": 4865
-      },
-      {
-        "participantId": 1610941529,
-        "price": 4597
-      },
-      {
-        "participantId": 1610941530,
-        "price": 4738
-      },
-      {
-        "participantId": 1610941531,
-        "price": 5373
-      },
-      {
-        "participantId": 1610941532,
-        "price": 6262
-      },
-      {
-        "participantId": 1610941533,
-        "price": 7554
-      },
-      {
-        "participantId": 1610941534,
-        "price": 9203
-      },
-      {
-        "participantId": 1610941535,
-        "price": 3850
-      },
-      {
-        "participantId": 1610941536,
-        "price": 2758
-      },
-      {
-        "participantId": 1610941537,
-        "price": 3005
-      },
-      {
-        "participantId": 1610941538,
-        "price": 3369
-      },
-      {
-        "participantId": 1610941539,
-        "price": 4055
-      },
-      {
-        "participantId": 1610941540,
-        "price": 4982
-      },
-      {
-        "participantId": 1610941541,
-        "price": 6249
-      },
-      {
-        "participantId": 1610941542,
-        "price": 3927
-      },
-      {
-        "participantId": 1610941543,
-        "price": 2014
-      },
-      {
-        "participantId": 1610941544,
-        "price": 2324
-      },
-      {
-        "participantId": 1610941545,
-        "price": 2717
-      },
-      {
-        "participantId": 1610941546,
-        "price": 3238
-      },
-      {
-        "participantId": 1610941547,
-        "price": 4075
-      },
-      {
-        "participantId": 1610941548,
-        "price": 5184
-      },
-      {
-        "participantId": 1610941549,
-        "price": 4005
-      },
-      {
-        "participantId": 1610941550,
-        "price": 2553
-      },
-      {
-        "participantId": 1610941551,
-        "price": 1631
-      },
-      {
-        "participantId": 1610941552,
-        "price": 2406
-      },
-      {
-        "participantId": 1610941553,
-        "price": 2968
-      },
-      {
-        "participantId": 1610941554,
-        "price": 3700
-      },
-      {
-        "participantId": 1610941555,
-        "price": 4791
-      },
-      {
-        "participantId": 1610941556,
-        "price": 4388
-      },
-      {
-        "participantId": 1610941557,
-        "price": 2832
-      },
-      {
-        "participantId": 1610941558,
-        "price": 2451
-      },
-      {
-        "participantId": 1610941559,
-        "price": 1703
-      },
-      {
-        "participantId": 1610941560,
-        "price": 2871
-      },
-      {
-        "participantId": 1610941561,
-        "price": 3675
-      },
-      {
-        "participantId": 1610941562,
-        "price": 4713
-      },
-      {
-        "participantId": 1610941563,
-        "price": 5038
-      },
-      {
-        "participantId": 1610941564,
-        "price": 3301
-      },
-      {
-        "participantId": 1610941565,
-        "price": 2870
-      },
-      {
-        "participantId": 1610941566,
-        "price": 2849
-      },
-      {
-        "participantId": 1610941567,
-        "price": 2058
-      },
-      {
-        "participantId": 1610941568,
-        "price": 3722
-      },
-      {
-        "participantId": 1610941569,
-        "price": 4949
-      },
-      {
-        "participantId": 1610941570,
-        "price": 5977
-      },
-      {
-        "participantId": 1610941571,
-        "price": 3997
-      },
-      {
-        "participantId": 1610941572,
-        "price": 3499
-      },
-      {
-        "participantId": 1610941573,
-        "price": 3461
-      },
-      {
-        "participantId": 1610941574,
-        "price": 3704
-      },
-      {
-        "participantId": 1610941575,
-        "price": 2768
-      },
-      {
-        "participantId": 1610941576,
-        "price": 5215
-      },
-      {
-        "participantId": 1610941577,
-        "price": 7194
-      },
-      {
-        "participantId": 1610941578,
-        "price": 4921
-      },
-      {
-        "participantId": 1610941579,
-        "price": 4390
-      },
-      {
-        "participantId": 1610941580,
-        "price": 4346
-      },
-      {
-        "participantId": 1610941581,
-        "price": 4608
-      },
-      {
-        "participantId": 1610941582,
-        "price": 5162
-      },
-      {
-        "participantId": 1610941583,
-        "price": 3896
-      }
-    ],
-    "type": "moneyline"
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941584,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941585,
-        "price": -104
-      },
-      {
-        "participantId": 1610941586,
-        "price": -112
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941587,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1610941588,
-        "price": 361
-      },
-      {
-        "participantId": 1610941589,
-        "price": 259
-      },
-      {
-        "participantId": 1610941590,
-        "price": 1547
-      },
-      {
-        "participantId": 1610941591,
-        "price": 373
-      },
-      {
-        "participantId": 1610941592,
-        "price": 305
-      },
-      {
-        "participantId": 1610941593,
-        "price": 544
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941594,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941595,
-        "price": -105
-      },
-      {
-        "participantId": 1610941596,
-        "price": -111
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941597,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1610941598,
-        "price": 110
-      },
-      {
-        "participantId": 1610941599,
-        "price": -129
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941600,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941601,
-        "price": -163
-      },
-      {
-        "participantId": 1610941602,
-        "price": 138
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941603,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1610941604,
-        "price": 113
-      },
-      {
-        "participantId": 1610941605,
-        "price": -133
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941606,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941607,
-        "price": 1106
-      },
-      {
-        "participantId": 1610941608,
-        "price": 663
-      },
-      {
-        "participantId": 1610941609,
-        "price": 506
-      },
-      {
-        "participantId": 1610941610,
-        "price": 457
-      },
-      {
-        "participantId": 1610941611,
-        "price": 476
-      },
-      {
-        "participantId": 1610941612,
-        "price": 551
-      },
-      {
-        "participantId": 1610941613,
-        "price": 685
-      },
-      {
-        "participantId": 1610941614,
-        "price": 883
-      },
-      {
-        "participantId": 1610941615,
-        "price": 514
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052376638
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941616,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1610941617,
-        "price": -106
-      },
-      {
-        "participantId": 1610941618,
-        "price": -110
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941619,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941620,
-        "price": 852
-      },
-      {
-        "participantId": 1610941621,
-        "price": 519
-      },
-      {
-        "participantId": 1610941622,
-        "price": 448
-      },
-      {
-        "participantId": 1610941623,
-        "price": 459
-      },
-      {
-        "participantId": 1610941624,
-        "price": 516
-      },
-      {
-        "participantId": 1610941625,
-        "price": 618
-      },
-      {
-        "participantId": 1610941626,
-        "price": 773
-      },
-      {
-        "participantId": 1610941627,
-        "price": 1001
-      },
-      {
-        "participantId": 1610941628,
-        "price": 599
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052376638
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941629,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941632,
-        "price": 277
-      },
-      {
-        "participantId": 1610941633,
-        "price": 187
-      },
-      {
-        "participantId": 1610941630,
-        "price": 347
-      },
-      {
-        "participantId": 1610941631,
-        "price": 274
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052376638
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941634,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941635,
-        "price": 554
-      },
-      {
-        "participantId": 1610941636,
-        "price": 699
-      },
-      {
-        "participantId": 1610941637,
-        "price": 878
-      },
-      {
-        "participantId": 1610941638,
-        "price": 1153
-      },
-      {
-        "participantId": 1610941639,
-        "price": 681
-      },
-      {
-        "participantId": 1610941640,
-        "price": 359
-      },
-      {
-        "participantId": 1610941641,
-        "price": 641
-      },
-      {
-        "participantId": 1610941642,
-        "price": 781
-      },
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610941208,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 21,
+      "matchupCountSE": 21,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 46,
+        "matchupCountSE": 46,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610759471,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Cincinnati Reds",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Minnesota Twins",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-18T23:10:00+00:00"
+    },
+    "parentId": 1610759471,
+    "parlayRestriction": null,
+    "participants": [
+      {
+        "alignment": "neutral",
+        "id": 1610941209,
+        "name": "Minnesota Twins 0, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 975
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941210,
+        "name": "Minnesota Twins 0, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941211,
+        "name": "Minnesota Twins 0, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941212,
+        "name": "Minnesota Twins 0, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941213,
+        "name": "Minnesota Twins 0, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1610941214,
+        "name": "Minnesota Twins 0, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 980
+      },
       {
-        "participantId": 1610941643,
-        "price": 988
+        "alignment": "neutral",
+        "id": 1610941215,
+        "name": "Minnesota Twins 0, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 981
       },
-      {
-        "participantId": 1610941644,
-        "price": 523
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052376638
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941645,
-    "period": 0,
-    "prices": [
       {
-        "participantId": 1610941646,
-        "price": 311
+        "alignment": "neutral",
+        "id": 1610941216,
+        "name": "Minnesota Twins 1, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 982
       },
       {
-        "participantId": 1610941647,
-        "price": 553
+        "alignment": "neutral",
+        "id": 1610941217,
+        "name": "Minnesota Twins 1, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 983
       },
       {
-        "participantId": 1610941648,
-        "price": 1039
+        "alignment": "neutral",
+        "id": 1610941218,
+        "name": "Minnesota Twins 1, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 984
       },
       {
-        "participantId": 1610941649,
-        "price": 1394
+        "alignment": "neutral",
+        "id": 1610941219,
+        "name": "Minnesota Twins 1, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 985
       },
       {
-        "participantId": 1610941650,
-        "price": 216
+        "alignment": "neutral",
+        "id": 1610941220,
+        "name": "Minnesota Twins 1, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 986
       },
       {
-        "participantId": 1610941651,
-        "price": 473
+        "alignment": "neutral",
+        "id": 1610941221,
+        "name": "Minnesota Twins 1, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 987
       },
       {
-        "participantId": 1610941652,
-        "price": 848
+        "alignment": "neutral",
+        "id": 1610941222,
+        "name": "Minnesota Twins 1, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 988
       },
-      {
-        "participantId": 1610941653,
-        "price": 1079
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052376638
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941654,
-    "period": 0,
-    "prices": [
       {
-        "participantId": 1610941664,
-        "price": 965
+        "alignment": "neutral",
+        "id": 1610941223,
+        "name": "Minnesota Twins 1, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 989
       },
       {
-        "participantId": 1610941665,
-        "price": 851
+        "alignment": "neutral",
+        "id": 1610941224,
+        "name": "Minnesota Twins 2, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 990
       },
       {
-        "participantId": 1610941666,
-        "price": 1282
+        "alignment": "neutral",
+        "id": 1610941225,
+        "name": "Minnesota Twins 2, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 991
       },
       {
-        "participantId": 1610941667,
-        "price": 1210
+        "alignment": "neutral",
+        "id": 1610941226,
+        "name": "Minnesota Twins 2, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 992
       },
       {
-        "participantId": 1610941668,
-        "price": 1826
+        "alignment": "neutral",
+        "id": 1610941227,
+        "name": "Minnesota Twins 2, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 993
       },
       {
-        "participantId": 1610941669,
-        "price": 808
+        "alignment": "neutral",
+        "id": 1610941228,
+        "name": "Minnesota Twins 2, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 994
       },
       {
-        "participantId": 1610941655,
-        "price": 2128
+        "alignment": "neutral",
+        "id": 1610941229,
+        "name": "Minnesota Twins 2, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 995
       },
       {
-        "participantId": 1610941656,
-        "price": 2100
+        "alignment": "neutral",
+        "id": 1610941230,
+        "name": "Minnesota Twins 2, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 996
       },
       {
-        "participantId": 1610941657,
-        "price": 891
+        "alignment": "neutral",
+        "id": 1610941231,
+        "name": "Minnesota Twins 2, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 997
       },
       {
-        "participantId": 1610941658,
-        "price": 1052
+        "alignment": "neutral",
+        "id": 1610941232,
+        "name": "Minnesota Twins 3, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 998
       },
       {
-        "participantId": 1610941659,
-        "price": 599
+        "alignment": "neutral",
+        "id": 1610941233,
+        "name": "Minnesota Twins 3, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 999
       },
       {
-        "participantId": 1610941660,
-        "price": 796
+        "alignment": "neutral",
+        "id": 1610941234,
+        "name": "Minnesota Twins 3, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 1000
       },
       {
-        "participantId": 1610941661,
-        "price": 550
+        "alignment": "neutral",
+        "id": 1610941235,
+        "name": "Minnesota Twins 3, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 1001
       },
       {
-        "participantId": 1610941662,
-        "price": 801
+        "alignment": "neutral",
+        "id": 1610941236,
+        "name": "Minnesota Twins 3, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1002
       },
       {
-        "participantId": 1610941663,
-        "price": 650
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052376638
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941670,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1610941671,
-        "price": 595
+        "alignment": "neutral",
+        "id": 1610941237,
+        "name": "Minnesota Twins 3, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1003
       },
       {
-        "participantId": 1610941672,
-        "price": 263
+        "alignment": "neutral",
+        "id": 1610941238,
+        "name": "Minnesota Twins 3, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1004
       },
       {
-        "participantId": 1610941673,
-        "price": 205
+        "alignment": "neutral",
+        "id": 1610941239,
+        "name": "Minnesota Twins 3, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1005
       },
       {
-        "participantId": 1610941674,
-        "price": 375
+        "alignment": "neutral",
+        "id": 1610941240,
+        "name": "Minnesota Twins 4, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 1006
       },
-      {
-        "participantId": 1610941675,
-        "price": 446
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052376638
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941676,
-    "period": 1,
-    "prices": [
       {
-        "participantId": 1610941677,
-        "price": 536
+        "alignment": "neutral",
+        "id": 1610941241,
+        "name": "Minnesota Twins 4, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 1007
       },
       {
-        "participantId": 1610941678,
-        "price": 727
+        "alignment": "neutral",
+        "id": 1610941242,
+        "name": "Minnesota Twins 4, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 1008
       },
       {
-        "participantId": 1610941679,
-        "price": 440
+        "alignment": "neutral",
+        "id": 1610941243,
+        "name": "Minnesota Twins 4, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 1009
       },
       {
-        "participantId": 1610941680,
-        "price": 432
+        "alignment": "neutral",
+        "id": 1610941244,
+        "name": "Minnesota Twins 4, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1010
       },
       {
-        "participantId": 1610941681,
-        "price": 494
+        "alignment": "neutral",
+        "id": 1610941245,
+        "name": "Minnesota Twins 4, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1011
       },
       {
-        "participantId": 1610941682,
-        "price": 613
+        "alignment": "neutral",
+        "id": 1610941246,
+        "name": "Minnesota Twins 4, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1012
       },
-      {
-        "participantId": 1610941683,
-        "price": 296
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941684,
-    "period": 1,
-    "prices": [
       {
-        "participantId": 1610941696,
-        "price": 1174
+        "alignment": "neutral",
+        "id": 1610941247,
+        "name": "Minnesota Twins 4, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1013
       },
       {
-        "participantId": 1610941685,
-        "price": 1249
+        "alignment": "neutral",
+        "id": 1610941248,
+        "name": "Minnesota Twins 5, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 1014
       },
       {
-        "participantId": 1610941686,
-        "price": 708
+        "alignment": "neutral",
+        "id": 1610941249,
+        "name": "Minnesota Twins 5, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 1015
       },
       {
-        "participantId": 1610941687,
-        "price": 549
+        "alignment": "neutral",
+        "id": 1610941250,
+        "name": "Minnesota Twins 5, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 1016
       },
       {
-        "participantId": 1610941688,
-        "price": 506
+        "alignment": "neutral",
+        "id": 1610941251,
+        "name": "Minnesota Twins 5, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 1017
       },
       {
-        "participantId": 1610941689,
-        "price": 516
+        "alignment": "neutral",
+        "id": 1610941252,
+        "name": "Minnesota Twins 5, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1018
       },
       {
-        "participantId": 1610941690,
-        "price": 564
+        "alignment": "neutral",
+        "id": 1610941253,
+        "name": "Minnesota Twins 5, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1019
       },
       {
-        "participantId": 1610941691,
-        "price": 666
+        "alignment": "neutral",
+        "id": 1610941254,
+        "name": "Minnesota Twins 5, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1020
       },
       {
-        "participantId": 1610941692,
-        "price": 817
+        "alignment": "neutral",
+        "id": 1610941255,
+        "name": "Minnesota Twins 5, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1021
       },
       {
-        "participantId": 1610941693,
-        "price": 1031
+        "alignment": "neutral",
+        "id": 1610941256,
+        "name": "Minnesota Twins 6, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 1022
       },
       {
-        "participantId": 1610941694,
-        "price": 1328
+        "alignment": "neutral",
+        "id": 1610941257,
+        "name": "Minnesota Twins 6, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 1023
       },
-      {
-        "participantId": 1610941695,
-        "price": 1730
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941697,
-    "period": 1,
-    "prices": [
       {
-        "participantId": 1610941698,
-        "price": 249
+        "alignment": "neutral",
+        "id": 1610941258,
+        "name": "Minnesota Twins 6, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 1024
       },
       {
-        "participantId": 1610941699,
-        "price": 244
+        "alignment": "neutral",
+        "id": 1610941259,
+        "name": "Minnesota Twins 6, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 1025
       },
       {
-        "participantId": 1610941700,
-        "price": 307
+        "alignment": "neutral",
+        "id": 1610941260,
+        "name": "Minnesota Twins 6, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1026
       },
-      {
-        "participantId": 1610941701,
-        "price": 255
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941702,
-    "period": 1,
-    "prices": [
       {
-        "participantId": 1610941703,
-        "price": 283
+        "alignment": "neutral",
+        "id": 1610941261,
+        "name": "Minnesota Twins 6, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1027
       },
       {
-        "participantId": 1610941704,
-        "price": 282
+        "alignment": "neutral",
+        "id": 1610941262,
+        "name": "Minnesota Twins 6, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1028
       },
       {
-        "participantId": 1610941705,
-        "price": 379
+        "alignment": "neutral",
+        "id": 1610941263,
+        "name": "Minnesota Twins 6, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1029
       },
       {
-        "participantId": 1610941706,
-        "price": 527
+        "alignment": "neutral",
+        "id": 1610941264,
+        "name": "Minnesota Twins 7, Cincinnati Reds 0",
+        "order": 0,
+        "rotation": 1030
       },
       {
-        "participantId": 1610941707,
-        "price": 743
+        "alignment": "neutral",
+        "id": 1610941265,
+        "name": "Minnesota Twins 7, Cincinnati Reds 1",
+        "order": 0,
+        "rotation": 1031
       },
-      {
-        "participantId": 1610941708,
-        "price": 501
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1610941709,
-    "period": 1,
-    "prices": [
       {
-        "participantId": 1610941710,
-        "price": 352
+        "alignment": "neutral",
+        "id": 1610941266,
+        "name": "Minnesota Twins 7, Cincinnati Reds 2",
+        "order": 0,
+        "rotation": 1032
       },
       {
-        "participantId": 1610941711,
-        "price": 336
+        "alignment": "neutral",
+        "id": 1610941267,
+        "name": "Minnesota Twins 7, Cincinnati Reds 3",
+        "order": 0,
+        "rotation": 1033
       },
       {
-        "participantId": 1610941712,
-        "price": 384
+        "alignment": "neutral",
+        "id": 1610941268,
+        "name": "Minnesota Twins 7, Cincinnati Reds 4",
+        "order": 0,
+        "rotation": 1034
       },
       {
-        "participantId": 1610941713,
-        "price": 484
+        "alignment": "neutral",
+        "id": 1610941269,
+        "name": "Minnesota Twins 7, Cincinnati Reds 5",
+        "order": 0,
+        "rotation": 1035
       },
       {
-        "participantId": 1610941714,
-        "price": 641
+        "alignment": "neutral",
+        "id": 1610941270,
+        "name": "Minnesota Twins 7, Cincinnati Reds 6",
+        "order": 0,
+        "rotation": 1036
       },
       {
-        "participantId": 1610941715,
-        "price": 366
-      }
-    ],
-    "type": "moneyline",
-    "version": 5052281225
-  },
-  {
-    "cutoffAt": "2025-06-19T01:45:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1610941271,
+        "name": "Minnesota Twins 7, Cincinnati Reds 7",
+        "order": 0,
+        "rotation": 1037
       }
     ],
-    "matchupId": 1610941716,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1610941717,
-        "price": 1390
-      },
-      {
-        "participantId": 1610941718,
-        "price": 1547
-      },
-      {
-        "participantId": 1610941719,
-        "price": 1870
-      },
-      {
-        "participantId": 1610941720,
-        "price": 2320
-      },
-      {
-        "participantId": 1610941721,
-        "price": 2987
-      },
-      {
-        "participantId": 1610941722,
-        "price": 4033
-      },
-      {
-        "participantId": 1610941724,
-        "price": 1435
-      },
-      {
-        "participantId": 1610941725,
-        "price": 1390
-      },
-      {
-        "participantId": 1610941726,
-        "price": 1547
-      },
-      {
-        "participantId": 1610941727,
-        "price": 1823
-      },
-      {
-        "participantId": 1610941728,
-        "price": 2282
-      },
-      {
-        "participantId": 1610941729,
-        "price": 2987
-      },
-      {
-        "participantId": 1610941730,
-        "price": 4031
-      },
-      {
-        "participantId": 1610941732,
-        "price": 1791
-      },
-      {
-        "participantId": 1610941733,
-        "price": 1737
-      },
-      {
-        "participantId": 1610941734,
-        "price": 1878
-      },
-      {
-        "participantId": 1610941735,
-        "price": 2219
-      },
-      {
-        "participantId": 1610941736,
-        "price": 2802
-      },
-      {
-        "participantId": 1610941737,
-        "price": 3635
-      },
-      {
-        "participantId": 1610941738,
-        "price": 4857
-      },
-      {
-        "participantId": 1610941740,
-        "price": 2328
-      },
-      {
-        "participantId": 1610941741,
-        "price": 2207
-      },
-      {
-        "participantId": 1610941742,
-        "price": 2397
-      },
-      {
-        "participantId": 1610941743,
-        "price": 2859
-      },
-      {
-        "participantId": 1610941744,
-        "price": 3575
-      },
-      {
-        "participantId": 1610941745,
-        "price": 4589
-      },
-      {
-        "participantId": 1610941748,
-        "price": 3033
-      },
-      {
-        "participantId": 1610941749,
-        "price": 2903
-      },
-      {
-        "participantId": 1610941750,
-        "price": 3191
-      },
-      {
-        "participantId": 1610941751,
-        "price": 3775
-      },
-      {
-        "participantId": 1610941752,
-        "price": 4673
-      },
-      {
-        "participantId": 1610941756,
-        "price": 4042
-      },
-      {
-        "participantId": 1610941757,
-        "price": 3936
-      },
+    "periods": [
       {
-        "participantId": 1610941758,
-        "price": 4305
+        "cutoffAt": "2025-06-18T23:10:00Z",
+        "period": 1,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5052281882
+    "rotation": 975,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score 1st Half"
+    },
+    "startTime": "2025-06-18T23:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427065549
   }
 ]
