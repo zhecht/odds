@@ -1,39 +1,51 @@
 {
+    "col @ wsh": {
+        "wind": "40%",
+        "time": "6:45PM",
+        "stadium": "Nationals Park",
+        "conditions": "Light Rain",
+        "temp": "82",
+        "feels like": "89",
+        "precip %": "38%",
+        "wind speed": "7.2 mph",
+        "wind dir": "SSW",
+        "transform": "transform: rotate(17.500deg);"
+    },
     "ari @ tor": {
-        "wind": "41% (Roof)",
+        "wind": "25% (Roof)",
         "time": "7:07PM",
         "stadium": "Rogers Centre",
         "conditions": "Possible Light Rain",
         "temp": "74",
         "feels like": "77",
-        "precip %": "21%",
+        "precip %": "15%",
         "wind speed": "4.5 mph",
-        "wind dir": "ENE",
-        "transform": "transform: rotate(-467.500deg);"
+        "wind dir": "SSE",
+        "transform": "transform: rotate(-347.500deg);"
+    },
+    "bos @ sea": {
+        "wind": "23% (Roof)",
+        "time": "4:10PM",
+        "stadium": "T-Mobile Park",
+        "conditions": "Partly Cloudy",
+        "temp": "63",
+        "feels like": "58",
+        "precip %": "6%",
+        "wind speed": "11.6 mph",
+        "wind dir": "SSW",
+        "transform": "transform: rotate(-5.000deg);"
     },
     "laa @ nyy": {
-        "wind": "32%",
+        "wind": "19%",
         "time": "7:05PM",
         "stadium": "Yankee Stadium",
         "conditions": "Light Rain",
         "temp": "77",
-        "feels like": "82",
-        "precip %": "26%",
+        "feels like": "83",
+        "precip %": "25%",
         "wind speed": "5.4 mph",
         "wind dir": "SSE",
-        "transform": "transform: rotate(-88.750deg);"
-    },
-    "pit @ det": {
-        "wind": "25%",
-        "time": "6:40PM",
-        "stadium": "Comerica Park",
-        "conditions": "Possible Light Rain",
-        "temp": "80",
-        "feels like": "82",
-        "precip %": "21%",
-        "wind speed": "9.8 mph",
-        "wind dir": "SSW",
-        "transform": "transform: rotate(-147.500deg);"
+        "transform": "transform: rotate(-78.750deg);"
     },
     "min @ cin": {
         "wind": "12.5 mph",
@@ -42,7 +54,7 @@
         "conditions": "Rain",
         "temp": "82",
         "feels like": "84",
-        "precip %": "47%",
+        "precip %": "32%",
         "wind speed": "12.5 mph",
         "wind dir": "SSW",
         "transform": "transform: rotate(-93.750deg);"
@@ -53,47 +65,23 @@
         "stadium": "Wrigley Field",
         "conditions": "Rain",
         "temp": "68",
-        "feels like": "68",
-        "precip %": "65%",
+        "feels like": "69",
+        "precip %": "60%",
         "wind speed": "8.0 mph",
         "wind dir": "NNE",
-        "transform": "transform: rotate(-209.375deg);"
+        "transform": "transform: rotate(-189.375deg);"
     },
     "nym @ atl": {
-        "wind": "8%",
+        "wind": "6%",
         "time": "7:15PM",
         "stadium": "Truist Park",
-        "conditions": "Mostly Cloudy",
+        "conditions": "Possible Light Rain",
         "temp": "84",
         "feels like": "88",
-        "precip %": "9%",
+        "precip %": "8%",
         "wind speed": "7.2 mph",
         "wind dir": "WSW",
         "transform": "transform: rotate(-107.500deg);"
-    },
-    "bal @ tb": {
-        "wind": "6%",
-        "time": "7:35PM",
-        "stadium": "George M. Steinbrenner Field",
-        "conditions": "Possible Light Rain",
-        "temp": "88",
-        "feels like": "96",
-        "precip %": "11%",
-        "wind speed": "4.5 mph",
-        "wind dir": "WSW",
-        "transform": "transform: rotate(-10.000deg);"
-    },
-    "bos @ sea": {
-        "wind": "5% (Roof)",
-        "time": "4:10PM",
-        "stadium": "T-Mobile Park",
-        "conditions": "Mostly Clear",
-        "temp": "62",
-        "feels like": "57",
-        "precip %": "0%",
-        "wind speed": "11.6 mph",
-        "wind dir": "SSW",
-        "transform": "transform: rotate(-5.000deg);"
     },
     "phi @ mia": {
         "wind": "0% (Roof)",
@@ -105,7 +93,19 @@
         "precip %": "0%",
         "wind speed": "8.9 mph",
         "wind dir": "ESE",
-        "transform": "transform: rotate(-195.000deg);"
+        "transform": "transform: rotate(-185.000deg);"
+    },
+    "bal @ tb": {
+        "wind": "0%",
+        "time": "7:35PM",
+        "stadium": "George M. Steinbrenner Field",
+        "conditions": "Possible Drizzle",
+        "temp": "88",
+        "feels like": "95",
+        "precip %": "5%",
+        "wind speed": "4.5 mph",
+        "wind dir": "WSW",
+        "transform": "transform: rotate(-10.000deg);"
     },
     "kc @ tex": {
         "wind": "0% (Roof)",
@@ -113,11 +113,11 @@
         "stadium": "Globe Life Field",
         "conditions": "Mostly Clear",
         "temp": "92",
-        "feels like": "95",
+        "feels like": "94",
         "precip %": "0%",
         "wind speed": "10.7 mph",
         "wind dir": "SSE",
-        "transform": "transform: rotate(-45.000deg);"
+        "transform": "transform: rotate(-55.000deg);"
     },
     "cle @ sf": {
         "wind": "11.6 mph",
@@ -141,7 +141,7 @@
         "precip %": "0%",
         "wind speed": "7.2 mph",
         "wind dir": "SSW",
-        "transform": "transform: rotate(-15.000deg);"
+        "transform": "transform: rotate(-5.000deg);"
     },
     "sd @ lad": {
         "wind": "0%",
@@ -162,21 +162,9 @@
         "conditions": "Light Rain",
         "temp": "68",
         "feels like": "68",
-        "precip %": "81%",
+        "precip %": "60%",
         "wind speed": "9.8 mph",
         "wind dir": "ENE",
-        "transform": "transform: rotate(-265.000deg);"
-    },
-    "col @ wsh": {
-        "wind": "47%",
-        "time": "6:45PM",
-        "stadium": "Nationals Park",
-        "conditions": "Rain",
-        "temp": "83",
-        "feels like": "90",
-        "precip %": "35%",
-        "wind speed": "7.2 mph",
-        "wind dir": "WSW",
-        "transform": "transform: rotate(37.500deg);"
+        "transform": "transform: rotate(-245.000deg);"
     }
 }
