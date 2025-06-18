@@ -2504,6 +2504,9 @@ def writeEV(date, dinger, parx=False, silent=False):
 			if "fd" in books:
 				devig(evData, playerFinal, ou, int(data[game][player]["fd"]), book="fd")
 				fd = int(data[game][player]["fd"])
+
+				devig(evData, playerFinal, ou, convertAmericanOdds(1 + (convertDecOdds(fd) - 1) * 1.30), book="fd-30")
+
 				fd = convertAmericanOdds(1 + (convertDecOdds(fd) - 1) * 1.50)
 				devig(evData, playerFinal, ou, fd, book="fd-50")
 
