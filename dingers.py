@@ -2726,7 +2726,7 @@ def writeLineups(date):
 	#		if row[0] not in data[row[-1]]:
 	#			print(row[0], "SITTING!!")
 	
-	if date == "2025-06-18":
+	if date == "2025-06-19":
 		data["tex"]["pitcher"] = "jacob degrom"
 		data["mil"]["pitcher"] = "jacob misiorowski"
 		pass
