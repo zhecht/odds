@@ -2511,7 +2511,8 @@ def writeEV(date, dinger, parx=False, silent=False):
 				devig(evData, playerFinal, ou, int(data[game][player]["fd"]), book="fd")
 				fd = int(data[game][player]["fd"])
 
-				devig(evData, playerFinal, ou, convertAmericanOdds(1 + (convertDecOdds(fd) - 1) * 1.30), book="fd-30")
+				fd30 = convertAmericanOdds(1 + (convertDecOdds(fd) - 1) * 1.30)
+				devig(evData, playerFinal, ou, fd30, book="fd-30")
 
 				fd = convertAmericanOdds(1 + (convertDecOdds(fd) - 1) * 1.50)
 				devig(evData, playerFinal, ou, fd, book="fd-50")
@@ -2519,6 +2520,7 @@ def writeEV(date, dinger, parx=False, silent=False):
 				if "circa" in books:
 					try:
 						devig(evData, playerFinal, data[game][player]["circa"], fd, book="fd-50-vs-circa")
+						devig(evData, playerFinal, data[game][player]["circa"], fd30, book="fd-30-vs-circa")
 					except:
 						pass
 			if "circa" in books:
