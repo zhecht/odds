@@ -1,3249 +1,2890 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 11,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610778360,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Washington Nationals",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Colorado Rockies",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": -138
       },
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "away",
+        "price": 125
       }
     ],
-    "rotation": 901,
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 21,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 604912909
+    "status": "open",
+    "type": "moneyline",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610791467,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610791469,
-        "name": "Colorado Rockies",
-        "order": 0,
-        "rotation": 2299
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -104
       },
       {
-        "alignment": "neutral",
-        "id": 1610791470,
-        "name": "Washington Nationals",
-        "order": 0,
-        "rotation": 2300
+        "designation": "under",
+        "points": 4.5,
+        "price": -112
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 2299,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 427195969
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 10,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973440,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;away",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Washington Nationals  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -133
       },
       {
-        "alignment": "away",
-        "name": "Colorado Rockies  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 3.5,
+        "price": 114
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9901,
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 604912671
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973442,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973444,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 901
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 145
       },
       {
-        "alignment": "neutral",
-        "id": 1610973445,
-        "name": "Even",
-        "order": 0,
-        "rotation": 902
+        "designation": "away",
+        "points": 1.5,
+        "price": -165
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973502,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973504,
-        "name": "0",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973505,
-        "name": "1",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973506,
-        "name": "2",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973507,
-        "name": "3",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973508,
-        "name": "4",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973509,
-        "name": "5",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973510,
-        "name": "6",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973511,
-        "name": "7",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973512,
-        "name": "8+",
-        "order": 0,
-        "rotation": 909
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -242
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 193
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Exact Total Runs"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973525,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973527,
-        "name": "0",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973528,
-        "name": "1",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973529,
-        "name": "2",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973530,
-        "name": "3",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973531,
-        "name": "4",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973532,
-        "name": "5",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973533,
-        "name": "6",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973534,
-        "name": "7",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973535,
-        "name": "8+",
-        "order": 0,
-        "rotation": 909
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -197
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 164
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Colorado Rockies Exact Total Runs"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973538,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973540,
-        "name": "Colorado Rockies & Over 4.5",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973541,
-        "name": "Washington Nationals & Over 4.5",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973542,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973543,
-        "name": "Colorado Rockies & Under 4.5",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973544,
-        "name": "Washington Nationals & Under 4.5",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973545,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 906
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 103
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -118
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202954
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973548,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973550,
-        "name": "Colorado Rockies 1, Washington Nationals 0",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973551,
-        "name": "Colorado Rockies 2, Washington Nationals 0",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973552,
-        "name": "Colorado Rockies 3, Washington Nationals 0",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973553,
-        "name": "Colorado Rockies 4, Washington Nationals 0",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973554,
-        "name": "Colorado Rockies 5, Washington Nationals 0",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973555,
-        "name": "Colorado Rockies 6, Washington Nationals 0",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973556,
-        "name": "Colorado Rockies 7, Washington Nationals 0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973557,
-        "name": "Colorado Rockies 0, Washington Nationals 1",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973558,
-        "name": "Colorado Rockies 2, Washington Nationals 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973559,
-        "name": "Colorado Rockies 3, Washington Nationals 1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973560,
-        "name": "Colorado Rockies 4, Washington Nationals 1",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973561,
-        "name": "Colorado Rockies 5, Washington Nationals 1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973562,
-        "name": "Colorado Rockies 6, Washington Nationals 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973563,
-        "name": "Colorado Rockies 7, Washington Nationals 1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973564,
-        "name": "Colorado Rockies 0, Washington Nationals 2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973565,
-        "name": "Colorado Rockies 1, Washington Nationals 2",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973566,
-        "name": "Colorado Rockies 3, Washington Nationals 2",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973567,
-        "name": "Colorado Rockies 4, Washington Nationals 2",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973568,
-        "name": "Colorado Rockies 5, Washington Nationals 2",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973569,
-        "name": "Colorado Rockies 6, Washington Nationals 2",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973570,
-        "name": "Colorado Rockies 7, Washington Nationals 2",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973571,
-        "name": "Colorado Rockies 0, Washington Nationals 3",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973572,
-        "name": "Colorado Rockies 1, Washington Nationals 3",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973573,
-        "name": "Colorado Rockies 2, Washington Nationals 3",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973574,
-        "name": "Colorado Rockies 4, Washington Nationals 3",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973575,
-        "name": "Colorado Rockies 5, Washington Nationals 3",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973576,
-        "name": "Colorado Rockies 6, Washington Nationals 3",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973577,
-        "name": "Colorado Rockies 7, Washington Nationals 3",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973578,
-        "name": "Colorado Rockies 0, Washington Nationals 4",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973579,
-        "name": "Colorado Rockies 1, Washington Nationals 4",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973580,
-        "name": "Colorado Rockies 2, Washington Nationals 4",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973581,
-        "name": "Colorado Rockies 3, Washington Nationals 4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973582,
-        "name": "Colorado Rockies 5, Washington Nationals 4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973583,
-        "name": "Colorado Rockies 6, Washington Nationals 4",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973584,
-        "name": "Colorado Rockies 7, Washington Nationals 4",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973585,
-        "name": "Colorado Rockies 0, Washington Nationals 5",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973586,
-        "name": "Colorado Rockies 1, Washington Nationals 5",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973587,
-        "name": "Colorado Rockies 2, Washington Nationals 5",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973588,
-        "name": "Colorado Rockies 3, Washington Nationals 5",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973589,
-        "name": "Colorado Rockies 4, Washington Nationals 5",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973590,
-        "name": "Colorado Rockies 6, Washington Nationals 5",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973591,
-        "name": "Colorado Rockies 7, Washington Nationals 5",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973592,
-        "name": "Colorado Rockies 0, Washington Nationals 6",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973593,
-        "name": "Colorado Rockies 1, Washington Nationals 6",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973594,
-        "name": "Colorado Rockies 2, Washington Nationals 6",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973595,
-        "name": "Colorado Rockies 3, Washington Nationals 6",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973596,
-        "name": "Colorado Rockies 4, Washington Nationals 6",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973597,
-        "name": "Colorado Rockies 5, Washington Nationals 6",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973598,
-        "name": "Colorado Rockies 7, Washington Nationals 6",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973599,
-        "name": "Colorado Rockies 0, Washington Nationals 7",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973600,
-        "name": "Colorado Rockies 1, Washington Nationals 7",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973601,
-        "name": "Colorado Rockies 2, Washington Nationals 7",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973602,
-        "name": "Colorado Rockies 3, Washington Nationals 7",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973603,
-        "name": "Colorado Rockies 4, Washington Nationals 7",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973604,
-        "name": "Colorado Rockies 5, Washington Nationals 7",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973605,
-        "name": "Colorado Rockies 6, Washington Nationals 7",
-        "order": 0,
-        "rotation": 956
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -2.0,
+        "price": 189
+      },
+      {
+        "designation": "away",
+        "points": 2.0,
+        "price": -225
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973608,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973610,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 901
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -2.5,
+        "price": 215
       },
       {
-        "alignment": "neutral",
-        "id": 1610973611,
-        "name": "Even",
-        "order": 0,
-        "rotation": 902
+        "designation": "away",
+        "points": 2.5,
+        "price": -267
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973633,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973635,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 901
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -3.0,
+        "price": 284
       },
       {
-        "alignment": "neutral",
-        "id": 1610973636,
-        "name": "Even",
-        "order": 0,
-        "rotation": 902
+        "designation": "away",
+        "points": 3.0,
+        "price": -385
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Colorado Rockies Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973646,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973648,
-        "name": "Colorado Rockies & Over 8.5",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973649,
-        "name": "Washington Nationals & Over 8.5",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973650,
-        "name": "Colorado Rockies & Under 8.5",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973651,
-        "name": "Washington Nationals & Under 8.5",
-        "order": 0,
-        "rotation": 904
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.5,
+        "price": -114
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": 102
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973656,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973658,
-        "name": "Colorado Rockies By 1",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973659,
-        "name": "Colorado Rockies By 2",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973660,
-        "name": "Colorado Rockies By 3",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973661,
-        "name": "Colorado Rockies By 4",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973662,
-        "name": "Colorado Rockies By 5+",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973663,
-        "name": "Washington Nationals By 1",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973664,
-        "name": "Washington Nationals By 2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973665,
-        "name": "Washington Nationals By 3",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973666,
-        "name": "Washington Nationals By 4",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973667,
-        "name": "Washington Nationals By 5+",
-        "order": 0,
-        "rotation": 910
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.5,
+        "price": -423
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": 316
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973678,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973680,
-        "name": "Colorado Rockies By 1 - 2",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973681,
-        "name": "Colorado Rockies By 3 - 4",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973682,
-        "name": "Colorado Rockies By 5 - 6",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973683,
-        "name": "Colorado Rockies By 7+",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973684,
-        "name": "Washington Nationals By 1 - 2",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973685,
-        "name": "Washington Nationals By 3 - 4",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973686,
-        "name": "Washington Nationals By 5 - 6",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973687,
-        "name": "Washington Nationals By 7+",
-        "order": 0,
-        "rotation": 908
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 7.0,
+        "price": -227
+      },
+      {
+        "designation": "under",
+        "points": 7.0,
+        "price": 196
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973696,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973698,
-        "name": "1",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973699,
-        "name": "2",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973700,
-        "name": "3",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973701,
-        "name": "4",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973702,
-        "name": "5",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973703,
-        "name": "6",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973704,
-        "name": "7",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973705,
-        "name": "8",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973706,
-        "name": "9",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973707,
-        "name": "10",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973708,
-        "name": "11",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973709,
-        "name": "12",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973710,
-        "name": "13",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973711,
-        "name": "14",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973712,
-        "name": "15+",
-        "order": 0,
-        "rotation": 915
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 7.5,
+        "price": -160
+      },
+      {
+        "designation": "under",
+        "points": 7.5,
+        "price": 141
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973728,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973730,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973731,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973732,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973733,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973734,
-        "name": "13+",
-        "order": 0,
-        "rotation": 905
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 8.0,
+        "price": -138
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": 122
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202944
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973740,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973742,
-        "name": "Colorado Rockies By 1",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973743,
-        "name": "Colorado Rockies By 2",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973744,
-        "name": "Colorado Rockies By 3+",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973745,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973746,
-        "name": "Washington Nationals By 1",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973747,
-        "name": "Washington Nationals By 2",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973748,
-        "name": "Washington Nationals By 3+",
-        "order": 0,
-        "rotation": 907
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 9.0,
+        "price": 111
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": -124
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202954
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973756,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973758,
-        "name": "0",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973759,
-        "name": "1",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973760,
-        "name": "2",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973761,
-        "name": "3",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973762,
-        "name": "4",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973763,
-        "name": "5",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973764,
-        "name": "6",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973765,
-        "name": "7",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973766,
-        "name": "8",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973767,
-        "name": "9",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973768,
-        "name": "10",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973769,
-        "name": "11+",
-        "order": 0,
-        "rotation": 912
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 9.5,
+        "price": 135
+      },
+      {
+        "designation": "under",
+        "points": 9.5,
+        "price": -153
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202954
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973792,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973794,
-        "name": "0",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973795,
-        "name": "1",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973796,
-        "name": "2",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973797,
-        "name": "3",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973798,
-        "name": "4",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973799,
-        "name": "5+",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 10.0,
+        "price": 160
+      },
+      {
+        "designation": "under",
+        "points": 10.0,
+        "price": -183
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Colorado Rockies Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202954
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973806,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973808,
-        "name": "0",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973809,
-        "name": "1",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973810,
-        "name": "2",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973811,
-        "name": "3",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973812,
-        "name": "4",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973813,
-        "name": "5+",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 12.5,
+        "price": 322
+      },
+      {
+        "designation": "under",
+        "points": 12.5,
+        "price": -432
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202954
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973820,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 15,
-      "matchupCountSE": 15,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 32,
-        "matchupCountSE": 32,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778360,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Washington Nationals",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Colorado Rockies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T17:05:00+00:00"
-    },
-    "parentId": 1610778360,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973822,
-        "name": "Colorado Rockies 0, Washington Nationals 1",
-        "order": 0,
-        "rotation": 901
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973823,
-        "name": "Colorado Rockies 0, Washington Nationals 2",
-        "order": 0,
-        "rotation": 902
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973824,
-        "name": "Colorado Rockies 0, Washington Nationals 3",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973825,
-        "name": "Colorado Rockies 0, Washington Nationals 4",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973826,
-        "name": "Colorado Rockies 0, Washington Nationals 5",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973827,
-        "name": "Colorado Rockies 0, Washington Nationals 6",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973828,
-        "name": "Colorado Rockies 0, Washington Nationals 7",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973829,
-        "name": "Colorado Rockies 1, Washington Nationals 0",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973830,
-        "name": "Colorado Rockies 1, Washington Nationals 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973831,
-        "name": "Colorado Rockies 1, Washington Nationals 2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973832,
-        "name": "Colorado Rockies 1, Washington Nationals 3",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973833,
-        "name": "Colorado Rockies 1, Washington Nationals 4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973834,
-        "name": "Colorado Rockies 1, Washington Nationals 5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973835,
-        "name": "Colorado Rockies 1, Washington Nationals 6",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973836,
-        "name": "Colorado Rockies 1, Washington Nationals 7",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973837,
-        "name": "Colorado Rockies 2, Washington Nationals 0",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973838,
-        "name": "Colorado Rockies 2, Washington Nationals 1",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973839,
-        "name": "Colorado Rockies 2, Washington Nationals 2",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973840,
-        "name": "Colorado Rockies 2, Washington Nationals 3",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973841,
-        "name": "Colorado Rockies 2, Washington Nationals 4",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973842,
-        "name": "Colorado Rockies 2, Washington Nationals 5",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973843,
-        "name": "Colorado Rockies 2, Washington Nationals 6",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973844,
-        "name": "Colorado Rockies 2, Washington Nationals 7",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973845,
-        "name": "Colorado Rockies 3, Washington Nationals 0",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973846,
-        "name": "Colorado Rockies 3, Washington Nationals 1",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973847,
-        "name": "Colorado Rockies 3, Washington Nationals 2",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973848,
-        "name": "Colorado Rockies 3, Washington Nationals 3",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973849,
-        "name": "Colorado Rockies 3, Washington Nationals 4",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973850,
-        "name": "Colorado Rockies 3, Washington Nationals 5",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973851,
-        "name": "Colorado Rockies 3, Washington Nationals 6",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973852,
-        "name": "Colorado Rockies 3, Washington Nationals 7",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973853,
-        "name": "Colorado Rockies 4, Washington Nationals 0",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973854,
-        "name": "Colorado Rockies 4, Washington Nationals 1",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973855,
-        "name": "Colorado Rockies 4, Washington Nationals 2",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973856,
-        "name": "Colorado Rockies 4, Washington Nationals 3",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973857,
-        "name": "Colorado Rockies 4, Washington Nationals 4",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973858,
-        "name": "Colorado Rockies 4, Washington Nationals 5",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973859,
-        "name": "Colorado Rockies 4, Washington Nationals 6",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973860,
-        "name": "Colorado Rockies 4, Washington Nationals 7",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973861,
-        "name": "Colorado Rockies 5, Washington Nationals 0",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973862,
-        "name": "Colorado Rockies 5, Washington Nationals 1",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973863,
-        "name": "Colorado Rockies 5, Washington Nationals 2",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973864,
-        "name": "Colorado Rockies 5, Washington Nationals 3",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973865,
-        "name": "Colorado Rockies 5, Washington Nationals 4",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973866,
-        "name": "Colorado Rockies 5, Washington Nationals 5",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973867,
-        "name": "Colorado Rockies 5, Washington Nationals 6",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973868,
-        "name": "Colorado Rockies 5, Washington Nationals 7",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973869,
-        "name": "Colorado Rockies 6, Washington Nationals 0",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973870,
-        "name": "Colorado Rockies 6, Washington Nationals 1",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973871,
-        "name": "Colorado Rockies 6, Washington Nationals 2",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973872,
-        "name": "Colorado Rockies 6, Washington Nationals 3",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973873,
-        "name": "Colorado Rockies 6, Washington Nationals 4",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973874,
-        "name": "Colorado Rockies 6, Washington Nationals 5",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973875,
-        "name": "Colorado Rockies 6, Washington Nationals 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973876,
-        "name": "Colorado Rockies 6, Washington Nationals 7",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973877,
-        "name": "Colorado Rockies 7, Washington Nationals 0",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973878,
-        "name": "Colorado Rockies 7, Washington Nationals 1",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973879,
-        "name": "Colorado Rockies 7, Washington Nationals 2",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973880,
-        "name": "Colorado Rockies 7, Washington Nationals 3",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973881,
-        "name": "Colorado Rockies 7, Washington Nationals 4",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973882,
-        "name": "Colorado Rockies 7, Washington Nationals 5",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973883,
-        "name": "Colorado Rockies 7, Washington Nationals 6",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973884,
-        "name": "Colorado Rockies 7, Washington Nationals 7",
-        "order": 0,
-        "rotation": 963
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T17:05:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": -103
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": -117
       }
     ],
-    "rotation": 901,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-06-19T17:05:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427202954
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;away",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 1.5,
+        "price": -139
+      },
+      {
+        "designation": "under",
+        "points": 1.5,
+        "price": 114
+      }
+    ],
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
+      {
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -153
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 133
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
+      {
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -305
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 235
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
+      {
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": -199
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": 166
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
+      {
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": -110
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": -106
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
+      {
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 123
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -148
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.5",
+    "limits": [
+      {
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -116
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": 101
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
+      {
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -205
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 174
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
+      {
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -162
+      },
+      {
+        "designation": "under",
+        "points": 4.0,
+        "price": 139
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
+      {
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": 114
+      },
+      {
+        "designation": "under",
+        "points": 5.0,
+        "price": -130
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
+      {
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": 142
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": -165
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 240
+      },
+      {
+        "designation": "away",
+        "price": 327
+      },
+      {
+        "designation": "draw",
+        "price": -120
+      }
+    ],
+    "status": "open",
+    "type": "moneyline",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -141
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 121
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
+      {
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784798,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": -111
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": -106
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610800460,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610800461,
+        "price": -124
+      },
+      {
+        "participantId": 1610800462,
+        "price": 106
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054309486
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;27.0",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610973957,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 27.0,
+        "price": 110
+      },
+      {
+        "designation": "under",
+        "points": 27.0,
+        "price": -129
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3151506089
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610973962,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974095,
+        "price": 3022
+      },
+      {
+        "participantId": 1610974096,
+        "price": 3449
+      },
+      {
+        "participantId": 1610974097,
+        "price": 4196
+      },
+      {
+        "participantId": 1610974098,
+        "price": 5356
+      },
+      {
+        "participantId": 1610974099,
+        "price": 4705
+      },
+      {
+        "participantId": 1610974100,
+        "price": 2973
+      },
+      {
+        "participantId": 1610974101,
+        "price": 1885
+      },
+      {
+        "participantId": 1610974102,
+        "price": 2490
+      },
+      {
+        "participantId": 1610974103,
+        "price": 2997
+      },
+      {
+        "participantId": 1610974104,
+        "price": 3730
+      },
+      {
+        "participantId": 1610974105,
+        "price": 4878
+      },
+      {
+        "participantId": 1610974106,
+        "price": 4870
+      },
+      {
+        "participantId": 1610974107,
+        "price": 3112
+      },
+      {
+        "participantId": 1610974108,
+        "price": 2557
+      },
+      {
+        "participantId": 1610974109,
+        "price": 1745
+      },
+      {
+        "participantId": 1610974110,
+        "price": 2808
+      },
+      {
+        "participantId": 1610974111,
+        "price": 3680
+      },
+      {
+        "participantId": 1610974112,
+        "price": 4569
+      },
+      {
+        "participantId": 1610974113,
+        "price": 5319
+      },
+      {
+        "participantId": 1610974114,
+        "price": 3436
+      },
+      {
+        "participantId": 1610974115,
+        "price": 2847
+      },
+      {
+        "participantId": 1610974116,
+        "price": 2677
+      },
+      {
+        "participantId": 1610974117,
+        "price": 1982
+      },
+      {
+        "participantId": 1610974118,
+        "price": 3548
+      },
+      {
+        "participantId": 1610974119,
+        "price": 4592
+      },
+      {
+        "participantId": 1610974120,
+        "price": 6048
+      },
+      {
+        "participantId": 1610974121,
+        "price": 3969
+      },
+      {
+        "participantId": 1610974122,
+        "price": 3313
+      },
+      {
+        "participantId": 1610974123,
+        "price": 3242
+      },
+      {
+        "participantId": 1610974124,
+        "price": 3455
+      },
+      {
+        "participantId": 1610974125,
+        "price": 2535
+      },
+      {
+        "participantId": 1610974126,
+        "price": 4654
+      },
+      {
+        "participantId": 1610974127,
+        "price": 7029
+      },
+      {
+        "participantId": 1610974128,
+        "price": 4705
+      },
+      {
+        "participantId": 1610974129,
+        "price": 4133
+      },
+      {
+        "participantId": 1610974130,
+        "price": 4074
+      },
+      {
+        "participantId": 1610974131,
+        "price": 4161
+      },
+      {
+        "participantId": 1610974132,
+        "price": 4494
+      },
+      {
+        "participantId": 1610974133,
+        "price": 3369
+      },
+      {
+        "participantId": 1610974078,
+        "price": 6636
+      },
+      {
+        "participantId": 1610974079,
+        "price": 5983
+      },
+      {
+        "participantId": 1610974080,
+        "price": 5893
+      },
+      {
+        "participantId": 1610974081,
+        "price": 6412
+      },
+      {
+        "participantId": 1610974082,
+        "price": 7198
+      },
+      {
+        "participantId": 1610974083,
+        "price": 8406
+      },
+      {
+        "participantId": 1610974084,
+        "price": 9970
+      },
+      {
+        "participantId": 1610974085,
+        "price": 5197
+      },
+      {
+        "participantId": 1610974086,
+        "price": 3613
+      },
+      {
+        "participantId": 1610974087,
+        "price": 3708
+      },
+      {
+        "participantId": 1610974088,
+        "price": 3968
+      },
+      {
+        "participantId": 1610974089,
+        "price": 4593
+      },
+      {
+        "participantId": 1610974090,
+        "price": 5446
+      },
+      {
+        "participantId": 1610974091,
+        "price": 6634
+      },
+      {
+        "participantId": 1610974092,
+        "price": 4896
+      },
+      {
+        "participantId": 1610974093,
+        "price": 2578
+      },
+      {
+        "participantId": 1610974094,
+        "price": 2682
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054215494
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974139,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974154,
+        "price": -105
+      },
+      {
+        "participantId": 1610974155,
+        "price": -111
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054198400
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974168,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974184,
+        "price": 357
+      },
+      {
+        "participantId": 1610974185,
+        "price": 214
+      },
+      {
+        "participantId": 1610974186,
+        "price": 1474
+      },
+      {
+        "participantId": 1610974187,
+        "price": 432
+      },
+      {
+        "participantId": 1610974188,
+        "price": 306
+      },
+      {
+        "participantId": 1610974189,
+        "price": 640
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974195,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974210,
+        "price": -106
+      },
+      {
+        "participantId": 1610974211,
+        "price": -110
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054198400
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974224,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974236,
+        "price": 108
+      },
+      {
+        "participantId": 1610974237,
+        "price": -126
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054198400
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974247,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974309,
+        "price": -159
+      },
+      {
+        "participantId": 1610974310,
+        "price": 135
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054198400
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974370,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974378,
+        "price": 114
+      },
+      {
+        "participantId": 1610974379,
+        "price": -133
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974385,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974407,
+        "price": 1354
+      },
+      {
+        "participantId": 1610974408,
+        "price": 811
+      },
+      {
+        "participantId": 1610974409,
+        "price": 587
+      },
+      {
+        "participantId": 1610974410,
+        "price": 500
+      },
+      {
+        "participantId": 1610974411,
+        "price": 488
+      },
+      {
+        "participantId": 1610974412,
+        "price": 526
+      },
+      {
+        "participantId": 1610974413,
+        "price": 624
+      },
+      {
+        "participantId": 1610974414,
+        "price": 775
+      },
+      {
+        "participantId": 1610974415,
+        "price": 393
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054309486
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974421,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974429,
+        "price": -109
+      },
+      {
+        "participantId": 1610974430,
+        "price": -107
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974436,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974464,
+        "price": 708
+      },
+      {
+        "participantId": 1610974465,
+        "price": 892
+      },
+      {
+        "participantId": 1610974466,
+        "price": 481
+      },
+      {
+        "participantId": 1610974458,
+        "price": 1011
+      },
+      {
+        "participantId": 1610974459,
+        "price": 610
+      },
+      {
+        "participantId": 1610974460,
+        "price": 498
+      },
+      {
+        "participantId": 1610974461,
+        "price": 477
+      },
+      {
+        "participantId": 1610974462,
+        "price": 511
+      },
+      {
+        "participantId": 1610974463,
+        "price": 581
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054309486
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974473,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974487,
+        "price": 290
+      },
+      {
+        "participantId": 1610974488,
+        "price": 219
+      },
+      {
+        "participantId": 1610974489,
+        "price": 332
+      },
+      {
+        "participantId": 1610974490,
+        "price": 230
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054309486
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974498,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974530,
+        "price": 572
+      },
+      {
+        "participantId": 1610974531,
+        "price": 716
+      },
+      {
+        "participantId": 1610974532,
+        "price": 884
+      },
+      {
+        "participantId": 1610974533,
+        "price": 1144
+      },
+      {
+        "participantId": 1610974534,
+        "price": 649
+      },
+      {
+        "participantId": 1610974535,
+        "price": 389
+      },
+      {
+        "participantId": 1610974536,
+        "price": 663
+      },
+      {
+        "participantId": 1610974537,
+        "price": 783
+      },
+      {
+        "participantId": 1610974538,
+        "price": 961
+      },
+      {
+        "participantId": 1610974539,
+        "price": 462
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054309486
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974553,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974579,
+        "price": 322
+      },
+      {
+        "participantId": 1610974580,
+        "price": 554
+      },
+      {
+        "participantId": 1610974581,
+        "price": 1011
+      },
+      {
+        "participantId": 1610974582,
+        "price": 1316
+      },
+      {
+        "participantId": 1610974583,
+        "price": 234
+      },
+      {
+        "participantId": 1610974584,
+        "price": 467
+      },
+      {
+        "participantId": 1610974585,
+        "price": 788
+      },
+      {
+        "participantId": 1610974586,
+        "price": 937
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054309486
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974598,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974645,
+        "price": 2879
+      },
+      {
+        "participantId": 1610974646,
+        "price": 2678
+      },
+      {
+        "participantId": 1610974647,
+        "price": 1176
+      },
+      {
+        "participantId": 1610974648,
+        "price": 1283
+      },
+      {
+        "participantId": 1610974649,
+        "price": 718
+      },
+      {
+        "participantId": 1610974650,
+        "price": 885
+      },
+      {
+        "participantId": 1610974651,
+        "price": 584
+      },
+      {
+        "participantId": 1610974652,
+        "price": 788
+      },
+      {
+        "participantId": 1610974653,
+        "price": 618
+      },
+      {
+        "participantId": 1610974654,
+        "price": 916
+      },
+      {
+        "participantId": 1610974655,
+        "price": 769
+      },
+      {
+        "participantId": 1610974656,
+        "price": 1128
+      },
+      {
+        "participantId": 1610974657,
+        "price": 1023
+      },
+      {
+        "participantId": 1610974658,
+        "price": 1521
+      },
+      {
+        "participantId": 1610974659,
+        "price": 573
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054209379
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974678,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610974695,
+        "price": 826
+      },
+      {
+        "participantId": 1610974696,
+        "price": 326
+      },
+      {
+        "participantId": 1610974697,
+        "price": 204
+      },
+      {
+        "participantId": 1610974698,
+        "price": 335
+      },
+      {
+        "participantId": 1610974699,
+        "price": 322
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054309486
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974708,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974731,
+        "price": 588
+      },
+      {
+        "participantId": 1610974732,
+        "price": 769
+      },
+      {
+        "participantId": 1610974733,
+        "price": 454
+      },
+      {
+        "participantId": 1610974734,
+        "price": 486
+      },
+      {
+        "participantId": 1610974735,
+        "price": 487
+      },
+      {
+        "participantId": 1610974736,
+        "price": 580
+      },
+      {
+        "participantId": 1610974737,
+        "price": 253
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974748,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974786,
+        "price": 1530
+      },
+      {
+        "participantId": 1610974787,
+        "price": 845
+      },
+      {
+        "participantId": 1610974788,
+        "price": 621
+      },
+      {
+        "participantId": 1610974789,
+        "price": 523
+      },
+      {
+        "participantId": 1610974790,
+        "price": 506
+      },
+      {
+        "participantId": 1610974791,
+        "price": 538
+      },
+      {
+        "participantId": 1610974792,
+        "price": 679
+      },
+      {
+        "participantId": 1610974793,
+        "price": 786
+      },
+      {
+        "participantId": 1610974794,
+        "price": 956
+      },
+      {
+        "participantId": 1610974795,
+        "price": 1182
+      },
+      {
+        "participantId": 1610974796,
+        "price": 1504
+      },
+      {
+        "participantId": 1610974797,
+        "price": 917
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974813,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974827,
+        "price": 310
+      },
+      {
+        "participantId": 1610974828,
+        "price": 246
+      },
+      {
+        "participantId": 1610974829,
+        "price": 300
+      },
+      {
+        "participantId": 1610974830,
+        "price": 211
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974838,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974858,
+        "price": 296
+      },
+      {
+        "participantId": 1610974859,
+        "price": 300
+      },
+      {
+        "participantId": 1610974860,
+        "price": 375
+      },
+      {
+        "participantId": 1610974861,
+        "price": 508
+      },
+      {
+        "participantId": 1610974862,
+        "price": 714
+      },
+      {
+        "participantId": 1610974863,
+        "price": 467
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974873,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610974893,
+        "price": 425
+      },
+      {
+        "participantId": 1610974894,
+        "price": 389
+      },
+      {
+        "participantId": 1610974895,
+        "price": 386
+      },
+      {
+        "participantId": 1610974896,
+        "price": 455
+      },
+      {
+        "participantId": 1610974897,
+        "price": 582
+      },
+      {
+        "participantId": 1610974898,
+        "price": 299
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610974908,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975099,
+        "price": 1567
+      },
+      {
+        "participantId": 1610975100,
+        "price": 1562
+      },
+      {
+        "participantId": 1610975101,
+        "price": 1771
+      },
+      {
+        "participantId": 1610975102,
+        "price": 2139
+      },
+      {
+        "participantId": 1610975103,
+        "price": 2746
+      },
+      {
+        "participantId": 1610975104,
+        "price": 3933
+      },
+      {
+        "participantId": 1610975106,
+        "price": 1764
+      },
+      {
+        "participantId": 1610975107,
+        "price": 1651
+      },
+      {
+        "participantId": 1610975108,
+        "price": 1537
+      },
+      {
+        "participantId": 1610975109,
+        "price": 1743
+      },
+      {
+        "participantId": 1610975110,
+        "price": 2153
+      },
+      {
+        "participantId": 1610975111,
+        "price": 2977
+      },
+      {
+        "participantId": 1610975112,
+        "price": 3875
+      },
+      {
+        "participantId": 1610975114,
+        "price": 2015
+      },
+      {
+        "participantId": 1610975115,
+        "price": 1900
+      },
+      {
+        "participantId": 1610975116,
+        "price": 1883
+      },
+      {
+        "participantId": 1610975117,
+        "price": 2036
+      },
+      {
+        "participantId": 1610975118,
+        "price": 2698
+      },
+      {
+        "participantId": 1610975119,
+        "price": 3362
+      },
+      {
+        "participantId": 1610975120,
+        "price": 4353
+      },
+      {
+        "participantId": 1610975122,
+        "price": 2468
+      },
+      {
+        "participantId": 1610975123,
+        "price": 2332
+      },
+      {
+        "participantId": 1610975124,
+        "price": 2377
+      },
+      {
+        "participantId": 1610975125,
+        "price": 2925
+      },
+      {
+        "participantId": 1610975126,
+        "price": 3274
+      },
+      {
+        "participantId": 1610975127,
+        "price": 4051
+      },
+      {
+        "participantId": 1610975130,
+        "price": 3160
+      },
+      {
+        "participantId": 1610975131,
+        "price": 3056
+      },
+      {
+        "participantId": 1610975132,
+        "price": 3347
+      },
+      {
+        "participantId": 1610975133,
+        "price": 3738
+      },
+      {
+        "participantId": 1610975134,
+        "price": 4393
+      },
+      {
+        "participantId": 1610975138,
+        "price": 4224
+      },
+      {
+        "participantId": 1610975139,
+        "price": 4388
+      },
+      {
+        "participantId": 1610975140,
+        "price": 4376
+      },
+      {
+        "participantId": 1610975141,
+        "price": 4863
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054263269
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976589,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976590,
+        "points": 5.5,
+        "price": -128
+      },
+      {
+        "participantId": 1610976591,
+        "points": 5.5,
+        "price": -103
+      }
+    ],
+    "type": "total",
+    "version": 5054229848
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976592,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976593,
+        "points": 4.5,
+        "price": -159
+      },
+      {
+        "participantId": 1610976594,
+        "points": 4.5,
+        "price": 119
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976595,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976596,
+        "points": 2.5,
+        "price": 105
+      },
+      {
+        "participantId": 1610976597,
+        "points": 2.5,
+        "price": -140
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976598,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976599,
+        "points": 0.5,
+        "price": -131
+      },
+      {
+        "participantId": 1610976600,
+        "points": 0.5,
+        "price": -101
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976601,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976602,
+        "points": 1.5,
+        "price": 125
+      },
+      {
+        "participantId": 1610976603,
+        "points": 1.5,
+        "price": -167
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976604,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976605,
+        "points": 0.5,
+        "price": -136
+      },
+      {
+        "participantId": 1610976606,
+        "points": 0.5,
+        "price": 103
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976607,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976608,
+        "points": 0.5,
+        "price": -176
+      },
+      {
+        "participantId": 1610976609,
+        "points": 0.5,
+        "price": 131
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976610,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976611,
+        "points": 5.5,
+        "price": 124
+      },
+      {
+        "participantId": 1610976612,
+        "points": 5.5,
+        "price": -165
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976613,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976614,
+        "points": 4.5,
+        "price": -123
+      },
+      {
+        "participantId": 1610976615,
+        "points": 4.5,
+        "price": -107
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976616,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976617,
+        "points": 1.5,
+        "price": -168
+      },
+      {
+        "participantId": 1610976618,
+        "points": 1.5,
+        "price": 126
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976619,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976620,
+        "points": 0.5,
+        "price": -160
+      },
+      {
+        "participantId": 1610976621,
+        "points": 0.5,
+        "price": 120
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976622,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976623,
+        "points": 1.5,
+        "price": 164
+      },
+      {
+        "participantId": 1610976624,
+        "points": 1.5,
+        "price": -224
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976625,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976626,
+        "points": 0.5,
+        "price": 504
+      },
+      {
+        "participantId": 1610976627,
+        "points": 0.5,
+        "price": -945
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976628,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976629,
+        "points": 1.5,
+        "price": 142
+      },
+      {
+        "participantId": 1610976630,
+        "points": 1.5,
+        "price": -191
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976631,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976632,
+        "points": 0.5,
+        "price": 467
+      },
+      {
+        "participantId": 1610976633,
+        "points": 0.5,
+        "price": -838
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976634,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976635,
+        "points": 1.5,
+        "price": 140
+      },
+      {
+        "participantId": 1610976636,
+        "points": 1.5,
+        "price": -188
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976637,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976638,
+        "points": 0.5,
+        "price": 597
+      },
+      {
+        "participantId": 1610976639,
+        "points": 0.5,
+        "price": -1255
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976640,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976641,
+        "points": 1.5,
+        "price": 130
+      },
+      {
+        "participantId": 1610976642,
+        "points": 1.5,
+        "price": -174
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976643,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976644,
+        "points": 0.5,
+        "price": -211
+      },
+      {
+        "participantId": 1610976645,
+        "points": 0.5,
+        "price": 156
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976646,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976647,
+        "points": 0.5,
+        "price": -115
+      },
+      {
+        "participantId": 1610976648,
+        "points": 0.5,
+        "price": -115
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976649,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976650,
+        "points": 0.5,
+        "price": -105
+      },
+      {
+        "participantId": 1610976651,
+        "points": 0.5,
+        "price": -127
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976652,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976653,
+        "points": 1.5,
+        "price": 140
+      },
+      {
+        "participantId": 1610976654,
+        "points": 1.5,
+        "price": -188
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976655,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976656,
+        "points": 0.5,
+        "price": -115
+      },
+      {
+        "participantId": 1610976657,
+        "points": 0.5,
+        "price": -115
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976658,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976659,
+        "points": 0.5,
+        "price": 470
+      },
+      {
+        "participantId": 1610976660,
+        "points": 0.5,
+        "price": -847
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976661,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976662,
+        "points": 1.5,
+        "price": 113
+      },
+      {
+        "participantId": 1610976663,
+        "points": 1.5,
+        "price": -151
+      }
+    ],
+    "type": "total",
+    "version": 5054230276
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976664,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976665,
+        "points": 0.5,
+        "price": 438
+      },
+      {
+        "participantId": 1610976666,
+        "points": 0.5,
+        "price": -760
+      }
+    ],
+    "type": "total",
+    "version": 5054230276
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976667,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976668,
+        "points": 1.5,
+        "price": 127
+      },
+      {
+        "participantId": 1610976669,
+        "points": 1.5,
+        "price": -170
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976670,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976672,
+        "points": 0.5,
+        "price": -118
+      },
+      {
+        "participantId": 1610976671,
+        "points": 0.5,
+        "price": -112
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T23:35:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976673,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976674,
+        "points": 0.5,
+        "price": -204
+      },
+      {
+        "participantId": 1610976675,
+        "points": 0.5,
+        "price": 151
+      }
+    ],
+    "type": "total"
   }
 ]
