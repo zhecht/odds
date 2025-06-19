@@ -2469,11 +2469,17 @@ def writeEV(date, dinger, parx=False, silent=False):
 				devig(evData, playerFinal, ou, int(data[game][player]["dk"]), book="dk-sweat", promo="dk-sweat")
 				devig(evData, playerFinal, ou, int(data[game][player]["dk"]), book="dk-dinger", promo="dk-dinger", game=game)
 				devig(evData, playerFinal, ou, int(data[game][player]["dk"]), book="dk")
+
+				o = int(data[game][player]["dk"].split("/")[0])
+				o = convertAmericanOdds(1 + (convertDecOdds(o) - 1) * 1.50)
+				devig(evData, playerFinal, ou, o, book="dk-50")
+
 				devig(evData, playerFinal, ou, int(data[game][player]["dk"]) + 200, book="dk-200")
 
 				if "circa" in books:
 					try:
 						devig(evData, playerFinal, data[game][player]["circa"], int(data[game][player]["dk"]) + 200, book="dk-200-vs-circa")
+						devig(evData, playerFinal, data[game][player]["circa"], o, book="dk-50-vs-circa")
 					except:
 						pass
 				pass
