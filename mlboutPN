@@ -1,6778 +1,2185 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610778399,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Atlanta Braves",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "New York Mets",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 253
       },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
+        "designation": "away",
+        "price": 259
       },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "draw",
+        "price": -103
       }
     ],
-    "rotation": 907,
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 26,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 604913902
+    "status": "open",
+    "type": "moneyline",
+    "version": 3151442846
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610800077,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610800078,
-        "name": "New York Mets",
-        "order": 0,
-        "rotation": 2317
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -110
       },
       {
-        "alignment": "neutral",
-        "id": 1610800079,
-        "name": "Atlanta Braves",
-        "order": 0,
-        "rotation": 2318
+        "designation": "away",
+        "points": -0.0,
+        "price": -106
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 2317,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 427198519
+    "status": "open",
+    "type": "spread",
+    "version": 3151442846
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973958,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Atlanta Braves  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": -130
       },
       {
-        "alignment": "away",
-        "name": "New York Mets  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 0.5,
+        "price": 111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9907,
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 604913272
+    "status": "open",
+    "type": "total",
+    "version": 3151442846
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973963,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974134,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 907
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 2.5,
+        "price": -111
       },
       {
-        "alignment": "neutral",
-        "id": 1610974135,
-        "name": "Even",
-        "order": 0,
-        "rotation": 908
+        "designation": "under",
+        "points": 2.5,
+        "price": -109
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Atlanta Braves Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974140,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974156,
-        "name": "0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974157,
-        "name": "1",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974158,
-        "name": "2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974159,
-        "name": "3",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974160,
-        "name": "4",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974161,
-        "name": "5",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974162,
-        "name": "6",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974163,
-        "name": "7",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974164,
-        "name": "8+",
-        "order": 0,
-        "rotation": 915
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": -122
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": 101
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Atlanta Braves Exact Total Runs"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974169,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974190,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 907
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -101
       },
       {
-        "alignment": "neutral",
-        "id": 1610974191,
-        "name": "Even",
-        "order": 0,
-        "rotation": 908
+        "designation": "away",
+        "points": -0.0,
+        "price": -113
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Atlanta Braves Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "status": "open",
+    "type": "spread",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974196,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974212,
-        "name": "0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974213,
-        "name": "1",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974214,
-        "name": "2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974215,
-        "name": "3",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974216,
-        "name": "4",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974217,
-        "name": "5",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974218,
-        "name": "6",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974219,
-        "name": "7",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974220,
-        "name": "8+",
-        "order": 0,
-        "rotation": 915
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -181
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 149
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "New York Mets Exact Total Runs"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "status": "open",
+    "type": "spread",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974225,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974238,
-        "name": "New York Mets & Over 4.5",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974239,
-        "name": "Atlanta Braves & Over 4.5",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974240,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974241,
-        "name": "New York Mets & Under 4.5",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974242,
-        "name": "Atlanta Braves & Under 4.5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974243,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 912
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 0.5,
+        "price": -133
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": 114
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "status": "open",
+    "type": "spread",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974248,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974311,
-        "name": "New York Mets 1, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974312,
-        "name": "New York Mets 2, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974313,
-        "name": "New York Mets 3, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974314,
-        "name": "New York Mets 4, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974315,
-        "name": "New York Mets 5, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974316,
-        "name": "New York Mets 6, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974317,
-        "name": "New York Mets 7, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974318,
-        "name": "New York Mets 0, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974319,
-        "name": "New York Mets 2, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974320,
-        "name": "New York Mets 3, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974321,
-        "name": "New York Mets 4, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974322,
-        "name": "New York Mets 5, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974323,
-        "name": "New York Mets 6, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974324,
-        "name": "New York Mets 7, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974325,
-        "name": "New York Mets 0, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974326,
-        "name": "New York Mets 1, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974327,
-        "name": "New York Mets 3, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974328,
-        "name": "New York Mets 4, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974329,
-        "name": "New York Mets 5, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974330,
-        "name": "New York Mets 6, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974331,
-        "name": "New York Mets 7, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974332,
-        "name": "New York Mets 0, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974333,
-        "name": "New York Mets 1, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974334,
-        "name": "New York Mets 2, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974335,
-        "name": "New York Mets 4, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974336,
-        "name": "New York Mets 5, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974337,
-        "name": "New York Mets 6, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974338,
-        "name": "New York Mets 7, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974339,
-        "name": "New York Mets 0, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974340,
-        "name": "New York Mets 1, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974341,
-        "name": "New York Mets 2, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974342,
-        "name": "New York Mets 3, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974343,
-        "name": "New York Mets 5, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974344,
-        "name": "New York Mets 6, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974345,
-        "name": "New York Mets 7, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974346,
-        "name": "New York Mets 0, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974347,
-        "name": "New York Mets 1, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974348,
-        "name": "New York Mets 2, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974349,
-        "name": "New York Mets 3, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974350,
-        "name": "New York Mets 4, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974351,
-        "name": "New York Mets 6, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974352,
-        "name": "New York Mets 7, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974353,
-        "name": "New York Mets 0, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974354,
-        "name": "New York Mets 1, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974355,
-        "name": "New York Mets 2, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974356,
-        "name": "New York Mets 3, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974357,
-        "name": "New York Mets 4, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974358,
-        "name": "New York Mets 5, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974359,
-        "name": "New York Mets 7, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974360,
-        "name": "New York Mets 0, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974361,
-        "name": "New York Mets 1, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974362,
-        "name": "New York Mets 2, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974363,
-        "name": "New York Mets 3, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974364,
-        "name": "New York Mets 4, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974365,
-        "name": "New York Mets 5, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974366,
-        "name": "New York Mets 6, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 962
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -0.5,
+        "price": 126
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": -148
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "status": "open",
+    "type": "spread",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974371,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974380,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 907
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 169
       },
       {
-        "alignment": "neutral",
-        "id": 1610974381,
-        "name": "Even",
-        "order": 0,
-        "rotation": 908
+        "designation": "away",
+        "points": 1.0,
+        "price": -208
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "status": "open",
+    "type": "spread",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974386,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974416,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 907
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": -118
       },
       {
-        "alignment": "neutral",
-        "id": 1610974417,
-        "name": "Even",
-        "order": 0,
-        "rotation": 908
+        "designation": "under",
+        "points": 5.5,
+        "price": 103
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "New York Mets Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "status": "open",
+    "type": "total",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974422,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974431,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 907
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.5,
+        "price": -190
       },
       {
-        "alignment": "neutral",
-        "id": 1610974432,
-        "name": "Even",
-        "order": 0,
-        "rotation": 908
+        "designation": "under",
+        "points": 4.5,
+        "price": 163
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "status": "open",
+    "type": "total",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974437,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974467,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 907
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.0,
+        "price": -156
       },
       {
-        "alignment": "neutral",
-        "id": 1610974468,
-        "name": "Even",
-        "order": 0,
-        "rotation": 908
+        "designation": "under",
+        "points": 5.0,
+        "price": 135
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "New York Mets Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198495
+    "status": "open",
+    "type": "total",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974474,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;6.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974491,
-        "name": "New York Mets & Over 8.5",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974492,
-        "name": "Atlanta Braves & Over 8.5",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974493,
-        "name": "New York Mets & Under 8.5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974494,
-        "name": "Atlanta Braves & Under 8.5",
-        "order": 0,
-        "rotation": 910
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.0,
+        "price": 107
+      },
+      {
+        "designation": "under",
+        "points": 6.0,
+        "price": -123
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "total",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974499,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974540,
-        "name": "New York Mets By 1",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974541,
-        "name": "New York Mets By 2",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974542,
-        "name": "New York Mets By 3",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974543,
-        "name": "New York Mets By 4",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974544,
-        "name": "New York Mets By 5+",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974545,
-        "name": "Atlanta Braves By 1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974546,
-        "name": "Atlanta Braves By 2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974547,
-        "name": "Atlanta Braves By 3",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974548,
-        "name": "Atlanta Braves By 4",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974549,
-        "name": "Atlanta Braves By 5+",
-        "order": 0,
-        "rotation": 916
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 6.5,
+        "price": 132
+      },
+      {
+        "designation": "under",
+        "points": 6.5,
+        "price": -153
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "total",
+    "version": 3151443580
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974554,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974587,
-        "name": "New York Mets By 1 - 2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974588,
-        "name": "New York Mets By 3 - 4",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974589,
-        "name": "New York Mets By 5 - 6",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974590,
-        "name": "New York Mets By 7+",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974591,
-        "name": "Atlanta Braves By 1 - 2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974592,
-        "name": "Atlanta Braves By 3 - 4",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974593,
-        "name": "Atlanta Braves By 5 - 6",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974594,
-        "name": "Atlanta Braves By 7+",
-        "order": 0,
-        "rotation": 914
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 113
+      },
+      {
+        "designation": "away",
+        "price": -125
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "moneyline",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974599,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974660,
-        "name": "1",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974661,
-        "name": "2",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974662,
-        "name": "3",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974663,
-        "name": "4",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974664,
-        "name": "5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974665,
-        "name": "6",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974666,
-        "name": "7",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974667,
-        "name": "8",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974668,
-        "name": "9",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974669,
-        "name": "10",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974670,
-        "name": "11",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974671,
-        "name": "12",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974672,
-        "name": "13",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974673,
-        "name": "14",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974674,
-        "name": "15+",
-        "order": 0,
-        "rotation": 921
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": -113
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -103
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974679,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;5.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974700,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974701,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974702,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974703,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974704,
-        "name": "13+",
-        "order": 0,
-        "rotation": 911
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.5,
+        "price": 102
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": -119
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974709,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974738,
-        "name": "New York Mets By 1",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974739,
-        "name": "New York Mets By 2",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974740,
-        "name": "New York Mets By 3+",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974741,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974742,
-        "name": "Atlanta Braves By 1",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974743,
-        "name": "Atlanta Braves By 2",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974744,
-        "name": "Atlanta Braves By 3+",
-        "order": 0,
-        "rotation": 913
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -138
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 123
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "spread",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974749,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974798,
-        "name": "0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974799,
-        "name": "1",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974800,
-        "name": "2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974801,
-        "name": "3",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974802,
-        "name": "4",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974803,
-        "name": "5",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974804,
-        "name": "6",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974805,
-        "name": "7",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974806,
-        "name": "8",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974807,
-        "name": "9",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974808,
-        "name": "10",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974809,
-        "name": "11+",
-        "order": 0,
-        "rotation": 918
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 3.0,
+        "price": -295
+      },
+      {
+        "designation": "away",
+        "points": -3.0,
+        "price": 229
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "spread",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974814,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974831,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974832,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974833,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974834,
-        "name": "7+",
-        "order": 0,
-        "rotation": 910
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.5,
+        "price": -216
+      },
+      {
+        "designation": "away",
+        "points": -2.5,
+        "price": 178
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "spread",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974839,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974864,
-        "name": "0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974865,
-        "name": "1",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974866,
-        "name": "2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974867,
-        "name": "3",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974868,
-        "name": "4",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974869,
-        "name": "5+",
-        "order": 0,
-        "rotation": 912
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.0,
+        "price": -181
+      },
+      {
+        "designation": "away",
+        "points": -2.0,
+        "price": 155
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "New York Mets Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "spread",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974874,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610974899,
-        "name": "0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974900,
-        "name": "1",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974901,
-        "name": "2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974902,
-        "name": "3",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974903,
-        "name": "4",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610974904,
-        "name": "5+",
-        "order": 0,
-        "rotation": 912
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -112
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": -102
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Atlanta Braves Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "spread",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610974909,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610975162,
-        "name": "New York Mets 0, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975163,
-        "name": "New York Mets 0, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975164,
-        "name": "New York Mets 0, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975165,
-        "name": "New York Mets 0, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975166,
-        "name": "New York Mets 0, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975167,
-        "name": "New York Mets 0, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975168,
-        "name": "New York Mets 0, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975169,
-        "name": "New York Mets 1, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975170,
-        "name": "New York Mets 1, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975171,
-        "name": "New York Mets 1, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975172,
-        "name": "New York Mets 1, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975173,
-        "name": "New York Mets 1, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975174,
-        "name": "New York Mets 1, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975175,
-        "name": "New York Mets 1, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975176,
-        "name": "New York Mets 1, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975177,
-        "name": "New York Mets 2, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975178,
-        "name": "New York Mets 2, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975179,
-        "name": "New York Mets 2, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975180,
-        "name": "New York Mets 2, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975181,
-        "name": "New York Mets 2, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975182,
-        "name": "New York Mets 2, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975183,
-        "name": "New York Mets 2, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975184,
-        "name": "New York Mets 2, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975185,
-        "name": "New York Mets 3, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975186,
-        "name": "New York Mets 3, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975187,
-        "name": "New York Mets 3, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975188,
-        "name": "New York Mets 3, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975189,
-        "name": "New York Mets 3, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975190,
-        "name": "New York Mets 3, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975191,
-        "name": "New York Mets 3, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975192,
-        "name": "New York Mets 3, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975193,
-        "name": "New York Mets 4, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975194,
-        "name": "New York Mets 4, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975195,
-        "name": "New York Mets 4, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975196,
-        "name": "New York Mets 4, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975197,
-        "name": "New York Mets 4, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975198,
-        "name": "New York Mets 4, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975199,
-        "name": "New York Mets 4, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975200,
-        "name": "New York Mets 4, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975201,
-        "name": "New York Mets 5, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975202,
-        "name": "New York Mets 5, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975203,
-        "name": "New York Mets 5, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975204,
-        "name": "New York Mets 5, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975205,
-        "name": "New York Mets 5, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975206,
-        "name": "New York Mets 5, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975207,
-        "name": "New York Mets 5, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975208,
-        "name": "New York Mets 5, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975209,
-        "name": "New York Mets 6, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975210,
-        "name": "New York Mets 6, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975211,
-        "name": "New York Mets 6, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975212,
-        "name": "New York Mets 6, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975213,
-        "name": "New York Mets 6, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975214,
-        "name": "New York Mets 6, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975215,
-        "name": "New York Mets 6, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975216,
-        "name": "New York Mets 6, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975217,
-        "name": "New York Mets 7, Atlanta Braves 0",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975218,
-        "name": "New York Mets 7, Atlanta Braves 1",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975219,
-        "name": "New York Mets 7, Atlanta Braves 2",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975220,
-        "name": "New York Mets 7, Atlanta Braves 3",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975221,
-        "name": "New York Mets 7, Atlanta Braves 4",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975222,
-        "name": "New York Mets 7, Atlanta Braves 5",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975223,
-        "name": "New York Mets 7, Atlanta Braves 6",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610975224,
-        "name": "New York Mets 7, Atlanta Braves 7",
-        "order": 0,
-        "rotation": 969
+        "amount": 2000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 164
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -197
       }
     ],
-    "rotation": 907,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198519
+    "status": "open",
+    "type": "spread",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976488,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976489,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 2000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 205
       },
       {
-        "alignment": "neutral",
-        "id": 1610976490,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "away",
+        "points": 1.5,
+        "price": -260
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Marcell Ozuna (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427201205
+    "status": "open",
+    "type": "spread",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976491,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;10.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976492,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.5,
+        "price": 102
       },
       {
-        "alignment": "neutral",
-        "id": 1610976493,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 10.5,
+        "price": -114
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Marcell Ozuna (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201205
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976494,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976495,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.5,
+        "price": -292
       },
       {
-        "alignment": "neutral",
-        "id": 1610976496,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 7.5,
+        "price": 233
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Francisco Lindor (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427201205
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976497,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976498,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": -171
       },
       {
-        "alignment": "neutral",
-        "id": 1610976499,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 9.0,
+        "price": 150
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Francisco Lindor (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201205
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976500,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976501,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.5,
+        "price": -132
       },
       {
-        "alignment": "neutral",
-        "id": 1610976502,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 9.5,
+        "price": 117
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Clay Holmes (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 427201205
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976503,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976504,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.0,
+        "price": -114
       },
       {
-        "alignment": "neutral",
-        "id": 1610976505,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 10.0,
+        "price": 102
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Clay Holmes (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 427201205
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976506,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976507,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 11.0,
+        "price": 126
       },
       {
-        "alignment": "neutral",
-        "id": 1610976508,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 11.0,
+        "price": -142
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Clay Holmes (Earned Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 427201205
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976509,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;11.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976510,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 11.5,
+        "price": 148
       },
       {
-        "alignment": "neutral",
-        "id": 1610976511,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 11.5,
+        "price": -168
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Clay Holmes (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 427201205
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976512,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976513,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 12.0,
+        "price": 176
       },
       {
-        "alignment": "neutral",
-        "id": 1610976514,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 12.0,
+        "price": -202
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Brandon Nimmo (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427201205
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976515,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;14.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976516,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 1500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610778410,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 14.5,
+        "price": 337
       },
       {
-        "alignment": "neutral",
-        "id": 1610976517,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 14.5,
+        "price": -459
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Brandon Nimmo (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "status": "open",
+    "type": "total",
+    "version": 3151445012
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976518,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976519,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610806892,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610806893,
+        "price": -162
       },
       {
-        "alignment": "neutral",
-        "id": 1610976520,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "participantId": 1610806894,
+        "price": 137
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Tyrone Taylor (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054201860
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976521,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;29.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976522,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975225,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 29.5,
+        "price": -102
       },
       {
-        "alignment": "neutral",
-        "id": 1610976523,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "designation": "under",
+        "points": 29.5,
+        "price": -115
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Matt Olson (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427201223
+    "status": "open",
+    "type": "total",
+    "version": 3151442446
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976524,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976525,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975229,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975232,
+        "price": -110
       },
       {
-        "alignment": "neutral",
-        "id": 1610976526,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "participantId": 1610975231,
+        "price": -106
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Matt Olson (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976527,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976528,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975289,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975296,
+        "price": 537
       },
       {
-        "alignment": "neutral",
-        "id": 1610976529,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975297,
+        "price": 615
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975298,
+        "price": 745
+      },
+      {
+        "participantId": 1610975299,
+        "price": 355
+      },
+      {
+        "participantId": 1610975291,
+        "price": 1386
+      },
+      {
+        "participantId": 1610975292,
+        "price": 830
+      },
+      {
+        "participantId": 1610975293,
+        "price": 612
+      },
+      {
+        "participantId": 1610975294,
+        "price": 525
+      },
+      {
+        "participantId": 1610975295,
+        "price": 506
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Pete Alonso (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976530,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976531,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975302,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975304,
+        "price": 108
       },
       {
-        "alignment": "neutral",
-        "id": 1610976532,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "participantId": 1610975305,
+        "price": -126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Pete Alonso (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976533,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976534,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975312,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975314,
+        "price": 1653
       },
       {
-        "alignment": "neutral",
-        "id": 1610976535,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975315,
+        "price": 1010
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975316,
+        "price": 733
+      },
+      {
+        "participantId": 1610975317,
+        "price": 614
+      },
+      {
+        "participantId": 1610975318,
+        "price": 568
+      },
+      {
+        "participantId": 1610975319,
+        "price": 569
+      },
+      {
+        "participantId": 1610975320,
+        "price": 610
+      },
+      {
+        "participantId": 1610975321,
+        "price": 692
+      },
+      {
+        "participantId": 1610975322,
+        "price": 238
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Jeff McNeil (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976536,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976537,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975325,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975328,
+        "price": 227
       },
       {
-        "alignment": "neutral",
-        "id": 1610976538,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975329,
+        "price": 1179
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975330,
+        "price": 463
+      },
+      {
+        "participantId": 1610975331,
+        "price": 468
+      },
+      {
+        "participantId": 1610975332,
+        "price": 793
+      },
+      {
+        "participantId": 1610975327,
+        "price": 212
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Ozzie Albies (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976539,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976540,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975335,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975337,
+        "price": 9618
       },
       {
-        "alignment": "neutral",
-        "id": 1610976541,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975338,
+        "price": 7773
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975339,
+        "price": 6936
+      },
+      {
+        "participantId": 1610975340,
+        "price": 6856
+      },
+      {
+        "participantId": 1610975341,
+        "price": 7038
+      },
+      {
+        "participantId": 1610975342,
+        "price": 7584
+      },
+      {
+        "participantId": 1610975343,
+        "price": 8364
+      },
+      {
+        "participantId": 1610975344,
+        "price": 7908
+      },
+      {
+        "participantId": 1610975345,
+        "price": 4956
+      },
+      {
+        "participantId": 1610975346,
+        "price": 4467
+      },
+      {
+        "participantId": 1610975347,
+        "price": 4302
+      },
+      {
+        "participantId": 1610975348,
+        "price": 4517
+      },
+      {
+        "participantId": 1610975349,
+        "price": 4900
+      },
+      {
+        "participantId": 1610975350,
+        "price": 5517
+      },
+      {
+        "participantId": 1610975351,
+        "price": 7529
+      },
+      {
+        "participantId": 1610975352,
+        "price": 4010
+      },
+      {
+        "participantId": 1610975353,
+        "price": 3391
+      },
+      {
+        "participantId": 1610975354,
+        "price": 3333
+      },
+      {
+        "participantId": 1610975355,
+        "price": 3432
+      },
+      {
+        "participantId": 1610975356,
+        "price": 3804
+      },
+      {
+        "participantId": 1610975357,
+        "price": 4319
+      },
+      {
+        "participantId": 1610975358,
+        "price": 7359
+      },
+      {
+        "participantId": 1610975359,
+        "price": 4585
+      },
+      {
+        "participantId": 1610975360,
+        "price": 2673
+      },
+      {
+        "participantId": 1610975361,
+        "price": 2863
+      },
+      {
+        "participantId": 1610975362,
+        "price": 3014
+      },
+      {
+        "participantId": 1610975363,
+        "price": 3290
+      },
+      {
+        "participantId": 1610975364,
+        "price": 3810
+      },
+      {
+        "participantId": 1610975365,
+        "price": 7657
+      },
+      {
+        "participantId": 1610975366,
+        "price": 4844
+      },
+      {
+        "participantId": 1610975367,
+        "price": 3552
+      },
+      {
+        "participantId": 1610975368,
+        "price": 2230
+      },
+      {
+        "participantId": 1610975369,
+        "price": 2824
+      },
+      {
+        "participantId": 1610975370,
+        "price": 3142
+      },
+      {
+        "participantId": 1610975371,
+        "price": 3592
+      },
+      {
+        "participantId": 1610975372,
+        "price": 8353
+      },
+      {
+        "participantId": 1610975373,
+        "price": 5345
+      },
+      {
+        "participantId": 1610975374,
+        "price": 3975
+      },
+      {
+        "participantId": 1610975375,
+        "price": 3334
+      },
+      {
+        "participantId": 1610975376,
+        "price": 2187
+      },
+      {
+        "participantId": 1610975377,
+        "price": 3137
+      },
+      {
+        "participantId": 1610975378,
+        "price": 3634
+      },
+      {
+        "participantId": 1610975379,
+        "price": 9432
+      },
+      {
+        "participantId": 1610975380,
+        "price": 6139
+      },
+      {
+        "participantId": 1610975381,
+        "price": 4611
+      },
+      {
+        "participantId": 1610975382,
+        "price": 3906
+      },
+      {
+        "participantId": 1610975383,
+        "price": 3585
+      },
+      {
+        "participantId": 1610975384,
+        "price": 2427
+      },
+      {
+        "participantId": 1610975385,
+        "price": 3814
+      },
+      {
+        "participantId": 1610975387,
+        "price": 7206
+      },
+      {
+        "participantId": 1610975388,
+        "price": 5518
+      },
+      {
+        "participantId": 1610975389,
+        "price": 4711
+      },
+      {
+        "participantId": 1610975390,
+        "price": 4342
+      },
+      {
+        "participantId": 1610975391,
+        "price": 4249
+      },
+      {
+        "participantId": 1610975392,
+        "price": 2957
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Alex Verdugo (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976542,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976543,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975395,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975397,
+        "price": -152
       },
       {
-        "alignment": "neutral",
-        "id": 1610976544,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "participantId": 1610975398,
+        "price": 129
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Ronald Acuña Jr. (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976545,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976546,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975401,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975403,
+        "price": 107
       },
       {
-        "alignment": "neutral",
-        "id": 1610976547,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "participantId": 1610975404,
+        "price": -126
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Ronald Acuña Jr. (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976548,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976549,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975414,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975416,
+        "price": -107
       },
       {
-        "alignment": "neutral",
-        "id": 1610976550,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "participantId": 1610975417,
+        "price": -109
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Austin Riley (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976551,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976552,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975420,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975422,
+        "price": -106
       },
       {
-        "alignment": "neutral",
-        "id": 1610976553,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
+        "participantId": 1610975423,
+        "price": -110
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Austin Riley (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976554,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976555,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975433,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975435,
+        "price": 157
       },
       {
-        "alignment": "neutral",
-        "id": 1610976556,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975436,
+        "price": 221
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975437,
+        "price": 387
+      },
+      {
+        "participantId": 1610975438,
+        "price": 403
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Juan Soto (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976557,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976558,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975443,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975445,
+        "price": 609
       },
       {
-        "alignment": "neutral",
-        "id": 1610976559,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975446,
+        "price": 677
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975447,
+        "price": 771
+      },
+      {
+        "participantId": 1610975448,
+        "price": 925
+      },
+      {
+        "participantId": 1610975449,
+        "price": 364
+      },
+      {
+        "participantId": 1610975450,
+        "price": 439
+      },
+      {
+        "participantId": 1610975451,
+        "price": 783
+      },
+      {
+        "participantId": 1610975452,
+        "price": 954
+      },
+      {
+        "participantId": 1610975453,
+        "price": 1190
+      },
+      {
+        "participantId": 1610975454,
+        "price": 626
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Juan Soto (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976560,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976561,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975465,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975467,
+        "price": 325
       },
       {
-        "alignment": "neutral",
-        "id": 1610976562,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975468,
+        "price": 453
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975469,
+        "price": 709
+      },
+      {
+        "participantId": 1610975470,
+        "price": 697
+      },
+      {
+        "participantId": 1610975471,
+        "price": 279
+      },
+      {
+        "participantId": 1610975472,
+        "price": 594
+      },
+      {
+        "participantId": 1610975473,
+        "price": 1017
+      },
+      {
+        "participantId": 1610975474,
+        "price": 1216
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Sean Murphy (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976563,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976564,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975483,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975488,
+        "price": 1753
       },
       {
-        "alignment": "neutral",
-        "id": 1610976565,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975489,
+        "price": 988
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975490,
+        "price": 1122
+      },
+      {
+        "participantId": 1610975491,
+        "price": 726
+      },
+      {
+        "participantId": 1610975492,
+        "price": 901
+      },
+      {
+        "participantId": 1610975493,
+        "price": 655
+      },
+      {
+        "participantId": 1610975494,
+        "price": 868
+      },
+      {
+        "participantId": 1610975495,
+        "price": 696
+      },
+      {
+        "participantId": 1610975496,
+        "price": 964
+      },
+      {
+        "participantId": 1610975497,
+        "price": 839
+      },
+      {
+        "participantId": 1610975498,
+        "price": 1192
+      },
+      {
+        "participantId": 1610975499,
+        "price": 337
+      },
+      {
+        "participantId": 1610975485,
+        "price": 4110
+      },
+      {
+        "participantId": 1610975486,
+        "price": 3679
+      },
+      {
+        "participantId": 1610975487,
+        "price": 1719
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Nick Allen (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976566,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976567,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975515,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610975520,
+        "price": 289
       },
       {
-        "alignment": "neutral",
-        "id": 1610976568,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975521,
+        "price": 188
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975517,
+        "price": 1276
+      },
+      {
+        "participantId": 1610975518,
+        "price": 479
+      },
+      {
+        "participantId": 1610975519,
+        "price": 250
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Michael Harris II (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201223
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976569,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976570,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975527,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975529,
+        "price": 589
       },
       {
-        "alignment": "neutral",
-        "id": 1610976571,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975530,
+        "price": 680
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975531,
+        "price": 285
+      },
+      {
+        "participantId": 1610975532,
+        "price": 522
+      },
+      {
+        "participantId": 1610975533,
+        "price": 568
+      },
+      {
+        "participantId": 1610975534,
+        "price": 683
+      },
+      {
+        "participantId": 1610975535,
+        "price": 318
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Spencer Strider (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 427201229
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976572,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976573,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975543,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975552,
+        "price": 680
       },
       {
-        "alignment": "neutral",
-        "id": 1610976574,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975553,
+        "price": 791
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975554,
+        "price": 951
+      },
+      {
+        "participantId": 1610975555,
+        "price": 1173
+      },
+      {
+        "participantId": 1610975556,
+        "price": 610
+      },
+      {
+        "participantId": 1610975545,
+        "price": 1964
+      },
+      {
+        "participantId": 1610975546,
+        "price": 1130
+      },
+      {
+        "participantId": 1610975547,
+        "price": 794
+      },
+      {
+        "participantId": 1610975548,
+        "price": 646
+      },
+      {
+        "participantId": 1610975549,
+        "price": 586
+      },
+      {
+        "participantId": 1610975550,
+        "price": 578
+      },
+      {
+        "participantId": 1610975551,
+        "price": 610
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Spencer Strider (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 427201229
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976575,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976576,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975569,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975571,
+        "price": 450
       },
       {
-        "alignment": "neutral",
-        "id": 1610976577,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975572,
+        "price": 319
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975573,
+        "price": 296
+      },
+      {
+        "participantId": 1610975574,
+        "price": 131
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Spencer Strider (Earned Runs)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 427201229
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976578,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976579,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975579,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975584,
+        "price": 462
       },
       {
-        "alignment": "neutral",
-        "id": 1610976580,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975585,
+        "price": 571
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975586,
+        "price": 260
+      },
+      {
+        "participantId": 1610975581,
+        "price": 453
+      },
+      {
+        "participantId": 1610975582,
+        "price": 417
+      },
+      {
+        "participantId": 1610975583,
+        "price": 402
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Ronny Mauricio (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201229
+    "type": "moneyline",
+    "version": 5054200958
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976581,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976582,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975593,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975595,
+        "price": 431
       },
       {
-        "alignment": "neutral",
-        "id": 1610976583,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975596,
+        "price": 395
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975597,
+        "price": 397
+      },
+      {
+        "participantId": 1610975598,
+        "price": 463
+      },
+      {
+        "participantId": 1610975599,
+        "price": 581
+      },
+      {
+        "participantId": 1610975600,
+        "price": 282
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Francisco Alvarez (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201229
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976584,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 18,
-      "matchupCountSE": 18,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 44,
-        "matchupCountSE": 44,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778399,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Atlanta Braves",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Mets",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T23:15:00+00:00"
-    },
-    "parentId": 1610778399,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-20T02:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976585,
-        "name": "Over",
-        "order": 0,
-        "rotation": 908
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610975607,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610975609,
+        "price": 2214
       },
       {
-        "alignment": "neutral",
-        "id": 1610976586,
-        "name": "Under",
-        "order": 0,
-        "rotation": 909
-      }
-    ],
-    "periods": [
+        "participantId": 1610975610,
+        "price": 2244
+      },
       {
-        "cutoffAt": "2025-06-19T23:15:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610975611,
+        "price": 2544
+      },
+      {
+        "participantId": 1610975612,
+        "price": 3056
+      },
+      {
+        "participantId": 1610975613,
+        "price": 3806
+      },
+      {
+        "participantId": 1610975614,
+        "price": 4726
+      },
+      {
+        "participantId": 1610975616,
+        "price": 2313
+      },
+      {
+        "participantId": 1610975617,
+        "price": 2123
+      },
+      {
+        "participantId": 1610975618,
+        "price": 2084
+      },
+      {
+        "participantId": 1610975619,
+        "price": 2366
+      },
+      {
+        "participantId": 1610975620,
+        "price": 2849
+      },
+      {
+        "participantId": 1610975621,
+        "price": 3412
+      },
+      {
+        "participantId": 1610975622,
+        "price": 4425
+      },
+      {
+        "participantId": 1610975624,
+        "price": 2228
+      },
+      {
+        "participantId": 1610975625,
+        "price": 2106
+      },
+      {
+        "participantId": 1610975626,
+        "price": 2073
+      },
+      {
+        "participantId": 1610975627,
+        "price": 2280
+      },
+      {
+        "participantId": 1610975628,
+        "price": 2631
+      },
+      {
+        "participantId": 1610975629,
+        "price": 3294
+      },
+      {
+        "participantId": 1610975630,
+        "price": 4280
+      },
+      {
+        "participantId": 1610975632,
+        "price": 2451
+      },
+      {
+        "participantId": 1610975633,
+        "price": 2319
+      },
+      {
+        "participantId": 1610975634,
+        "price": 2350
+      },
+      {
+        "participantId": 1610975635,
+        "price": 2475
+      },
+      {
+        "participantId": 1610975636,
+        "price": 2886
+      },
+      {
+        "participantId": 1610975637,
+        "price": 3601
+      },
+      {
+        "participantId": 1610975638,
+        "price": 4660
+      },
+      {
+        "participantId": 1610975640,
+        "price": 2866
+      },
+      {
+        "participantId": 1610975641,
+        "price": 2715
+      },
+      {
+        "participantId": 1610975642,
+        "price": 2634
+      },
+      {
+        "participantId": 1610975643,
+        "price": 2976
+      },
+      {
+        "participantId": 1610975644,
+        "price": 3463
+      },
+      {
+        "participantId": 1610975645,
+        "price": 4170
+      },
+      {
+        "participantId": 1610975648,
+        "price": 3493
+      },
+      {
+        "participantId": 1610975649,
+        "price": 3179
+      },
+      {
+        "participantId": 1610975650,
+        "price": 3220
+      },
+      {
+        "participantId": 1610975651,
+        "price": 3623
+      },
+      {
+        "participantId": 1610975652,
+        "price": 4307
+      },
+      {
+        "participantId": 1610975656,
+        "price": 4261
+      },
+      {
+        "participantId": 1610975657,
+        "price": 4049
+      },
+      {
+        "participantId": 1610975658,
+        "price": 4099
+      },
+      {
+        "participantId": 1610975659,
+        "price": 4590
       }
     ],
-    "rotation": 908,
-    "special": {
-      "category": "Player Props",
-      "description": "Brett Baty (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T23:15:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427201229
+    "type": "moneyline",
+    "version": 5054200958
   }
 ]
