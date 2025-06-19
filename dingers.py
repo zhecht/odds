@@ -2726,8 +2726,9 @@ def writeLineups(date):
 	#		if row[0] not in data[row[-1]]:
 	#			print(row[0], "SITTING!!")
 	
-	if date == "2025-06-16":
-		data["ath"]["pitcher"] = "jp sears"
+	if date == "2025-06-18":
+		data["tex"]["pitcher"] = "jacob degrom"
+		data["mil"]["pitcher"] = "jacob misiorowski"
 		pass
 
 	with open(f"static/mlb/lineups.json", "w") as fh:
