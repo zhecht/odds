@@ -1257,7 +1257,7 @@ def writeMGMSel(date):
 		return
 
 	divs = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-event")
-	for div in divs[1:]:
+	for div in divs:
 		try:
 			div.find_element(By.CSS_SELECTOR, "a").click()
 		except:
