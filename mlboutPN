@@ -1,6208 +1,2823 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610778391,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Miami Marlins",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Philadelphia Phillies",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 259
       },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
+        "designation": "away",
+        "price": 385
       },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "draw",
+        "price": -144
       }
     ],
-    "rotation": 905,
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 49,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 604912909
+    "status": "open",
+    "type": "moneyline",
+    "version": 3151451894
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610799743,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610799744,
-        "name": "Philadelphia Phillies",
-        "order": 0,
-        "rotation": 2315
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -155
       },
       {
-        "alignment": "neutral",
-        "id": 1610799745,
-        "name": "Miami Marlins",
-        "order": 0,
-        "rotation": 2316
+        "designation": "away",
+        "points": -0.0,
+        "price": 132
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 2315,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 427195967
+    "status": "open",
+    "type": "spread",
+    "version": 3151451894
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973441,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Miami Marlins  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": 110
       },
       {
-        "alignment": "away",
-        "name": "Philadelphia Phillies  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 0.5,
+        "price": -129
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9905,
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 604912671
+    "status": "open",
+    "type": "total",
+    "version": 3151451894
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973443,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973446,
-        "name": "Philadelphia Phillies 1, Miami Marlins 0",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973447,
-        "name": "Philadelphia Phillies 2, Miami Marlins 0",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973448,
-        "name": "Philadelphia Phillies 3, Miami Marlins 0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973449,
-        "name": "Philadelphia Phillies 4, Miami Marlins 0",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973450,
-        "name": "Philadelphia Phillies 5, Miami Marlins 0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973451,
-        "name": "Philadelphia Phillies 6, Miami Marlins 0",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973452,
-        "name": "Philadelphia Phillies 7, Miami Marlins 0",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973453,
-        "name": "Philadelphia Phillies 0, Miami Marlins 1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973454,
-        "name": "Philadelphia Phillies 2, Miami Marlins 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973455,
-        "name": "Philadelphia Phillies 3, Miami Marlins 1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973456,
-        "name": "Philadelphia Phillies 4, Miami Marlins 1",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973457,
-        "name": "Philadelphia Phillies 5, Miami Marlins 1",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973458,
-        "name": "Philadelphia Phillies 6, Miami Marlins 1",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973459,
-        "name": "Philadelphia Phillies 7, Miami Marlins 1",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973460,
-        "name": "Philadelphia Phillies 0, Miami Marlins 2",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973461,
-        "name": "Philadelphia Phillies 1, Miami Marlins 2",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973462,
-        "name": "Philadelphia Phillies 3, Miami Marlins 2",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973463,
-        "name": "Philadelphia Phillies 4, Miami Marlins 2",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973464,
-        "name": "Philadelphia Phillies 5, Miami Marlins 2",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973465,
-        "name": "Philadelphia Phillies 6, Miami Marlins 2",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973466,
-        "name": "Philadelphia Phillies 7, Miami Marlins 2",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973467,
-        "name": "Philadelphia Phillies 0, Miami Marlins 3",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973468,
-        "name": "Philadelphia Phillies 1, Miami Marlins 3",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973469,
-        "name": "Philadelphia Phillies 2, Miami Marlins 3",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973470,
-        "name": "Philadelphia Phillies 4, Miami Marlins 3",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973471,
-        "name": "Philadelphia Phillies 5, Miami Marlins 3",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973472,
-        "name": "Philadelphia Phillies 6, Miami Marlins 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973473,
-        "name": "Philadelphia Phillies 7, Miami Marlins 3",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973474,
-        "name": "Philadelphia Phillies 0, Miami Marlins 4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973475,
-        "name": "Philadelphia Phillies 1, Miami Marlins 4",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973476,
-        "name": "Philadelphia Phillies 2, Miami Marlins 4",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973477,
-        "name": "Philadelphia Phillies 3, Miami Marlins 4",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973478,
-        "name": "Philadelphia Phillies 5, Miami Marlins 4",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973479,
-        "name": "Philadelphia Phillies 6, Miami Marlins 4",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973480,
-        "name": "Philadelphia Phillies 7, Miami Marlins 4",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973481,
-        "name": "Philadelphia Phillies 0, Miami Marlins 5",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973482,
-        "name": "Philadelphia Phillies 1, Miami Marlins 5",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973483,
-        "name": "Philadelphia Phillies 2, Miami Marlins 5",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973484,
-        "name": "Philadelphia Phillies 3, Miami Marlins 5",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973485,
-        "name": "Philadelphia Phillies 4, Miami Marlins 5",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973486,
-        "name": "Philadelphia Phillies 6, Miami Marlins 5",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973487,
-        "name": "Philadelphia Phillies 7, Miami Marlins 5",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973488,
-        "name": "Philadelphia Phillies 0, Miami Marlins 6",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973489,
-        "name": "Philadelphia Phillies 1, Miami Marlins 6",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973490,
-        "name": "Philadelphia Phillies 2, Miami Marlins 6",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973491,
-        "name": "Philadelphia Phillies 3, Miami Marlins 6",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973492,
-        "name": "Philadelphia Phillies 4, Miami Marlins 6",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973493,
-        "name": "Philadelphia Phillies 5, Miami Marlins 6",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973494,
-        "name": "Philadelphia Phillies 7, Miami Marlins 6",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973495,
-        "name": "Philadelphia Phillies 0, Miami Marlins 7",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973496,
-        "name": "Philadelphia Phillies 1, Miami Marlins 7",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973497,
-        "name": "Philadelphia Phillies 2, Miami Marlins 7",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973498,
-        "name": "Philadelphia Phillies 3, Miami Marlins 7",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973499,
-        "name": "Philadelphia Phillies 4, Miami Marlins 7",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973500,
-        "name": "Philadelphia Phillies 5, Miami Marlins 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973501,
-        "name": "Philadelphia Phillies 6, Miami Marlins 7",
-        "order": 0,
-        "rotation": 960
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": 128
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": -157
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973503,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973513,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 905
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 1.5,
+        "price": 116
       },
       {
-        "alignment": "neutral",
-        "id": 1610973514,
-        "name": "Even",
-        "order": 0,
-        "rotation": 906
+        "designation": "under",
+        "points": 1.5,
+        "price": -142
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Philadelphia Phillies Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973516,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973519,
-        "name": "Philadelphia Phillies & Over 4.5",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973520,
-        "name": "Miami Marlins & Over 4.5",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973521,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973522,
-        "name": "Philadelphia Phillies & Under 4.5",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973523,
-        "name": "Miami Marlins & Under 4.5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973524,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 910
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": -181
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": 155
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973526,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973536,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 905
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -427
       },
       {
-        "alignment": "neutral",
-        "id": 1610973537,
-        "name": "Even",
-        "order": 0,
-        "rotation": 906
+        "designation": "away",
+        "points": -1.0,
+        "price": 308
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Miami Marlins Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973539,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973546,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 905
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": -247
       },
       {
-        "alignment": "neutral",
-        "id": 1610973547,
-        "name": "Even",
-        "order": 0,
-        "rotation": 906
+        "designation": "away",
+        "points": -0.5,
+        "price": 201
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Miami Marlins Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973549,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973606,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 905
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": -116
       },
       {
-        "alignment": "neutral",
-        "id": 1610973607,
-        "name": "Even",
-        "order": 0,
-        "rotation": 906
+        "designation": "away",
+        "points": 0.5,
+        "price": -100
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973609,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973612,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 905
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 122
       },
       {
-        "alignment": "neutral",
-        "id": 1610973613,
-        "name": "Even",
-        "order": 0,
-        "rotation": 906
+        "designation": "away",
+        "points": 1.0,
+        "price": -145
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Philadelphia Phillies Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973615,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973618,
-        "name": "0",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973619,
-        "name": "1",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973620,
-        "name": "2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973621,
-        "name": "3",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973622,
-        "name": "4",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973623,
-        "name": "5",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973624,
-        "name": "6",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973625,
-        "name": "7",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973626,
-        "name": "8+",
-        "order": 0,
-        "rotation": 913
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -123
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 108
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Miami Marlins Exact Total Runs"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "total",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973628,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973631,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 905
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 2.5,
+        "price": -236
       },
       {
-        "alignment": "neutral",
-        "id": 1610973632,
-        "name": "Even",
-        "order": 0,
-        "rotation": 906
+        "designation": "under",
+        "points": 2.5,
+        "price": 198
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "total",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973634,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973637,
-        "name": "0",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973638,
-        "name": "1",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973639,
-        "name": "2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973640,
-        "name": "3",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973641,
-        "name": "4",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973642,
-        "name": "5",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973643,
-        "name": "6",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973644,
-        "name": "7",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973645,
-        "name": "8+",
-        "order": 0,
-        "rotation": 913
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.0,
+        "price": -183
+      },
+      {
+        "designation": "under",
+        "points": 3.0,
+        "price": 157
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Philadelphia Phillies Exact Total Runs"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "total",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973647,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973652,
-        "name": "Philadelphia Phillies & Over 8.5",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973653,
-        "name": "Miami Marlins & Over 8.5",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973654,
-        "name": "Philadelphia Phillies & Under 8.5",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973655,
-        "name": "Miami Marlins & Under 8.5",
-        "order": 0,
-        "rotation": 908
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.0,
+        "price": 108
+      },
+      {
+        "designation": "under",
+        "points": 4.0,
+        "price": -124
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "total",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973657,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973668,
-        "name": "Philadelphia Phillies By 1",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973669,
-        "name": "Philadelphia Phillies By 2",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973670,
-        "name": "Philadelphia Phillies By 3",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973671,
-        "name": "Philadelphia Phillies By 4",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973672,
-        "name": "Philadelphia Phillies By 5+",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973673,
-        "name": "Miami Marlins By 1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973674,
-        "name": "Miami Marlins By 2",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973675,
-        "name": "Miami Marlins By 3",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973676,
-        "name": "Miami Marlins By 4",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973677,
-        "name": "Miami Marlins By 5+",
-        "order": 0,
-        "rotation": 914
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": 139
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -161
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "total",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973679,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973688,
-        "name": "Philadelphia Phillies By 1 - 2",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973689,
-        "name": "Philadelphia Phillies By 3 - 4",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973690,
-        "name": "Philadelphia Phillies By 5 - 6",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973691,
-        "name": "Philadelphia Phillies By 7+",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973692,
-        "name": "Miami Marlins By 1 - 2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973693,
-        "name": "Miami Marlins By 3 - 4",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973694,
-        "name": "Miami Marlins By 5 - 6",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973695,
-        "name": "Miami Marlins By 7+",
-        "order": 0,
-        "rotation": 912
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": -169
+      },
+      {
+        "designation": "away",
+        "price": 152
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "moneyline",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973697,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973713,
-        "name": "1",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973714,
-        "name": "2",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973715,
-        "name": "3",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973716,
-        "name": "4",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973717,
-        "name": "5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973718,
-        "name": "6",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973719,
-        "name": "7",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973720,
-        "name": "8",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973721,
-        "name": "9",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973722,
-        "name": "10",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973723,
-        "name": "11",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973724,
-        "name": "12",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973725,
-        "name": "13",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973726,
-        "name": "14",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973727,
-        "name": "15+",
-        "order": 0,
-        "rotation": 919
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -130
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 112
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973729,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973735,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973736,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973737,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973738,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973739,
-        "name": "13+",
-        "order": 0,
-        "rotation": 909
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 2.5,
+        "price": -140
+      },
+      {
+        "designation": "under",
+        "points": 2.5,
+        "price": 119
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973741,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;-1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973749,
-        "name": "Philadelphia Phillies By 1",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973750,
-        "name": "Philadelphia Phillies By 2",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973751,
-        "name": "Philadelphia Phillies By 3+",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973752,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973753,
-        "name": "Miami Marlins By 1",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973754,
-        "name": "Miami Marlins By 2",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973755,
-        "name": "Miami Marlins By 3+",
-        "order": 0,
-        "rotation": 911
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.5,
+        "price": 133
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -151
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973757,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973770,
-        "name": "0",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973771,
-        "name": "1",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973772,
-        "name": "2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973773,
-        "name": "3",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973774,
-        "name": "4",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973775,
-        "name": "5",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973776,
-        "name": "6",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973777,
-        "name": "7",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973778,
-        "name": "8",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973779,
-        "name": "9",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973780,
-        "name": "10",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973781,
-        "name": "11+",
-        "order": 0,
-        "rotation": 916
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -316
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 242
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973783,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973788,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973789,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973790,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973791,
-        "name": "7+",
-        "order": 0,
-        "rotation": 908
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -258
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 209
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973793,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973800,
-        "name": "0",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973801,
-        "name": "1",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973802,
-        "name": "2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973803,
-        "name": "3",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973804,
-        "name": "4",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973805,
-        "name": "5+",
-        "order": 0,
-        "rotation": 910
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": -115
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": 101
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Philadelphia Phillies Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973807,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973814,
-        "name": "0",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973815,
-        "name": "1",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973816,
-        "name": "2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973817,
-        "name": "3",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973818,
-        "name": "4",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973819,
-        "name": "5+",
-        "order": 0,
-        "rotation": 910
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -2.0,
+        "price": 178
+      },
+      {
+        "designation": "away",
+        "points": 2.0,
+        "price": -211
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Miami Marlins Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610973821,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610973885,
-        "name": "Philadelphia Phillies 0, Miami Marlins 1",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973886,
-        "name": "Philadelphia Phillies 0, Miami Marlins 2",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973887,
-        "name": "Philadelphia Phillies 0, Miami Marlins 3",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973888,
-        "name": "Philadelphia Phillies 0, Miami Marlins 4",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973889,
-        "name": "Philadelphia Phillies 0, Miami Marlins 5",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973890,
-        "name": "Philadelphia Phillies 0, Miami Marlins 6",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973891,
-        "name": "Philadelphia Phillies 0, Miami Marlins 7",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973892,
-        "name": "Philadelphia Phillies 1, Miami Marlins 0",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973893,
-        "name": "Philadelphia Phillies 1, Miami Marlins 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973894,
-        "name": "Philadelphia Phillies 1, Miami Marlins 2",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973895,
-        "name": "Philadelphia Phillies 1, Miami Marlins 3",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973896,
-        "name": "Philadelphia Phillies 1, Miami Marlins 4",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973897,
-        "name": "Philadelphia Phillies 1, Miami Marlins 5",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973898,
-        "name": "Philadelphia Phillies 1, Miami Marlins 6",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973899,
-        "name": "Philadelphia Phillies 1, Miami Marlins 7",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973900,
-        "name": "Philadelphia Phillies 2, Miami Marlins 0",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973901,
-        "name": "Philadelphia Phillies 2, Miami Marlins 1",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973902,
-        "name": "Philadelphia Phillies 2, Miami Marlins 2",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973903,
-        "name": "Philadelphia Phillies 2, Miami Marlins 3",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973904,
-        "name": "Philadelphia Phillies 2, Miami Marlins 4",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973905,
-        "name": "Philadelphia Phillies 2, Miami Marlins 5",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973906,
-        "name": "Philadelphia Phillies 2, Miami Marlins 6",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973907,
-        "name": "Philadelphia Phillies 2, Miami Marlins 7",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973908,
-        "name": "Philadelphia Phillies 3, Miami Marlins 0",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973909,
-        "name": "Philadelphia Phillies 3, Miami Marlins 1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973910,
-        "name": "Philadelphia Phillies 3, Miami Marlins 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973911,
-        "name": "Philadelphia Phillies 3, Miami Marlins 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973912,
-        "name": "Philadelphia Phillies 3, Miami Marlins 4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973913,
-        "name": "Philadelphia Phillies 3, Miami Marlins 5",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973914,
-        "name": "Philadelphia Phillies 3, Miami Marlins 6",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973915,
-        "name": "Philadelphia Phillies 3, Miami Marlins 7",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973916,
-        "name": "Philadelphia Phillies 4, Miami Marlins 0",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973917,
-        "name": "Philadelphia Phillies 4, Miami Marlins 1",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973918,
-        "name": "Philadelphia Phillies 4, Miami Marlins 2",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973919,
-        "name": "Philadelphia Phillies 4, Miami Marlins 3",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973920,
-        "name": "Philadelphia Phillies 4, Miami Marlins 4",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973921,
-        "name": "Philadelphia Phillies 4, Miami Marlins 5",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973922,
-        "name": "Philadelphia Phillies 4, Miami Marlins 6",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973923,
-        "name": "Philadelphia Phillies 4, Miami Marlins 7",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973924,
-        "name": "Philadelphia Phillies 5, Miami Marlins 0",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973925,
-        "name": "Philadelphia Phillies 5, Miami Marlins 1",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973926,
-        "name": "Philadelphia Phillies 5, Miami Marlins 2",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973927,
-        "name": "Philadelphia Phillies 5, Miami Marlins 3",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973928,
-        "name": "Philadelphia Phillies 5, Miami Marlins 4",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973929,
-        "name": "Philadelphia Phillies 5, Miami Marlins 5",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973930,
-        "name": "Philadelphia Phillies 5, Miami Marlins 6",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973931,
-        "name": "Philadelphia Phillies 5, Miami Marlins 7",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973932,
-        "name": "Philadelphia Phillies 6, Miami Marlins 0",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973933,
-        "name": "Philadelphia Phillies 6, Miami Marlins 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973934,
-        "name": "Philadelphia Phillies 6, Miami Marlins 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973935,
-        "name": "Philadelphia Phillies 6, Miami Marlins 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973936,
-        "name": "Philadelphia Phillies 6, Miami Marlins 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973937,
-        "name": "Philadelphia Phillies 6, Miami Marlins 5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973938,
-        "name": "Philadelphia Phillies 6, Miami Marlins 6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973939,
-        "name": "Philadelphia Phillies 6, Miami Marlins 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973940,
-        "name": "Philadelphia Phillies 7, Miami Marlins 0",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973941,
-        "name": "Philadelphia Phillies 7, Miami Marlins 1",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973942,
-        "name": "Philadelphia Phillies 7, Miami Marlins 2",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973943,
-        "name": "Philadelphia Phillies 7, Miami Marlins 3",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973944,
-        "name": "Philadelphia Phillies 7, Miami Marlins 4",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973945,
-        "name": "Philadelphia Phillies 7, Miami Marlins 5",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973946,
-        "name": "Philadelphia Phillies 7, Miami Marlins 6",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1610973947,
-        "name": "Philadelphia Phillies 7, Miami Marlins 7",
-        "order": 0,
-        "rotation": 967
+        "amount": 3000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -2.5,
+        "price": 207
+      },
+      {
+        "designation": "away",
+        "points": 2.5,
+        "price": -256
       }
     ],
-    "rotation": 905,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427198791
+    "status": "open",
+    "type": "spread",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976689,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976690,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -3.0,
+        "price": 280
       },
       {
-        "alignment": "neutral",
-        "id": 1610976691,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "away",
+        "points": 3.0,
+        "price": -379
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Nick Castellanos (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202531
+    "status": "open",
+    "type": "spread",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976692,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;7.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976693,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.0,
+        "price": -112
       },
       {
-        "alignment": "neutral",
-        "id": 1610976694,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 7.0,
+        "price": -100
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "J.T. Realmuto (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202531
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976698,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976699,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -706
       },
       {
-        "alignment": "neutral",
-        "id": 1610976700,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 3.5,
+        "price": 470
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Max Kepler (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202531
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976701,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976702,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": -209
       },
       {
-        "alignment": "neutral",
-        "id": 1610976703,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 5.5,
+        "price": 181
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Trea Turner (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202531
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976704,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976705,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.0,
+        "price": -181
       },
       {
-        "alignment": "neutral",
-        "id": 1610976706,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 6.0,
+        "price": 159
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Edmundo Sosa (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202531
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976707,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;6.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976708,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 6.5,
+        "price": -144
       },
       {
-        "alignment": "neutral",
-        "id": 1610976709,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 6.5,
+        "price": 127
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Cristopher Sánchez (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 427202531
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976710,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976711,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.5,
+        "price": 115
       },
       {
-        "alignment": "neutral",
-        "id": 1610976712,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 7.5,
+        "price": -130
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Cristopher Sánchez (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 427202531
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976713,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976714,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": 139
       },
       {
-        "alignment": "neutral",
-        "id": 1610976715,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 8.0,
+        "price": -158
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Cristopher Sánchez (Earned Runs)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 427202531
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976716,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976717,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": 159
       },
       {
-        "alignment": "neutral",
-        "id": 1610976718,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 8.5,
+        "price": -181
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Cristopher Sánchez (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 427202531
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976719,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976720,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 2250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610784777,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.5,
+        "price": 314
       },
       {
-        "alignment": "neutral",
-        "id": 1610976721,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 10.5,
+        "price": -419
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Kyle Schwarber (Home Runs)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HomeRuns",
-    "version": 427202549
+    "status": "open",
+    "type": "total",
+    "version": 3151516706
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976722,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976723,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610798661,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610798662,
+        "price": -109
       },
       {
-        "alignment": "neutral",
-        "id": 1610976724,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "participantId": 1610798663,
+        "price": -107
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Kyle Schwarber (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054277124
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976725,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;24.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976726,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976127,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 24.0,
+        "price": -111
       },
       {
-        "alignment": "neutral",
-        "id": 1610976727,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "designation": "under",
+        "points": 24.0,
+        "price": -105
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Nick Fortes (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "status": "open",
+    "type": "total",
+    "version": 3151495350
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976728,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976729,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976128,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976129,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1610976730,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "participantId": 1610976130,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Alec Bohm (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976731,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976732,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976131,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976132,
+        "price": 1063
       },
       {
-        "alignment": "neutral",
-        "id": 1610976733,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976133,
+        "price": 638
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976134,
+        "price": 483
+      },
+      {
+        "participantId": 1610976135,
+        "price": 442
+      },
+      {
+        "participantId": 1610976136,
+        "price": 472
+      },
+      {
+        "participantId": 1610976137,
+        "price": 559
+      },
+      {
+        "participantId": 1610976138,
+        "price": 706
+      },
+      {
+        "participantId": 1610976139,
+        "price": 923
+      },
+      {
+        "participantId": 1610976140,
+        "price": 558
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Edward Cabrera (Total Strikeouts)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Strikeouts",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976734,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976735,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976141,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976142,
+        "price": 110
       },
       {
-        "alignment": "neutral",
-        "id": 1610976736,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "participantId": 1610976143,
+        "price": -129
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Edward Cabrera (Hits Allowed)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "HitsAllowed",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976737,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976738,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976144,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976145,
+        "price": 684
       },
       {
-        "alignment": "neutral",
-        "id": 1610976739,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976146,
+        "price": 414
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976147,
+        "price": 390
+      },
+      {
+        "participantId": 1610976148,
+        "price": 440
+      },
+      {
+        "participantId": 1610976149,
+        "price": 538
+      },
+      {
+        "participantId": 1610976150,
+        "price": 687
+      },
+      {
+        "participantId": 1610976151,
+        "price": 907
+      },
+      {
+        "participantId": 1610976152,
+        "price": 1221
+      },
+      {
+        "participantId": 1610976153,
+        "price": 859
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Edward Cabrera (Earned Runs)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "EarnedRuns",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976740,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976741,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976154,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976160,
+        "price": 463
       },
       {
-        "alignment": "neutral",
-        "id": 1610976742,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976155,
+        "price": 525
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976156,
+        "price": 270
+      },
+      {
+        "participantId": 1610976157,
+        "price": 1836
+      },
+      {
+        "participantId": 1610976158,
+        "price": 377
+      },
+      {
+        "participantId": 1610976159,
+        "price": 235
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Edward Cabrera (Pitching Outs)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "PitchingOuts",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976743,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976744,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976161,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976162,
+        "price": 3939
       },
       {
-        "alignment": "neutral",
-        "id": 1610976745,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976163,
+        "price": 3935
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976164,
+        "price": 4391
+      },
+      {
+        "participantId": 1610976165,
+        "price": 5328
+      },
+      {
+        "participantId": 1610976166,
+        "price": 6575
+      },
+      {
+        "participantId": 1610976167,
+        "price": 8313
+      },
+      {
+        "participantId": 1610976169,
+        "price": 3004
+      },
+      {
+        "participantId": 1610976170,
+        "price": 2368
+      },
+      {
+        "participantId": 1610976171,
+        "price": 2755
+      },
+      {
+        "participantId": 1610976172,
+        "price": 3336
+      },
+      {
+        "participantId": 1610976173,
+        "price": 4273
+      },
+      {
+        "participantId": 1610976174,
+        "price": 5535
+      },
+      {
+        "participantId": 1610976175,
+        "price": 7229
+      },
+      {
+        "participantId": 1610976176,
+        "price": 3159
+      },
+      {
+        "participantId": 1610976177,
+        "price": 1582
+      },
+      {
+        "participantId": 1610976178,
+        "price": 2167
+      },
+      {
+        "participantId": 1610976179,
+        "price": 2710
+      },
+      {
+        "participantId": 1610976180,
+        "price": 3452
+      },
+      {
+        "participantId": 1610976181,
+        "price": 4568
+      },
+      {
+        "participantId": 1610976182,
+        "price": 6086
+      },
+      {
+        "participantId": 1610976183,
+        "price": 3263
+      },
+      {
+        "participantId": 1610976184,
+        "price": 2100
+      },
+      {
+        "participantId": 1610976185,
+        "price": 1413
+      },
+      {
+        "participantId": 1610976186,
+        "price": 2455
+      },
+      {
+        "participantId": 1610976187,
+        "price": 3178
+      },
+      {
+        "participantId": 1610976188,
+        "price": 4189
+      },
+      {
+        "participantId": 1610976189,
+        "price": 5671
+      },
+      {
+        "participantId": 1610976190,
+        "price": 3631
+      },
+      {
+        "participantId": 1610976191,
+        "price": 2363
+      },
+      {
+        "participantId": 1610976192,
+        "price": 2207
+      },
+      {
+        "participantId": 1610976193,
+        "price": 1630
+      },
+      {
+        "participantId": 1610976194,
+        "price": 3150
+      },
+      {
+        "participantId": 1610976195,
+        "price": 4182
+      },
+      {
+        "participantId": 1610976196,
+        "price": 5616
+      },
+      {
+        "participantId": 1610976197,
+        "price": 4236
+      },
+      {
+        "participantId": 1610976198,
+        "price": 2800
+      },
+      {
+        "participantId": 1610976199,
+        "price": 2614
+      },
+      {
+        "participantId": 1610976200,
+        "price": 2814
+      },
+      {
+        "participantId": 1610976201,
+        "price": 2146
+      },
+      {
+        "participantId": 1610976202,
+        "price": 4392
+      },
+      {
+        "participantId": 1610976203,
+        "price": 5883
+      },
+      {
+        "participantId": 1610976204,
+        "price": 5100
+      },
+      {
+        "participantId": 1610976205,
+        "price": 3447
+      },
+      {
+        "participantId": 1610976206,
+        "price": 3220
+      },
+      {
+        "participantId": 1610976207,
+        "price": 3444
+      },
+      {
+        "participantId": 1610976208,
+        "price": 3962
+      },
+      {
+        "participantId": 1610976209,
+        "price": 3073
+      },
+      {
+        "participantId": 1610976210,
+        "price": 6430
+      },
+      {
+        "participantId": 1610976211,
+        "price": 6227
+      },
+      {
+        "participantId": 1610976212,
+        "price": 4293
+      },
+      {
+        "participantId": 1610976213,
+        "price": 4094
+      },
+      {
+        "participantId": 1610976214,
+        "price": 4365
+      },
+      {
+        "participantId": 1610976215,
+        "price": 4942
+      },
+      {
+        "participantId": 1610976216,
+        "price": 5857
+      },
+      {
+        "participantId": 1610976217,
+        "price": 4620
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Dane Myers (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054277092
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976746,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976747,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976218,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976219,
+        "price": -166
       },
       {
-        "alignment": "neutral",
-        "id": 1610976748,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "participantId": 1610976220,
+        "price": 141
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Brandon Marsh (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976749,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976750,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976221,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976222,
+        "price": 118
       },
       {
-        "alignment": "neutral",
-        "id": 1610976751,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "participantId": 1610976223,
+        "price": -139
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Kyle Stowers (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976752,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976753,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976224,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976225,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1610976754,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "participantId": 1610976226,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Xavier Edwards (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline"
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976755,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976756,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976227,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976228,
+        "price": -103
       },
       {
-        "alignment": "neutral",
-        "id": 1610976757,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
+        "participantId": 1610976229,
+        "price": -113
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Otto Lopez (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976758,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976759,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976230,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976231,
+        "price": 471
       },
       {
-        "alignment": "neutral",
-        "id": 1610976760,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976232,
+        "price": 296
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976233,
+        "price": 272
+      },
+      {
+        "participantId": 1610976234,
+        "price": 145
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Eric Wagaman (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976761,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976762,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976235,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976236,
+        "price": 555
       },
       {
-        "alignment": "neutral",
-        "id": 1610976763,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976237,
+        "price": 723
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976238,
+        "price": 959
+      },
+      {
+        "participantId": 1610976239,
+        "price": 1315
+      },
+      {
+        "participantId": 1610976240,
+        "price": 900
+      },
+      {
+        "participantId": 1610976241,
+        "price": 335
+      },
+      {
+        "participantId": 1610976242,
+        "price": 599
+      },
+      {
+        "participantId": 1610976243,
+        "price": 726
+      },
+      {
+        "participantId": 1610976244,
+        "price": 918
+      },
+      {
+        "participantId": 1610976245,
+        "price": 476
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Bryson Stott (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976764,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976765,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976246,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976247,
+        "price": 318
       },
       {
-        "alignment": "neutral",
-        "id": 1610976766,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976248,
+        "price": 627
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976249,
+        "price": 1272
+      },
+      {
+        "participantId": 1610976250,
+        "price": 1897
+      },
+      {
+        "participantId": 1610976251,
+        "price": 197
+      },
+      {
+        "participantId": 1610976252,
+        "price": 433
+      },
+      {
+        "participantId": 1610976253,
+        "price": 782
+      },
+      {
+        "participantId": 1610976254,
+        "price": 1000
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Connor Norby (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976767,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976768,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976255,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976256,
+        "price": 1724
       },
       {
-        "alignment": "neutral",
-        "id": 1610976769,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976257,
+        "price": 1772
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976258,
+        "price": 733
+      },
+      {
+        "participantId": 1610976259,
+        "price": 918
+      },
+      {
+        "participantId": 1610976260,
+        "price": 534
+      },
+      {
+        "participantId": 1610976261,
+        "price": 749
+      },
+      {
+        "participantId": 1610976262,
+        "price": 540
+      },
+      {
+        "participantId": 1610976263,
+        "price": 805
+      },
+      {
+        "participantId": 1610976264,
+        "price": 673
+      },
+      {
+        "participantId": 1610976265,
+        "price": 1028
+      },
+      {
+        "participantId": 1610976266,
+        "price": 949
+      },
+      {
+        "participantId": 1610976267,
+        "price": 1452
+      },
+      {
+        "participantId": 1610976268,
+        "price": 1430
+      },
+      {
+        "participantId": 1610976269,
+        "price": 2165
+      },
+      {
+        "participantId": 1610976270,
+        "price": 1100
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Heriberto Hernandez (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610976770,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 14,
-      "matchupCountSE": 14,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 29,
-        "matchupCountSE": 29,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610778391,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Miami Marlins",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Philadelphia Phillies",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-19T22:40:00+00:00"
-    },
-    "parentId": 1610778391,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610976771,
-        "name": "Over",
-        "order": 0,
-        "rotation": 906
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976271,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610976272,
+        "price": 469
       },
       {
-        "alignment": "neutral",
-        "id": 1610976772,
-        "name": "Under",
-        "order": 0,
-        "rotation": 907
-      }
-    ],
-    "periods": [
+        "participantId": 1610976273,
+        "price": 227
+      },
       {
-        "cutoffAt": "2025-06-19T22:40:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1610976274,
+        "price": 207
+      },
+      {
+        "participantId": 1610976275,
+        "price": 425
+      },
+      {
+        "participantId": 1610976276,
+        "price": 599
       }
     ],
-    "rotation": 906,
-    "special": {
-      "category": "Player Props",
-      "description": "Agustín Ramírez (Total Bases)(must start)"
-    },
-    "startTime": "2025-06-19T22:40:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "TotalBases",
-    "version": 427202549
+    "type": "moneyline",
+    "version": 5054225973
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976277,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976278,
+        "price": 555
+      },
+      {
+        "participantId": 1610976279,
+        "price": 823
+      },
+      {
+        "participantId": 1610976280,
+        "price": 604
+      },
+      {
+        "participantId": 1610976281,
+        "price": 393
+      },
+      {
+        "participantId": 1610976282,
+        "price": 436
+      },
+      {
+        "participantId": 1610976283,
+        "price": 554
+      },
+      {
+        "participantId": 1610976284,
+        "price": 276
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054225973
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976285,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976288,
+        "price": 471
+      },
+      {
+        "participantId": 1610976289,
+        "price": 457
+      },
+      {
+        "participantId": 1610976290,
+        "price": 501
+      },
+      {
+        "participantId": 1610976291,
+        "price": 605
+      },
+      {
+        "participantId": 1610976292,
+        "price": 740
+      },
+      {
+        "participantId": 1610976293,
+        "price": 934
+      },
+      {
+        "participantId": 1610976294,
+        "price": 1206
+      },
+      {
+        "participantId": 1610976295,
+        "price": 1584
+      },
+      {
+        "participantId": 1610976296,
+        "price": 2094
+      },
+      {
+        "participantId": 1610976297,
+        "price": 1548
+      },
+      {
+        "participantId": 1610976286,
+        "price": 1043
+      },
+      {
+        "participantId": 1610976287,
+        "price": 588
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976298,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976299,
+        "price": 195
+      },
+      {
+        "participantId": 1610976300,
+        "price": 224
+      },
+      {
+        "participantId": 1610976301,
+        "price": 341
+      },
+      {
+        "participantId": 1610976302,
+        "price": 335
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976303,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976304,
+        "price": 219
+      },
+      {
+        "participantId": 1610976305,
+        "price": 235
+      },
+      {
+        "participantId": 1610976306,
+        "price": 388
+      },
+      {
+        "participantId": 1610976307,
+        "price": 616
+      },
+      {
+        "participantId": 1610976308,
+        "price": 933
+      },
+      {
+        "participantId": 1610976309,
+        "price": 738
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976310,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976311,
+        "price": 342
+      },
+      {
+        "participantId": 1610976312,
+        "price": 322
+      },
+      {
+        "participantId": 1610976313,
+        "price": 376
+      },
+      {
+        "participantId": 1610976314,
+        "price": 485
+      },
+      {
+        "participantId": 1610976315,
+        "price": 660
+      },
+      {
+        "participantId": 1610976316,
+        "price": 394
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610976317,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1610976341,
+        "price": 2510
+      },
+      {
+        "participantId": 1610976342,
+        "price": 2474
+      },
+      {
+        "participantId": 1610976343,
+        "price": 2858
+      },
+      {
+        "participantId": 1610976344,
+        "price": 3287
+      },
+      {
+        "participantId": 1610976345,
+        "price": 4022
+      },
+      {
+        "participantId": 1610976349,
+        "price": 3552
+      },
+      {
+        "participantId": 1610976350,
+        "price": 3567
+      },
+      {
+        "participantId": 1610976351,
+        "price": 3983
+      },
+      {
+        "participantId": 1610976352,
+        "price": 4741
+      },
+      {
+        "participantId": 1610976358,
+        "price": 4991
+      },
+      {
+        "participantId": 1610976318,
+        "price": 1101
+      },
+      {
+        "participantId": 1610976319,
+        "price": 1259
+      },
+      {
+        "participantId": 1610976320,
+        "price": 1555
+      },
+      {
+        "participantId": 1610976321,
+        "price": 2033
+      },
+      {
+        "participantId": 1610976322,
+        "price": 2774
+      },
+      {
+        "participantId": 1610976323,
+        "price": 3791
+      },
+      {
+        "participantId": 1610976325,
+        "price": 1264
+      },
+      {
+        "participantId": 1610976326,
+        "price": 1168
+      },
+      {
+        "participantId": 1610976327,
+        "price": 1292
+      },
+      {
+        "participantId": 1610976328,
+        "price": 1609
+      },
+      {
+        "participantId": 1610976329,
+        "price": 2141
+      },
+      {
+        "participantId": 1610976330,
+        "price": 2836
+      },
+      {
+        "participantId": 1610976331,
+        "price": 3870
+      },
+      {
+        "participantId": 1610976333,
+        "price": 1771
+      },
+      {
+        "participantId": 1610976334,
+        "price": 1728
+      },
+      {
+        "participantId": 1610976335,
+        "price": 1880
+      },
+      {
+        "participantId": 1610976336,
+        "price": 2287
+      },
+      {
+        "participantId": 1610976337,
+        "price": 2916
+      },
+      {
+        "participantId": 1610976338,
+        "price": 3810
+      }
+    ],
+    "type": "moneyline",
+    "version": 5054277124
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979343,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979344,
+        "points": 0.5,
+        "price": -157
+      },
+      {
+        "participantId": 1610979345,
+        "points": 0.5,
+        "price": 118
+      }
+    ],
+    "type": "total",
+    "version": 5054326537
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979346,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979347,
+        "points": 1.5,
+        "price": 133
+      },
+      {
+        "participantId": 1610979348,
+        "points": 1.5,
+        "price": -179
+      }
+    ],
+    "type": "total",
+    "version": 5054326369
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979349,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979350,
+        "points": 0.5,
+        "price": -147
+      },
+      {
+        "participantId": 1610979351,
+        "points": 0.5,
+        "price": 111
+      }
+    ],
+    "type": "total",
+    "version": 5054326369
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979352,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979353,
+        "points": 0.5,
+        "price": -126
+      },
+      {
+        "participantId": 1610979354,
+        "points": 0.5,
+        "price": -105
+      }
+    ],
+    "type": "total",
+    "version": 5054326369
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979355,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979356,
+        "points": 5.5,
+        "price": -108
+      },
+      {
+        "participantId": 1610979357,
+        "points": 5.5,
+        "price": -122
+      }
+    ],
+    "type": "total",
+    "version": 5054326369
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979358,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979360,
+        "points": 4.5,
+        "price": -100
+      },
+      {
+        "participantId": 1610979359,
+        "points": 4.5,
+        "price": -132
+      }
+    ],
+    "type": "total",
+    "version": 5054326369
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979361,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979362,
+        "points": 2.5,
+        "price": 105
+      },
+      {
+        "participantId": 1610979363,
+        "points": 2.5,
+        "price": -139
+      }
+    ],
+    "type": "total",
+    "version": 5054326269
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979364,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979365,
+        "points": 16.5,
+        "price": -114
+      },
+      {
+        "participantId": 1610979366,
+        "points": 16.5,
+        "price": -116
+      }
+    ],
+    "type": "total",
+    "version": 5054325331
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979367,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979368,
+        "points": 0.5,
+        "price": -147
+      },
+      {
+        "participantId": 1610979369,
+        "points": 0.5,
+        "price": 111
+      }
+    ],
+    "type": "total",
+    "version": 5054326369
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979370,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979371,
+        "points": 1.5,
+        "price": 139
+      },
+      {
+        "participantId": 1610979372,
+        "points": 1.5,
+        "price": -187
+      }
+    ],
+    "type": "total",
+    "version": 5054326269
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979373,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979374,
+        "points": 0.5,
+        "price": -172
+      },
+      {
+        "participantId": 1610979375,
+        "points": 0.5,
+        "price": 128
+      }
+    ],
+    "type": "total",
+    "version": 5054326369
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979376,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979377,
+        "points": 0.5,
+        "price": -150
+      },
+      {
+        "participantId": 1610979378,
+        "points": 0.5,
+        "price": 113
+      }
+    ],
+    "type": "total",
+    "version": 5054326537
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610979379,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610979380,
+        "points": 0.5,
+        "price": -183
+      },
+      {
+        "participantId": 1610979381,
+        "points": 0.5,
+        "price": 136
+      }
+    ],
+    "type": "total",
+    "version": 5054326369
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980545,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980546,
+        "points": 0.5,
+        "price": -135
+      },
+      {
+        "participantId": 1610980547,
+        "points": 0.5,
+        "price": 102
+      }
+    ],
+    "type": "total",
+    "version": 5054326698
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980548,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980549,
+        "points": 0.5,
+        "price": -145
+      },
+      {
+        "participantId": 1610980550,
+        "points": 0.5,
+        "price": 109
+      }
+    ],
+    "type": "total",
+    "version": 5054326698
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980551,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980552,
+        "points": 0.5,
+        "price": -186
+      },
+      {
+        "participantId": 1610980553,
+        "points": 0.5,
+        "price": 139
+      }
+    ],
+    "type": "total",
+    "version": 5054326698
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980554,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980555,
+        "points": 0.5,
+        "price": 364
+      },
+      {
+        "participantId": 1610980556,
+        "points": 0.5,
+        "price": -585
+      }
+    ],
+    "type": "total",
+    "version": 5054326698
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980557,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980558,
+        "points": 1.5,
+        "price": 134
+      },
+      {
+        "participantId": 1610980559,
+        "points": 1.5,
+        "price": -179
+      }
+    ],
+    "type": "total",
+    "version": 5054326698
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980560,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980561,
+        "points": 5.5,
+        "price": -139
+      },
+      {
+        "participantId": 1610980562,
+        "points": 5.5,
+        "price": 105
+      }
+    ],
+    "type": "total",
+    "version": 5054326698
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980563,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980565,
+        "points": 5.5,
+        "price": -141
+      },
+      {
+        "participantId": 1610980564,
+        "points": 5.5,
+        "price": 106
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980566,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980567,
+        "points": 1.5,
+        "price": -162
+      },
+      {
+        "participantId": 1610980568,
+        "points": 1.5,
+        "price": 121
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980569,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980570,
+        "points": 19.5,
+        "price": -120
+      },
+      {
+        "participantId": 1610980571,
+        "points": 19.5,
+        "price": -110
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980572,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980573,
+        "points": 0.5,
+        "price": -159
+      },
+      {
+        "participantId": 1610980574,
+        "points": 0.5,
+        "price": 119
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980575,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980576,
+        "points": 0.5,
+        "price": -132
+      },
+      {
+        "participantId": 1610980577,
+        "points": 0.5,
+        "price": -100
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980578,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980579,
+        "points": 0.5,
+        "price": -171
+      },
+      {
+        "participantId": 1610980580,
+        "points": 0.5,
+        "price": 128
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980581,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980582,
+        "points": 1.5,
+        "price": 135
+      },
+      {
+        "participantId": 1610980583,
+        "points": 1.5,
+        "price": -182
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-19T20:05:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610980584,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610980585,
+        "points": 1.5,
+        "price": 125
+      },
+      {
+        "participantId": 1610980586,
+        "points": 1.5,
+        "price": -166
+      }
+    ],
+    "type": "total"
   }
 ]
