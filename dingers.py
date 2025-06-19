@@ -1297,12 +1297,17 @@ def writeMGMSel(date):
 	data = nested_dict()
 	events = driver.find_elements(By.CSS_SELECTOR, ".event-item")
 	for event in events:
-		teams = event.find_elements(By.CSS_SELECTOR, ".participant")
+		try:
+			teams = event.find_elements(By.CSS_SELECTOR, ".participant")
+		except:
+			continue
 		if not teams:
 			continue
 		away = convertMGMMLBTeam(teams[0].text.strip())
 		home = convertMGMMLBTeam(teams[1].text.strip())
 		game = f"{away} @ {home}"
+
+		print(game)
 
 		if game in seen:
 			game = f"{away}-gm2 @ {home}-gm2"
