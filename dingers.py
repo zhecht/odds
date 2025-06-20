@@ -576,7 +576,7 @@ def writeCirca(date):
 
 		l,r = 520,585
 		if pageIdx == 1:
-			l,r = 560,610
+			l,r = 560,620
 			pass
 		oversImg = img.crop((l,top,r,bottom))
 
