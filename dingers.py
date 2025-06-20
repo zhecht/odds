@@ -1268,7 +1268,7 @@ def writeMGMSel(date):
 			except:
 				continue
 
-	for div in divs:
+	for div in divs[1:]:
 		try:
 			t = div.find_element(By.CSS_SELECTOR, ".starting-time")
 			if not t:
