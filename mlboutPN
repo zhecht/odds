@@ -1,2142 +1,6588 @@
 [
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;m",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": 10,
+    "hasAltSpread": true,
+    "hasAltTotal": true,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610853476,
+    "isBetshareEnabled": false,
+    "isFeatured": true,
+    "isHighlighted": true,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": null,
+    "parentId": null,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "home",
-        "price": 277
+        "alignment": "home",
+        "name": "Minnesota Twins",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          },
+          {
+            "period": 1
+          },
+          {
+            "period": 3
+          }
+        ]
       },
       {
-        "designation": "away",
-        "price": 384
-      },
-      {
-        "designation": "draw",
-        "price": -152
+        "alignment": "away",
+        "name": "Milwaukee Brewers",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          },
+          {
+            "period": 1
+          },
+          {
+            "period": 3
+          }
+        ]
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3153198467
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "hasMoneyline": false,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 1,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 3,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 54,
+    "type": "matchup",
+    "units": "Regular",
+    "version": 605201222
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;s;0.0",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610864600,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": -146
+        "alignment": "neutral",
+        "id": 1610864601,
+        "name": "Milwaukee Brewers",
+        "order": 0,
+        "rotation": 2359
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": 124
+        "alignment": "neutral",
+        "id": 1610864602,
+        "name": "Minnesota Twins",
+        "order": 0,
+        "rotation": 2360
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198467
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 2359,
+    "special": {
+      "category": "Next Run",
+      "description": "Team To Score 1st Run"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "1st Run",
+    "version": 427410906
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;ou;0.5",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": 11,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044036,
+    "isBetshareEnabled": false,
+    "isFeatured": true,
+    "isHighlighted": true,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "over",
-        "points": 0.5,
-        "price": 116
+        "alignment": "home",
+        "name": "Minnesota Twins  (Hits+Runs+Errors)",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       },
       {
-        "designation": "under",
-        "points": 0.5,
-        "price": -136
+        "alignment": "away",
+        "name": "Milwaukee Brewers  (Hits+Runs+Errors)",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198467
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "hasMoneyline": false,
+        "hasSpread": false,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 9921,
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "matchup",
+    "units": "Hits + Runs + Errors",
+    "version": 605107483
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044037,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "price": -165
+        "alignment": "neutral",
+        "id": 1611044038,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "away",
-        "price": 148
+        "alignment": "neutral",
+        "id": 1611044039,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044040,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044041,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044042,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044043,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044044,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044045,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044046,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 929
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044047,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 930
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044048,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 931
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044049,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 932
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044050,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 933
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044051,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 934
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044052,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 935
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044053,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 936
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044054,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 937
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044055,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 938
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044056,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 939
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044057,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 940
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044058,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 941
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044059,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 942
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044060,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 943
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044061,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 944
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044062,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 945
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044063,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 946
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044064,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 947
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044065,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 948
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044066,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 949
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044067,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 950
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044068,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 951
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044069,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044070,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044071,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044072,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044073,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044074,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044075,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044076,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044077,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044078,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044079,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044080,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044081,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044082,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044083,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 966
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044084,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 967
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044085,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 968
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044086,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 969
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044087,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 970
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044088,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 971
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044089,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044090,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 973
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044091,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 974
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044092,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 975
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044093,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 976
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;3.5;home",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044094,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": -138
+        "alignment": "neutral",
+        "id": 1611044095,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": 118
+        "alignment": "neutral",
+        "id": 1611044096,
+        "name": "Even",
+        "order": 0,
+        "rotation": 922
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Runs Odd/Even"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;3.5;away",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044097,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": 120
+        "alignment": "neutral",
+        "id": 1611044098,
+        "name": "Milwaukee Brewers & Over 4.5",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": -140
+        "alignment": "neutral",
+        "id": 1611044099,
+        "name": "Minnesota Twins & Over 4.5",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044100,
+        "name": "Draw & Over 4.5",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044101,
+        "name": "Milwaukee Brewers & Under 4.5",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044102,
+        "name": "Minnesota Twins & Under 4.5",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044103,
+        "name": "Draw & Under 4.5",
+        "order": 0,
+        "rotation": 926
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Double Result",
+      "description": "1st Half Winner/Total 4.5 Runs"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;s;-1.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044104,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.5,
-        "price": 137
+        "alignment": "neutral",
+        "id": 1611044105,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "away",
-        "points": 1.5,
-        "price": -155
+        "alignment": "neutral",
+        "id": 1611044106,
+        "name": "Even",
+        "order": 0,
+        "rotation": 922
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Minnesota Twins Runs Odd/Even"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044107,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.5,
-        "price": -302
+        "alignment": "neutral",
+        "id": 1611044108,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "away",
-        "points": -1.5,
-        "price": 233
+        "alignment": "neutral",
+        "id": 1611044109,
+        "name": "Even",
+        "order": 0,
+        "rotation": 922
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Minnesota Twins Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044110,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": -247
+        "alignment": "neutral",
+        "id": 1611044113,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": 201
+        "alignment": "neutral",
+        "id": 1611044114,
+        "name": "Even",
+        "order": 0,
+        "rotation": 922
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-1.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044115,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": -112
+        "alignment": "neutral",
+        "id": 1611044116,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -103
+        "alignment": "neutral",
+        "id": 1611044117,
+        "name": "Even",
+        "order": 0,
+        "rotation": 922
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-2.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044118,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -2.0,
-        "price": 183
+        "alignment": "neutral",
+        "id": 1611044119,
+        "name": "0",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "away",
-        "points": 2.0,
-        "price": -217
+        "alignment": "neutral",
+        "id": 1611044120,
+        "name": "1",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044121,
+        "name": "2",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044122,
+        "name": "3",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044123,
+        "name": "4",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044124,
+        "name": "5",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044125,
+        "name": "6",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044126,
+        "name": "7",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044127,
+        "name": "8+",
+        "order": 0,
+        "rotation": 929
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Minnesota Twins Exact Total Runs"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-2.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044128,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -2.5,
-        "price": 212
+        "alignment": "neutral",
+        "id": 1611044129,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "away",
-        "points": 2.5,
-        "price": -262
+        "alignment": "neutral",
+        "id": 1611044130,
+        "name": "Even",
+        "order": 0,
+        "rotation": 922
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-3.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044131,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -3.0,
-        "price": 287
+        "alignment": "neutral",
+        "id": 1611044132,
+        "name": "0",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "away",
-        "points": 3.0,
-        "price": -390
+        "alignment": "neutral",
+        "id": 1611044133,
+        "name": "1",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044134,
+        "name": "2",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044135,
+        "name": "3",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044136,
+        "name": "4",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044137,
+        "name": "5",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044138,
+        "name": "6",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044139,
+        "name": "7",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044140,
+        "name": "8+",
+        "order": 0,
+        "rotation": 929
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Exact Total Runs"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;7.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044141,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.5,
-        "price": 102
+        "alignment": "neutral",
+        "id": 1611044142,
+        "name": "Milwaukee Brewers & Over 8.5",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 7.5,
-        "price": -115
+        "alignment": "neutral",
+        "id": 1611044143,
+        "name": "Minnesota Twins & Over 8.5",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044144,
+        "name": "Milwaukee Brewers & Under 8.5",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044145,
+        "name": "Minnesota Twins & Under 8.5",
+        "order": 0,
+        "rotation": 924
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Double Result",
+      "description": "Winner/Total 8.5 Runs"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;4.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044146,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.5,
-        "price": -480
+        "alignment": "neutral",
+        "id": 1611044147,
+        "name": "Milwaukee Brewers By 1",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 4.5,
-        "price": 350
+        "alignment": "neutral",
+        "id": 1611044148,
+        "name": "Milwaukee Brewers By 2",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044149,
+        "name": "Milwaukee Brewers By 3",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044150,
+        "name": "Milwaukee Brewers By 4",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044151,
+        "name": "Milwaukee Brewers By 5+",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044152,
+        "name": "Minnesota Twins By 1",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044153,
+        "name": "Minnesota Twins By 2",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044154,
+        "name": "Minnesota Twins By 3",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044155,
+        "name": "Minnesota Twins By 4",
+        "order": 0,
+        "rotation": 929
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044156,
+        "name": "Minnesota Twins By 5+",
+        "order": 0,
+        "rotation": 930
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;6.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044157,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 6.0,
-        "price": -207
+        "alignment": "neutral",
+        "id": 1611044158,
+        "name": "Milwaukee Brewers By 1 - 2",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 6.0,
-        "price": 180
+        "alignment": "neutral",
+        "id": 1611044159,
+        "name": "Milwaukee Brewers By 3 - 4",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044160,
+        "name": "Milwaukee Brewers By 5 - 6",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044161,
+        "name": "Milwaukee Brewers By 7+",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044162,
+        "name": "Minnesota Twins By 1 - 2",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044163,
+        "name": "Minnesota Twins By 3 - 4",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044164,
+        "name": "Minnesota Twins By 5 - 6",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044165,
+        "name": "Minnesota Twins By 7+",
+        "order": 0,
+        "rotation": 928
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin Range"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;6.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044166,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 6.5,
-        "price": -163
+        "alignment": "neutral",
+        "id": 1611044167,
+        "name": "1",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 6.5,
-        "price": 144
+        "alignment": "neutral",
+        "id": 1611044168,
+        "name": "2",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044169,
+        "name": "3",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044170,
+        "name": "4",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044171,
+        "name": "5",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044172,
+        "name": "6",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044173,
+        "name": "7",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044174,
+        "name": "8",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044175,
+        "name": "9",
+        "order": 0,
+        "rotation": 929
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044176,
+        "name": "10",
+        "order": 0,
+        "rotation": 930
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044177,
+        "name": "11",
+        "order": 0,
+        "rotation": 931
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044178,
+        "name": "12",
+        "order": 0,
+        "rotation": 932
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044179,
+        "name": "13",
+        "order": 0,
+        "rotation": 933
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044180,
+        "name": "14",
+        "order": 0,
+        "rotation": 934
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044181,
+        "name": "15+",
+        "order": 0,
+        "rotation": 935
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;7.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044182,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.0,
-        "price": -129
+        "alignment": "neutral",
+        "id": 1611044183,
+        "name": "1 - 3",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 7.0,
-        "price": 114
+        "alignment": "neutral",
+        "id": 1611044184,
+        "name": "4 - 6",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044185,
+        "name": "7 - 9",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044186,
+        "name": "10 - 12",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044187,
+        "name": "13+",
+        "order": 0,
+        "rotation": 925
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;8.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044188,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 8.0,
-        "price": 124
+        "alignment": "neutral",
+        "id": 1611044189,
+        "name": "Milwaukee Brewers By 1",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 8.0,
-        "price": -140
+        "alignment": "neutral",
+        "id": 1611044190,
+        "name": "Milwaukee Brewers By 2",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044191,
+        "name": "Milwaukee Brewers By 3+",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044192,
+        "name": "Tie",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044193,
+        "name": "Minnesota Twins By 1",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044194,
+        "name": "Minnesota Twins By 2",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044195,
+        "name": "Minnesota Twins By 3+",
+        "order": 0,
+        "rotation": 927
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;8.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044196,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 8.5,
-        "price": 143
+        "alignment": "neutral",
+        "id": 1611044197,
+        "name": "0",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 8.5,
-        "price": -162
+        "alignment": "neutral",
+        "id": 1611044198,
+        "name": "1",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044199,
+        "name": "2",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044200,
+        "name": "3",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044201,
+        "name": "4",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044202,
+        "name": "5",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044203,
+        "name": "6",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044204,
+        "name": "7",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044205,
+        "name": "8",
+        "order": 0,
+        "rotation": 929
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044206,
+        "name": "9",
+        "order": 0,
+        "rotation": 930
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044207,
+        "name": "10",
+        "order": 0,
+        "rotation": 931
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044208,
+        "name": "11+",
+        "order": 0,
+        "rotation": 932
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;9.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044209,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 9.0,
-        "price": 192
+        "alignment": "neutral",
+        "id": 1611044210,
+        "name": "0 - 2",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 9.0,
-        "price": -222
+        "alignment": "neutral",
+        "id": 1611044211,
+        "name": "3 - 4",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044212,
+        "name": "5 - 6",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044213,
+        "name": "7+",
+        "order": 0,
+        "rotation": 924
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;11.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044214,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 11.5,
-        "price": 427
+        "alignment": "neutral",
+        "id": 1611044215,
+        "name": "0",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 11.5,
-        "price": -621
+        "alignment": "neutral",
+        "id": 1611044216,
+        "name": "1",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044217,
+        "name": "2",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044218,
+        "name": "3",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044219,
+        "name": "4",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044220,
+        "name": "5+",
+        "order": 0,
+        "rotation": 926
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;1.5;home",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044221,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 1.5,
-        "price": -154
+        "alignment": "neutral",
+        "id": 1611044222,
+        "name": "0",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 1.5,
-        "price": 126
+        "alignment": "neutral",
+        "id": 1611044223,
+        "name": "1",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044224,
+        "name": "2",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044225,
+        "name": "3",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044226,
+        "name": "4",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044227,
+        "name": "5+",
+        "order": 0,
+        "rotation": 926
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Minnesota Twins Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;1.5;away",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611044228,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 1.5,
-        "price": -103
+        "alignment": "neutral",
+        "id": 1611044229,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 921
       },
       {
-        "designation": "under",
-        "points": 1.5,
-        "price": -118
+        "alignment": "neutral",
+        "id": 1611044230,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044231,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044232,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044233,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044234,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044235,
+        "name": "Milwaukee Brewers 0, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044236,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044237,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 929
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044238,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 930
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044239,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 931
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044240,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 932
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044241,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 933
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044242,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 934
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044243,
+        "name": "Milwaukee Brewers 1, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 935
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044244,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 936
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044245,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 937
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044246,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 938
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044247,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 939
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044248,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 940
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044249,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 941
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044250,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 942
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044251,
+        "name": "Milwaukee Brewers 2, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 943
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044252,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 944
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044253,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 945
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044254,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 946
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044255,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 947
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044256,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 948
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044257,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 949
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044258,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 950
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044259,
+        "name": "Milwaukee Brewers 3, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 951
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044260,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044261,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044262,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044263,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044264,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044265,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044266,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044267,
+        "name": "Milwaukee Brewers 4, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044268,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044269,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044270,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044271,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044272,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044273,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044274,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 966
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044275,
+        "name": "Milwaukee Brewers 5, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 967
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044276,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 968
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044277,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 969
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044278,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 970
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044279,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 971
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044280,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044281,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 973
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044282,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 974
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044283,
+        "name": "Milwaukee Brewers 6, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 975
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044284,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 0",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044285,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 1",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044286,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 2",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044287,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 3",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044288,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 4",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044289,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 5",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044290,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 6",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611044291,
+        "name": "Milwaukee Brewers 7, Minnesota Twins 7",
+        "order": 0,
+        "rotation": 983
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 921,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score 1st Half"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427419656
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;s;0.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052306,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": -145
+        "alignment": "neutral",
+        "id": 1611052307,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": 126
+        "alignment": "neutral",
+        "id": 1611052308,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Jose Quintana (Total Strikeouts)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Strikeouts",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052309,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": -333
+        "alignment": "neutral",
+        "id": 1611052310,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": 252
+        "alignment": "neutral",
+        "id": 1611052311,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Jose Quintana (Hits Allowed)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HitsAllowed",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052312,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.5,
-        "price": -200
+        "alignment": "neutral",
+        "id": 1611052313,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "away",
-        "points": -0.5,
-        "price": 167
+        "alignment": "neutral",
+        "id": 1611052314,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Jose Quintana (Earned Runs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "EarnedRuns",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052315,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -0.5,
-        "price": 101
+        "alignment": "neutral",
+        "id": 1611052316,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "away",
-        "points": 0.5,
-        "price": -118
+        "alignment": "neutral",
+        "id": 1611052317,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Jose Quintana (Pitching Outs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "PitchingOuts",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052318,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": 141
+        "alignment": "neutral",
+        "id": 1611052319,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -170
+        "alignment": "neutral",
+        "id": 1611052320,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Christian Yelich (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;ou;4.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052321,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.0,
-        "price": 103
+        "alignment": "neutral",
+        "id": 1611052322,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "under",
-        "points": 4.0,
-        "price": -118
+        "alignment": "neutral",
+        "id": 1611052323,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Christian Yelich (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;3.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052324,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.0,
-        "price": -199
+        "alignment": "neutral",
+        "id": 1611052325,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "under",
-        "points": 3.0,
-        "price": 169
+        "alignment": "neutral",
+        "id": 1611052326,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Rhys Hoskins (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;3.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052327,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": -131
+        "alignment": "neutral",
+        "id": 1611052328,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": 114
+        "alignment": "neutral",
+        "id": 1611052329,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Rhys Hoskins (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;4.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052330,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.5,
-        "price": 134
+        "alignment": "neutral",
+        "id": 1611052331,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "under",
-        "points": 4.5,
-        "price": -155
+        "alignment": "neutral",
+        "id": 1611052332,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "William Contreras (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052333,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610858866,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.0,
-        "price": 179
+        "alignment": "neutral",
+        "id": 1611052334,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "under",
-        "points": 5.0,
-        "price": -211
+        "alignment": "neutral",
+        "id": 1611052335,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153198545
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "William Contreras (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052336,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610871217,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1610871218,
-        "price": -120
+        "alignment": "neutral",
+        "id": 1611052337,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "participantId": 1610871219,
-        "price": 103
+        "alignment": "neutral",
+        "id": 1611052338,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "type": "moneyline",
-    "version": 5057454151
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Brice Turang (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;24.5",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052339,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611046991,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 24.5,
-        "price": -106
+        "alignment": "neutral",
+        "id": 1611052340,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "designation": "under",
-        "points": 24.5,
-        "price": -110
+        "alignment": "neutral",
+        "id": 1611052341,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3153161596
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Simeon Woods Richardson (Total Strikeouts)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Strikeouts",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052342,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611046992,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611046993,
-        "price": -105
+        "alignment": "neutral",
+        "id": 1611052343,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "participantId": 1611046994,
-        "price": -111
+        "alignment": "neutral",
+        "id": 1611052344,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "type": "moneyline",
-    "version": 5057384507
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Simeon Woods Richardson (Hits Allowed)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HitsAllowed",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052345,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052346,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052347,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611046995,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611046996,
-        "price": 1126
-      },
-      {
-        "participantId": 1611046997,
-        "price": 668
-      },
-      {
-        "participantId": 1611046998,
-        "price": 500
-      },
-      {
-        "participantId": 1611046999,
-        "price": 448
-      },
-      {
-        "participantId": 1611047000,
-        "price": 471
-      },
-      {
-        "participantId": 1611047001,
-        "price": 543
-      },
-      {
-        "participantId": 1611047002,
-        "price": 678
-      },
-      {
-        "participantId": 1611047003,
-        "price": 883
-      },
-      {
-        "participantId": 1611047004,
-        "price": 543
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057397939
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Simeon Woods Richardson (Earned Runs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "EarnedRuns",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052348,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611047005,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611047006,
-        "price": 111
+        "alignment": "neutral",
+        "id": 1611052349,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "participantId": 1611047007,
-        "price": -130
+        "alignment": "neutral",
+        "id": 1611052350,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "type": "moneyline",
-    "version": 5057384507
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Sal Frelick (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430479
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052351,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052352,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052353,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047008,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047009,
-        "price": 738
-      },
-      {
-        "participantId": 1611047010,
-        "price": 445
-      },
-      {
-        "participantId": 1611047011,
-        "price": 405
-      },
-      {
-        "participantId": 1611047012,
-        "price": 438
-      },
-      {
-        "participantId": 1611047013,
-        "price": 524
-      },
-      {
-        "participantId": 1611047014,
-        "price": 655
-      },
-      {
-        "participantId": 1611047015,
-        "price": 855
-      },
-      {
-        "participantId": 1611047016,
-        "price": 1145
-      },
-      {
-        "participantId": 1611047017,
-        "price": 798
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057397939
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Isaac Collins (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430484
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052354,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052355,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052356,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047018,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047019,
-        "price": 447
-      },
-      {
-        "participantId": 1611047020,
-        "price": 291
-      },
-      {
-        "participantId": 1611047021,
-        "price": 1746
-      },
-      {
-        "participantId": 1611047022,
-        "price": 337
-      },
-      {
-        "participantId": 1611047023,
-        "price": 262
-      },
-      {
-        "participantId": 1611047024,
-        "price": 484
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057453468
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Joey Ortiz (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430484
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052357,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052358,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052359,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047025,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047026,
-        "price": 4355
-      },
-      {
-        "participantId": 1611047027,
-        "price": 4257
-      },
-      {
-        "participantId": 1611047028,
-        "price": 4637
-      },
-      {
-        "participantId": 1611047029,
-        "price": 5499
-      },
-      {
-        "participantId": 1611047030,
-        "price": 6678
-      },
-      {
-        "participantId": 1611047031,
-        "price": 8344
-      },
-      {
-        "participantId": 1611047033,
-        "price": 3229
-      },
-      {
-        "participantId": 1611047034,
-        "price": 2563
-      },
-      {
-        "participantId": 1611047035,
-        "price": 2904
-      },
-      {
-        "participantId": 1611047036,
-        "price": 3449
-      },
-      {
-        "participantId": 1611047037,
-        "price": 4332
-      },
-      {
-        "participantId": 1611047038,
-        "price": 5391
-      },
-      {
-        "participantId": 1611047039,
-        "price": 6845
-      },
-      {
-        "participantId": 1611047040,
-        "price": 3381
-      },
-      {
-        "participantId": 1611047041,
-        "price": 1692
-      },
-      {
-        "participantId": 1611047042,
-        "price": 2278
-      },
-      {
-        "participantId": 1611047043,
-        "price": 2791
-      },
-      {
-        "participantId": 1611047044,
-        "price": 3405
-      },
-      {
-        "participantId": 1611047045,
-        "price": 4339
-      },
-      {
-        "participantId": 1611047046,
-        "price": 5751
-      },
-      {
-        "participantId": 1611047047,
-        "price": 3480
-      },
-      {
-        "participantId": 1611047048,
-        "price": 2230
-      },
-      {
-        "participantId": 1611047049,
-        "price": 1469
-      },
-      {
-        "participantId": 1611047050,
-        "price": 2442
-      },
-      {
-        "participantId": 1611047051,
-        "price": 3043
-      },
-      {
-        "participantId": 1611047052,
-        "price": 4000
-      },
-      {
-        "participantId": 1611047053,
-        "price": 5351
-      },
-      {
-        "participantId": 1611047054,
-        "price": 3864
-      },
-      {
-        "participantId": 1611047055,
-        "price": 2504
-      },
-      {
-        "participantId": 1611047056,
-        "price": 2280
-      },
-      {
-        "participantId": 1611047057,
-        "price": 1589
-      },
-      {
-        "participantId": 1611047058,
-        "price": 3017
-      },
-      {
-        "participantId": 1611047059,
-        "price": 3971
-      },
-      {
-        "participantId": 1611047060,
-        "price": 5347
-      },
-      {
-        "participantId": 1611047061,
-        "price": 4505
-      },
-      {
-        "participantId": 1611047062,
-        "price": 2963
-      },
-      {
-        "participantId": 1611047063,
-        "price": 2615
-      },
-      {
-        "participantId": 1611047064,
-        "price": 2676
-      },
-      {
-        "participantId": 1611047065,
-        "price": 2003
-      },
-      {
-        "participantId": 1611047066,
-        "price": 4185
-      },
-      {
-        "participantId": 1611047067,
-        "price": 5572
-      },
-      {
-        "participantId": 1611047068,
-        "price": 5432
-      },
-      {
-        "participantId": 1611047069,
-        "price": 3539
-      },
-      {
-        "participantId": 1611047070,
-        "price": 3152
-      },
-      {
-        "participantId": 1611047071,
-        "price": 3290
-      },
-      {
-        "participantId": 1611047072,
-        "price": 3716
-      },
-      {
-        "participantId": 1611047073,
-        "price": 2847
-      },
-      {
-        "participantId": 1611047074,
-        "price": 6128
-      },
-      {
-        "participantId": 1611047075,
-        "price": 6477
-      },
-      {
-        "participantId": 1611047076,
-        "price": 4328
-      },
-      {
-        "participantId": 1611047077,
-        "price": 4024
-      },
-      {
-        "participantId": 1611047078,
-        "price": 4190
-      },
-      {
-        "participantId": 1611047079,
-        "price": 4665
-      },
-      {
-        "participantId": 1611047080,
-        "price": 5467
-      },
-      {
-        "participantId": 1611047081,
-        "price": 4279
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057397939
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Jackson Chourio (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 427430484
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052360,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611047082,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611047083,
-        "price": -166
+        "alignment": "neutral",
+        "id": 1611052361,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "participantId": 1611047084,
-        "price": 140
+        "alignment": "neutral",
+        "id": 1611052362,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "type": "moneyline",
-    "version": 5057397833
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Jackson Chourio (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430484
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052363,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611047085,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611047086,
-        "price": 115
+        "alignment": "neutral",
+        "id": 1611052364,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "participantId": 1611047087,
-        "price": -135
+        "alignment": "neutral",
+        "id": 1611052365,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "type": "moneyline",
-    "version": 5057384507
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Caleb Durbin (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430484
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052426,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611047088,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611047089,
-        "price": -105
+        "alignment": "neutral",
+        "id": 1611052427,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "participantId": 1611047090,
-        "price": -111
+        "alignment": "neutral",
+        "id": 1611052428,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "type": "moneyline",
-    "version": 5057404636
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Carlos Correa (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430989
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052429,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611047091,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611047092,
-        "price": -104
+        "alignment": "neutral",
+        "id": 1611052430,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
       },
       {
-        "participantId": 1611047093,
-        "price": -112
+        "alignment": "neutral",
+        "id": 1611052431,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "type": "moneyline",
-    "version": 5057397833
+    "periods": [
+      {
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Byron Buxton (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 427430989
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052432,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052433,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052434,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047094,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047095,
-        "price": 435
-      },
-      {
-        "participantId": 1611047096,
-        "price": 276
-      },
-      {
-        "participantId": 1611047097,
-        "price": 285
-      },
-      {
-        "participantId": 1611047098,
-        "price": 155
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057397939
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Byron Buxton (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430989
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052435,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052436,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052437,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047099,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047104,
-        "price": 858
-      },
-      {
-        "participantId": 1611047105,
-        "price": 331
-      },
-      {
-        "participantId": 1611047106,
-        "price": 599
-      },
-      {
-        "participantId": 1611047107,
-        "price": 727
-      },
-      {
-        "participantId": 1611047108,
-        "price": 922
-      },
-      {
-        "participantId": 1611047109,
-        "price": 489
-      },
-      {
-        "participantId": 1611047100,
-        "price": 568
-      },
-      {
-        "participantId": 1611047101,
-        "price": 727
-      },
-      {
-        "participantId": 1611047102,
-        "price": 955
-      },
-      {
-        "participantId": 1611047103,
-        "price": 1285
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057397833
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Willi Castro (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430989
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052438,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052439,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052440,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047110,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047111,
-        "price": 325
-      },
-      {
-        "participantId": 1611047112,
-        "price": 617
-      },
-      {
-        "participantId": 1611047113,
-        "price": 1216
-      },
-      {
-        "participantId": 1611047114,
-        "price": 1787
-      },
-      {
-        "participantId": 1611047115,
-        "price": 197
-      },
-      {
-        "participantId": 1611047116,
-        "price": 435
-      },
-      {
-        "participantId": 1611047117,
-        "price": 785
-      },
-      {
-        "participantId": 1611047118,
-        "price": 1026
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057397939
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Trevor Larnach (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430989
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052441,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052442,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052443,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047119,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047120,
-        "price": 1872
-      },
-      {
-        "participantId": 1611047121,
-        "price": 1903
-      },
-      {
-        "participantId": 1611047122,
-        "price": 793
-      },
-      {
-        "participantId": 1611047123,
-        "price": 977
-      },
-      {
-        "participantId": 1611047124,
-        "price": 565
-      },
-      {
-        "participantId": 1611047125,
-        "price": 783
-      },
-      {
-        "participantId": 1611047126,
-        "price": 536
-      },
-      {
-        "participantId": 1611047127,
-        "price": 773
-      },
-      {
-        "participantId": 1611047128,
-        "price": 637
-      },
-      {
-        "participantId": 1611047129,
-        "price": 979
-      },
-      {
-        "participantId": 1611047130,
-        "price": 895
-      },
-      {
-        "participantId": 1611047131,
-        "price": 1382
-      },
-      {
-        "participantId": 1611047132,
-        "price": 1352
-      },
-      {
-        "participantId": 1611047133,
-        "price": 2067
-      },
-      {
-        "participantId": 1611047134,
-        "price": 1041
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057397939
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Ty France (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430989
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052444,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052445,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052446,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047135,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047136,
-        "price": 517
-      },
-      {
-        "participantId": 1611047137,
-        "price": 246
-      },
-      {
-        "participantId": 1611047138,
-        "price": 197
-      },
-      {
-        "participantId": 1611047139,
-        "price": 397
-      },
-      {
-        "participantId": 1611047140,
-        "price": 560
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057397939
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Harrison Bader (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430989
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052447,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052448,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052449,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047141,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047142,
-        "price": 519
-      },
-      {
-        "participantId": 1611047143,
-        "price": 742
-      },
-      {
-        "participantId": 1611047144,
-        "price": 502
-      },
-      {
-        "participantId": 1611047145,
-        "price": 414
-      },
-      {
-        "participantId": 1611047146,
-        "price": 481
-      },
-      {
-        "participantId": 1611047147,
-        "price": 598
-      },
-      {
-        "participantId": 1611047148,
-        "price": 290
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057384507
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Ryan Jeffers (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430992
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052450,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052451,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052452,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047149,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047150,
-        "price": 1154
-      },
-      {
-        "participantId": 1611047151,
-        "price": 644
-      },
-      {
-        "participantId": 1611047152,
-        "price": 504
-      },
-      {
-        "participantId": 1611047153,
-        "price": 469
-      },
-      {
-        "participantId": 1611047154,
-        "price": 499
-      },
-      {
-        "participantId": 1611047155,
-        "price": 601
-      },
-      {
-        "participantId": 1611047156,
-        "price": 715
-      },
-      {
-        "participantId": 1611047157,
-        "price": 880
-      },
-      {
-        "participantId": 1611047158,
-        "price": 1116
-      },
-      {
-        "participantId": 1611047159,
-        "price": 1441
-      },
-      {
-        "participantId": 1611047160,
-        "price": 1885
-      },
-      {
-        "participantId": 1611047161,
-        "price": 1323
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057404636
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Jonah Bride (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430992
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611052453,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611052454,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611052455,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047162,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047163,
-        "price": 210
-      },
-      {
-        "participantId": 1611047164,
-        "price": 216
-      },
-      {
-        "participantId": 1611047165,
-        "price": 352
-      },
-      {
-        "participantId": 1611047166,
-        "price": 309
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057453468
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Brooks Lee (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427430992
   },
   {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611060761,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 24,
+      "matchupCountSE": 24,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 34,
+        "matchupCountSE": 34,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610853476,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Minnesota Twins",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Milwaukee Brewers",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-21T18:10:00+00:00"
+    },
+    "parentId": 1610853476,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611060762,
+        "name": "Over",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611060763,
+        "name": "Under",
+        "order": 0,
+        "rotation": 923
       }
     ],
-    "matchupId": 1611047167,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611047168,
-        "price": 255
-      },
-      {
-        "participantId": 1611047169,
-        "price": 260
-      },
-      {
-        "participantId": 1611047170,
-        "price": 378
-      },
-      {
-        "participantId": 1611047171,
-        "price": 556
-      },
-      {
-        "participantId": 1611047172,
-        "price": 811
-      },
-      {
-        "participantId": 1611047173,
-        "price": 595
+        "cutoffAt": "2025-06-21T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5057384507
-  },
-  {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611047174,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611047175,
-        "price": 327
-      },
-      {
-        "participantId": 1611047176,
-        "price": 318
-      },
-      {
-        "participantId": 1611047177,
-        "price": 377
-      },
-      {
-        "participantId": 1611047178,
-        "price": 493
-      },
-      {
-        "participantId": 1611047179,
-        "price": 680
-      },
-      {
-        "participantId": 1611047180,
-        "price": 407
-      }
-    ],
-    "type": "moneyline",
-    "version": 5057453468
-  },
-  {
-    "cutoffAt": "2025-06-21T23:15:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611047181,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611047182,
-        "price": 1254
-      },
-      {
-        "participantId": 1611047183,
-        "price": 1388
-      },
-      {
-        "participantId": 1611047184,
-        "price": 1670
-      },
-      {
-        "participantId": 1611047185,
-        "price": 2140
-      },
-      {
-        "participantId": 1611047186,
-        "price": 3036
-      },
-      {
-        "participantId": 1611047187,
-        "price": 4071
-      },
-      {
-        "participantId": 1611047189,
-        "price": 1265
-      },
-      {
-        "participantId": 1611047190,
-        "price": 1244
-      },
-      {
-        "participantId": 1611047191,
-        "price": 1404
-      },
-      {
-        "participantId": 1611047192,
-        "price": 1709
-      },
-      {
-        "participantId": 1611047193,
-        "price": 2363
-      },
-      {
-        "participantId": 1611047194,
-        "price": 3066
-      },
-      {
-        "participantId": 1611047195,
-        "price": 4106
-      },
-      {
-        "participantId": 1611047197,
-        "price": 1664
-      },
-      {
-        "participantId": 1611047198,
-        "price": 1598
-      },
-      {
-        "participantId": 1611047199,
-        "price": 1826
-      },
-      {
-        "participantId": 1611047200,
-        "price": 2422
-      },
-      {
-        "participantId": 1611047201,
-        "price": 3025
-      },
-      {
-        "participantId": 1611047202,
-        "price": 3884
-      },
-      {
-        "participantId": 1611047205,
-        "price": 2249
-      },
-      {
-        "participantId": 1611047206,
-        "price": 2188
-      },
-      {
-        "participantId": 1611047207,
-        "price": 2619
-      },
-      {
-        "participantId": 1611047208,
-        "price": 3163
-      },
-      {
-        "participantId": 1611047209,
-        "price": 3975
-      },
-      {
-        "participantId": 1611047213,
-        "price": 3109
-      },
-      {
-        "participantId": 1611047214,
-        "price": 3260
-      },
-      {
-        "participantId": 1611047215,
-        "price": 3555
-      },
-      {
-        "participantId": 1611047216,
-        "price": 4164
-      },
-      {
-        "participantId": 1611047221,
-        "price": 4636
-      },
-      {
-        "participantId": 1611047222,
-        "price": 4480
-      },
-      {
-        "participantId": 1611047223,
-        "price": 4863
-      }
-    ],
-    "type": "moneyline",
-    "version": 5057452705
+    "rotation": 922,
+    "special": {
+      "category": "Player Props",
+      "description": "Simeon Woods Richardson (Pitching Outs)(must start)"
+    },
+    "startTime": "2025-06-21T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "PitchingOuts",
+    "version": 427505248
   }
 ]
