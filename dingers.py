@@ -2787,7 +2787,7 @@ async def writeOne(book):
 
 def runThreads(book, date, games, totThreads):
 	threads = []
-	schedule_url = "https://raw.githubusercontent.com/zhecht/props/main/static/baseballreference/roster.json"
+	schedule_url = "https://raw.githubusercontent.com/zhecht/props/master/static/baseballreference/roster.json"
 	response = requests.get(schedule_url)
 	roster = response.json()
 
