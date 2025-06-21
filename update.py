@@ -3,7 +3,7 @@ import requests
 import json
 
 if __name__ == "__main__":
-	base = "https://api.github.com/repos/zhecht/playerprops/contents/static"
+	base = "https://api.github.com/repos/zhecht/props/contents/static"
 	url = f"{base}/mlb/schedule.json"
 	response = requests.get(url, headers={"Accept": "application/vnd.github.v3.raw"})
 	schedule = response.json()
