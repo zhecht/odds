@@ -43,7 +43,7 @@ def writeHistorical(date, book, gameStarted=None):
 
 	today = str(datetime.now())[:10] == date
 	if today and not gameStarted:
-		schedule_url = "https://raw.githubusercontent.com/zhecht/props/main/static/mlb/schedule.json"
+		schedule_url = "https://raw.githubusercontent.com/zhecht/props/master/static/mlb/schedule.json"
 		response = requests.get(schedule_url)
 		schedule = response.json()
 		gameStarted = {}
