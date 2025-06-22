@@ -1695,6 +1695,8 @@ def runFD():
 async def writeFDFromBuilder(date, loop, night, skip, start):
 	book = "fd"
 
+	if start:
+		start = start.replace("-", " ")
 	with open(f"static/mlb/schedule.json") as fh:
 		schedule = json.load(fh)
 
