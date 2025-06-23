@@ -1,3643 +1,3055 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610901481,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Los Angeles Angels",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Boston Red Sox",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 290
       },
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
+        "designation": "away",
+        "price": 295
       },
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "draw",
+        "price": -129
       }
     ],
-    "rotation": 913,
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 35,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 605491372
+    "status": "open",
+    "type": "moneyline",
+    "version": 3155484279
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610914854,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610914855,
-        "name": "Boston Red Sox",
-        "order": 0,
-        "rotation": 2429
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": -110
       },
       {
-        "alignment": "neutral",
-        "id": 1610914856,
-        "name": "Los Angeles Angels",
-        "order": 0,
-        "rotation": 2430
+        "designation": "away",
+        "points": -0.0,
+        "price": -106
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 2429,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155484279
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101425,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Los Angeles Angels  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 0.5,
+        "price": -102
       },
       {
-        "alignment": "away",
-        "name": "Boston Red Sox  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "under",
+        "points": 0.5,
+        "price": -115
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9913,
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 605482571
+    "status": "open",
+    "type": "total",
+    "version": 3155484279
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101428,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101487,
-        "name": "Boston Red Sox & Over 4.5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101488,
-        "name": "Los Angeles Angels & Over 4.5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101489,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101490,
-        "name": "Boston Red Sox & Under 4.5",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101491,
-        "name": "Los Angeles Angels & Under 4.5",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101492,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 918
+        "amount": 325,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -143
+      },
+      {
+        "designation": "under",
+        "points": 1.5,
+        "price": 117
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101495,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101500,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 913
+        "amount": 325,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 2.5,
+        "price": 128
       },
       {
-        "alignment": "neutral",
-        "id": 1611101501,
-        "name": "Even",
-        "order": 0,
-        "rotation": 914
+        "designation": "under",
+        "points": 2.5,
+        "price": -157
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101504,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101509,
-        "name": "0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101510,
-        "name": "1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101511,
-        "name": "2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101512,
-        "name": "3",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101513,
-        "name": "4",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101514,
-        "name": "5",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101515,
-        "name": "6",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101516,
-        "name": "7",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101517,
-        "name": "8+",
-        "order": 0,
-        "rotation": 921
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": 110
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": -126
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Boston Red Sox Exact Total Runs"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101520,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101529,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 913
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -182
       },
       {
-        "alignment": "neutral",
-        "id": 1611101530,
-        "name": "Even",
-        "order": 0,
-        "rotation": 914
+        "designation": "away",
+        "points": -1.0,
+        "price": 157
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Los Angeles Angels Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101533,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101554,
-        "name": "0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101555,
-        "name": "1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101556,
-        "name": "2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101557,
-        "name": "3",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101558,
-        "name": "4",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101559,
-        "name": "5",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101560,
-        "name": "6",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101561,
-        "name": "7",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101562,
-        "name": "8+",
-        "order": 0,
-        "rotation": 921
+        "amount": 1650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 0.5,
+        "price": -126
+      },
+      {
+        "designation": "away",
+        "points": -0.5,
+        "price": 110
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Los Angeles Angels Exact Total Runs"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101565,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101582,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 913
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -0.5,
+        "price": 148
       },
       {
-        "alignment": "neutral",
-        "id": 1611101583,
-        "name": "Even",
-        "order": 0,
-        "rotation": 914
+        "designation": "away",
+        "points": 0.5,
+        "price": -171
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Boston Red Sox Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101586,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101617,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 913
+        "amount": 1650,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 211
       },
       {
-        "alignment": "neutral",
-        "id": 1611101618,
-        "name": "Even",
-        "order": 0,
-        "rotation": 914
+        "designation": "away",
+        "points": 1.0,
+        "price": -248
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Boston Red Sox Runs Odd/Even"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101621,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101632,
-        "name": "Boston Red Sox 1, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101633,
-        "name": "Boston Red Sox 2, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101634,
-        "name": "Boston Red Sox 3, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101635,
-        "name": "Boston Red Sox 4, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101636,
-        "name": "Boston Red Sox 5, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101637,
-        "name": "Boston Red Sox 6, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101638,
-        "name": "Boston Red Sox 7, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101639,
-        "name": "Boston Red Sox 0, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101640,
-        "name": "Boston Red Sox 2, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101641,
-        "name": "Boston Red Sox 3, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101642,
-        "name": "Boston Red Sox 4, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101643,
-        "name": "Boston Red Sox 5, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101644,
-        "name": "Boston Red Sox 6, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101645,
-        "name": "Boston Red Sox 7, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101646,
-        "name": "Boston Red Sox 0, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101647,
-        "name": "Boston Red Sox 1, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101648,
-        "name": "Boston Red Sox 3, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101649,
-        "name": "Boston Red Sox 4, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101650,
-        "name": "Boston Red Sox 5, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101651,
-        "name": "Boston Red Sox 6, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101652,
-        "name": "Boston Red Sox 7, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101653,
-        "name": "Boston Red Sox 0, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101654,
-        "name": "Boston Red Sox 1, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101655,
-        "name": "Boston Red Sox 2, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101656,
-        "name": "Boston Red Sox 4, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101657,
-        "name": "Boston Red Sox 5, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101658,
-        "name": "Boston Red Sox 6, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101659,
-        "name": "Boston Red Sox 7, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101660,
-        "name": "Boston Red Sox 0, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101661,
-        "name": "Boston Red Sox 1, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101662,
-        "name": "Boston Red Sox 2, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101663,
-        "name": "Boston Red Sox 3, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101664,
-        "name": "Boston Red Sox 5, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101665,
-        "name": "Boston Red Sox 6, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101666,
-        "name": "Boston Red Sox 7, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101667,
-        "name": "Boston Red Sox 0, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101668,
-        "name": "Boston Red Sox 1, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101669,
-        "name": "Boston Red Sox 2, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101670,
-        "name": "Boston Red Sox 3, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101671,
-        "name": "Boston Red Sox 4, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101672,
-        "name": "Boston Red Sox 6, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101673,
-        "name": "Boston Red Sox 7, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101674,
-        "name": "Boston Red Sox 0, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101675,
-        "name": "Boston Red Sox 1, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101676,
-        "name": "Boston Red Sox 2, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101677,
-        "name": "Boston Red Sox 3, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101678,
-        "name": "Boston Red Sox 4, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101679,
-        "name": "Boston Red Sox 5, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101680,
-        "name": "Boston Red Sox 7, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101681,
-        "name": "Boston Red Sox 0, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101682,
-        "name": "Boston Red Sox 1, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101683,
-        "name": "Boston Red Sox 2, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101684,
-        "name": "Boston Red Sox 3, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101685,
-        "name": "Boston Red Sox 4, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101686,
-        "name": "Boston Red Sox 5, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101687,
-        "name": "Boston Red Sox 6, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 968
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": 102
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -117
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "total",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101730,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101733,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 913
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -170
       },
       {
-        "alignment": "neutral",
-        "id": 1611101734,
-        "name": "Even",
-        "order": 0,
-        "rotation": 914
+        "designation": "under",
+        "points": 3.5,
+        "price": 147
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Los Angeles Angels Runs Odd/Even"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "total",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101743,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101746,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 913
+        "amount": 1250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -132
       },
       {
-        "alignment": "neutral",
-        "id": 1611101747,
-        "name": "Even",
-        "order": 0,
-        "rotation": 914
+        "designation": "under",
+        "points": 4.0,
+        "price": 115
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "total",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101760,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101763,
-        "name": "Boston Red Sox & Over 8.5",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101764,
-        "name": "Los Angeles Angels & Over 8.5",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101765,
-        "name": "Boston Red Sox & Under 8.5",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101766,
-        "name": "Los Angeles Angels & Under 8.5",
-        "order": 0,
-        "rotation": 916
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.0,
+        "price": 133
+      },
+      {
+        "designation": "under",
+        "points": 5.0,
+        "price": -154
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "total",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101779,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101782,
-        "name": "Boston Red Sox By 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101783,
-        "name": "Boston Red Sox By 2",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101784,
-        "name": "Boston Red Sox By 3",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101785,
-        "name": "Boston Red Sox By 4",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101786,
-        "name": "Boston Red Sox By 5+",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101787,
-        "name": "Los Angeles Angels By 1",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101788,
-        "name": "Los Angeles Angels By 2",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101789,
-        "name": "Los Angeles Angels By 3",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101790,
-        "name": "Los Angeles Angels By 4",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101791,
-        "name": "Los Angeles Angels By 5+",
-        "order": 0,
-        "rotation": 922
+        "amount": 1250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.5,
+        "price": 161
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": -189
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "total",
+    "version": 3155491251
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101918,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101919,
-        "name": "Boston Red Sox By 1 - 2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101920,
-        "name": "Boston Red Sox By 3 - 4",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101921,
-        "name": "Boston Red Sox By 5 - 6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101922,
-        "name": "Boston Red Sox By 7+",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101923,
-        "name": "Los Angeles Angels By 1 - 2",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101924,
-        "name": "Los Angeles Angels By 3 - 4",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101925,
-        "name": "Los Angeles Angels By 5 - 6",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101926,
-        "name": "Los Angeles Angels By 7+",
-        "order": 0,
-        "rotation": 920
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 101
+      },
+      {
+        "designation": "away",
+        "price": -112
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "moneyline",
+    "version": 3155514851
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101927,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101928,
-        "name": "1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101929,
-        "name": "2",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101930,
-        "name": "3",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101931,
-        "name": "4",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101932,
-        "name": "5",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101933,
-        "name": "6",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101934,
-        "name": "7",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101935,
-        "name": "8",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101936,
-        "name": "9",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101937,
-        "name": "10",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101938,
-        "name": "11",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101939,
-        "name": "12",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101940,
-        "name": "13",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101941,
-        "name": "14",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101942,
-        "name": "15+",
-        "order": 0,
-        "rotation": 927
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -128
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 110
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3155514851
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101943,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101944,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101945,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101946,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101947,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101948,
-        "name": "13+",
-        "order": 0,
-        "rotation": 917
+        "amount": 650,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": 115
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -134
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3155514851
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101949,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101950,
-        "name": "Boston Red Sox By 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101951,
-        "name": "Boston Red Sox By 2",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101952,
-        "name": "Boston Red Sox By 3+",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101953,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101954,
-        "name": "Los Angeles Angels By 1",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101955,
-        "name": "Los Angeles Angels By 2",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101956,
-        "name": "Los Angeles Angels By 3+",
-        "order": 0,
-        "rotation": 919
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.5,
+        "price": -169
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 149
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155514851
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101957,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101958,
-        "name": "0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101959,
-        "name": "1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101960,
-        "name": "2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101961,
-        "name": "3",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101962,
-        "name": "4",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101963,
-        "name": "5",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101964,
-        "name": "6",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101965,
-        "name": "7",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101966,
-        "name": "8",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101967,
-        "name": "9",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101968,
-        "name": "10",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101969,
-        "name": "11+",
-        "order": 0,
-        "rotation": 924
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 3.0,
+        "price": -417
+      },
+      {
+        "designation": "away",
+        "points": -3.0,
+        "price": 303
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155514851
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101970,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101971,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101972,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101973,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101974,
-        "name": "7+",
-        "order": 0,
-        "rotation": 916
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.5,
+        "price": -282
+      },
+      {
+        "designation": "away",
+        "points": -2.5,
+        "price": 226
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155514851
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101975,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101976,
-        "name": "0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101977,
-        "name": "1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101978,
-        "name": "2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101979,
-        "name": "3",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101980,
-        "name": "4",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101981,
-        "name": "5+",
-        "order": 0,
-        "rotation": 918
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 2.0,
+        "price": -237
+      },
+      {
+        "designation": "away",
+        "points": -2.0,
+        "price": 198
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Boston Red Sox Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155514851
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101982,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101983,
-        "name": "0",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101984,
-        "name": "1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101985,
-        "name": "2",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101986,
-        "name": "3",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101987,
-        "name": "4",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101988,
-        "name": "5+",
-        "order": 0,
-        "rotation": 918
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -134
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 117
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Los Angeles Angels Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749988
+    "status": "open",
+    "type": "spread",
+    "version": 3155514851
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611101989,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 16,
-      "matchupCountSE": 16,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 26,
-        "matchupCountSE": 26,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610901481,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Los Angeles Angels",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Boston Red Sox",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T01:38:00+00:00"
-    },
-    "parentId": 1610901481,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611101990,
-        "name": "Boston Red Sox 0, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101991,
-        "name": "Boston Red Sox 0, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101992,
-        "name": "Boston Red Sox 0, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101993,
-        "name": "Boston Red Sox 0, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101994,
-        "name": "Boston Red Sox 0, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101995,
-        "name": "Boston Red Sox 0, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101996,
-        "name": "Boston Red Sox 0, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101997,
-        "name": "Boston Red Sox 1, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101998,
-        "name": "Boston Red Sox 1, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611101999,
-        "name": "Boston Red Sox 1, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102000,
-        "name": "Boston Red Sox 1, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102001,
-        "name": "Boston Red Sox 1, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102002,
-        "name": "Boston Red Sox 1, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102003,
-        "name": "Boston Red Sox 1, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102004,
-        "name": "Boston Red Sox 1, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102005,
-        "name": "Boston Red Sox 2, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102006,
-        "name": "Boston Red Sox 2, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102007,
-        "name": "Boston Red Sox 2, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102008,
-        "name": "Boston Red Sox 2, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102009,
-        "name": "Boston Red Sox 2, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102010,
-        "name": "Boston Red Sox 2, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102011,
-        "name": "Boston Red Sox 2, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102012,
-        "name": "Boston Red Sox 2, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102013,
-        "name": "Boston Red Sox 3, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102014,
-        "name": "Boston Red Sox 3, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102015,
-        "name": "Boston Red Sox 3, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102016,
-        "name": "Boston Red Sox 3, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102017,
-        "name": "Boston Red Sox 3, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102018,
-        "name": "Boston Red Sox 3, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102019,
-        "name": "Boston Red Sox 3, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102020,
-        "name": "Boston Red Sox 3, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102021,
-        "name": "Boston Red Sox 4, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102022,
-        "name": "Boston Red Sox 4, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102023,
-        "name": "Boston Red Sox 4, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102024,
-        "name": "Boston Red Sox 4, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102025,
-        "name": "Boston Red Sox 4, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102026,
-        "name": "Boston Red Sox 4, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102027,
-        "name": "Boston Red Sox 4, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102028,
-        "name": "Boston Red Sox 4, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102029,
-        "name": "Boston Red Sox 5, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102030,
-        "name": "Boston Red Sox 5, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102031,
-        "name": "Boston Red Sox 5, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102032,
-        "name": "Boston Red Sox 5, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102033,
-        "name": "Boston Red Sox 5, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102034,
-        "name": "Boston Red Sox 5, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102035,
-        "name": "Boston Red Sox 5, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 958
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102036,
-        "name": "Boston Red Sox 5, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 959
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102037,
-        "name": "Boston Red Sox 6, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 960
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102038,
-        "name": "Boston Red Sox 6, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 961
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102039,
-        "name": "Boston Red Sox 6, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 962
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102040,
-        "name": "Boston Red Sox 6, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 963
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102041,
-        "name": "Boston Red Sox 6, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 964
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102042,
-        "name": "Boston Red Sox 6, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 965
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102043,
-        "name": "Boston Red Sox 6, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 966
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102044,
-        "name": "Boston Red Sox 6, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 967
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102045,
-        "name": "Boston Red Sox 7, Los Angeles Angels 0",
-        "order": 0,
-        "rotation": 968
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102046,
-        "name": "Boston Red Sox 7, Los Angeles Angels 1",
-        "order": 0,
-        "rotation": 969
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102047,
-        "name": "Boston Red Sox 7, Los Angeles Angels 2",
-        "order": 0,
-        "rotation": 970
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102048,
-        "name": "Boston Red Sox 7, Los Angeles Angels 3",
-        "order": 0,
-        "rotation": 971
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102049,
-        "name": "Boston Red Sox 7, Los Angeles Angels 4",
-        "order": 0,
-        "rotation": 972
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102050,
-        "name": "Boston Red Sox 7, Los Angeles Angels 5",
-        "order": 0,
-        "rotation": 973
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102051,
-        "name": "Boston Red Sox 7, Los Angeles Angels 6",
-        "order": 0,
-        "rotation": 974
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611102052,
-        "name": "Boston Red Sox 7, Los Angeles Angels 7",
-        "order": 0,
-        "rotation": 975
+        "amount": 4000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T01:38:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": -1.0,
+        "price": 150
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -179
       }
     ],
-    "rotation": 913,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-06-24T01:38:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427749355
+    "status": "open",
+    "type": "spread",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
+      {
+        "amount": 4000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 194
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -244
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;8.5",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": 101
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": -114
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;5.5",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": -343
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": 266
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.0",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.0,
+        "price": -187
+      },
+      {
+        "designation": "under",
+        "points": 7.0,
+        "price": 164
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.5,
+        "price": -137
+      },
+      {
+        "designation": "under",
+        "points": 7.5,
+        "price": 121
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": -117
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": 104
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.0",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": 129
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": -146
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.5,
+        "price": 155
+      },
+      {
+        "designation": "under",
+        "points": 9.5,
+        "price": -177
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.0,
+        "price": 188
+      },
+      {
+        "designation": "under",
+        "points": 10.0,
+        "price": -217
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.5",
+    "limits": [
+      {
+        "amount": 3000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610898377,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 12.5,
+        "price": 381
+      },
+      {
+        "designation": "under",
+        "points": 12.5,
+        "price": -535
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155514851
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610911372,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610911374,
+        "price": -160
+      },
+      {
+        "participantId": 1610911375,
+        "price": 136
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062534444
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;25.5",
+    "limits": [
+      {
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099478,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 25.5,
+        "price": -132
+      },
+      {
+        "designation": "under",
+        "points": 25.5,
+        "price": 113
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3155505138
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099482,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099496,
+        "price": -105
+      },
+      {
+        "participantId": 1611099497,
+        "price": -111
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062206546
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099506,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611099512,
+        "price": 109
+      },
+      {
+        "participantId": 1611099513,
+        "price": -128
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099518,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099538,
+        "price": 1024
+      },
+      {
+        "participantId": 1611099539,
+        "price": 613
+      },
+      {
+        "participantId": 1611099540,
+        "price": 484
+      },
+      {
+        "participantId": 1611099541,
+        "price": 453
+      },
+      {
+        "participantId": 1611099542,
+        "price": 483
+      },
+      {
+        "participantId": 1611099543,
+        "price": 565
+      },
+      {
+        "participantId": 1611099544,
+        "price": 705
+      },
+      {
+        "participantId": 1611099545,
+        "price": 916
+      },
+      {
+        "participantId": 1611099546,
+        "price": 558
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062237703
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099558,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611099564,
+        "price": -105
+      },
+      {
+        "participantId": 1611099565,
+        "price": -111
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099570,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611099590,
+        "price": 268
+      },
+      {
+        "participantId": 1611099591,
+        "price": 343
+      },
+      {
+        "participantId": 1611099592,
+        "price": 1502
+      },
+      {
+        "participantId": 1611099593,
+        "price": 302
+      },
+      {
+        "participantId": 1611099594,
+        "price": 379
+      },
+      {
+        "participantId": 1611099595,
+        "price": 556
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099607,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099613,
+        "price": 1064
+      },
+      {
+        "participantId": 1611099614,
+        "price": 651
+      },
+      {
+        "participantId": 1611099615,
+        "price": 526
+      },
+      {
+        "participantId": 1611099616,
+        "price": 492
+      },
+      {
+        "participantId": 1611099617,
+        "price": 510
+      },
+      {
+        "participantId": 1611099618,
+        "price": 573
+      },
+      {
+        "participantId": 1611099619,
+        "price": 683
+      },
+      {
+        "participantId": 1611099620,
+        "price": 851
+      },
+      {
+        "participantId": 1611099621,
+        "price": 441
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062237703
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099626,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099632,
+        "price": 5203
+      },
+      {
+        "participantId": 1611099633,
+        "price": 4673
+      },
+      {
+        "participantId": 1611099634,
+        "price": 4588
+      },
+      {
+        "participantId": 1611099635,
+        "price": 4977
+      },
+      {
+        "participantId": 1611099636,
+        "price": 5588
+      },
+      {
+        "participantId": 1611099637,
+        "price": 6539
+      },
+      {
+        "participantId": 1611099638,
+        "price": 7774
+      },
+      {
+        "participantId": 1611099639,
+        "price": 4393
+      },
+      {
+        "participantId": 1611099640,
+        "price": 2840
+      },
+      {
+        "participantId": 1611099641,
+        "price": 2917
+      },
+      {
+        "participantId": 1611099642,
+        "price": 3124
+      },
+      {
+        "participantId": 1611099643,
+        "price": 3611
+      },
+      {
+        "participantId": 1611099644,
+        "price": 4288
+      },
+      {
+        "participantId": 1611099645,
+        "price": 5234
+      },
+      {
+        "participantId": 1611099646,
+        "price": 4547
+      },
+      {
+        "participantId": 1611099647,
+        "price": 2328
+      },
+      {
+        "participantId": 1611099648,
+        "price": 2278
+      },
+      {
+        "participantId": 1611099649,
+        "price": 2567
+      },
+      {
+        "participantId": 1611099650,
+        "price": 2936
+      },
+      {
+        "participantId": 1611099651,
+        "price": 3562
+      },
+      {
+        "participantId": 1611099652,
+        "price": 4398
+      },
+      {
+        "participantId": 1611099653,
+        "price": 4711
+      },
+      {
+        "participantId": 1611099654,
+        "price": 2982
+      },
+      {
+        "participantId": 1611099655,
+        "price": 1837
+      },
+      {
+        "participantId": 1611099656,
+        "price": 2284
+      },
+      {
+        "participantId": 1611099657,
+        "price": 2739
+      },
+      {
+        "participantId": 1611099658,
+        "price": 3295
+      },
+      {
+        "participantId": 1611099659,
+        "price": 4137
+      },
+      {
+        "participantId": 1611099660,
+        "price": 5217
+      },
+      {
+        "participantId": 1611099661,
+        "price": 3350
+      },
+      {
+        "participantId": 1611099662,
+        "price": 2756
+      },
+      {
+        "participantId": 1611099663,
+        "price": 1831
+      },
+      {
+        "participantId": 1611099664,
+        "price": 2658
+      },
+      {
+        "participantId": 1611099665,
+        "price": 3327
+      },
+      {
+        "participantId": 1611099666,
+        "price": 4145
+      },
+      {
+        "participantId": 1611099667,
+        "price": 6041
+      },
+      {
+        "participantId": 1611099668,
+        "price": 3939
+      },
+      {
+        "participantId": 1611099669,
+        "price": 3263
+      },
+      {
+        "participantId": 1611099670,
+        "price": 3067
+      },
+      {
+        "participantId": 1611099671,
+        "price": 2132
+      },
+      {
+        "participantId": 1611099672,
+        "price": 3425
+      },
+      {
+        "participantId": 1611099673,
+        "price": 4398
+      },
+      {
+        "participantId": 1611099674,
+        "price": 7210
+      },
+      {
+        "participantId": 1611099675,
+        "price": 4802
+      },
+      {
+        "participantId": 1611099676,
+        "price": 4010
+      },
+      {
+        "participantId": 1611099677,
+        "price": 3769
+      },
+      {
+        "participantId": 1611099678,
+        "price": 3848
+      },
+      {
+        "participantId": 1611099679,
+        "price": 2757
+      },
+      {
+        "participantId": 1611099680,
+        "price": 4729
+      },
+      {
+        "participantId": 1611099681,
+        "price": 8717
+      },
+      {
+        "participantId": 1611099682,
+        "price": 5943
+      },
+      {
+        "participantId": 1611099683,
+        "price": 5061
+      },
+      {
+        "participantId": 1611099684,
+        "price": 4772
+      },
+      {
+        "participantId": 1611099685,
+        "price": 4842
+      },
+      {
+        "participantId": 1611099686,
+        "price": 5203
+      },
+      {
+        "participantId": 1611099687,
+        "price": 3829
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062237703
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099692,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099806,
+        "price": -105
+      },
+      {
+        "participantId": 1611099807,
+        "price": -111
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062206546
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099866,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611099872,
+        "price": 114
+      },
+      {
+        "participantId": 1611099873,
+        "price": -134
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099878,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099884,
+        "price": -161
+      },
+      {
+        "participantId": 1611099885,
+        "price": 136
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062237703
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099890,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099900,
+        "price": 253
+      },
+      {
+        "participantId": 1611099901,
+        "price": 297
+      },
+      {
+        "participantId": 1611099902,
+        "price": 254
+      },
+      {
+        "participantId": 1611099903,
+        "price": 249
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062393195
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099910,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099932,
+        "price": 525
+      },
+      {
+        "participantId": 1611099933,
+        "price": 638
+      },
+      {
+        "participantId": 1611099934,
+        "price": 774
+      },
+      {
+        "participantId": 1611099935,
+        "price": 983
+      },
+      {
+        "participantId": 1611099936,
+        "price": 500
+      },
+      {
+        "participantId": 1611099937,
+        "price": 396
+      },
+      {
+        "participantId": 1611099938,
+        "price": 719
+      },
+      {
+        "participantId": 1611099939,
+        "price": 890
+      },
+      {
+        "participantId": 1611099940,
+        "price": 1138
+      },
+      {
+        "participantId": 1611099941,
+        "price": 649
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062237703
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099954,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611099972,
+        "price": 285
+      },
+      {
+        "participantId": 1611099973,
+        "price": 469
+      },
+      {
+        "participantId": 1611099974,
+        "price": 832
+      },
+      {
+        "participantId": 1611099975,
+        "price": 1016
+      },
+      {
+        "participantId": 1611099976,
+        "price": 247
+      },
+      {
+        "participantId": 1611099977,
+        "price": 555
+      },
+      {
+        "participantId": 1611099978,
+        "price": 1006
+      },
+      {
+        "participantId": 1611099979,
+        "price": 1323
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062237703
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611099990,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611100032,
+        "price": 799
+      },
+      {
+        "participantId": 1611100033,
+        "price": 1193
+      },
+      {
+        "participantId": 1611100034,
+        "price": 1115
+      },
+      {
+        "participantId": 1611100035,
+        "price": 1668
+      },
+      {
+        "participantId": 1611100036,
+        "price": 697
+      },
+      {
+        "participantId": 1611100022,
+        "price": 2374
+      },
+      {
+        "participantId": 1611100023,
+        "price": 2307
+      },
+      {
+        "participantId": 1611100024,
+        "price": 996
+      },
+      {
+        "participantId": 1611100025,
+        "price": 1144
+      },
+      {
+        "participantId": 1611100026,
+        "price": 651
+      },
+      {
+        "participantId": 1611100027,
+        "price": 842
+      },
+      {
+        "participantId": 1611100028,
+        "price": 574
+      },
+      {
+        "participantId": 1611100029,
+        "price": 804
+      },
+      {
+        "participantId": 1611100030,
+        "price": 629
+      },
+      {
+        "participantId": 1611100031,
+        "price": 921
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062206546
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611100054,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611100070,
+        "price": 381
+      },
+      {
+        "participantId": 1611100066,
+        "price": 686
+      },
+      {
+        "participantId": 1611100067,
+        "price": 296
+      },
+      {
+        "participantId": 1611100068,
+        "price": 206
+      },
+      {
+        "participantId": 1611100069,
+        "price": 343
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062393195
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611100078,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611100096,
+        "price": 318
+      },
+      {
+        "participantId": 1611100097,
+        "price": 436
+      },
+      {
+        "participantId": 1611100098,
+        "price": 574
+      },
+      {
+        "participantId": 1611100099,
+        "price": 724
+      },
+      {
+        "participantId": 1611100100,
+        "price": 402
+      },
+      {
+        "participantId": 1611100094,
+        "price": 471
+      },
+      {
+        "participantId": 1611100095,
+        "price": 602
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611100110,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611100136,
+        "price": 1304
+      },
+      {
+        "participantId": 1611100137,
+        "price": 736
+      },
+      {
+        "participantId": 1611100138,
+        "price": 558
+      },
+      {
+        "participantId": 1611100139,
+        "price": 501
+      },
+      {
+        "participantId": 1611100140,
+        "price": 504
+      },
+      {
+        "participantId": 1611100141,
+        "price": 588
+      },
+      {
+        "participantId": 1611100142,
+        "price": 679
+      },
+      {
+        "participantId": 1611100143,
+        "price": 816
+      },
+      {
+        "participantId": 1611100144,
+        "price": 1013
+      },
+      {
+        "participantId": 1611100145,
+        "price": 1285
+      },
+      {
+        "participantId": 1611100146,
+        "price": 1655
+      },
+      {
+        "participantId": 1611100147,
+        "price": 1078
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611100162,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611100172,
+        "price": 260
+      },
+      {
+        "participantId": 1611100173,
+        "price": 238
+      },
+      {
+        "participantId": 1611100174,
+        "price": 319
+      },
+      {
+        "participantId": 1611100175,
+        "price": 242
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611100182,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611100196,
+        "price": 356
+      },
+      {
+        "participantId": 1611100197,
+        "price": 329
+      },
+      {
+        "participantId": 1611100198,
+        "price": 378
+      },
+      {
+        "participantId": 1611100199,
+        "price": 480
+      },
+      {
+        "participantId": 1611100200,
+        "price": 645
+      },
+      {
+        "participantId": 1611100201,
+        "price": 377
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611100210,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611100224,
+        "price": 295
+      },
+      {
+        "participantId": 1611100225,
+        "price": 302
+      },
+      {
+        "participantId": 1611100226,
+        "price": 379
+      },
+      {
+        "participantId": 1611100227,
+        "price": 513
+      },
+      {
+        "participantId": 1611100228,
+        "price": 715
+      },
+      {
+        "participantId": 1611100229,
+        "price": 453
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611100238,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611100413,
+        "price": 4510
+      },
+      {
+        "participantId": 1611100414,
+        "price": 4419
+      },
+      {
+        "participantId": 1611100415,
+        "price": 4914
+      },
+      {
+        "participantId": 1611100366,
+        "price": 1592
+      },
+      {
+        "participantId": 1611100367,
+        "price": 1806
+      },
+      {
+        "participantId": 1611100368,
+        "price": 2204
+      },
+      {
+        "participantId": 1611100369,
+        "price": 2817
+      },
+      {
+        "participantId": 1611100370,
+        "price": 3887
+      },
+      {
+        "participantId": 1611100373,
+        "price": 1338
+      },
+      {
+        "participantId": 1611100374,
+        "price": 1417
+      },
+      {
+        "participantId": 1611100375,
+        "price": 1758
+      },
+      {
+        "participantId": 1611100376,
+        "price": 2148
+      },
+      {
+        "participantId": 1611100377,
+        "price": 2903
+      },
+      {
+        "participantId": 1611100378,
+        "price": 3797
+      },
+      {
+        "participantId": 1611100381,
+        "price": 1527
+      },
+      {
+        "participantId": 1611100382,
+        "price": 1491
+      },
+      {
+        "participantId": 1611100383,
+        "price": 1832
+      },
+      {
+        "participantId": 1611100384,
+        "price": 2567
+      },
+      {
+        "participantId": 1611100385,
+        "price": 3261
+      },
+      {
+        "participantId": 1611100386,
+        "price": 4243
+      },
+      {
+        "participantId": 1611100389,
+        "price": 1873
+      },
+      {
+        "participantId": 1611100390,
+        "price": 1830
+      },
+      {
+        "participantId": 1611100391,
+        "price": 2193
+      },
+      {
+        "participantId": 1611100392,
+        "price": 2860
+      },
+      {
+        "participantId": 1611100393,
+        "price": 3904
+      },
+      {
+        "participantId": 1611100397,
+        "price": 2404
+      },
+      {
+        "participantId": 1611100398,
+        "price": 2488
+      },
+      {
+        "participantId": 1611100399,
+        "price": 2797
+      },
+      {
+        "participantId": 1611100400,
+        "price": 3367
+      },
+      {
+        "participantId": 1611100401,
+        "price": 4525
+      },
+      {
+        "participantId": 1611100405,
+        "price": 3337
+      },
+      {
+        "participantId": 1611100406,
+        "price": 3268
+      },
+      {
+        "participantId": 1611100407,
+        "price": 3655
+      },
+      {
+        "participantId": 1611100408,
+        "price": 4363
+      }
+    ],
+    "type": "moneyline",
+    "version": 5062423082
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102126,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102127,
+        "points": 0.5,
+        "price": -131
+      },
+      {
+        "participantId": 1611102128,
+        "points": 0.5,
+        "price": -101
+      }
+    ],
+    "type": "total",
+    "version": 5062349546
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102129,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102130,
+        "points": 0.5,
+        "price": -186
+      },
+      {
+        "participantId": 1611102131,
+        "points": 0.5,
+        "price": 139
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102132,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102133,
+        "points": 0.5,
+        "price": 435
+      },
+      {
+        "participantId": 1611102134,
+        "points": 0.5,
+        "price": -755
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102135,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102136,
+        "points": 1.5,
+        "price": 111
+      },
+      {
+        "participantId": 1611102137,
+        "points": 1.5,
+        "price": -148
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102138,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102139,
+        "points": 4.5,
+        "price": -174
+      },
+      {
+        "participantId": 1611102140,
+        "points": 4.5,
+        "price": 130
+      }
+    ],
+    "type": "total",
+    "version": 5062349572
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102141,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102142,
+        "points": 5.5,
+        "price": 118
+      },
+      {
+        "participantId": 1611102143,
+        "points": 5.5,
+        "price": -157
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102144,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102145,
+        "points": 2.5,
+        "price": -123
+      },
+      {
+        "participantId": 1611102146,
+        "points": 2.5,
+        "price": -107
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102147,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102148,
+        "points": 17.5,
+        "price": -118
+      },
+      {
+        "participantId": 1611102149,
+        "points": 17.5,
+        "price": -112
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102150,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102151,
+        "points": 1.5,
+        "price": 145
+      },
+      {
+        "participantId": 1611102152,
+        "points": 1.5,
+        "price": -196
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102153,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102154,
+        "points": 0.5,
+        "price": 614
+      },
+      {
+        "participantId": 1611102155,
+        "points": 0.5,
+        "price": -1323
+      }
+    ],
+    "type": "total",
+    "version": 5062349572
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102156,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102157,
+        "points": 1.5,
+        "price": 147
+      },
+      {
+        "participantId": 1611102158,
+        "points": 1.5,
+        "price": -198
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102159,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102160,
+        "points": 0.5,
+        "price": -173
+      },
+      {
+        "participantId": 1611102161,
+        "points": 0.5,
+        "price": 129
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102162,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102163,
+        "points": 0.5,
+        "price": 432
+      },
+      {
+        "participantId": 1611102164,
+        "points": 0.5,
+        "price": -746
+      }
+    ],
+    "type": "total",
+    "version": 5062343890
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102165,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102166,
+        "points": 0.5,
+        "price": -164
+      },
+      {
+        "participantId": 1611102167,
+        "points": 0.5,
+        "price": 123
+      }
+    ],
+    "type": "total",
+    "version": 5062349572
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102168,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102169,
+        "points": 0.5,
+        "price": 291
+      },
+      {
+        "participantId": 1611102170,
+        "points": 0.5,
+        "price": -437
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102171,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102172,
+        "points": 1.5,
+        "price": 120
+      },
+      {
+        "participantId": 1611102173,
+        "points": 1.5,
+        "price": -161
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611102174,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611102176,
+        "points": 0.5,
+        "price": 149
+      },
+      {
+        "participantId": 1611102175,
+        "points": 0.5,
+        "price": -201
+      }
+    ],
+    "type": "total",
+    "version": 5062356129
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103537,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103538,
+        "points": 0.5,
+        "price": -154
+      },
+      {
+        "participantId": 1611103539,
+        "points": 0.5,
+        "price": 116
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103540,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103541,
+        "points": 0.5,
+        "price": 394
+      },
+      {
+        "participantId": 1611103542,
+        "points": 0.5,
+        "price": -654
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103543,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103544,
+        "points": 1.5,
+        "price": 123
+      },
+      {
+        "participantId": 1611103545,
+        "points": 1.5,
+        "price": -164
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103546,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103547,
+        "points": 1.5,
+        "price": 137
+      },
+      {
+        "participantId": 1611103548,
+        "points": 1.5,
+        "price": -184
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103549,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103550,
+        "points": 0.5,
+        "price": 178
+      },
+      {
+        "participantId": 1611103551,
+        "points": 0.5,
+        "price": -245
+      }
+    ],
+    "type": "total",
+    "version": 5062356638
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103552,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103553,
+        "points": 1.5,
+        "price": -120
+      },
+      {
+        "participantId": 1611103554,
+        "points": 1.5,
+        "price": -110
+      }
+    ],
+    "type": "total",
+    "version": 5062356638
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103555,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103556,
+        "points": 0.5,
+        "price": 472
+      },
+      {
+        "participantId": 1611103557,
+        "points": 0.5,
+        "price": -852
+      }
+    ],
+    "type": "total",
+    "version": 5062356638
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103558,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103559,
+        "points": 0.5,
+        "price": -169
+      },
+      {
+        "participantId": 1611103560,
+        "points": 0.5,
+        "price": 126
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103561,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103562,
+        "points": 0.5,
+        "price": 416
+      },
+      {
+        "participantId": 1611103563,
+        "points": 0.5,
+        "price": -707
+      }
+    ],
+    "type": "total",
+    "version": 5062356638
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103564,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103565,
+        "points": 0.5,
+        "price": -182
+      },
+      {
+        "participantId": 1611103566,
+        "points": 0.5,
+        "price": 136
+      }
+    ],
+    "type": "total",
+    "version": 5062356638
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103567,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103568,
+        "points": 0.5,
+        "price": 549
+      },
+      {
+        "participantId": 1611103569,
+        "points": 0.5,
+        "price": -1085
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103570,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103571,
+        "points": 1.5,
+        "price": 110
+      },
+      {
+        "participantId": 1611103572,
+        "points": 1.5,
+        "price": -146
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103573,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103574,
+        "points": 5.5,
+        "price": -109
+      },
+      {
+        "participantId": 1611103575,
+        "points": 5.5,
+        "price": -122
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103576,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103577,
+        "points": 5.5,
+        "price": -107
+      },
+      {
+        "participantId": 1611103578,
+        "points": 5.5,
+        "price": -123
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103579,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103580,
+        "points": 2.5,
+        "price": 109
+      },
+      {
+        "participantId": 1611103581,
+        "points": 2.5,
+        "price": -144
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103582,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103583,
+        "points": 18.5,
+        "price": 126
+      },
+      {
+        "participantId": 1611103584,
+        "points": 18.5,
+        "price": -168
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103585,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103586,
+        "points": 0.5,
+        "price": -151
+      },
+      {
+        "participantId": 1611103587,
+        "points": 0.5,
+        "price": 113
+      }
+    ],
+    "type": "total"
+  },
+  {
+    "cutoffAt": "2025-06-23T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611103588,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611103589,
+        "points": 0.5,
+        "price": -152
+      },
+      {
+        "participantId": 1611103590,
+        "points": 0.5,
+        "price": 114
+      }
+    ],
+    "type": "total"
   }
 ]
