@@ -1,3643 +1,1226 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610910811,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Cincinnati Reds",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "New York Yankees",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610937568,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "participantId": 1610937569,
+        "price": -153
       },
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "participantId": 1610937570,
+        "price": 130
       }
     ],
-    "rotation": 975,
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 27,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 605577329
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610937332,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;27.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610937333,
-        "name": "New York Yankees",
-        "order": 0,
-        "rotation": 2439
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611124637,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 27.0,
+        "price": 102
       },
       {
-        "alignment": "neutral",
-        "id": 1610937334,
-        "name": "Cincinnati Reds",
-        "order": 0,
-        "rotation": 2440
+        "designation": "under",
+        "points": 27.0,
+        "price": -119
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 2439,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 427859529
+    "status": "open",
+    "type": "total",
+    "version": 3156286148
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122708,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "Cincinnati Reds  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611124638,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611124640,
+        "price": -111
       },
       {
-        "alignment": "away",
-        "name": "New York Yankees  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "participantId": 1611124639,
+        "price": -105
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9975,
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 605566825
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122709,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122710,
-        "name": "New York Yankees & Over 4.5",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122711,
-        "name": "Cincinnati Reds & Over 4.5",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122712,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122713,
-        "name": "New York Yankees & Under 4.5",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122714,
-        "name": "Cincinnati Reds & Under 4.5",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122715,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 980
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124641,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124642,
+        "price": 109
+      },
+      {
+        "participantId": 1611124643,
+        "price": -128
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122716,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122717,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 975
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611124644,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611124645,
+        "price": 1205
       },
       {
-        "alignment": "neutral",
-        "id": 1611122718,
-        "name": "Even",
-        "order": 0,
-        "rotation": 976
-      }
-    ],
-    "periods": [
+        "participantId": 1611124646,
+        "price": 719
+      },
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124647,
+        "price": 544
+      },
+      {
+        "participantId": 1611124648,
+        "price": 482
+      },
+      {
+        "participantId": 1611124649,
+        "price": 486
+      },
+      {
+        "participantId": 1611124650,
+        "price": 541
+      },
+      {
+        "participantId": 1611124651,
+        "price": 648
+      },
+      {
+        "participantId": 1611124652,
+        "price": 816
+      },
+      {
+        "participantId": 1611124653,
+        "price": 449
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122719,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122720,
-        "name": "0",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122721,
-        "name": "1",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122722,
-        "name": "2",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122723,
-        "name": "3",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122724,
-        "name": "4",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122725,
-        "name": "5",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122726,
-        "name": "6",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122727,
-        "name": "7",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122728,
-        "name": "8+",
-        "order": 0,
-        "rotation": 983
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124654,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124655,
+        "price": -107
+      },
+      {
+        "participantId": 1611124656,
+        "price": -110
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "New York Yankees Exact Total Runs"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122729,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122730,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 975
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611124657,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611124658,
+        "price": 252
       },
       {
-        "alignment": "neutral",
-        "id": 1611122731,
-        "name": "Even",
-        "order": 0,
-        "rotation": 976
-      }
-    ],
-    "periods": [
+        "participantId": 1611124659,
+        "price": 250
+      },
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124660,
+        "price": 1300
+      },
+      {
+        "participantId": 1611124661,
+        "price": 402
+      },
+      {
+        "participantId": 1611124662,
+        "price": 399
+      },
+      {
+        "participantId": 1611124663,
+        "price": 672
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122732,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122733,
-        "name": "0",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122734,
-        "name": "1",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122735,
-        "name": "2",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122736,
-        "name": "3",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122737,
-        "name": "4",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122738,
-        "name": "5",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122739,
-        "name": "6",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122740,
-        "name": "7",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122741,
-        "name": "8+",
-        "order": 0,
-        "rotation": 983
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124664,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124672,
+        "price": 786
+      },
+      {
+        "participantId": 1611124673,
+        "price": 367
+      },
+      {
+        "participantId": 1611124665,
+        "price": 1222
+      },
+      {
+        "participantId": 1611124666,
+        "price": 744
+      },
+      {
+        "participantId": 1611124667,
+        "price": 577
+      },
+      {
+        "participantId": 1611124668,
+        "price": 519
+      },
+      {
+        "participantId": 1611124669,
+        "price": 519
+      },
+      {
+        "participantId": 1611124670,
+        "price": 562
+      },
+      {
+        "participantId": 1611124671,
+        "price": 649
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Exact Total Runs"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122742,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122743,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 975
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611124674,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611124679,
+        "price": 6250
       },
       {
-        "alignment": "neutral",
-        "id": 1611122744,
-        "name": "Even",
-        "order": 0,
-        "rotation": 976
-      }
-    ],
-    "periods": [
+        "participantId": 1611124680,
+        "price": 7105
+      },
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124681,
+        "price": 8241
+      },
+      {
+        "participantId": 1611124682,
+        "price": 5529
+      },
+      {
+        "participantId": 1611124683,
+        "price": 3563
+      },
+      {
+        "participantId": 1611124684,
+        "price": 3490
+      },
+      {
+        "participantId": 1611124685,
+        "price": 3596
+      },
+      {
+        "participantId": 1611124686,
+        "price": 4014
+      },
+      {
+        "participantId": 1611124687,
+        "price": 4618
+      },
+      {
+        "participantId": 1611124688,
+        "price": 5485
+      },
+      {
+        "participantId": 1611124689,
+        "price": 5454
+      },
+      {
+        "participantId": 1611124690,
+        "price": 2839
+      },
+      {
+        "participantId": 1611124691,
+        "price": 2647
+      },
+      {
+        "participantId": 1611124692,
+        "price": 2849
+      },
+      {
+        "participantId": 1611124693,
+        "price": 3142
+      },
+      {
+        "participantId": 1611124694,
+        "price": 3697
+      },
+      {
+        "participantId": 1611124695,
+        "price": 4439
+      },
+      {
+        "participantId": 1611124696,
+        "price": 5446
+      },
+      {
+        "participantId": 1611124697,
+        "price": 3421
+      },
+      {
+        "participantId": 1611124698,
+        "price": 2070
+      },
+      {
+        "participantId": 1611124699,
+        "price": 2456
+      },
+      {
+        "participantId": 1611124700,
+        "price": 2829
+      },
+      {
+        "participantId": 1611124701,
+        "price": 3297
+      },
+      {
+        "participantId": 1611124702,
+        "price": 4034
+      },
+      {
+        "participantId": 1611124703,
+        "price": 5826
+      },
+      {
+        "participantId": 1611124704,
+        "price": 3711
+      },
+      {
+        "participantId": 1611124705,
+        "price": 2921
+      },
+      {
+        "participantId": 1611124706,
+        "price": 1905
+      },
+      {
+        "participantId": 1611124707,
+        "price": 2667
+      },
+      {
+        "participantId": 1611124708,
+        "price": 3228
+      },
+      {
+        "participantId": 1611124709,
+        "price": 3917
+      },
+      {
+        "participantId": 1611124710,
+        "price": 6543
+      },
+      {
+        "participantId": 1611124711,
+        "price": 4222
+      },
+      {
+        "participantId": 1611124712,
+        "price": 3356
+      },
+      {
+        "participantId": 1611124713,
+        "price": 3022
+      },
+      {
+        "participantId": 1611124714,
+        "price": 2065
+      },
+      {
+        "participantId": 1611124715,
+        "price": 3241
+      },
+      {
+        "participantId": 1611124716,
+        "price": 4052
+      },
+      {
+        "participantId": 1611124717,
+        "price": 7609
+      },
+      {
+        "participantId": 1611124718,
+        "price": 5001
+      },
+      {
+        "participantId": 1611124719,
+        "price": 4010
+      },
+      {
+        "participantId": 1611124720,
+        "price": 3626
+      },
+      {
+        "participantId": 1611124721,
+        "price": 3568
+      },
+      {
+        "participantId": 1611124722,
+        "price": 2516
+      },
+      {
+        "participantId": 1611124723,
+        "price": 4269
+      },
+      {
+        "participantId": 1611124724,
+        "price": 9003
+      },
+      {
+        "participantId": 1611124725,
+        "price": 6048
+      },
+      {
+        "participantId": 1611124726,
+        "price": 4939
+      },
+      {
+        "participantId": 1611124727,
+        "price": 4490
+      },
+      {
+        "participantId": 1611124728,
+        "price": 4410
+      },
+      {
+        "participantId": 1611124729,
+        "price": 4598
+      },
+      {
+        "participantId": 1611124730,
+        "price": 3332
+      },
+      {
+        "participantId": 1611124675,
+        "price": 6715
+      },
+      {
+        "participantId": 1611124676,
+        "price": 5802
+      },
+      {
+        "participantId": 1611124677,
+        "price": 5491
+      },
+      {
+        "participantId": 1611124678,
+        "price": 5750
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "New York Yankees Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122745,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122746,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 975
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611124731,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611124732,
+        "price": -105
       },
       {
-        "alignment": "neutral",
-        "id": 1611122747,
-        "name": "Even",
-        "order": 0,
-        "rotation": 976
+        "participantId": 1611124733,
+        "price": -111
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "New York Yankees Runs Odd/Even"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122748,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122749,
-        "name": "New York Yankees 1, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122750,
-        "name": "New York Yankees 2, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122751,
-        "name": "New York Yankees 3, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122752,
-        "name": "New York Yankees 4, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122753,
-        "name": "New York Yankees 5, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122754,
-        "name": "New York Yankees 6, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122755,
-        "name": "New York Yankees 7, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122756,
-        "name": "New York Yankees 0, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122757,
-        "name": "New York Yankees 2, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122758,
-        "name": "New York Yankees 3, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122759,
-        "name": "New York Yankees 4, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122760,
-        "name": "New York Yankees 5, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122761,
-        "name": "New York Yankees 6, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122762,
-        "name": "New York Yankees 7, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122763,
-        "name": "New York Yankees 0, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122764,
-        "name": "New York Yankees 1, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122765,
-        "name": "New York Yankees 3, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122766,
-        "name": "New York Yankees 4, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122767,
-        "name": "New York Yankees 5, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122768,
-        "name": "New York Yankees 6, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122769,
-        "name": "New York Yankees 7, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122770,
-        "name": "New York Yankees 0, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122771,
-        "name": "New York Yankees 1, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122772,
-        "name": "New York Yankees 2, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122773,
-        "name": "New York Yankees 4, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122774,
-        "name": "New York Yankees 5, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122775,
-        "name": "New York Yankees 6, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122776,
-        "name": "New York Yankees 7, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122777,
-        "name": "New York Yankees 0, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122778,
-        "name": "New York Yankees 1, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122779,
-        "name": "New York Yankees 2, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122780,
-        "name": "New York Yankees 3, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122781,
-        "name": "New York Yankees 5, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122782,
-        "name": "New York Yankees 6, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122783,
-        "name": "New York Yankees 7, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122784,
-        "name": "New York Yankees 0, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122785,
-        "name": "New York Yankees 1, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122786,
-        "name": "New York Yankees 2, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122787,
-        "name": "New York Yankees 3, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122788,
-        "name": "New York Yankees 4, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122789,
-        "name": "New York Yankees 6, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122790,
-        "name": "New York Yankees 7, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122791,
-        "name": "New York Yankees 0, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122792,
-        "name": "New York Yankees 1, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122793,
-        "name": "New York Yankees 2, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122794,
-        "name": "New York Yankees 3, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122795,
-        "name": "New York Yankees 4, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1021
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122796,
-        "name": "New York Yankees 5, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1022
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122797,
-        "name": "New York Yankees 7, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1023
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122798,
-        "name": "New York Yankees 0, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1024
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122799,
-        "name": "New York Yankees 1, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1025
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122800,
-        "name": "New York Yankees 2, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1026
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122801,
-        "name": "New York Yankees 3, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1027
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122802,
-        "name": "New York Yankees 4, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1028
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122803,
-        "name": "New York Yankees 5, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1029
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122804,
-        "name": "New York Yankees 6, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1030
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124734,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124736,
+        "price": -128
+      },
+      {
+        "participantId": 1611124735,
+        "price": 109
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122805,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122806,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 975
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611124737,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611124738,
+        "price": -158
       },
       {
-        "alignment": "neutral",
-        "id": 1611122807,
-        "name": "Even",
-        "order": 0,
-        "rotation": 976
+        "participantId": 1611124739,
+        "price": 134
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Runs Odd/Even"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122808,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122809,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 975
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611124740,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611124741,
+        "price": 221
       },
       {
-        "alignment": "neutral",
-        "id": 1611122810,
-        "name": "Even",
-        "order": 0,
-        "rotation": 976
-      }
-    ],
-    "periods": [
+        "participantId": 1611124742,
+        "price": 248
+      },
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124743,
+        "price": 306
+      },
+      {
+        "participantId": 1611124744,
+        "price": 285
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122811,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122812,
-        "name": "New York Yankees & Over 8.5",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122813,
-        "name": "Cincinnati Reds & Over 8.5",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122814,
-        "name": "New York Yankees & Under 8.5",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122815,
-        "name": "Cincinnati Reds & Under 8.5",
-        "order": 0,
-        "rotation": 978
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124745,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124746,
+        "price": 561
+      },
+      {
+        "participantId": 1611124747,
+        "price": 666
+      },
+      {
+        "participantId": 1611124748,
+        "price": 792
+      },
+      {
+        "participantId": 1611124749,
+        "price": 988
+      },
+      {
+        "participantId": 1611124750,
+        "price": 473
+      },
+      {
+        "participantId": 1611124751,
+        "price": 404
+      },
+      {
+        "participantId": 1611124752,
+        "price": 722
+      },
+      {
+        "participantId": 1611124753,
+        "price": 881
+      },
+      {
+        "participantId": 1611124754,
+        "price": 1108
+      },
+      {
+        "participantId": 1611124755,
+        "price": 600
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122816,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122817,
-        "name": "New York Yankees By 1",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122818,
-        "name": "New York Yankees By 2",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122819,
-        "name": "New York Yankees By 3",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122820,
-        "name": "New York Yankees By 4",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122821,
-        "name": "New York Yankees By 5+",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122822,
-        "name": "Cincinnati Reds By 1",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122823,
-        "name": "Cincinnati Reds By 2",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122824,
-        "name": "Cincinnati Reds By 3",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122825,
-        "name": "Cincinnati Reds By 4",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122826,
-        "name": "Cincinnati Reds By 5+",
-        "order": 0,
-        "rotation": 984
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124756,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124757,
+        "price": 305
+      },
+      {
+        "participantId": 1611124758,
+        "price": 477
+      },
+      {
+        "participantId": 1611124759,
+        "price": 813
+      },
+      {
+        "participantId": 1611124760,
+        "price": 943
+      },
+      {
+        "participantId": 1611124761,
+        "price": 251
+      },
+      {
+        "participantId": 1611124762,
+        "price": 543
+      },
+      {
+        "participantId": 1611124763,
+        "price": 957
+      },
+      {
+        "participantId": 1611124764,
+        "price": 1211
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122827,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122828,
-        "name": "New York Yankees By 1 - 2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122829,
-        "name": "New York Yankees By 3 - 4",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122830,
-        "name": "New York Yankees By 5 - 6",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122831,
-        "name": "New York Yankees By 7+",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122832,
-        "name": "Cincinnati Reds By 1 - 2",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122833,
-        "name": "Cincinnati Reds By 3 - 4",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122834,
-        "name": "Cincinnati Reds By 5 - 6",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122835,
-        "name": "Cincinnati Reds By 7+",
-        "order": 0,
-        "rotation": 982
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124765,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124768,
+        "price": 1233
+      },
+      {
+        "participantId": 1611124769,
+        "price": 1342
+      },
+      {
+        "participantId": 1611124770,
+        "price": 756
+      },
+      {
+        "participantId": 1611124771,
+        "price": 926
+      },
+      {
+        "participantId": 1611124772,
+        "price": 613
+      },
+      {
+        "participantId": 1611124773,
+        "price": 821
+      },
+      {
+        "participantId": 1611124774,
+        "price": 620
+      },
+      {
+        "participantId": 1611124775,
+        "price": 880
+      },
+      {
+        "participantId": 1611124776,
+        "price": 737
+      },
+      {
+        "participantId": 1611124777,
+        "price": 1078
+      },
+      {
+        "participantId": 1611124778,
+        "price": 978
+      },
+      {
+        "participantId": 1611124779,
+        "price": 1447
+      },
+      {
+        "participantId": 1611124780,
+        "price": 532
+      },
+      {
+        "participantId": 1611124766,
+        "price": 2975
+      },
+      {
+        "participantId": 1611124767,
+        "price": 2778
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122836,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122837,
-        "name": "1",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122838,
-        "name": "2",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122839,
-        "name": "3",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122840,
-        "name": "4",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122841,
-        "name": "5",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122842,
-        "name": "6",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122843,
-        "name": "7",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122844,
-        "name": "8",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122845,
-        "name": "9",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122846,
-        "name": "10",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122847,
-        "name": "11",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122848,
-        "name": "12",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122849,
-        "name": "13",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122850,
-        "name": "14",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122851,
-        "name": "15+",
-        "order": 0,
-        "rotation": 989
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124781,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124782,
+        "price": 873
+      },
+      {
+        "participantId": 1611124783,
+        "price": 350
+      },
+      {
+        "participantId": 1611124784,
+        "price": 215
+      },
+      {
+        "participantId": 1611124785,
+        "price": 313
+      },
+      {
+        "participantId": 1611124786,
+        "price": 294
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122852,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122853,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122854,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122855,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122856,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122857,
-        "name": "13+",
-        "order": 0,
-        "rotation": 979
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124787,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 0,
-        "status": "open"
+        "participantId": 1611124788,
+        "price": 550
+      },
+      {
+        "participantId": 1611124789,
+        "price": 672
+      },
+      {
+        "participantId": 1611124790,
+        "price": 325
+      },
+      {
+        "participantId": 1611124791,
+        "price": 482
+      },
+      {
+        "participantId": 1611124792,
+        "price": 549
+      },
+      {
+        "participantId": 1611124793,
+        "price": 668
+      },
+      {
+        "participantId": 1611124794,
+        "price": 321
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122858,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122859,
-        "name": "New York Yankees By 1",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122860,
-        "name": "New York Yankees By 2",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122861,
-        "name": "New York Yankees By 3+",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122862,
-        "name": "Tie",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122863,
-        "name": "Cincinnati Reds By 1",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122864,
-        "name": "Cincinnati Reds By 2",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122865,
-        "name": "Cincinnati Reds By 3+",
-        "order": 0,
-        "rotation": 981
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124795,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124800,
+        "price": 545
+      },
+      {
+        "participantId": 1611124801,
+        "price": 565
+      },
+      {
+        "participantId": 1611124802,
+        "price": 624
+      },
+      {
+        "participantId": 1611124803,
+        "price": 724
+      },
+      {
+        "participantId": 1611124804,
+        "price": 873
+      },
+      {
+        "participantId": 1611124805,
+        "price": 1082
+      },
+      {
+        "participantId": 1611124806,
+        "price": 1368
+      },
+      {
+        "participantId": 1611124807,
+        "price": 807
+      },
+      {
+        "participantId": 1611124796,
+        "price": 1613
+      },
+      {
+        "participantId": 1611124797,
+        "price": 922
+      },
+      {
+        "participantId": 1611124798,
+        "price": 672
+      },
+      {
+        "participantId": 1611124799,
+        "price": 572
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122866,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122867,
-        "name": "0",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122868,
-        "name": "1",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122869,
-        "name": "2",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122870,
-        "name": "3",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122871,
-        "name": "4",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122872,
-        "name": "5",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122873,
-        "name": "6",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122874,
-        "name": "7",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122875,
-        "name": "8",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122876,
-        "name": "9",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122877,
-        "name": "10",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122878,
-        "name": "11+",
-        "order": 0,
-        "rotation": 986
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124808,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124809,
+        "price": 343
+      },
+      {
+        "participantId": 1611124810,
+        "price": 273
+      },
+      {
+        "participantId": 1611124811,
+        "price": 295
+      },
+      {
+        "participantId": 1611124812,
+        "price": 179
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122879,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122880,
-        "name": "0 - 2",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122881,
-        "name": "3 - 4",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122882,
-        "name": "5 - 6",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122883,
-        "name": "7+",
-        "order": 0,
-        "rotation": 978
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124813,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124814,
+        "price": 381
+      },
+      {
+        "participantId": 1611124815,
+        "price": 359
+      },
+      {
+        "participantId": 1611124816,
+        "price": 387
+      },
+      {
+        "participantId": 1611124817,
+        "price": 474
+      },
+      {
+        "participantId": 1611124818,
+        "price": 615
+      },
+      {
+        "participantId": 1611124819,
+        "price": 330
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Range 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122884,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122885,
-        "name": "0",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122886,
-        "name": "1",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122887,
-        "name": "2",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122888,
-        "name": "3",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122889,
-        "name": "4",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122890,
-        "name": "5+",
-        "order": 0,
-        "rotation": 980
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124820,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124821,
+        "price": 383
+      },
+      {
+        "participantId": 1611124822,
+        "price": 361
+      },
+      {
+        "participantId": 1611124823,
+        "price": 387
+      },
+      {
+        "participantId": 1611124824,
+        "price": 472
+      },
+      {
+        "participantId": 1611124825,
+        "price": 613
+      },
+      {
+        "participantId": 1611124826,
+        "price": 327
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "New York Yankees Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122891,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-24T23:45:00+00:00",
+    "key": "s;1;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611122892,
-        "name": "0",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122893,
-        "name": "1",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122894,
-        "name": "2",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122895,
-        "name": "3",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122896,
-        "name": "4",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122897,
-        "name": "5+",
-        "order": 0,
-        "rotation": 980
+        "amount": 250,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1611124827,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
+        "participantId": 1611124828,
+        "price": 1831
+      },
+      {
+        "participantId": 1611124829,
+        "price": 1932
+      },
+      {
+        "participantId": 1611124830,
+        "price": 2249
+      },
+      {
+        "participantId": 1611124831,
+        "price": 2768
+      },
+      {
+        "participantId": 1611124832,
+        "price": 3520
+      },
+      {
+        "participantId": 1611124833,
+        "price": 4634
+      },
+      {
+        "participantId": 1611124835,
+        "price": 1785
+      },
+      {
+        "participantId": 1611124836,
+        "price": 1728
+      },
+      {
+        "participantId": 1611124837,
+        "price": 1849
+      },
+      {
+        "participantId": 1611124838,
+        "price": 2155
+      },
+      {
+        "participantId": 1611124839,
+        "price": 2656
+      },
+      {
+        "participantId": 1611124840,
+        "price": 3383
+      },
+      {
+        "participantId": 1611124841,
+        "price": 4460
+      },
+      {
+        "participantId": 1611124843,
+        "price": 1890
+      },
+      {
+        "participantId": 1611124844,
+        "price": 1806
+      },
+      {
+        "participantId": 1611124845,
+        "price": 1931
+      },
+      {
+        "participantId": 1611124846,
+        "price": 2278
+      },
+      {
+        "participantId": 1611124847,
+        "price": 2803
+      },
+      {
+        "participantId": 1611124848,
+        "price": 3562
+      },
+      {
+        "participantId": 1611124849,
+        "price": 4683
+      },
+      {
+        "participantId": 1611124851,
+        "price": 2206
+      },
+      {
+        "participantId": 1611124852,
+        "price": 2111
+      },
+      {
+        "participantId": 1611124853,
+        "price": 2223
+      },
+      {
+        "participantId": 1611124854,
+        "price": 2613
+      },
+      {
+        "participantId": 1611124855,
+        "price": 3239
+      },
+      {
+        "participantId": 1611124856,
+        "price": 4093
+      },
+      {
+        "participantId": 1611124859,
+        "price": 2720
+      },
+      {
+        "participantId": 1611124860,
+        "price": 2607
+      },
+      {
+        "participantId": 1611124861,
+        "price": 2741
+      },
+      {
+        "participantId": 1611124862,
+        "price": 3164
+      },
+      {
+        "participantId": 1611124863,
+        "price": 3896
+      },
+      {
+        "participantId": 1611124864,
+        "price": 4943
+      },
+      {
+        "participantId": 1611124867,
+        "price": 3464
+      },
+      {
+        "participantId": 1611124868,
+        "price": 3325
+      },
+      {
+        "participantId": 1611124869,
+        "price": 3490
+      },
+      {
+        "participantId": 1611124870,
+        "price": 4005
+      },
+      {
+        "participantId": 1611124871,
+        "price": 4835
+      },
+      {
+        "participantId": 1611124875,
+        "price": 4568
+      },
+      {
+        "participantId": 1611124876,
+        "price": 4390
+      },
+      {
+        "participantId": 1611124877,
+        "price": 4596
       }
     ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Cincinnati Reds Exact Total Runs 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
-  },
-  {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611122898,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 35,
-        "matchupCountSE": 35,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610910811,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "Cincinnati Reds",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "New York Yankees",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-24T23:10:00+00:00"
-    },
-    "parentId": 1610910811,
-    "parlayRestriction": null,
-    "participants": [
-      {
-        "alignment": "neutral",
-        "id": 1611122899,
-        "name": "New York Yankees 0, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 975
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122900,
-        "name": "New York Yankees 0, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 976
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122901,
-        "name": "New York Yankees 0, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 977
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122902,
-        "name": "New York Yankees 0, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 978
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122903,
-        "name": "New York Yankees 0, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 979
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122904,
-        "name": "New York Yankees 0, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 980
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122905,
-        "name": "New York Yankees 0, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 981
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122906,
-        "name": "New York Yankees 1, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 982
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122907,
-        "name": "New York Yankees 1, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 983
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122908,
-        "name": "New York Yankees 1, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 984
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122909,
-        "name": "New York Yankees 1, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 985
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122910,
-        "name": "New York Yankees 1, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 986
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122911,
-        "name": "New York Yankees 1, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 987
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122912,
-        "name": "New York Yankees 1, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 988
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122913,
-        "name": "New York Yankees 1, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 989
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122914,
-        "name": "New York Yankees 2, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 990
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122915,
-        "name": "New York Yankees 2, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 991
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122916,
-        "name": "New York Yankees 2, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 992
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122917,
-        "name": "New York Yankees 2, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 993
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122918,
-        "name": "New York Yankees 2, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 994
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122919,
-        "name": "New York Yankees 2, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 995
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122920,
-        "name": "New York Yankees 2, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 996
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122921,
-        "name": "New York Yankees 2, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 997
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122922,
-        "name": "New York Yankees 3, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 998
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122923,
-        "name": "New York Yankees 3, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 999
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122924,
-        "name": "New York Yankees 3, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 1000
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122925,
-        "name": "New York Yankees 3, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 1001
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122926,
-        "name": "New York Yankees 3, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1002
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122927,
-        "name": "New York Yankees 3, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1003
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122928,
-        "name": "New York Yankees 3, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1004
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122929,
-        "name": "New York Yankees 3, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1005
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122930,
-        "name": "New York Yankees 4, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 1006
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122931,
-        "name": "New York Yankees 4, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 1007
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122932,
-        "name": "New York Yankees 4, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 1008
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122933,
-        "name": "New York Yankees 4, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 1009
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122934,
-        "name": "New York Yankees 4, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1010
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122935,
-        "name": "New York Yankees 4, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1011
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122936,
-        "name": "New York Yankees 4, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1012
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122937,
-        "name": "New York Yankees 4, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1013
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122938,
-        "name": "New York Yankees 5, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 1014
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122939,
-        "name": "New York Yankees 5, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 1015
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122940,
-        "name": "New York Yankees 5, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 1016
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122941,
-        "name": "New York Yankees 5, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 1017
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122942,
-        "name": "New York Yankees 5, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1018
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122943,
-        "name": "New York Yankees 5, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1019
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122944,
-        "name": "New York Yankees 5, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1020
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122945,
-        "name": "New York Yankees 5, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1021
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122946,
-        "name": "New York Yankees 6, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 1022
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122947,
-        "name": "New York Yankees 6, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 1023
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122948,
-        "name": "New York Yankees 6, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 1024
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122949,
-        "name": "New York Yankees 6, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 1025
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122950,
-        "name": "New York Yankees 6, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1026
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122951,
-        "name": "New York Yankees 6, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1027
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122952,
-        "name": "New York Yankees 6, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1028
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122953,
-        "name": "New York Yankees 6, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1029
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122954,
-        "name": "New York Yankees 7, Cincinnati Reds 0",
-        "order": 0,
-        "rotation": 1030
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122955,
-        "name": "New York Yankees 7, Cincinnati Reds 1",
-        "order": 0,
-        "rotation": 1031
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122956,
-        "name": "New York Yankees 7, Cincinnati Reds 2",
-        "order": 0,
-        "rotation": 1032
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122957,
-        "name": "New York Yankees 7, Cincinnati Reds 3",
-        "order": 0,
-        "rotation": 1033
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122958,
-        "name": "New York Yankees 7, Cincinnati Reds 4",
-        "order": 0,
-        "rotation": 1034
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122959,
-        "name": "New York Yankees 7, Cincinnati Reds 5",
-        "order": 0,
-        "rotation": 1035
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122960,
-        "name": "New York Yankees 7, Cincinnati Reds 6",
-        "order": 0,
-        "rotation": 1036
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611122961,
-        "name": "New York Yankees 7, Cincinnati Reds 7",
-        "order": 0,
-        "rotation": 1037
-      }
-    ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-24T23:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 975,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score 1st Half"
-    },
-    "startTime": "2025-06-24T23:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427860215
+    "type": "moneyline",
+    "version": 5064076463
   }
 ]
