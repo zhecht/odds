@@ -2749,7 +2749,6 @@ def writeLineups(date):
 	#			print(row[0], "SITTING!!")
 	
 	if date == "2025-06-24":
-		data["chw"]["pitcher"] = "tyler alexander"
 		data["lad"]["pitcher"] = "justin wrobleski"
 		pass
 
