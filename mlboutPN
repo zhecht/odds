@@ -1,2130 +1,6113 @@
 [
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;m",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": 10,
+    "hasAltSpread": true,
+    "hasAltTotal": true,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610953622,
+    "isBetshareEnabled": false,
+    "isFeatured": true,
+    "isHighlighted": true,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": null,
+    "parentId": null,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "home",
-        "price": 376
+        "alignment": "home",
+        "name": "Milwaukee Brewers",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          },
+          {
+            "period": 1
+          },
+          {
+            "period": 3
+          }
+        ]
       },
       {
-        "designation": "away",
-        "price": 192
-      },
-      {
-        "designation": "draw",
-        "price": -108
+        "alignment": "away",
+        "name": "Pittsburgh Pirates",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          },
+          {
+            "period": 1
+          },
+          {
+            "period": 3
+          }
+        ]
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3157273390
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "hasMoneyline": false,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 1,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 3,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 26,
+    "type": "matchup",
+    "units": "Regular",
+    "version": 605667623
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;s;0.0",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1610964712,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": 161
+        "alignment": "neutral",
+        "id": 1610964714,
+        "name": "Pittsburgh Pirates",
+        "order": 0,
+        "rotation": 2463
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": -193
+        "alignment": "neutral",
+        "id": 1610964715,
+        "name": "Milwaukee Brewers",
+        "order": 0,
+        "rotation": 2464
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157273390
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 2463,
+    "special": {
+      "category": "Next Run",
+      "description": "Team To Score 1st Run"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "1st Run",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;ou;0.5",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": 10,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147605,
+    "isBetshareEnabled": false,
+    "isFeatured": true,
+    "isHighlighted": true,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "over",
-        "points": 0.5,
-        "price": -123
+        "alignment": "home",
+        "name": "Milwaukee Brewers  (Hits+Runs+Errors)",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       },
       {
-        "designation": "under",
-        "points": 0.5,
-        "price": 105
+        "alignment": "away",
+        "name": "Pittsburgh Pirates  (Hits+Runs+Errors)",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157273390
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "hasMoneyline": false,
+        "hasSpread": false,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 9901,
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "matchup",
+    "units": "Hits + Runs + Errors",
+    "version": 605667623
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147606,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "price": 257
+        "alignment": "neutral",
+        "id": 1611147607,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "away",
-        "price": -299
+        "alignment": "neutral",
+        "id": 1611147608,
+        "name": "Even",
+        "order": 0,
+        "rotation": 902
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Runs Odd/Even"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;3.5;home",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147609,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": -118
+        "alignment": "neutral",
+        "id": 1611147610,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": 101
+        "alignment": "neutral",
+        "id": 1611147611,
+        "name": "Even",
+        "order": 0,
+        "rotation": 902
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Pittsburgh Pirates Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;6.5;away",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147612,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 6.5,
-        "price": -121
+        "alignment": "neutral",
+        "id": 1611147613,
+        "name": "0",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 6.5,
-        "price": 103
+        "alignment": "neutral",
+        "id": 1611147614,
+        "name": "1",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147615,
+        "name": "2",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147616,
+        "name": "3",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147617,
+        "name": "4",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147618,
+        "name": "5",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147619,
+        "name": "6",
+        "order": 0,
+        "rotation": 907
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147620,
+        "name": "7",
+        "order": 0,
+        "rotation": 908
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147621,
+        "name": "8+",
+        "order": 0,
+        "rotation": 909
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Exact Total Runs"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;s;1.5",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147622,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.5,
-        "price": 175
+        "alignment": "neutral",
+        "id": 1611147623,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "away",
-        "points": -1.5,
-        "price": -202
+        "alignment": "neutral",
+        "id": 1611147624,
+        "name": "Even",
+        "order": 0,
+        "rotation": 902
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;3.0",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147625,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 3.0,
-        "price": -108
+        "alignment": "neutral",
+        "id": 1611147626,
+        "name": "Pittsburgh Pirates & Over 4.5",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "away",
-        "points": -3.0,
-        "price": -110
+        "alignment": "neutral",
+        "id": 1611147627,
+        "name": "Milwaukee Brewers & Over 4.5",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147628,
+        "name": "Draw & Over 4.5",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147629,
+        "name": "Pittsburgh Pirates & Under 4.5",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147630,
+        "name": "Milwaukee Brewers & Under 4.5",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147631,
+        "name": "Draw & Under 4.5",
+        "order": 0,
+        "rotation": 906
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Double Result",
+      "description": "1st Half Winner/Total 4.5 Runs"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;2.5",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147632,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 2.5,
-        "price": 114
+        "alignment": "neutral",
+        "id": 1611147633,
+        "name": "0",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "away",
-        "points": -2.5,
-        "price": -133
+        "alignment": "neutral",
+        "id": 1611147634,
+        "name": "1",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147635,
+        "name": "2",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147636,
+        "name": "3",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147637,
+        "name": "4",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147638,
+        "name": "5",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147639,
+        "name": "6",
+        "order": 0,
+        "rotation": 907
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147640,
+        "name": "7",
+        "order": 0,
+        "rotation": 908
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147641,
+        "name": "8+",
+        "order": 0,
+        "rotation": 909
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Pittsburgh Pirates Exact Total Runs"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;2.0",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147642,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 2.0,
-        "price": 147
+        "alignment": "neutral",
+        "id": 1611147643,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "away",
-        "points": -2.0,
-        "price": -170
+        "alignment": "neutral",
+        "id": 1611147644,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147645,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147646,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147647,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147648,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147649,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 907
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147650,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 908
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147651,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 909
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147652,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 910
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147653,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 911
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147654,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 912
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147655,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 913
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147656,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 914
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147657,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 915
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147658,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 916
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147659,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 917
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147660,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 918
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147661,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 919
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147662,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 920
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147663,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 921
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147664,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147665,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147666,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147667,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147668,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147669,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147670,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147671,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 929
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147672,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 930
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147673,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 931
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147674,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 932
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147675,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 933
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147676,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 934
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147677,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 935
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147678,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 936
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147679,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 937
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147680,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 938
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147681,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 939
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147682,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 940
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147683,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 941
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147684,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 942
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147685,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 943
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147686,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 944
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147687,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 945
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147688,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 946
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147689,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 947
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147690,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 948
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147691,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 949
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147692,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 950
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147693,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 951
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147694,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147695,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147696,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147697,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147698,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 956
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.0",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147699,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": 230
+        "alignment": "neutral",
+        "id": 1611147700,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": -280
+        "alignment": "neutral",
+        "id": 1611147701,
+        "name": "Even",
+        "order": 0,
+        "rotation": 902
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Pittsburgh Pirates Runs Odd/Even"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-1.0",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147702,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": 415
+        "alignment": "neutral",
+        "id": 1611147703,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -598
+        "alignment": "neutral",
+        "id": 1611147704,
+        "name": "Even",
+        "order": 0,
+        "rotation": 902
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-1.5",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147705,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.5,
-        "price": 455
+        "alignment": "neutral",
+        "id": 1611147706,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "away",
-        "points": 1.5,
-        "price": -718
+        "alignment": "neutral",
+        "id": 1611147707,
+        "name": "Even",
+        "order": 0,
+        "rotation": 902
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;11.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147708,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 11.0,
-        "price": 102
+        "alignment": "neutral",
+        "id": 1611147709,
+        "name": "Pittsburgh Pirates & Over 8.5",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 11.0,
-        "price": -115
+        "alignment": "neutral",
+        "id": 1611147710,
+        "name": "Milwaukee Brewers & Over 8.5",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147711,
+        "name": "Pittsburgh Pirates & Under 8.5",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147712,
+        "name": "Milwaukee Brewers & Under 8.5",
+        "order": 0,
+        "rotation": 904
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Double Result",
+      "description": "Winner/Total 8.5 Runs"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;7.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147713,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.5,
-        "price": -368
+        "alignment": "neutral",
+        "id": 1611147714,
+        "name": "Pittsburgh Pirates By 1",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 7.5,
-        "price": 282
+        "alignment": "neutral",
+        "id": 1611147715,
+        "name": "Pittsburgh Pirates By 2",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147716,
+        "name": "Pittsburgh Pirates By 3",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147717,
+        "name": "Pittsburgh Pirates By 4",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147718,
+        "name": "Pittsburgh Pirates By 5+",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147719,
+        "name": "Milwaukee Brewers By 1",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147720,
+        "name": "Milwaukee Brewers By 2",
+        "order": 0,
+        "rotation": 907
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147721,
+        "name": "Milwaukee Brewers By 3",
+        "order": 0,
+        "rotation": 908
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147722,
+        "name": "Milwaukee Brewers By 4",
+        "order": 0,
+        "rotation": 909
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147723,
+        "name": "Milwaukee Brewers By 5+",
+        "order": 0,
+        "rotation": 910
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;9.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147724,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 9.5,
-        "price": -162
+        "alignment": "neutral",
+        "id": 1611147725,
+        "name": "Pittsburgh Pirates By 1 - 2",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 9.5,
-        "price": 143
+        "alignment": "neutral",
+        "id": 1611147726,
+        "name": "Pittsburgh Pirates By 3 - 4",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147727,
+        "name": "Pittsburgh Pirates By 5 - 6",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147728,
+        "name": "Pittsburgh Pirates By 7+",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147729,
+        "name": "Milwaukee Brewers By 1 - 2",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147730,
+        "name": "Milwaukee Brewers By 3 - 4",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147731,
+        "name": "Milwaukee Brewers By 5 - 6",
+        "order": 0,
+        "rotation": 907
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147732,
+        "name": "Milwaukee Brewers By 7+",
+        "order": 0,
+        "rotation": 908
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin Range"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;10.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147733,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 10.0,
-        "price": -141
+        "alignment": "neutral",
+        "id": 1611147734,
+        "name": "1",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 10.0,
-        "price": 125
+        "alignment": "neutral",
+        "id": 1611147735,
+        "name": "2",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147736,
+        "name": "3",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147737,
+        "name": "4",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147738,
+        "name": "5",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147739,
+        "name": "6",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147740,
+        "name": "7",
+        "order": 0,
+        "rotation": 907
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147741,
+        "name": "8",
+        "order": 0,
+        "rotation": 908
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147742,
+        "name": "9",
+        "order": 0,
+        "rotation": 909
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147743,
+        "name": "10",
+        "order": 0,
+        "rotation": 910
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147744,
+        "name": "11",
+        "order": 0,
+        "rotation": 911
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147745,
+        "name": "12",
+        "order": 0,
+        "rotation": 912
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147746,
+        "name": "13",
+        "order": 0,
+        "rotation": 913
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147747,
+        "name": "14",
+        "order": 0,
+        "rotation": 914
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147748,
+        "name": "15+",
+        "order": 0,
+        "rotation": 915
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;10.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147749,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 10.5,
-        "price": -118
+        "alignment": "neutral",
+        "id": 1611147750,
+        "name": "1 - 3",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 10.5,
-        "price": 105
+        "alignment": "neutral",
+        "id": 1611147751,
+        "name": "4 - 6",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147752,
+        "name": "7 - 9",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147753,
+        "name": "10 - 12",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147754,
+        "name": "13+",
+        "order": 0,
+        "rotation": 905
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;11.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147755,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 11.5,
-        "price": 122
+        "alignment": "neutral",
+        "id": 1611147756,
+        "name": "Pittsburgh Pirates By 1",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 11.5,
-        "price": -137
+        "alignment": "neutral",
+        "id": 1611147757,
+        "name": "Pittsburgh Pirates By 2",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147758,
+        "name": "Pittsburgh Pirates By 3+",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147759,
+        "name": "Tie",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147760,
+        "name": "Milwaukee Brewers By 1",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147761,
+        "name": "Milwaukee Brewers By 2",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147762,
+        "name": "Milwaukee Brewers By 3+",
+        "order": 0,
+        "rotation": 907
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;12.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147763,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 12.0,
-        "price": 143
+        "alignment": "neutral",
+        "id": 1611147764,
+        "name": "0",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 12.0,
-        "price": -163
+        "alignment": "neutral",
+        "id": 1611147765,
+        "name": "1",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147766,
+        "name": "2",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147767,
+        "name": "3",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147768,
+        "name": "4",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147769,
+        "name": "5",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147770,
+        "name": "6",
+        "order": 0,
+        "rotation": 907
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147771,
+        "name": "7",
+        "order": 0,
+        "rotation": 908
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147772,
+        "name": "8",
+        "order": 0,
+        "rotation": 909
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147773,
+        "name": "9",
+        "order": 0,
+        "rotation": 910
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147774,
+        "name": "10",
+        "order": 0,
+        "rotation": 911
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147775,
+        "name": "11+",
+        "order": 0,
+        "rotation": 912
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;12.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147776,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 12.5,
-        "price": 160
+        "alignment": "neutral",
+        "id": 1611147777,
+        "name": "0 - 2",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 12.5,
-        "price": -183
+        "alignment": "neutral",
+        "id": 1611147778,
+        "name": "3 - 4",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147779,
+        "name": "5 - 6",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147780,
+        "name": "7+",
+        "order": 0,
+        "rotation": 904
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;14.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147781,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 14.5,
-        "price": 277
+        "alignment": "neutral",
+        "id": 1611147782,
+        "name": "0",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 14.5,
-        "price": -359
+        "alignment": "neutral",
+        "id": 1611147783,
+        "name": "1",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147784,
+        "name": "2",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147785,
+        "name": "3",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147786,
+        "name": "4",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147787,
+        "name": "5+",
+        "order": 0,
+        "rotation": 906
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Pittsburgh Pirates Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;1.5;home",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147788,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 1.5,
-        "price": -116
+        "alignment": "neutral",
+        "id": 1611147789,
+        "name": "0",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 1.5,
-        "price": -104
+        "alignment": "neutral",
+        "id": 1611147790,
+        "name": "1",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147791,
+        "name": "2",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147792,
+        "name": "3",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147793,
+        "name": "4",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147794,
+        "name": "5+",
+        "order": 0,
+        "rotation": 906
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;3.5;away",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611147795,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": 101
+        "alignment": "neutral",
+        "id": 1611147796,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 901
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": -123
+        "alignment": "neutral",
+        "id": 1611147797,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147798,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 903
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147799,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 904
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147800,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 905
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147801,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 906
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147802,
+        "name": "Pittsburgh Pirates 0, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 907
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147803,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 908
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147804,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 909
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147805,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 910
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147806,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 911
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147807,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 912
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147808,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 913
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147809,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 914
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147810,
+        "name": "Pittsburgh Pirates 1, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 915
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147811,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 916
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147812,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 917
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147813,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 918
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147814,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 919
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147815,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 920
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147816,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 921
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147817,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 922
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147818,
+        "name": "Pittsburgh Pirates 2, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 923
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147819,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 924
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147820,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 925
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147821,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 926
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147822,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 927
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147823,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 928
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147824,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 929
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147825,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 930
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147826,
+        "name": "Pittsburgh Pirates 3, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 931
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147827,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 932
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147828,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 933
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147829,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 934
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147830,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 935
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147831,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 936
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147832,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 937
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147833,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 938
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147834,
+        "name": "Pittsburgh Pirates 4, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 939
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147835,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 940
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147836,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 941
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147837,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 942
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147838,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 943
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147839,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 944
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147840,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 945
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147841,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 946
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147842,
+        "name": "Pittsburgh Pirates 5, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 947
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147843,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 948
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147844,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 949
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147845,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 950
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147846,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 951
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147847,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147848,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147849,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147850,
+        "name": "Pittsburgh Pirates 6, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147851,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147852,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147853,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147854,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147855,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147856,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147857,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611147858,
+        "name": "Pittsburgh Pirates 7, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 963
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 901,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score 1st Half"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;s;0.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611153340,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": 233
+        "alignment": "neutral",
+        "id": 1611153341,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": -284
+        "alignment": "neutral",
+        "id": 1611153342,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Jacob Misiorowski (Total Strikeouts)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Strikeouts",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611153343,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": 125
+        "alignment": "neutral",
+        "id": 1611153344,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": -150
+        "alignment": "neutral",
+        "id": 1611153345,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Paul Skenes (Total Strikeouts)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Strikeouts",
+    "version": 427950939
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156811,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.5,
-        "price": 158
+        "alignment": "neutral",
+        "id": 1611156812,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "away",
-        "points": -0.5,
-        "price": -189
+        "alignment": "neutral",
+        "id": 1611156813,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Paul Skenes (Hits Allowed)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HitsAllowed",
+    "version": 427955890
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156814,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -0.5,
-        "price": 269
+        "alignment": "neutral",
+        "id": 1611156815,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "away",
-        "points": 0.5,
-        "price": -347
+        "alignment": "neutral",
+        "id": 1611156816,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Paul Skenes (Earned Runs)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "EarnedRuns",
+    "version": 427955890
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156817,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": 385
+        "alignment": "neutral",
+        "id": 1611156818,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -570
+        "alignment": "neutral",
+        "id": 1611156819,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Paul Skenes (Pitching Outs)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "PitchingOuts",
+    "version": 427955890
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;ou;5.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156984,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.5,
-        "price": 102
+        "alignment": "neutral",
+        "id": 1611156985,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "under",
-        "points": 5.5,
-        "price": -116
+        "alignment": "neutral",
+        "id": 1611156986,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Jacob Misiorowski (Hits Allowed)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HitsAllowed",
+    "version": 427956107
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;4.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156987,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.5,
-        "price": -163
+        "alignment": "neutral",
+        "id": 1611156988,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "under",
-        "points": 4.5,
-        "price": 141
+        "alignment": "neutral",
+        "id": 1611156989,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Jacob Misiorowski (Earned Runs)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "EarnedRuns",
+    "version": 427956107
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156990,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.0,
-        "price": -129
+        "alignment": "neutral",
+        "id": 1611156991,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "under",
-        "points": 5.0,
-        "price": 112
+        "alignment": "neutral",
+        "id": 1611156992,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Jacob Misiorowski (Pitching Outs)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "PitchingOuts",
+    "version": 427956107
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;6.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156993,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 6.0,
-        "price": 130
+        "alignment": "neutral",
+        "id": 1611156994,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "under",
-        "points": 6.0,
-        "price": -150
+        "alignment": "neutral",
+        "id": 1611156995,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Sal Frelick (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956161
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;6.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156996,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610953677,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 6.5,
-        "price": 155
+        "alignment": "neutral",
+        "id": 1611156997,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "under",
-        "points": 6.5,
-        "price": -180
+        "alignment": "neutral",
+        "id": 1611156998,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Jackson Chourio (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956169
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611156999,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1610972652,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1610972653,
-        "price": -261
+        "alignment": "neutral",
+        "id": 1611157000,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "participantId": 1610972654,
-        "price": 211
+        "alignment": "neutral",
+        "id": 1611157001,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "type": "moneyline",
-    "version": 5065195537
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Christian Yelich (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956223
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;30.5",
-    "limits": [
-      {
-        "amount": 500,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157002,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611148113,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 30.5,
-        "price": 101
+        "alignment": "neutral",
+        "id": 1611157003,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "designation": "under",
-        "points": 30.5,
-        "price": -118
+        "alignment": "neutral",
+        "id": 1611157004,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3157337407
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "William Contreras (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956257
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157005,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611148114,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611148115,
-        "price": -105
+        "alignment": "neutral",
+        "id": 1611157006,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "participantId": 1611148116,
-        "price": -111
+        "alignment": "neutral",
+        "id": 1611157007,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Brice Turang (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956311
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157056,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611148117,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611148118,
-        "price": 103
+        "alignment": "neutral",
+        "id": 1611157057,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "participantId": 1611148119,
-        "price": -121
+        "alignment": "neutral",
+        "id": 1611157058,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "type": "moneyline",
-    "version": 5065178661
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Rhys Hoskins (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956719
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157113,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611157114,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611157115,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "matchupId": 1611148120,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611148128,
-        "price": 936
-      },
-      {
-        "participantId": 1611148129,
-        "price": 544
-      },
-      {
-        "participantId": 1611148121,
-        "price": 951
-      },
-      {
-        "participantId": 1611148122,
-        "price": 571
-      },
-      {
-        "participantId": 1611148123,
-        "price": 474
-      },
-      {
-        "participantId": 1611148124,
-        "price": 462
-      },
-      {
-        "participantId": 1611148125,
-        "price": 504
-      },
-      {
-        "participantId": 1611148126,
-        "price": 592
-      },
-      {
-        "participantId": 1611148127,
-        "price": 731
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Jake Bauers (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956772
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157116,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611148130,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611148131,
-        "price": -108
+        "alignment": "neutral",
+        "id": 1611157117,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "participantId": 1611148132,
-        "price": -108
+        "alignment": "neutral",
+        "id": 1611157118,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "type": "moneyline",
-    "version": 5065178661
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Joey Ortiz (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956793
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157208,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611157209,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611157210,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "matchupId": 1611148133,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611148134,
-        "price": 128
-      },
-      {
-        "participantId": 1611148135,
-        "price": 471
-      },
-      {
-        "participantId": 1611148136,
-        "price": 1405
-      },
-      {
-        "participantId": 1611148137,
-        "price": 312
-      },
-      {
-        "participantId": 1611148138,
-        "price": 659
-      },
-      {
-        "participantId": 1611148139,
-        "price": 776
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5065178661
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Oneil Cruz (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 427956867
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157211,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611157212,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611157213,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "matchupId": 1611148140,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611148141,
-        "price": 2667
-      },
-      {
-        "participantId": 1611148142,
-        "price": 1679
-      },
-      {
-        "participantId": 1611148143,
-        "price": 1132
-      },
-      {
-        "participantId": 1611148144,
-        "price": 866
-      },
-      {
-        "participantId": 1611148145,
-        "price": 718
-      },
-      {
-        "participantId": 1611148146,
-        "price": 643
-      },
-      {
-        "participantId": 1611148147,
-        "price": 619
-      },
-      {
-        "participantId": 1611148148,
-        "price": 636
-      },
-      {
-        "participantId": 1611148149,
-        "price": 125
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Oneil Cruz (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956867
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157214,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611157215,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611157216,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "matchupId": 1611148150,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611148152,
-        "price": 7785
-      },
-      {
-        "participantId": 1611148153,
-        "price": 6400
-      },
-      {
-        "participantId": 1611148154,
-        "price": 5809
-      },
-      {
-        "participantId": 1611148155,
-        "price": 5507
-      },
-      {
-        "participantId": 1611148156,
-        "price": 5519
-      },
-      {
-        "participantId": 1611148157,
-        "price": 5675
-      },
-      {
-        "participantId": 1611148158,
-        "price": 9591
-      },
-      {
-        "participantId": 1611148159,
-        "price": 5517
-      },
-      {
-        "participantId": 1611148160,
-        "price": 4277
-      },
-      {
-        "participantId": 1611148161,
-        "price": 3756
-      },
-      {
-        "participantId": 1611148162,
-        "price": 3616
-      },
-      {
-        "participantId": 1611148163,
-        "price": 3619
-      },
-      {
-        "participantId": 1611148164,
-        "price": 3789
-      },
-      {
-        "participantId": 1611148166,
-        "price": 5248
-      },
-      {
-        "participantId": 1611148167,
-        "price": 3857
-      },
-      {
-        "participantId": 1611148168,
-        "price": 3216
-      },
-      {
-        "participantId": 1611148169,
-        "price": 3027
-      },
-      {
-        "participantId": 1611148170,
-        "price": 3079
-      },
-      {
-        "participantId": 1611148171,
-        "price": 3235
-      },
-      {
-        "participantId": 1611148173,
-        "price": 6573
-      },
-      {
-        "participantId": 1611148174,
-        "price": 3514
-      },
-      {
-        "participantId": 1611148175,
-        "price": 3271
-      },
-      {
-        "participantId": 1611148176,
-        "price": 2917
-      },
-      {
-        "participantId": 1611148177,
-        "price": 2919
-      },
-      {
-        "participantId": 1611148178,
-        "price": 3113
-      },
-      {
-        "participantId": 1611148180,
-        "price": 7486
-      },
-      {
-        "participantId": 1611148181,
-        "price": 5054
-      },
-      {
-        "participantId": 1611148182,
-        "price": 2940
-      },
-      {
-        "participantId": 1611148183,
-        "price": 3207
-      },
-      {
-        "participantId": 1611148184,
-        "price": 3027
-      },
-      {
-        "participantId": 1611148185,
-        "price": 3262
-      },
-      {
-        "participantId": 1611148187,
-        "price": 8740
-      },
-      {
-        "participantId": 1611148188,
-        "price": 6026
-      },
-      {
-        "participantId": 1611148189,
-        "price": 4686
-      },
-      {
-        "participantId": 1611148190,
-        "price": 2840
-      },
-      {
-        "participantId": 1611148191,
-        "price": 3587
-      },
-      {
-        "participantId": 1611148192,
-        "price": 3627
-      },
-      {
-        "participantId": 1611148195,
-        "price": 7337
-      },
-      {
-        "participantId": 1611148196,
-        "price": 5789
-      },
-      {
-        "participantId": 1611148197,
-        "price": 4893
-      },
-      {
-        "participantId": 1611148198,
-        "price": 3148
-      },
-      {
-        "participantId": 1611148199,
-        "price": 4368
-      },
-      {
-        "participantId": 1611148202,
-        "price": 9119
-      },
-      {
-        "participantId": 1611148203,
-        "price": 7262
-      },
-      {
-        "participantId": 1611148204,
-        "price": 6313
-      },
-      {
-        "participantId": 1611148205,
-        "price": 5829
-      },
-      {
-        "participantId": 1611148206,
-        "price": 3808
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5065134258
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Nick Gonzales (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427956901
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157217,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611148207,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611148208,
-        "price": -107
+        "alignment": "neutral",
+        "id": 1611157218,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "participantId": 1611148209,
-        "price": -109
+        "alignment": "neutral",
+        "id": 1611157219,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Adam Frazier (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427957012
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157220,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611148210,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611148211,
-        "price": 115
+        "alignment": "neutral",
+        "id": 1611157221,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "participantId": 1611148212,
-        "price": -135
+        "alignment": "neutral",
+        "id": 1611157222,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "type": "moneyline",
-    "version": 5065178661
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Spencer Horwitz (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427957051
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157223,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611148213,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611148214,
-        "price": -139
+        "alignment": "neutral",
+        "id": 1611157224,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
       },
       {
-        "participantId": 1611148215,
-        "price": 118
+        "alignment": "neutral",
+        "id": 1611157225,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
+    "periods": [
+      {
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Bryan Reynolds (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 427957241
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157226,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611157227,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611157228,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "matchupId": 1611148216,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611148217,
-        "price": -122
-      },
-      {
-        "participantId": 1611148218,
-        "price": 402
-      },
-      {
-        "participantId": 1611148219,
-        "price": 332
-      },
-      {
-        "participantId": 1611148220,
-        "price": 680
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Bryan Reynolds (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427957239
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157229,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611157230,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611157231,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "matchupId": 1611148221,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611148224,
-        "price": 679
-      },
-      {
-        "participantId": 1611148225,
-        "price": 743
-      },
-      {
-        "participantId": 1611148226,
-        "price": 165
-      },
-      {
-        "participantId": 1611148227,
-        "price": 606
-      },
-      {
-        "participantId": 1611148228,
-        "price": 1135
-      },
-      {
-        "participantId": 1611148229,
-        "price": 1466
-      },
-      {
-        "participantId": 1611148230,
-        "price": 1912
-      },
-      {
-        "participantId": 1611148231,
-        "price": 1286
-      },
-      {
-        "participantId": 1611148222,
-        "price": 706
-      },
-      {
-        "participantId": 1611148223,
-        "price": 656
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Andrew McCutchen (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 427957241
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157232,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611157233,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611157234,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "matchupId": 1611148232,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611148233,
-        "price": 350
-      },
-      {
-        "participantId": 1611148234,
-        "price": 369
-      },
-      {
-        "participantId": 1611148235,
-        "price": 480
-      },
-      {
-        "participantId": 1611148236,
-        "price": 313
-      },
-      {
-        "participantId": 1611148237,
-        "price": 422
-      },
-      {
-        "participantId": 1611148238,
-        "price": 995
-      },
-      {
-        "participantId": 1611148239,
-        "price": 1821
-      },
-      {
-        "participantId": 1611148240,
-        "price": 2430
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Andrew McCutchen (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427957241
   },
   {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611157235,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 28,
+      "matchupCountSE": 28,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 50,
+        "matchupCountSE": 50,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1610953622,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-25T18:10:00+00:00"
+    },
+    "parentId": 1610953622,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 250,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611157236,
+        "name": "Over",
+        "order": 0,
+        "rotation": 902
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611157237,
+        "name": "Under",
+        "order": 0,
+        "rotation": 903
       }
     ],
-    "matchupId": 1611148241,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611148256,
-        "price": 273
-      },
-      {
-        "participantId": 1611148242,
-        "price": 4789
-      },
-      {
-        "participantId": 1611148243,
-        "price": 4177
-      },
-      {
-        "participantId": 1611148244,
-        "price": 2046
-      },
-      {
-        "participantId": 1611148245,
-        "price": 1968
-      },
-      {
-        "participantId": 1611148246,
-        "price": 1154
-      },
-      {
-        "participantId": 1611148247,
-        "price": 1210
-      },
-      {
-        "participantId": 1611148248,
-        "price": 818
-      },
-      {
-        "participantId": 1611148249,
-        "price": 925
-      },
-      {
-        "participantId": 1611148250,
-        "price": 703
-      },
-      {
-        "participantId": 1611148251,
-        "price": 846
-      },
-      {
-        "participantId": 1611148252,
-        "price": 718
-      },
-      {
-        "participantId": 1611148253,
-        "price": 913
-      },
-      {
-        "participantId": 1611148254,
-        "price": 831
-      },
-      {
-        "participantId": 1611148255,
-        "price": 1076
+        "cutoffAt": "2025-06-25T18:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5065048044
-  },
-  {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611148257,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611148258,
-        "price": 1541
-      },
-      {
-        "participantId": 1611148259,
-        "price": 556
-      },
-      {
-        "participantId": 1611148260,
-        "price": 278
-      },
-      {
-        "participantId": 1611148261,
-        "price": 284
-      },
-      {
-        "participantId": 1611148262,
-        "price": 153
-      }
-    ],
-    "type": "moneyline",
-    "version": 5065048044
-  },
-  {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611148263,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611148264,
-        "price": 514
-      },
-      {
-        "participantId": 1611148265,
-        "price": 542
-      },
-      {
-        "participantId": 1611148266,
-        "price": 151
-      },
-      {
-        "participantId": 1611148267,
-        "price": 555
-      },
-      {
-        "participantId": 1611148268,
-        "price": 744
-      },
-      {
-        "participantId": 1611148269,
-        "price": 1012
-      },
-      {
-        "participantId": 1611148270,
-        "price": 673
-      }
-    ],
-    "type": "moneyline",
-    "version": 5065178661
-  },
-  {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611148271,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611148272,
-        "price": 1885
-      },
-      {
-        "participantId": 1611148273,
-        "price": 1083
-      },
-      {
-        "participantId": 1611148274,
-        "price": 751
-      },
-      {
-        "participantId": 1611148275,
-        "price": 608
-      },
-      {
-        "participantId": 1611148276,
-        "price": 551
-      },
-      {
-        "participantId": 1611148277,
-        "price": 546
-      },
-      {
-        "participantId": 1611148278,
-        "price": 634
-      },
-      {
-        "participantId": 1611148279,
-        "price": 710
-      },
-      {
-        "participantId": 1611148280,
-        "price": 831
-      },
-      {
-        "participantId": 1611148281,
-        "price": 1004
-      },
-      {
-        "participantId": 1611148282,
-        "price": 1243
-      },
-      {
-        "participantId": 1611148283,
-        "price": 668
-      }
-    ],
-    "type": "moneyline",
-    "version": 5065178661
-  },
-  {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611148284,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611148288,
-        "price": 154
-      },
-      {
-        "participantId": 1611148285,
-        "price": 410
-      },
-      {
-        "participantId": 1611148286,
-        "price": 286
-      },
-      {
-        "participantId": 1611148287,
-        "price": 291
-      }
-    ],
-    "type": "moneyline",
-    "version": 5065178661
-  },
-  {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611148289,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611148290,
-        "price": 649
-      },
-      {
-        "participantId": 1611148291,
-        "price": 550
-      },
-      {
-        "participantId": 1611148292,
-        "price": 443
-      },
-      {
-        "participantId": 1611148293,
-        "price": 456
-      },
-      {
-        "participantId": 1611148294,
-        "price": 515
-      },
-      {
-        "participantId": 1611148295,
-        "price": 176
-      }
-    ],
-    "type": "moneyline",
-    "version": 5065178661
-  },
-  {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611148296,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611148297,
-        "price": 267
-      },
-      {
-        "participantId": 1611148298,
-        "price": 275
-      },
-      {
-        "participantId": 1611148299,
-        "price": 377
-      },
-      {
-        "participantId": 1611148300,
-        "price": 539
-      },
-      {
-        "participantId": 1611148301,
-        "price": 778
-      },
-      {
-        "participantId": 1611148302,
-        "price": 543
-      }
-    ],
-    "type": "moneyline",
-    "version": 5065178661
-  },
-  {
-    "cutoffAt": "2025-06-26T00:40:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611148303,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611148330,
-        "price": 2929
-      },
-      {
-        "participantId": 1611148331,
-        "price": 4033
-      },
-      {
-        "participantId": 1611148335,
-        "price": 1838
-      },
-      {
-        "participantId": 1611148336,
-        "price": 1839
-      },
-      {
-        "participantId": 1611148337,
-        "price": 2413
-      },
-      {
-        "participantId": 1611148338,
-        "price": 3071
-      },
-      {
-        "participantId": 1611148339,
-        "price": 4176
-      },
-      {
-        "participantId": 1611148343,
-        "price": 2142
-      },
-      {
-        "participantId": 1611148344,
-        "price": 2309
-      },
-      {
-        "participantId": 1611148345,
-        "price": 2795
-      },
-      {
-        "participantId": 1611148346,
-        "price": 3536
-      },
-      {
-        "participantId": 1611148347,
-        "price": 4603
-      },
-      {
-        "participantId": 1611148351,
-        "price": 2825
-      },
-      {
-        "participantId": 1611148352,
-        "price": 2825
-      },
-      {
-        "participantId": 1611148353,
-        "price": 3397
-      },
-      {
-        "participantId": 1611148354,
-        "price": 4266
-      },
-      {
-        "participantId": 1611148359,
-        "price": 3567
-      },
-      {
-        "participantId": 1611148360,
-        "price": 3570
-      },
-      {
-        "participantId": 1611148361,
-        "price": 4261
-      },
-      {
-        "participantId": 1611148304,
-        "price": 2377
-      },
-      {
-        "participantId": 1611148305,
-        "price": 2873
-      },
-      {
-        "participantId": 1611148306,
-        "price": 3631
-      },
-      {
-        "participantId": 1611148307,
-        "price": 4721
-      },
-      {
-        "participantId": 1611148311,
-        "price": 1914
-      },
-      {
-        "participantId": 1611148312,
-        "price": 1998
-      },
-      {
-        "participantId": 1611148313,
-        "price": 2557
-      },
-      {
-        "participantId": 1611148314,
-        "price": 3246
-      },
-      {
-        "participantId": 1611148315,
-        "price": 4241
-      },
-      {
-        "participantId": 1611148319,
-        "price": 1623
-      },
-      {
-        "participantId": 1611148320,
-        "price": 1624
-      },
-      {
-        "participantId": 1611148321,
-        "price": 2073
-      },
-      {
-        "participantId": 1611148322,
-        "price": 2792
-      },
-      {
-        "participantId": 1611148323,
-        "price": 3933
-      },
-      {
-        "participantId": 1611148327,
-        "price": 1671
-      },
-      {
-        "participantId": 1611148328,
-        "price": 1673
-      },
-      {
-        "participantId": 1611148329,
-        "price": 2045
-      }
-    ],
-    "type": "moneyline",
-    "version": 5065178661
+    "rotation": 902,
+    "special": {
+      "category": "Player Props",
+      "description": "Isiah Kiner-Falefa (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-25T18:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 427957468
   }
 ]
