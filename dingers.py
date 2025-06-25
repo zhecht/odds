@@ -2488,6 +2488,7 @@ def writeEV(date, dinger, parx=False, silent=False):
 
 				if "circa" in books:
 					try:
+						devig(evData, playerFinal, data[game][player]["circa"], int(data[game][player]["dk"]), book="dk-sweat-vs-circa", promo="dk-sweat")
 						devig(evData, playerFinal, data[game][player]["circa"], int(data[game][player]["dk"]) + 200, book="dk-200-vs-circa")
 						devig(evData, playerFinal, data[game][player]["circa"], o, book="dk-50-vs-circa")
 					except:
