@@ -1,2455 +1,3013 @@
 [
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 6,
-    "hasAltSpread": true,
-    "hasAltTotal": true,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610949988,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": null,
-    "parentId": null,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;1.5;home",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "San Diego Padres",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
-      },
-      {
-        "alignment": "away",
-        "name": "Washington Nationals",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          },
-          {
-            "period": 1
-          },
-          {
-            "period": 3
-          }
-        ]
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 1.5,
+        "price": -136
       },
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": true,
-        "hasTeamTotal": true,
-        "hasTotal": true,
-        "period": 1,
-        "status": "open"
-      },
-      {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "hasMoneyline": true,
-        "hasSpread": true,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 3,
-        "status": "open"
+        "designation": "under",
+        "points": 1.5,
+        "price": 112
       }
     ],
-    "rotation": 903,
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 60,
-    "type": "matchup",
-    "units": "Regular",
-    "version": 605705667
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1610966908,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;tt;2.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1610966909,
-        "name": "Washington Nationals",
-        "order": 0,
-        "rotation": 2469
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 2.5,
+        "price": 115
       },
       {
-        "alignment": "neutral",
-        "id": 1610966910,
-        "name": "San Diego Padres",
-        "order": 0,
-        "rotation": 2470
+        "designation": "under",
+        "points": 2.5,
+        "price": -140
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 2469,
-    "special": {
-      "category": "Next Run",
-      "description": "Team To Score 1st Run"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "1st Run",
-    "version": 427950103
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": 7,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155032,
-    "isBetshareEnabled": false,
-    "isFeatured": true,
-    "isHighlighted": true,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": "unique_matchups",
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;s;0.0",
+    "limits": [
       {
-        "alignment": "home",
-        "name": "San Diego Padres  (Hits+Runs+Errors)",
-        "order": 1,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.0,
+        "price": 121
       },
       {
-        "alignment": "away",
-        "name": "Washington Nationals  (Hits+Runs+Errors)",
-        "order": 0,
-        "pitcher": null,
-        "stats": [
-          {
-            "period": 0
-          }
-        ]
+        "designation": "away",
+        "points": -0.0,
+        "price": -139
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "hasMoneyline": false,
-        "hasSpread": false,
-        "hasTeamTotal": false,
-        "hasTotal": true,
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 9903,
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "matchup",
-    "units": "Hits + Runs + Errors",
-    "version": 605667276
+    "status": "open",
+    "type": "spread",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155033,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155034,
-        "name": "Washington Nationals & Over 4.5",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155035,
-        "name": "San Diego Padres & Over 4.5",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155036,
-        "name": "Draw & Over 4.5",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155037,
-        "name": "Washington Nationals & Under 4.5",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155038,
-        "name": "San Diego Padres & Under 4.5",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155039,
-        "name": "Draw & Under 4.5",
-        "order": 0,
-        "rotation": 908
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "home",
+        "points": 1.0,
+        "price": -171
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 142
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Double Result",
-      "description": "1st Half Winner/Total 4.5 Runs"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "spread",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155040,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155041,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 903
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 0.5,
+        "price": -118
       },
       {
-        "alignment": "neutral",
-        "id": 1611155042,
-        "name": "Even",
-        "order": 0,
-        "rotation": 904
+        "designation": "away",
+        "points": -0.5,
+        "price": 101
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "spread",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155043,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155044,
-        "name": "0",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155045,
-        "name": "1",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155046,
-        "name": "2",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155047,
-        "name": "3",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155048,
-        "name": "4",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155049,
-        "name": "5",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155050,
-        "name": "6",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155051,
-        "name": "7",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155052,
-        "name": "8+",
-        "order": 0,
-        "rotation": 911
+        "amount": 2500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": -0.5,
+        "price": 156
+      },
+      {
+        "designation": "away",
+        "points": 0.5,
+        "price": -186
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Exact Total Runs"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "spread",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155053,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;s;-1.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155054,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 903
+        "amount": 2500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 219
       },
       {
-        "alignment": "neutral",
-        "id": 1611155055,
-        "name": "Even",
-        "order": 0,
-        "rotation": 904
+        "designation": "away",
+        "points": 1.0,
+        "price": -281
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Diego Padres Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "spread",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155056,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;1;ou;4.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155057,
-        "name": "0",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155058,
-        "name": "1",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155059,
-        "name": "2",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155060,
-        "name": "3",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155061,
-        "name": "4",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155062,
-        "name": "5",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155063,
-        "name": "6",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155064,
-        "name": "7",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155065,
-        "name": "8+",
-        "order": 0,
-        "rotation": 911
+        "amount": 1875,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 4.5,
+        "price": 100
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -115
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Diego Padres Exact Total Runs"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "total",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155066,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;3.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155067,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 903
+        "amount": 1875,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 3.5,
+        "price": -177
       },
       {
-        "alignment": "neutral",
-        "id": 1611155068,
-        "name": "Even",
-        "order": 0,
-        "rotation": 904
+        "designation": "under",
+        "points": 3.5,
+        "price": 152
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 1,
-        "status": "open"
-      }
-    ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "total",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155069,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;4.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155070,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 903
+        "amount": 1875,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 4.0,
+        "price": -137
       },
       {
-        "alignment": "neutral",
-        "id": 1611155071,
-        "name": "Even",
-        "order": 0,
-        "rotation": 904
+        "designation": "under",
+        "points": 4.0,
+        "price": 119
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Washington Nationals Runs Odd/Even"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "total",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155072,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155073,
-        "name": "Washington Nationals 1, San Diego Padres 0",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155074,
-        "name": "Washington Nationals 2, San Diego Padres 0",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155075,
-        "name": "Washington Nationals 3, San Diego Padres 0",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155076,
-        "name": "Washington Nationals 4, San Diego Padres 0",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155077,
-        "name": "Washington Nationals 5, San Diego Padres 0",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155078,
-        "name": "Washington Nationals 6, San Diego Padres 0",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155079,
-        "name": "Washington Nationals 7, San Diego Padres 0",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155080,
-        "name": "Washington Nationals 0, San Diego Padres 1",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155081,
-        "name": "Washington Nationals 2, San Diego Padres 1",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155082,
-        "name": "Washington Nationals 3, San Diego Padres 1",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155083,
-        "name": "Washington Nationals 4, San Diego Padres 1",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155084,
-        "name": "Washington Nationals 5, San Diego Padres 1",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155085,
-        "name": "Washington Nationals 6, San Diego Padres 1",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155086,
-        "name": "Washington Nationals 7, San Diego Padres 1",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155087,
-        "name": "Washington Nationals 0, San Diego Padres 2",
-        "order": 0,
-        "rotation": 917
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155088,
-        "name": "Washington Nationals 1, San Diego Padres 2",
-        "order": 0,
-        "rotation": 918
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155089,
-        "name": "Washington Nationals 3, San Diego Padres 2",
-        "order": 0,
-        "rotation": 919
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155090,
-        "name": "Washington Nationals 4, San Diego Padres 2",
-        "order": 0,
-        "rotation": 920
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155091,
-        "name": "Washington Nationals 5, San Diego Padres 2",
-        "order": 0,
-        "rotation": 921
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155092,
-        "name": "Washington Nationals 6, San Diego Padres 2",
-        "order": 0,
-        "rotation": 922
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155093,
-        "name": "Washington Nationals 7, San Diego Padres 2",
-        "order": 0,
-        "rotation": 923
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155094,
-        "name": "Washington Nationals 0, San Diego Padres 3",
-        "order": 0,
-        "rotation": 924
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155095,
-        "name": "Washington Nationals 1, San Diego Padres 3",
-        "order": 0,
-        "rotation": 925
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155096,
-        "name": "Washington Nationals 2, San Diego Padres 3",
-        "order": 0,
-        "rotation": 926
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155097,
-        "name": "Washington Nationals 4, San Diego Padres 3",
-        "order": 0,
-        "rotation": 927
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155098,
-        "name": "Washington Nationals 5, San Diego Padres 3",
-        "order": 0,
-        "rotation": 928
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155099,
-        "name": "Washington Nationals 6, San Diego Padres 3",
-        "order": 0,
-        "rotation": 929
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155100,
-        "name": "Washington Nationals 7, San Diego Padres 3",
-        "order": 0,
-        "rotation": 930
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155101,
-        "name": "Washington Nationals 0, San Diego Padres 4",
-        "order": 0,
-        "rotation": 931
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155102,
-        "name": "Washington Nationals 1, San Diego Padres 4",
-        "order": 0,
-        "rotation": 932
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155103,
-        "name": "Washington Nationals 2, San Diego Padres 4",
-        "order": 0,
-        "rotation": 933
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155104,
-        "name": "Washington Nationals 3, San Diego Padres 4",
-        "order": 0,
-        "rotation": 934
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155105,
-        "name": "Washington Nationals 5, San Diego Padres 4",
-        "order": 0,
-        "rotation": 935
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155106,
-        "name": "Washington Nationals 6, San Diego Padres 4",
-        "order": 0,
-        "rotation": 936
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155107,
-        "name": "Washington Nationals 7, San Diego Padres 4",
-        "order": 0,
-        "rotation": 937
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155108,
-        "name": "Washington Nationals 0, San Diego Padres 5",
-        "order": 0,
-        "rotation": 938
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155109,
-        "name": "Washington Nationals 1, San Diego Padres 5",
-        "order": 0,
-        "rotation": 939
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155110,
-        "name": "Washington Nationals 2, San Diego Padres 5",
-        "order": 0,
-        "rotation": 940
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155111,
-        "name": "Washington Nationals 3, San Diego Padres 5",
-        "order": 0,
-        "rotation": 941
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155112,
-        "name": "Washington Nationals 4, San Diego Padres 5",
-        "order": 0,
-        "rotation": 942
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155113,
-        "name": "Washington Nationals 6, San Diego Padres 5",
-        "order": 0,
-        "rotation": 943
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155114,
-        "name": "Washington Nationals 7, San Diego Padres 5",
-        "order": 0,
-        "rotation": 944
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155115,
-        "name": "Washington Nationals 0, San Diego Padres 6",
-        "order": 0,
-        "rotation": 945
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155116,
-        "name": "Washington Nationals 1, San Diego Padres 6",
-        "order": 0,
-        "rotation": 946
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155117,
-        "name": "Washington Nationals 2, San Diego Padres 6",
-        "order": 0,
-        "rotation": 947
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155118,
-        "name": "Washington Nationals 3, San Diego Padres 6",
-        "order": 0,
-        "rotation": 948
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155119,
-        "name": "Washington Nationals 4, San Diego Padres 6",
-        "order": 0,
-        "rotation": 949
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155120,
-        "name": "Washington Nationals 5, San Diego Padres 6",
-        "order": 0,
-        "rotation": 950
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155121,
-        "name": "Washington Nationals 7, San Diego Padres 6",
-        "order": 0,
-        "rotation": 951
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155122,
-        "name": "Washington Nationals 0, San Diego Padres 7",
-        "order": 0,
-        "rotation": 952
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155123,
-        "name": "Washington Nationals 1, San Diego Padres 7",
-        "order": 0,
-        "rotation": 953
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155124,
-        "name": "Washington Nationals 2, San Diego Padres 7",
-        "order": 0,
-        "rotation": 954
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155125,
-        "name": "Washington Nationals 3, San Diego Padres 7",
-        "order": 0,
-        "rotation": 955
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155126,
-        "name": "Washington Nationals 4, San Diego Padres 7",
-        "order": 0,
-        "rotation": 956
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155127,
-        "name": "Washington Nationals 5, San Diego Padres 7",
-        "order": 0,
-        "rotation": 957
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155128,
-        "name": "Washington Nationals 6, San Diego Padres 7",
-        "order": 0,
-        "rotation": 958
+        "amount": 1875,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 5.0,
+        "price": 131
+      },
+      {
+        "designation": "under",
+        "points": 5.0,
+        "price": -151
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Correct Score"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "total",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155129,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;1;ou;5.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155130,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 903
+        "amount": 1875,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 1,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": 159
       },
       {
-        "alignment": "neutral",
-        "id": 1611155131,
-        "name": "Even",
-        "order": 0,
-        "rotation": 904
+        "designation": "under",
+        "points": 5.5,
+        "price": -185
       }
     ],
-    "periods": [
-      {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
-      }
-    ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "San Diego Padres Runs Odd/Even"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "total",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155132,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155133,
-        "name": "Odd",
-        "order": 0,
-        "rotation": 903
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 3,
+    "prices": [
+      {
+        "designation": "home",
+        "price": 308
       },
       {
-        "alignment": "neutral",
-        "id": 1611155134,
-        "name": "Even",
-        "order": 0,
-        "rotation": 904
-      }
-    ],
-    "periods": [
+        "designation": "away",
+        "price": 306
+      },
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 1,
-        "status": "open"
+        "designation": "draw",
+        "price": -140
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Total Runs Odd/Even 1st Half"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "moneyline",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155135,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;s;0.0",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155136,
-        "name": "Washington Nationals & Over 8.5",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155137,
-        "name": "San Diego Padres & Over 8.5",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155138,
-        "name": "Washington Nationals & Under 8.5",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155139,
-        "name": "San Diego Padres & Under 8.5",
-        "order": 0,
-        "rotation": 906
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "points": 0.0,
+        "price": -108
+      },
+      {
+        "designation": "away",
+        "points": -0.0,
+        "price": -108
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Double Result",
-      "description": "Winner/Total 8.5 Runs"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "spread",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155140,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;3;ou;0.5",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155141,
-        "name": "Washington Nationals By 1",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155142,
-        "name": "Washington Nationals By 2",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155143,
-        "name": "Washington Nationals By 3",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155144,
-        "name": "Washington Nationals By 4",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155145,
-        "name": "Washington Nationals By 5+",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155146,
-        "name": "San Diego Padres By 1",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155147,
-        "name": "San Diego Padres By 2",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155148,
-        "name": "San Diego Padres By 3",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155149,
-        "name": "San Diego Padres By 4",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155150,
-        "name": "San Diego Padres By 5+",
-        "order": 0,
-        "rotation": 912
+        "amount": 500,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 3,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 0.5,
+        "price": 107
+      },
+      {
+        "designation": "under",
+        "points": 0.5,
+        "price": -125
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "total",
+    "version": 3157718868
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155151,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;m",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155152,
-        "name": "Washington Nationals By 1 - 2",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155153,
-        "name": "Washington Nationals By 3 - 4",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155154,
-        "name": "Washington Nationals By 5 - 6",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155155,
-        "name": "Washington Nationals By 7+",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155156,
-        "name": "San Diego Padres By 1 - 2",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155157,
-        "name": "San Diego Padres By 3 - 4",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155158,
-        "name": "San Diego Padres By 5 - 6",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155159,
-        "name": "San Diego Padres By 7+",
-        "order": 0,
-        "rotation": 910
+        "amount": 5000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "home",
+        "price": 112
+      },
+      {
+        "designation": "away",
+        "price": -121
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Winning Margin Range"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "status": "open",
+    "type": "moneyline",
+    "version": 3157767813
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155160,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;3.5;home",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155161,
-        "name": "1",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155162,
-        "name": "2",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155163,
-        "name": "3",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155164,
-        "name": "4",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155165,
-        "name": "5",
-        "order": 0,
-        "rotation": 907
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155166,
-        "name": "6",
-        "order": 0,
-        "rotation": 908
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155167,
-        "name": "7",
-        "order": 0,
-        "rotation": 909
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155168,
-        "name": "8",
-        "order": 0,
-        "rotation": 910
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155169,
-        "name": "9",
-        "order": 0,
-        "rotation": 911
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155170,
-        "name": "10",
-        "order": 0,
-        "rotation": 912
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155171,
-        "name": "11",
-        "order": 0,
-        "rotation": 913
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155172,
-        "name": "12",
-        "order": 0,
-        "rotation": 914
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155173,
-        "name": "13",
-        "order": 0,
-        "rotation": 915
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155174,
-        "name": "14",
-        "order": 0,
-        "rotation": 916
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155175,
-        "name": "15+",
-        "order": 0,
-        "rotation": 917
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        "status": "open"
+        "designation": "over",
+        "points": 3.5,
+        "price": -139
+      },
+      {
+        "designation": "under",
+        "points": 3.5,
+        "price": 118
       }
     ],
-    "rotation": 903,
-    "special": {
-      "category": "Exact Scores",
-      "description": "Exact Total Runs"
-    },
-    "startTime": "2025-06-25T20:10:00Z",
-    "state": {},
-    "status": "pending",
-    "totalMarketCount": 1,
-    "type": "special",
-    "units": "Runs",
-    "version": 427950980
+    "side": "home",
+    "status": "open",
+    "type": "team_total",
+    "version": 3157767813
   },
   {
-    "ageLimit": 0,
-    "altTeaser": false,
-    "featureOrder": -1,
-    "hasAltSpread": false,
-    "hasAltTotal": false,
-    "hasBetshare": false,
-    "hasLive": true,
-    "hasMarkets": true,
-    "id": 1611155176,
-    "isBetshareEnabled": false,
-    "isFeatured": false,
-    "isHighlighted": false,
-    "isLive": false,
-    "isPromoted": false,
-    "league": {
-      "ageLimit": 0,
-      "featureOrder": 0,
-      "group": "USA",
-      "id": 246,
-      "isFeatured": true,
-      "isHidden": false,
-      "isPromoted": false,
-      "isSticky": false,
-      "matchupCount": 24,
-      "matchupCountSE": 24,
-      "name": "MLB",
-      "sequence": 1,
-      "sport": {
-        "featureOrder": 4,
-        "id": 3,
-        "isFeatured": true,
-        "isHidden": false,
-        "isSticky": false,
-        "matchupCount": 28,
-        "matchupCountSE": 28,
-        "name": "Baseball",
-        "primaryMarketType": "moneyline"
-      }
-    },
-    "liveMode": null,
-    "parent": {
-      "id": 1610949988,
-      "participants": [
-        {
-          "alignment": "home",
-          "name": "San Diego Padres",
-          "score": null
-        },
-        {
-          "alignment": "away",
-          "name": "Washington Nationals",
-          "score": null
-        }
-      ],
-      "startTime": "2025-06-25T20:10:00+00:00"
-    },
-    "parentId": 1610949988,
-    "parlayRestriction": null,
-    "participants": [
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;tt;4.5;away",
+    "limits": [
       {
-        "alignment": "neutral",
-        "id": 1611155177,
-        "name": "1 - 3",
-        "order": 0,
-        "rotation": 903
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155178,
-        "name": "4 - 6",
-        "order": 0,
-        "rotation": 904
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155179,
-        "name": "7 - 9",
-        "order": 0,
-        "rotation": 905
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155180,
-        "name": "10 - 12",
-        "order": 0,
-        "rotation": 906
-      },
-      {
-        "alignment": "neutral",
-        "id": 1611155181,
-        "name": "13+",
-        "order": 0,
-        "rotation": 907
+        "amount": 1000,
+        "type": "maxRiskStake"
       }
     ],
-    "periods": [
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
       {
-        "cutoffAt": "2025-06-25T20:10:00Z",
-        "period": 0,
-        
+        "designation": "over",
+        "points": 4.5,
+        "price": -108
+      },
+      {
+        "designation": "under",
+        "points": 4.5,
+        "price": -108
+      }
+    ],
+    "side": "away",
+    "status": "open",
+    "type": "team_total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;s;1.5",
+    "limits": [
+      {
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.5,
+        "price": -147
+      },
+      {
+        "designation": "away",
+        "points": -1.5,
+        "price": 133
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;3.0",
+    "limits": [
+      {
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 3.0,
+        "price": -338
+      },
+      {
+        "designation": "away",
+        "points": -3.0,
+        "price": 263
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.5",
+    "limits": [
+      {
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.5,
+        "price": -238
+      },
+      {
+        "designation": "away",
+        "points": -2.5,
+        "price": 199
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;2.0",
+    "limits": [
+      {
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 2.0,
+        "price": -199
+      },
+      {
+        "designation": "away",
+        "points": -2.0,
+        "price": 173
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;1.0",
+    "limits": [
+      {
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": 1.0,
+        "price": -117
+      },
+      {
+        "designation": "away",
+        "points": -1.0,
+        "price": 104
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.0",
+    "limits": [
+      {
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.0,
+        "price": 167
+      },
+      {
+        "designation": "away",
+        "points": 1.0,
+        "price": -196
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;s;-1.5",
+    "limits": [
+      {
+        "amount": 5000,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "home",
+        "points": -1.5,
+        "price": 212
+      },
+      {
+        "designation": "away",
+        "points": 1.5,
+        "price": -262
+      }
+    ],
+    "status": "open",
+    "type": "spread",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;9.0",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.0,
+        "price": 102
+      },
+      {
+        "designation": "under",
+        "points": 9.0,
+        "price": -115
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;5.5",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 5.5,
+        "price": -429
+      },
+      {
+        "designation": "under",
+        "points": 5.5,
+        "price": 320
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;7.5",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 7.5,
+        "price": -168
+      },
+      {
+        "designation": "under",
+        "points": 7.5,
+        "price": 148
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.0",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.0,
+        "price": -147
+      },
+      {
+        "designation": "under",
+        "points": 8.0,
+        "price": 130
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;8.5",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 8.5,
+        "price": -122
+      },
+      {
+        "designation": "under",
+        "points": 8.5,
+        "price": 109
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;9.5",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 9.5,
+        "price": 125
+      },
+      {
+        "designation": "under",
+        "points": 9.5,
+        "price": -141
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.0",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.0,
+        "price": 149
+      },
+      {
+        "designation": "under",
+        "points": 10.0,
+        "price": -170
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;10.5",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 10.5,
+        "price": 167
+      },
+      {
+        "designation": "under",
+        "points": 10.5,
+        "price": -191
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": true,
+    "key": "s;0;ou;12.5",
+    "limits": [
+      {
+        "amount": 3750,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610954674,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 12.5,
+        "price": 307
+      },
+      {
+        "designation": "under",
+        "points": 12.5,
+        "price": -408
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157767813
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1610971364,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1610971366,
+        "price": -163
+      },
+      {
+        "participantId": 1610971367,
+        "price": 138
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065694268
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "isAlternate": false,
+    "key": "s;0;ou;27.0",
+    "limits": [
+      {
+        "amount": 500,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151007,
+    "period": 0,
+    "prices": [
+      {
+        "designation": "over",
+        "points": 27.0,
+        "price": -100
+      },
+      {
+        "designation": "under",
+        "points": 27.0,
+        "price": -121
+      }
+    ],
+    "status": "open",
+    "type": "total",
+    "version": 3157750095
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151008,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151009,
+        "price": 256
+      },
+      {
+        "participantId": 1611151010,
+        "price": 350
+      },
+      {
+        "participantId": 1611151011,
+        "price": 1492
+      },
+      {
+        "participantId": 1611151012,
+        "price": 300
+      },
+      {
+        "participantId": 1611151013,
+        "price": 387
+      },
+      {
+        "participantId": 1611151014,
+        "price": 570
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065518579
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151015,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151016,
+        "price": -158
+      },
+      {
+        "participantId": 1611151017,
+        "price": 134
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065640873
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151018,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151019,
+        "price": 1222
+      },
+      {
+        "participantId": 1611151020,
+        "price": 751
+      },
+      {
+        "participantId": 1611151021,
+        "price": 586
+      },
+      {
+        "participantId": 1611151022,
+        "price": 527
+      },
+      {
+        "participantId": 1611151023,
+        "price": 525
+      },
+      {
+        "participantId": 1611151024,
+        "price": 567
+      },
+      {
+        "participantId": 1611151025,
+        "price": 651
+      },
+      {
+        "participantId": 1611151026,
+        "price": 783
+      },
+      {
+        "participantId": 1611151027,
+        "price": 351
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065640873
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151028,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151029,
+        "price": 114
+      },
+      {
+        "participantId": 1611151030,
+        "price": -134
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065518579
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151031,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151040,
+        "price": 506
+      },
+      {
+        "participantId": 1611151032,
+        "price": 1078
+      },
+      {
+        "participantId": 1611151033,
+        "price": 645
+      },
+      {
+        "participantId": 1611151034,
+        "price": 506
+      },
+      {
+        "participantId": 1611151035,
+        "price": 467
+      },
+      {
+        "participantId": 1611151036,
+        "price": 487
+      },
+      {
+        "participantId": 1611151037,
+        "price": 558
+      },
+      {
+        "participantId": 1611151038,
+        "price": 684
+      },
+      {
+        "participantId": 1611151039,
+        "price": 874
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065694205
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151041,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151042,
+        "price": 109
+      },
+      {
+        "participantId": 1611151043,
+        "price": -128
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065518579
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151044,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151045,
+        "price": -105
+      },
+      {
+        "participantId": 1611151046,
+        "price": -111
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151047,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151077,
+        "price": 3759
+      },
+      {
+        "participantId": 1611151078,
+        "price": 2964
+      },
+      {
+        "participantId": 1611151079,
+        "price": 1911
+      },
+      {
+        "participantId": 1611151080,
+        "price": 2728
+      },
+      {
+        "participantId": 1611151081,
+        "price": 3230
+      },
+      {
+        "participantId": 1611151082,
+        "price": 3896
+      },
+      {
+        "participantId": 1611151083,
+        "price": 6753
+      },
+      {
+        "participantId": 1611151084,
+        "price": 4376
+      },
+      {
+        "participantId": 1611151085,
+        "price": 3484
+      },
+      {
+        "participantId": 1611151086,
+        "price": 3137
+      },
+      {
+        "participantId": 1611151087,
+        "price": 2092
+      },
+      {
+        "participantId": 1611151088,
+        "price": 3344
+      },
+      {
+        "participantId": 1611151089,
+        "price": 4114
+      },
+      {
+        "participantId": 1611151090,
+        "price": 7976
+      },
+      {
+        "participantId": 1611151091,
+        "price": 5280
+      },
+      {
+        "participantId": 1611151092,
+        "price": 4242
+      },
+      {
+        "participantId": 1611151093,
+        "price": 3790
+      },
+      {
+        "participantId": 1611151094,
+        "price": 3694
+      },
+      {
+        "participantId": 1611151095,
+        "price": 2573
+      },
+      {
+        "participantId": 1611151096,
+        "price": 4449
+      },
+      {
+        "participantId": 1611151097,
+        "price": 9535
+      },
+      {
+        "participantId": 1611151098,
+        "price": 6465
+      },
+      {
+        "participantId": 1611151099,
+        "price": 5250
+      },
+      {
+        "participantId": 1611151100,
+        "price": 4732
+      },
+      {
+        "participantId": 1611151101,
+        "price": 4631
+      },
+      {
+        "participantId": 1611151102,
+        "price": 4811
+      },
+      {
+        "participantId": 1611151103,
+        "price": 3445
+      },
+      {
+        "participantId": 1611151048,
+        "price": 6306
+      },
+      {
+        "participantId": 1611151049,
+        "price": 5427
+      },
+      {
+        "participantId": 1611151050,
+        "price": 5128
+      },
+      {
+        "participantId": 1611151051,
+        "price": 5366
+      },
+      {
+        "participantId": 1611151052,
+        "price": 5825
+      },
+      {
+        "participantId": 1611151053,
+        "price": 6608
+      },
+      {
+        "participantId": 1611151054,
+        "price": 7635
+      },
+      {
+        "participantId": 1611151055,
+        "price": 5085
+      },
+      {
+        "participantId": 1611151056,
+        "price": 3384
+      },
+      {
+        "participantId": 1611151057,
+        "price": 3293
+      },
+      {
+        "participantId": 1611151058,
+        "price": 3385
+      },
+      {
+        "participantId": 1611151059,
+        "price": 3773
+      },
+      {
+        "participantId": 1611151060,
+        "price": 4330
+      },
+      {
+        "participantId": 1611151061,
+        "price": 5127
+      },
+      {
+        "participantId": 1611151062,
+        "price": 5206
+      },
+      {
+        "participantId": 1611151063,
+        "price": 2682
+      },
+      {
+        "participantId": 1611151064,
+        "price": 2601
+      },
+      {
+        "participantId": 1611151065,
+        "price": 2772
+      },
+      {
+        "participantId": 1611151066,
+        "price": 3047
+      },
+      {
+        "participantId": 1611151067,
+        "price": 3572
+      },
+      {
+        "participantId": 1611151068,
+        "price": 4226
+      },
+      {
+        "participantId": 1611151069,
+        "price": 5363
+      },
+      {
+        "participantId": 1611151070,
+        "price": 3370
+      },
+      {
+        "participantId": 1611151071,
+        "price": 2019
+      },
+      {
+        "participantId": 1611151072,
+        "price": 2485
+      },
+      {
+        "participantId": 1611151073,
+        "price": 2827
+      },
+      {
+        "participantId": 1611151074,
+        "price": 3240
+      },
+      {
+        "participantId": 1611151075,
+        "price": 3917
+      },
+      {
+        "participantId": 1611151076,
+        "price": 5888
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065640873
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151104,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151105,
+        "price": -105
+      },
+      {
+        "participantId": 1611151106,
+        "price": -111
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151107,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151108,
+        "price": -105
+      },
+      {
+        "participantId": 1611151109,
+        "price": -111
+      }
+    ],
+    "type": "moneyline"
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151110,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151111,
+        "price": 210
+      },
+      {
+        "participantId": 1611151112,
+        "price": 281
+      },
+      {
+        "participantId": 1611151113,
+        "price": 278
+      },
+      {
+        "participantId": 1611151114,
+        "price": 292
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065694205
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151115,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151116,
+        "price": 555
+      },
+      {
+        "participantId": 1611151117,
+        "price": 645
+      },
+      {
+        "participantId": 1611151118,
+        "price": 758
+      },
+      {
+        "participantId": 1611151119,
+        "price": 937
+      },
+      {
+        "participantId": 1611151120,
+        "price": 423
+      },
+      {
+        "participantId": 1611151121,
+        "price": 412
+      },
+      {
+        "participantId": 1611151122,
+        "price": 752
+      },
+      {
+        "participantId": 1611151123,
+        "price": 933
+      },
+      {
+        "participantId": 1611151124,
+        "price": 1191
+      },
+      {
+        "participantId": 1611151125,
+        "price": 677
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065694205
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151126,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151127,
+        "price": 297
+      },
+      {
+        "participantId": 1611151128,
+        "price": 451
+      },
+      {
+        "participantId": 1611151129,
+        "price": 756
+      },
+      {
+        "participantId": 1611151130,
+        "price": 837
+      },
+      {
+        "participantId": 1611151131,
+        "price": 260
+      },
+      {
+        "participantId": 1611151132,
+        "price": 586
+      },
+      {
+        "participantId": 1611151133,
+        "price": 1052
+      },
+      {
+        "participantId": 1611151134,
+        "price": 1355
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065694205
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151135,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151136,
+        "price": 2785
+      },
+      {
+        "participantId": 1611151137,
+        "price": 2640
+      },
+      {
+        "participantId": 1611151138,
+        "price": 1170
+      },
+      {
+        "participantId": 1611151139,
+        "price": 1294
+      },
+      {
+        "participantId": 1611151140,
+        "price": 737
+      },
+      {
+        "participantId": 1611151141,
+        "price": 913
+      },
+      {
+        "participantId": 1611151142,
+        "price": 615
+      },
+      {
+        "participantId": 1611151143,
+        "price": 827
+      },
+      {
+        "participantId": 1611151144,
+        "price": 627
+      },
+      {
+        "participantId": 1611151145,
+        "price": 880
+      },
+      {
+        "participantId": 1611151146,
+        "price": 749
+      },
+      {
+        "participantId": 1611151147,
+        "price": 1090
+      },
+      {
+        "participantId": 1611151148,
+        "price": 1001
+      },
+      {
+        "participantId": 1611151149,
+        "price": 1471
+      },
+      {
+        "participantId": 1611151150,
+        "price": 550
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065413287
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151151,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611151152,
+        "price": 814
+      },
+      {
+        "participantId": 1611151153,
+        "price": 337
+      },
+      {
+        "participantId": 1611151154,
+        "price": 215
+      },
+      {
+        "participantId": 1611151155,
+        "price": 319
+      },
+      {
+        "participantId": 1611151156,
+        "price": 308
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065694205
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151157,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151158,
+        "price": 479
+      },
+      {
+        "participantId": 1611151159,
+        "price": 594
+      },
+      {
+        "participantId": 1611151160,
+        "price": 300
+      },
+      {
+        "participantId": 1611151161,
+        "price": 444
+      },
+      {
+        "participantId": 1611151162,
+        "price": 577
+      },
+      {
+        "participantId": 1611151163,
+        "price": 731
+      },
+      {
+        "participantId": 1611151164,
+        "price": 416
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065518579
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151165,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151168,
+        "price": 571
+      },
+      {
+        "participantId": 1611151169,
+        "price": 499
+      },
+      {
+        "participantId": 1611151170,
+        "price": 489
+      },
+      {
+        "participantId": 1611151171,
+        "price": 585
+      },
+      {
+        "participantId": 1611151172,
+        "price": 699
+      },
+      {
+        "participantId": 1611151173,
+        "price": 825
+      },
+      {
+        "participantId": 1611151174,
+        "price": 1006
+      },
+      {
+        "participantId": 1611151175,
+        "price": 1258
+      },
+      {
+        "participantId": 1611151176,
+        "price": 1599
+      },
+      {
+        "participantId": 1611151177,
+        "price": 996
+      },
+      {
+        "participantId": 1611151166,
+        "price": 1367
+      },
+      {
+        "participantId": 1611151167,
+        "price": 771
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065497063
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151178,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151179,
+        "price": 274
+      },
+      {
+        "participantId": 1611151180,
+        "price": 233
+      },
+      {
+        "participantId": 1611151181,
+        "price": 323
+      },
+      {
+        "participantId": 1611151182,
+        "price": 233
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065518579
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151183,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151184,
+        "price": 373
+      },
+      {
+        "participantId": 1611151185,
+        "price": 346
+      },
+      {
+        "participantId": 1611151186,
+        "price": 377
+      },
+      {
+        "participantId": 1611151187,
+        "price": 470
+      },
+      {
+        "participantId": 1611151188,
+        "price": 629
+      },
+      {
+        "participantId": 1611151189,
+        "price": 354
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065518579
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151190,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151191,
+        "price": 297
+      },
+      {
+        "participantId": 1611151192,
+        "price": 301
+      },
+      {
+        "participantId": 1611151193,
+        "price": 377
+      },
+      {
+        "participantId": 1611151194,
+        "price": 511
+      },
+      {
+        "participantId": 1611151195,
+        "price": 716
+      },
+      {
+        "participantId": 1611151196,
+        "price": 456
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065518579
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;1;m",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611151197,
+    "period": 1,
+    "prices": [
+      {
+        "participantId": 1611151213,
+        "price": 1529
+      },
+      {
+        "participantId": 1611151214,
+        "price": 1487
+      },
+      {
+        "participantId": 1611151215,
+        "price": 1780
+      },
+      {
+        "participantId": 1611151216,
+        "price": 2537
+      },
+      {
+        "participantId": 1611151217,
+        "price": 3356
+      },
+      {
+        "participantId": 1611151218,
+        "price": 4342
+      },
+      {
+        "participantId": 1611151221,
+        "price": 1815
+      },
+      {
+        "participantId": 1611151222,
+        "price": 1767
+      },
+      {
+        "participantId": 1611151223,
+        "price": 2182
+      },
+      {
+        "participantId": 1611151224,
+        "price": 2914
+      },
+      {
+        "participantId": 1611151225,
+        "price": 3900
+      },
+      {
+        "participantId": 1611151229,
+        "price": 2274
+      },
+      {
+        "participantId": 1611151230,
+        "price": 2432
+      },
+      {
+        "participantId": 1611151231,
+        "price": 2844
+      },
+      {
+        "participantId": 1611151232,
+        "price": 3404
+      },
+      {
+        "participantId": 1611151233,
+        "price": 4480
+      },
+      {
+        "participantId": 1611151237,
+        "price": 3209
+      },
+      {
+        "participantId": 1611151238,
+        "price": 3277
+      },
+      {
+        "participantId": 1611151239,
+        "price": 3640
+      },
+      {
+        "participantId": 1611151240,
+        "price": 4325
+      },
+      {
+        "participantId": 1611151245,
+        "price": 4455
+      },
+      {
+        "participantId": 1611151246,
+        "price": 4351
+      },
+      {
+        "participantId": 1611151247,
+        "price": 4808
+      },
+      {
+        "participantId": 1611151198,
+        "price": 1636
+      },
+      {
+        "participantId": 1611151199,
+        "price": 1840
+      },
+      {
+        "participantId": 1611151200,
+        "price": 2232
+      },
+      {
+        "participantId": 1611151201,
+        "price": 2837
+      },
+      {
+        "participantId": 1611151202,
+        "price": 4028
+      },
+      {
+        "participantId": 1611151205,
+        "price": 1413
+      },
+      {
+        "participantId": 1611151206,
+        "price": 1462
+      },
+      {
+        "participantId": 1611151207,
+        "price": 1770
+      },
+      {
+        "participantId": 1611151208,
+        "price": 2149
+      },
+      {
+        "participantId": 1611151209,
+        "price": 2993
+      },
+      {
+        "participantId": 1611151210,
+        "price": 4066
+      }
+    ],
+    "type": "moneyline",
+    "version": 5065694268
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157008,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157009,
+        "points": 0.5,
+        "price": 488
+      },
+      {
+        "participantId": 1611157010,
+        "points": 0.5,
+        "price": -898
+      }
+    ],
+    "type": "total",
+    "version": 5065552529
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157011,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157012,
+        "points": 1.5,
+        "price": 128
+      },
+      {
+        "participantId": 1611157013,
+        "points": 1.5,
+        "price": -172
+      }
+    ],
+    "type": "total",
+    "version": 5065592260
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157014,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157015,
+        "points": 4.5,
+        "price": 113
+      },
+      {
+        "participantId": 1611157016,
+        "points": 4.5,
+        "price": -151
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157017,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157018,
+        "points": 5.5,
+        "price": -125
+      },
+      {
+        "participantId": 1611157019,
+        "points": 5.5,
+        "price": -106
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157020,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157021,
+        "points": 2.5,
+        "price": -119
+      },
+      {
+        "participantId": 1611157022,
+        "points": 2.5,
+        "price": -111
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157023,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157024,
+        "points": 17.5,
+        "price": -110
+      },
+      {
+        "participantId": 1611157025,
+        "points": 17.5,
+        "price": -120
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157026,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157027,
+        "points": 1.5,
+        "price": 139
+      },
+      {
+        "participantId": 1611157028,
+        "points": 1.5,
+        "price": -187
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157029,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157030,
+        "points": 0.5,
+        "price": -154
+      },
+      {
+        "participantId": 1611157031,
+        "points": 0.5,
+        "price": 116
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157032,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157033,
+        "points": 0.5,
+        "price": -201
+      },
+      {
+        "participantId": 1611157034,
+        "points": 0.5,
+        "price": 149
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157035,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157036,
+        "points": 0.5,
+        "price": -184
+      },
+      {
+        "participantId": 1611157037,
+        "points": 0.5,
+        "price": 137
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157038,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157039,
+        "points": 1.5,
+        "price": 139
+      },
+      {
+        "participantId": 1611157040,
+        "points": 1.5,
+        "price": -187
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157041,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157042,
+        "points": 0.5,
+        "price": 411
+      },
+      {
+        "participantId": 1611157043,
+        "points": 0.5,
+        "price": -694
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157044,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157045,
+        "points": 1.5,
+        "price": -122
+      },
+      {
+        "participantId": 1611157046,
+        "points": 1.5,
+        "price": -109
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157047,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157048,
+        "points": 0.5,
+        "price": 605
+      },
+      {
+        "participantId": 1611157049,
+        "points": 0.5,
+        "price": -1287
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157050,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157051,
+        "points": 1.5,
+        "price": 116
+      },
+      {
+        "participantId": 1611157052,
+        "points": 1.5,
+        "price": -154
+      }
+    ],
+    "type": "total",
+    "version": 5065568293
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157053,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157054,
+        "points": 1.5,
+        "price": 137
+      },
+      {
+        "participantId": 1611157055,
+        "points": 1.5,
+        "price": -184
+      }
+    ],
+    "type": "total",
+    "version": 5065592260
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157059,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157060,
+        "points": 0.5,
+        "price": -138
+      },
+      {
+        "participantId": 1611157061,
+        "points": 0.5,
+        "price": 104
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157062,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157063,
+        "points": 0.5,
+        "price": 545
+      },
+      {
+        "participantId": 1611157064,
+        "points": 0.5,
+        "price": -1072
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157065,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157066,
+        "points": 1.5,
+        "price": -102
+      },
+      {
+        "participantId": 1611157067,
+        "points": 1.5,
+        "price": -130
+      }
+    ],
+    "type": "total",
+    "version": 5065568293
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157068,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157069,
+        "points": 3.5,
+        "price": -125
+      },
+      {
+        "participantId": 1611157070,
+        "points": 3.5,
+        "price": -106
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157071,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157072,
+        "points": 5.5,
+        "price": -104
+      },
+      {
+        "participantId": 1611157073,
+        "points": 5.5,
+        "price": -127
+      }
+    ],
+    "type": "total",
+    "version": 5065897976
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157074,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157075,
+        "points": 2.5,
+        "price": 104
+      },
+      {
+        "participantId": 1611157076,
+        "points": 2.5,
+        "price": -138
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157077,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157078,
+        "points": 17.5,
+        "price": 115
+      },
+      {
+        "participantId": 1611157079,
+        "points": 17.5,
+        "price": -154
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157080,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157081,
+        "points": 1.5,
+        "price": 120
+      },
+      {
+        "participantId": 1611157082,
+        "points": 1.5,
+        "price": -160
+      }
+    ],
+    "type": "total",
+    "version": 5065592260
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157083,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157084,
+        "points": 0.5,
+        "price": 498
+      },
+      {
+        "participantId": 1611157085,
+        "points": 0.5,
+        "price": -927
+      }
+    ],
+    "type": "total",
+    "version": 5065642427
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157086,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157088,
+        "points": 1.5,
+        "price": -148
+      },
+      {
+        "participantId": 1611157087,
+        "points": 1.5,
+        "price": 111
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157089,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157090,
+        "points": 0.5,
+        "price": 452
+      },
+      {
+        "participantId": 1611157091,
+        "points": 0.5,
+        "price": -797
+      }
+    ],
+    "type": "total",
+    "version": 5065592260
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157092,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157093,
+        "points": 1.5,
+        "price": 103
+      },
+      {
+        "participantId": 1611157094,
+        "points": 1.5,
+        "price": -137
+      }
+    ],
+    "type": "total",
+    "version": 5065552529
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157098,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157099,
+        "points": 1.5,
+        "price": 107
+      },
+      {
+        "participantId": 1611157100,
+        "points": 1.5,
+        "price": -142
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157101,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157102,
+        "points": 0.5,
+        "price": -142
+      },
+      {
+        "participantId": 1611157103,
+        "points": 0.5,
+        "price": 107
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157104,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157105,
+        "points": 0.5,
+        "price": 355
+      },
+      {
+        "participantId": 1611157106,
+        "points": 0.5,
+        "price": -566
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157107,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157108,
+        "points": 1.5,
+        "price": -100
+      },
+      {
+        "participantId": 1611157109,
+        "points": 1.5,
+        "price": -132
+      }
+    ],
+    "type": "total",
+    "version": 5065790471
+  },
+  {
+    "cutoffAt": "2025-06-25T23:40:00+00:00",
+    "key": "s;0;ou",
+    "limits": [
+      {
+        "amount": 250,
+        "type": "maxRiskStake"
+      }
+    ],
+    "matchupId": 1611157110,
+    "period": 0,
+    "prices": [
+      {
+        "participantId": 1611157111,
+        "points": 1.5,
+        "price": 148
+      },
+      {
+        "participantId": 1611157112,
+        "points": 1.5,
+        "price": -199
+      }
+    ],
+    "type": "total",
+    "version": 5065568293
+  }
+]
