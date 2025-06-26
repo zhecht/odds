@@ -2523,6 +2523,7 @@ def writeEV(date, dinger, parx=False, silent=False):
 				if "circa" in books:
 					devig(evData, playerFinal, data[game][player]["circa"], o, book="mgm-20-vs-circa")
 			if "fd" in books:
+				devig(evData, playerFinal, ou, int(data[game][player]["fd"]), book="fd-sweat", promo="fd-sweat")
 				devig(evData, playerFinal, ou, int(data[game][player]["fd"]), book="fd")
 				fd = int(data[game][player]["fd"])
 
