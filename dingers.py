@@ -2753,6 +2753,7 @@ def writeLineups(date):
 	
 	if date == "2025-06-27":
 		data["min"]["pitcher"] = "david festa"
+		data["col"]["pitcher"] = "kyle freeland"
 		pass
 
 	with open(f"static/mlb/lineups.json", "w") as fh:
