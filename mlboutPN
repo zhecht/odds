@@ -1,2162 +1,6683 @@
 [
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": true,
+    "hasAltTotal": true,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611057165,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": null,
+    "parentId": null,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "home",
-        "price": -142
+        "alignment": "home",
+        "name": "Pittsburgh Pirates",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          },
+          {
+            "period": 1
+          },
+          {
+            "period": 3
+          }
+        ]
       },
       {
-        "designation": "away",
-        "price": 128
+        "alignment": "away",
+        "name": "New York Mets",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          },
+          {
+            "period": 1
+          },
+          {
+            "period": 3
+          }
+        ]
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "hasMoneyline": false,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 1,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 3,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 62,
+    "type": "matchup",
+    "units": "Regular",
+    "version": 605985204
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;4.5;home",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611070046,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.5,
-        "price": -102
+        "alignment": "neutral",
+        "id": 1611070047,
+        "name": "New York Mets",
+        "order": 0,
+        "rotation": 2561
       },
       {
-        "designation": "under",
-        "points": 4.5,
-        "price": -114
+        "alignment": "neutral",
+        "id": 1611070048,
+        "name": "Pittsburgh Pirates",
+        "order": 0,
+        "rotation": 2562
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 2561,
+    "special": {
+      "category": "Next Run",
+      "description": "Team To Score 1st Run"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "1st Run",
+    "version": 428255624
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;3.5;away",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247053,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": -128
+        "alignment": "home",
+        "name": "Pittsburgh Pirates  (Hits+Runs+Errors)",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": 110
+        "alignment": "away",
+        "name": "New York Mets  (Hits+Runs+Errors)",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "hasMoneyline": false,
+        "hasSpread": false,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 9951,
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "matchup",
+    "units": "Hits + Runs + Errors",
+    "version": 605978751
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;s;-1.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247054,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.5,
-        "price": 144
+        "alignment": "neutral",
+        "id": 1611247055,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": 1.5,
-        "price": -164
+        "alignment": "neutral",
+        "id": 1611247056,
+        "name": "Even",
+        "order": 0,
+        "rotation": 952
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "New York Mets Runs Odd/Even"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247057,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.5,
-        "price": -249
+        "alignment": "neutral",
+        "id": 1611247058,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": -1.5,
-        "price": 198
+        "alignment": "neutral",
+        "id": 1611247059,
+        "name": "Even",
+        "order": 0,
+        "rotation": 952
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247060,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": -203
+        "alignment": "neutral",
+        "id": 1611247061,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": 169
+        "alignment": "neutral",
+        "id": 1611247062,
+        "name": "Even",
+        "order": 0,
+        "rotation": 952
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Pittsburgh Pirates Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-1.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247063,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": 101
+        "alignment": "neutral",
+        "id": 1611247064,
+        "name": "0",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -115
+        "alignment": "neutral",
+        "id": 1611247065,
+        "name": "1",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247066,
+        "name": "2",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247067,
+        "name": "3",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247068,
+        "name": "4",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247069,
+        "name": "5",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247070,
+        "name": "6",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247071,
+        "name": "7",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247072,
+        "name": "8+",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "New York Mets Exact Total Runs"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-2.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247073,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -2.0,
-        "price": 189
+        "alignment": "neutral",
+        "id": 1611247074,
+        "name": "New York Mets 1, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": 2.0,
-        "price": -224
+        "alignment": "neutral",
+        "id": 1611247075,
+        "name": "New York Mets 2, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247076,
+        "name": "New York Mets 3, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247077,
+        "name": "New York Mets 4, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247078,
+        "name": "New York Mets 5, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247079,
+        "name": "New York Mets 6, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247080,
+        "name": "New York Mets 7, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247081,
+        "name": "New York Mets 0, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247082,
+        "name": "New York Mets 2, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247083,
+        "name": "New York Mets 3, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247084,
+        "name": "New York Mets 4, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247085,
+        "name": "New York Mets 5, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247086,
+        "name": "New York Mets 6, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247087,
+        "name": "New York Mets 7, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247088,
+        "name": "New York Mets 0, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247089,
+        "name": "New York Mets 1, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 966
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247090,
+        "name": "New York Mets 3, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 967
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247091,
+        "name": "New York Mets 4, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 968
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247092,
+        "name": "New York Mets 5, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 969
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247093,
+        "name": "New York Mets 6, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 970
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247094,
+        "name": "New York Mets 7, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 971
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247095,
+        "name": "New York Mets 0, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247096,
+        "name": "New York Mets 1, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 973
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247097,
+        "name": "New York Mets 2, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 974
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247098,
+        "name": "New York Mets 4, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 975
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247099,
+        "name": "New York Mets 5, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247100,
+        "name": "New York Mets 6, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247101,
+        "name": "New York Mets 7, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247102,
+        "name": "New York Mets 0, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247103,
+        "name": "New York Mets 1, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247104,
+        "name": "New York Mets 2, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247105,
+        "name": "New York Mets 3, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247106,
+        "name": "New York Mets 5, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 983
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247107,
+        "name": "New York Mets 6, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 984
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247108,
+        "name": "New York Mets 7, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 985
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247109,
+        "name": "New York Mets 0, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 986
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247110,
+        "name": "New York Mets 1, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 987
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247111,
+        "name": "New York Mets 2, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 988
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247112,
+        "name": "New York Mets 3, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 989
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247113,
+        "name": "New York Mets 4, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 990
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247114,
+        "name": "New York Mets 6, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 991
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247115,
+        "name": "New York Mets 7, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 992
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247116,
+        "name": "New York Mets 0, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 993
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247117,
+        "name": "New York Mets 1, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 994
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247118,
+        "name": "New York Mets 2, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 995
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247119,
+        "name": "New York Mets 3, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 996
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247120,
+        "name": "New York Mets 4, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 997
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247121,
+        "name": "New York Mets 5, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 998
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247122,
+        "name": "New York Mets 7, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 999
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247123,
+        "name": "New York Mets 0, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1000
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247124,
+        "name": "New York Mets 1, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1001
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247125,
+        "name": "New York Mets 2, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1002
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247126,
+        "name": "New York Mets 3, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1003
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247127,
+        "name": "New York Mets 4, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1004
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247128,
+        "name": "New York Mets 5, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1005
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247129,
+        "name": "New York Mets 6, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1006
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-2.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247130,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -2.5,
-        "price": 215
+        "alignment": "neutral",
+        "id": 1611247131,
+        "name": "0",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": 2.5,
-        "price": -267
+        "alignment": "neutral",
+        "id": 1611247132,
+        "name": "1",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247133,
+        "name": "2",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247134,
+        "name": "3",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247135,
+        "name": "4",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247136,
+        "name": "5",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247137,
+        "name": "6",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247138,
+        "name": "7",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247139,
+        "name": "8+",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Pittsburgh Pirates Exact Total Runs"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-3.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247140,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -3.0,
-        "price": 285
+        "alignment": "neutral",
+        "id": 1611247141,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": 3.0,
-        "price": -386
+        "alignment": "neutral",
+        "id": 1611247142,
+        "name": "Even",
+        "order": 0,
+        "rotation": 952
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;8.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247143,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 8.5,
-        "price": -113
+        "alignment": "neutral",
+        "id": 1611247144,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 8.5,
-        "price": 101
+        "alignment": "neutral",
+        "id": 1611247145,
+        "name": "Even",
+        "order": 0,
+        "rotation": 952
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Pittsburgh Pirates Runs Odd/Even"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;5.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247146,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.5,
-        "price": -397
+        "alignment": "neutral",
+        "id": 1611247147,
+        "name": "New York Mets & Over 4.5",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 5.5,
-        "price": 300
+        "alignment": "neutral",
+        "id": 1611247148,
+        "name": "Pittsburgh Pirates & Over 4.5",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247149,
+        "name": "Draw & Over 4.5",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247150,
+        "name": "New York Mets & Under 4.5",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247151,
+        "name": "Pittsburgh Pirates & Under 4.5",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247152,
+        "name": "Draw & Under 4.5",
+        "order": 0,
+        "rotation": 956
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Double Result",
+      "description": "1st Half Winner/Total 4.5 Runs"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;7.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247153,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.0,
-        "price": -218
+        "alignment": "neutral",
+        "id": 1611247154,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 7.0,
-        "price": 188
+        "alignment": "neutral",
+        "id": 1611247155,
+        "name": "Even",
+        "order": 0,
+        "rotation": 952
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "New York Mets Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;7.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247156,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.5,
-        "price": -156
+        "alignment": "neutral",
+        "id": 1611247157,
+        "name": "New York Mets & Over 8.5",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 7.5,
-        "price": 138
+        "alignment": "neutral",
+        "id": 1611247158,
+        "name": "Pittsburgh Pirates & Over 8.5",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247159,
+        "name": "New York Mets & Under 8.5",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247160,
+        "name": "Pittsburgh Pirates & Under 8.5",
+        "order": 0,
+        "rotation": 954
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Double Result",
+      "description": "Winner/Total 8.5 Runs"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;8.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247161,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 8.0,
-        "price": -135
+        "alignment": "neutral",
+        "id": 1611247162,
+        "name": "New York Mets By 1",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 8.0,
-        "price": 120
+        "alignment": "neutral",
+        "id": 1611247163,
+        "name": "New York Mets By 2",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247164,
+        "name": "New York Mets By 3",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247165,
+        "name": "New York Mets By 4",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247166,
+        "name": "New York Mets By 5+",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247167,
+        "name": "Pittsburgh Pirates By 1",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247168,
+        "name": "Pittsburgh Pirates By 2",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247169,
+        "name": "Pittsburgh Pirates By 3",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247170,
+        "name": "Pittsburgh Pirates By 4",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247171,
+        "name": "Pittsburgh Pirates By 5+",
+        "order": 0,
+        "rotation": 960
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;9.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247172,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 9.0,
-        "price": 112
+        "alignment": "neutral",
+        "id": 1611247173,
+        "name": "New York Mets By 1 - 2",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 9.0,
-        "price": -126
+        "alignment": "neutral",
+        "id": 1611247174,
+        "name": "New York Mets By 3 - 4",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247175,
+        "name": "New York Mets By 5 - 6",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247176,
+        "name": "New York Mets By 7+",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247177,
+        "name": "Pittsburgh Pirates By 1 - 2",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247178,
+        "name": "Pittsburgh Pirates By 3 - 4",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247179,
+        "name": "Pittsburgh Pirates By 5 - 6",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247180,
+        "name": "Pittsburgh Pirates By 7+",
+        "order": 0,
+        "rotation": 958
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin Range"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;9.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247181,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 9.5,
-        "price": 136
+        "alignment": "neutral",
+        "id": 1611247182,
+        "name": "1",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 9.5,
-        "price": -155
+        "alignment": "neutral",
+        "id": 1611247183,
+        "name": "2",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247184,
+        "name": "3",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247185,
+        "name": "4",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247186,
+        "name": "5",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247187,
+        "name": "6",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247188,
+        "name": "7",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247189,
+        "name": "8",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247190,
+        "name": "9",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247191,
+        "name": "10",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247192,
+        "name": "11",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247193,
+        "name": "12",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247194,
+        "name": "13",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247195,
+        "name": "14",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247196,
+        "name": "15+",
+        "order": 0,
+        "rotation": 965
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;10.0",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247197,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 10.0,
-        "price": 164
+        "alignment": "neutral",
+        "id": 1611247198,
+        "name": "1 - 3",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 10.0,
-        "price": -187
+        "alignment": "neutral",
+        "id": 1611247199,
+        "name": "4 - 6",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247200,
+        "name": "7 - 9",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247201,
+        "name": "10 - 12",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247202,
+        "name": "13+",
+        "order": 0,
+        "rotation": 955
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;12.5",
-    "limits": [
-      {
-        "amount": 2250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247203,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 12.5,
-        "price": 337
+        "alignment": "neutral",
+        "id": 1611247204,
+        "name": "New York Mets By 1",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 12.5,
-        "price": -458
+        "alignment": "neutral",
+        "id": 1611247205,
+        "name": "New York Mets By 2",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247206,
+        "name": "New York Mets By 3+",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247207,
+        "name": "Tie",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247208,
+        "name": "Pittsburgh Pirates By 1",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247209,
+        "name": "Pittsburgh Pirates By 2",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247210,
+        "name": "Pittsburgh Pirates By 3+",
+        "order": 0,
+        "rotation": 957
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;2.5;home",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247211,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 2.5,
-        "price": -100
+        "alignment": "neutral",
+        "id": 1611247212,
+        "name": "0",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 2.5,
-        "price": -121
+        "alignment": "neutral",
+        "id": 1611247213,
+        "name": "1",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247214,
+        "name": "2",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247215,
+        "name": "3",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247216,
+        "name": "4",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247217,
+        "name": "5",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247218,
+        "name": "6",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247219,
+        "name": "7",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247220,
+        "name": "8",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247221,
+        "name": "9",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247222,
+        "name": "10",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247223,
+        "name": "11+",
+        "order": 0,
+        "rotation": 962
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;1.5;away",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247224,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 1.5,
-        "price": -139
+        "alignment": "neutral",
+        "id": 1611247225,
+        "name": "0 - 2",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "under",
-        "points": 1.5,
-        "price": 115
+        "alignment": "neutral",
+        "id": 1611247226,
+        "name": "3 - 4",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247227,
+        "name": "5 - 6",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247228,
+        "name": "7+",
+        "order": 0,
+        "rotation": 954
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;s;0.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247234,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": -147
+        "alignment": "neutral",
+        "id": 1611247238,
+        "name": "0",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": 127
+        "alignment": "neutral",
+        "id": 1611247239,
+        "name": "1",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247240,
+        "name": "2",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247241,
+        "name": "3",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247242,
+        "name": "4",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247243,
+        "name": "5+",
+        "order": 0,
+        "rotation": 956
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "New York Mets Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247248,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": -296
+        "alignment": "neutral",
+        "id": 1611247252,
+        "name": "0",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": 229
+        "alignment": "neutral",
+        "id": 1611247253,
+        "name": "1",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247254,
+        "name": "2",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247255,
+        "name": "3",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247256,
+        "name": "4",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247257,
+        "name": "5+",
+        "order": 0,
+        "rotation": 956
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Pittsburgh Pirates Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611247259,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.5,
-        "price": -194
+        "alignment": "neutral",
+        "id": 1611247263,
+        "name": "New York Mets 0, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 951
       },
       {
-        "designation": "away",
-        "points": -0.5,
-        "price": 162
+        "alignment": "neutral",
+        "id": 1611247264,
+        "name": "New York Mets 0, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247265,
+        "name": "New York Mets 0, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 953
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247266,
+        "name": "New York Mets 0, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 954
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247267,
+        "name": "New York Mets 0, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 955
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247268,
+        "name": "New York Mets 0, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 956
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247269,
+        "name": "New York Mets 0, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 957
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247270,
+        "name": "New York Mets 1, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247271,
+        "name": "New York Mets 1, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247272,
+        "name": "New York Mets 1, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247273,
+        "name": "New York Mets 1, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247274,
+        "name": "New York Mets 1, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247275,
+        "name": "New York Mets 1, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247276,
+        "name": "New York Mets 1, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247277,
+        "name": "New York Mets 1, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247278,
+        "name": "New York Mets 2, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 966
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247279,
+        "name": "New York Mets 2, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 967
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247280,
+        "name": "New York Mets 2, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 968
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247281,
+        "name": "New York Mets 2, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 969
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247282,
+        "name": "New York Mets 2, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 970
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247283,
+        "name": "New York Mets 2, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 971
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247284,
+        "name": "New York Mets 2, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247285,
+        "name": "New York Mets 2, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 973
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247286,
+        "name": "New York Mets 3, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 974
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247287,
+        "name": "New York Mets 3, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 975
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247288,
+        "name": "New York Mets 3, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247289,
+        "name": "New York Mets 3, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247290,
+        "name": "New York Mets 3, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247291,
+        "name": "New York Mets 3, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247292,
+        "name": "New York Mets 3, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247293,
+        "name": "New York Mets 3, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247294,
+        "name": "New York Mets 4, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247295,
+        "name": "New York Mets 4, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 983
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247296,
+        "name": "New York Mets 4, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 984
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247297,
+        "name": "New York Mets 4, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 985
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247298,
+        "name": "New York Mets 4, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 986
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247299,
+        "name": "New York Mets 4, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 987
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247300,
+        "name": "New York Mets 4, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 988
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247301,
+        "name": "New York Mets 4, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 989
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247302,
+        "name": "New York Mets 5, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 990
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247303,
+        "name": "New York Mets 5, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 991
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247304,
+        "name": "New York Mets 5, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 992
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247305,
+        "name": "New York Mets 5, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 993
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247306,
+        "name": "New York Mets 5, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 994
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247307,
+        "name": "New York Mets 5, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 995
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247308,
+        "name": "New York Mets 5, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 996
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247309,
+        "name": "New York Mets 5, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 997
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247310,
+        "name": "New York Mets 6, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 998
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247311,
+        "name": "New York Mets 6, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 999
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247312,
+        "name": "New York Mets 6, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 1000
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247313,
+        "name": "New York Mets 6, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 1001
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247314,
+        "name": "New York Mets 6, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 1002
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247315,
+        "name": "New York Mets 6, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 1003
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247316,
+        "name": "New York Mets 6, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 1004
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247317,
+        "name": "New York Mets 6, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1005
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247318,
+        "name": "New York Mets 7, Pittsburgh Pirates 0",
+        "order": 0,
+        "rotation": 1006
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247319,
+        "name": "New York Mets 7, Pittsburgh Pirates 1",
+        "order": 0,
+        "rotation": 1007
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247320,
+        "name": "New York Mets 7, Pittsburgh Pirates 2",
+        "order": 0,
+        "rotation": 1008
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247321,
+        "name": "New York Mets 7, Pittsburgh Pirates 3",
+        "order": 0,
+        "rotation": 1009
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247322,
+        "name": "New York Mets 7, Pittsburgh Pirates 4",
+        "order": 0,
+        "rotation": 1010
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247323,
+        "name": "New York Mets 7, Pittsburgh Pirates 5",
+        "order": 0,
+        "rotation": 1011
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247324,
+        "name": "New York Mets 7, Pittsburgh Pirates 6",
+        "order": 0,
+        "rotation": 1012
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611247325,
+        "name": "New York Mets 7, Pittsburgh Pirates 7",
+        "order": 0,
+        "rotation": 1013
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 951,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score 1st Half"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428257558
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253182,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -0.5,
-        "price": -105
+        "alignment": "neutral",
+        "id": 1611253183,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "away",
-        "points": 0.5,
-        "price": -111
+        "alignment": "neutral",
+        "id": 1611253184,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Andrew McCutchen (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428263756
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253185,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": 129
+        "alignment": "neutral",
+        "id": 1611253186,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -155
+        "alignment": "neutral",
+        "id": 1611253187,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Andrew McCutchen (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263756
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;ou;4.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253188,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.5,
-        "price": -115
+        "alignment": "neutral",
+        "id": 1611253189,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "under",
-        "points": 4.5,
-        "price": 101
+        "alignment": "neutral",
+        "id": 1611253190,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Tommy Pham (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263756
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;3.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253191,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": -201
+        "alignment": "neutral",
+        "id": 1611253192,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": 171
+        "alignment": "neutral",
+        "id": 1611253193,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Starling Marte (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;4.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253194,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.0,
-        "price": -159
+        "alignment": "neutral",
+        "id": 1611253195,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "under",
-        "points": 4.0,
-        "price": 138
+        "alignment": "neutral",
+        "id": 1611253196,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Francisco Lindor (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253197,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.0,
-        "price": 111
+        "alignment": "neutral",
+        "id": 1611253198,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "under",
-        "points": 5.0,
-        "price": -128
+        "alignment": "neutral",
+        "id": 1611253199,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Francisco Lindor (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253200,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.5,
-        "price": 138
+        "alignment": "neutral",
+        "id": 1611253201,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "under",
-        "points": 5.5,
-        "price": -159
+        "alignment": "neutral",
+        "id": 1611253202,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Brandon Nimmo (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;m",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253203,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "price": 240
+        "alignment": "neutral",
+        "id": 1611253204,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "away",
-        "price": 321
-      },
-      {
-        "designation": "draw",
-        "price": -118
+        "alignment": "neutral",
+        "id": 1611253205,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Brandon Nimmo (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;s;0.0",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253206,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": -139
+        "alignment": "neutral",
+        "id": 1611253207,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": 118
+        "alignment": "neutral",
+        "id": 1611253208,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Luis Torrens (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;ou;0.5",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253209,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 0.5,
-        "price": -112
+        "alignment": "neutral",
+        "id": 1611253210,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "under",
-        "points": 0.5,
-        "price": -104
+        "alignment": "neutral",
+        "id": 1611253211,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Paul Blackburn (Total Strikeouts)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Strikeouts",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253212,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611065976,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611065977,
-        "price": -127
+        "alignment": "neutral",
+        "id": 1611253213,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "participantId": 1611065978,
-        "price": 108
+        "alignment": "neutral",
+        "id": 1611253214,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Paul Blackburn (Hits Allowed)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HitsAllowed",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;26.0",
-    "limits": [
-      {
-        "amount": 250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253215,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249755,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 26.0,
-        "price": -128
+        "alignment": "neutral",
+        "id": 1611253216,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "designation": "under",
-        "points": 26.0,
-        "price": 109
+        "alignment": "neutral",
+        "id": 1611253217,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160075400
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Paul Blackburn (Earned Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "EarnedRuns",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253218,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249756,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249757,
-        "price": 109
+        "alignment": "neutral",
+        "id": 1611253219,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "participantId": 1611249758,
-        "price": -127
+        "alignment": "neutral",
+        "id": 1611253220,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Tyrone Taylor (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253221,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253222,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253223,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249759,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249760,
-        "price": 1325
-      },
-      {
-        "participantId": 1611249761,
-        "price": 794
-      },
-      {
-        "participantId": 1611249762,
-        "price": 581
-      },
-      {
-        "participantId": 1611249763,
-        "price": 498
-      },
-      {
-        "participantId": 1611249764,
-        "price": 487
-      },
-      {
-        "participantId": 1611249765,
-        "price": 531
-      },
-      {
-        "participantId": 1611249766,
-        "price": 625
-      },
-      {
-        "participantId": 1611249767,
-        "price": 777
-      },
-      {
-        "participantId": 1611249768,
-        "price": 402
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Pete Alonso (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253224,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249769,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249770,
-        "price": -161
+        "alignment": "neutral",
+        "id": 1611253225,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "participantId": 1611249771,
-        "price": 136
+        "alignment": "neutral",
+        "id": 1611253226,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Pete Alonso (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253227,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249772,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249773,
-        "price": -105
+        "alignment": "neutral",
+        "id": 1611253228,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "participantId": 1611249774,
-        "price": -111
+        "alignment": "neutral",
+        "id": 1611253229,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Isiah Kiner-Falefa (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253230,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253231,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253232,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249775,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249776,
-        "price": 350
-      },
-      {
-        "participantId": 1611249777,
-        "price": 230
-      },
-      {
-        "participantId": 1611249778,
-        "price": 1435
-      },
-      {
-        "participantId": 1611249779,
-        "price": 411
-      },
-      {
-        "participantId": 1611249780,
-        "price": 314
-      },
-      {
-        "participantId": 1611249781,
-        "price": 598
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Bailey Falter (Total Strikeouts)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Strikeouts",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253233,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249782,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249783,
-        "price": 113
+        "alignment": "neutral",
+        "id": 1611253234,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "participantId": 1611249784,
-        "price": -133
+        "alignment": "neutral",
+        "id": 1611253235,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Bailey Falter (Hits Allowed)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HitsAllowed",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253236,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249785,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249786,
-        "price": -105
+        "alignment": "neutral",
+        "id": 1611253237,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "participantId": 1611249787,
-        "price": -111
+        "alignment": "neutral",
+        "id": 1611253238,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Bailey Falter (Earned Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "EarnedRuns",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253239,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249788,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249789,
-        "price": -106
+        "alignment": "neutral",
+        "id": 1611253240,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
       },
       {
-        "participantId": 1611249790,
-        "price": -110
+        "alignment": "neutral",
+        "id": 1611253241,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Ke'Bryan Hayes (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253242,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253243,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253244,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249791,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249792,
-        "price": 976
-      },
-      {
-        "participantId": 1611249793,
-        "price": 591
-      },
-      {
-        "participantId": 1611249794,
-        "price": 490
-      },
-      {
-        "participantId": 1611249795,
-        "price": 476
-      },
-      {
-        "participantId": 1611249796,
-        "price": 511
-      },
-      {
-        "participantId": 1611249797,
-        "price": 590
-      },
-      {
-        "participantId": 1611249798,
-        "price": 717
-      },
-      {
-        "participantId": 1611249799,
-        "price": 904
-      },
-      {
-        "participantId": 1611249800,
-        "price": 498
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Joey Bart (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253245,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253246,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253247,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249801,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249802,
-        "price": 6148
-      },
-      {
-        "participantId": 1611249803,
-        "price": 5625
-      },
-      {
-        "participantId": 1611249804,
-        "price": 5618
-      },
-      {
-        "participantId": 1611249805,
-        "price": 6188
-      },
-      {
-        "participantId": 1611249806,
-        "price": 7023
-      },
-      {
-        "participantId": 1611249807,
-        "price": 8280
-      },
-      {
-        "participantId": 1611249808,
-        "price": 9896
-      },
-      {
-        "participantId": 1611249809,
-        "price": 4841
-      },
-      {
-        "participantId": 1611249810,
-        "price": 3399
-      },
-      {
-        "participantId": 1611249811,
-        "price": 3555
-      },
-      {
-        "participantId": 1611249812,
-        "price": 3856
-      },
-      {
-        "participantId": 1611249813,
-        "price": 4515
-      },
-      {
-        "participantId": 1611249814,
-        "price": 5409
-      },
-      {
-        "participantId": 1611249815,
-        "price": 6643
-      },
-      {
-        "participantId": 1611249816,
-        "price": 4684
-      },
-      {
-        "participantId": 1611249817,
-        "price": 2454
-      },
-      {
-        "participantId": 1611249818,
-        "price": 2621
-      },
-      {
-        "participantId": 1611249819,
-        "price": 3005
-      },
-      {
-        "participantId": 1611249820,
-        "price": 3470
-      },
-      {
-        "participantId": 1611249821,
-        "price": 4261
-      },
-      {
-        "participantId": 1611249822,
-        "price": 5221
-      },
-      {
-        "participantId": 1611249823,
-        "price": 4590
-      },
-      {
-        "participantId": 1611249824,
-        "price": 2915
-      },
-      {
-        "participantId": 1611249825,
-        "price": 1862
-      },
-      {
-        "participantId": 1611249826,
-        "price": 2520
-      },
-      {
-        "participantId": 1611249827,
-        "price": 3078
-      },
-      {
-        "participantId": 1611249828,
-        "price": 3669
-      },
-      {
-        "participantId": 1611249829,
-        "price": 4660
-      },
-      {
-        "participantId": 1611249830,
-        "price": 4842
-      },
-      {
-        "participantId": 1611249831,
-        "price": 3111
-      },
-      {
-        "participantId": 1611249832,
-        "price": 2602
-      },
-      {
-        "participantId": 1611249833,
-        "price": 1790
-      },
-      {
-        "participantId": 1611249834,
-        "price": 2773
-      },
-      {
-        "participantId": 1611249835,
-        "price": 3540
-      },
-      {
-        "participantId": 1611249836,
-        "price": 4441
-      },
-      {
-        "participantId": 1611249837,
-        "price": 5376
-      },
-      {
-        "participantId": 1611249838,
-        "price": 3497
-      },
-      {
-        "participantId": 1611249839,
-        "price": 2946
-      },
-      {
-        "participantId": 1611249840,
-        "price": 2816
-      },
-      {
-        "participantId": 1611249841,
-        "price": 1981
-      },
-      {
-        "participantId": 1611249842,
-        "price": 3459
-      },
-      {
-        "participantId": 1611249843,
-        "price": 4533
-      },
-      {
-        "participantId": 1611249844,
-        "price": 6197
-      },
-      {
-        "participantId": 1611249845,
-        "price": 4101
-      },
-      {
-        "participantId": 1611249846,
-        "price": 3480
-      },
-      {
-        "participantId": 1611249847,
-        "price": 3275
-      },
-      {
-        "participantId": 1611249848,
-        "price": 3400
-      },
-      {
-        "participantId": 1611249849,
-        "price": 2497
-      },
-      {
-        "participantId": 1611249850,
-        "price": 4648
-      },
-      {
-        "participantId": 1611249851,
-        "price": 7284
-      },
-      {
-        "participantId": 1611249852,
-        "price": 4922
-      },
-      {
-        "participantId": 1611249853,
-        "price": 4177
-      },
-      {
-        "participantId": 1611249854,
-        "price": 4013
-      },
-      {
-        "participantId": 1611249855,
-        "price": 4148
-      },
-      {
-        "participantId": 1611249856,
-        "price": 4532
-      },
-      {
-        "participantId": 1611249857,
-        "price": 3402
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Juan Soto (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253248,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253249,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253250,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249858,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249862,
-        "price": 225
-      },
-      {
-        "participantId": 1611249859,
-        "price": 297
-      },
-      {
-        "participantId": 1611249860,
-        "price": 217
-      },
-      {
-        "participantId": 1611249861,
-        "price": 337
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Juan Soto (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253251,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253252,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253253,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249863,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249864,
-        "price": 581
-      },
-      {
-        "participantId": 1611249865,
-        "price": 730
-      },
-      {
-        "participantId": 1611249866,
-        "price": 899
-      },
-      {
-        "participantId": 1611249867,
-        "price": 1163
-      },
-      {
-        "participantId": 1611249868,
-        "price": 654
-      },
-      {
-        "participantId": 1611249869,
-        "price": 376
-      },
-      {
-        "participantId": 1611249870,
-        "price": 654
-      },
-      {
-        "participantId": 1611249871,
-        "price": 777
-      },
-      {
-        "participantId": 1611249872,
-        "price": 960
-      },
-      {
-        "participantId": 1611249873,
-        "price": 465
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Oneil Cruz (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428263777
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253254,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253255,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253256,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249874,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249875,
-        "price": 329
-      },
-      {
-        "participantId": 1611249876,
-        "price": 564
-      },
-      {
-        "participantId": 1611249877,
-        "price": 1023
-      },
-      {
-        "participantId": 1611249878,
-        "price": 1314
-      },
-      {
-        "participantId": 1611249879,
-        "price": 226
-      },
-      {
-        "participantId": 1611249880,
-        "price": 464
-      },
-      {
-        "participantId": 1611249881,
-        "price": 791
-      },
-      {
-        "participantId": 1611249882,
-        "price": 941
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Oneil Cruz (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263785
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253257,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253258,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253259,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249883,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249884,
-        "price": 2678
-      },
-      {
-        "participantId": 1611249885,
-        "price": 2540
-      },
-      {
-        "participantId": 1611249886,
-        "price": 1110
-      },
-      {
-        "participantId": 1611249887,
-        "price": 1241
-      },
-      {
-        "participantId": 1611249888,
-        "price": 702
-      },
-      {
-        "participantId": 1611249889,
-        "price": 885
-      },
-      {
-        "participantId": 1611249890,
-        "price": 594
-      },
-      {
-        "participantId": 1611249891,
-        "price": 817
-      },
-      {
-        "participantId": 1611249892,
-        "price": 614
-      },
-      {
-        "participantId": 1611249893,
-        "price": 891
-      },
-      {
-        "participantId": 1611249894,
-        "price": 758
-      },
-      {
-        "participantId": 1611249895,
-        "price": 1128
-      },
-      {
-        "participantId": 1611249896,
-        "price": 1035
-      },
-      {
-        "participantId": 1611249897,
-        "price": 1554
-      },
-      {
-        "participantId": 1611249898,
-        "price": 613
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Bryan Reynolds (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428263785
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253260,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253261,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253262,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249899,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249900,
-        "price": 773
-      },
-      {
-        "participantId": 1611249901,
-        "price": 321
-      },
-      {
-        "participantId": 1611249902,
-        "price": 209
-      },
-      {
-        "participantId": 1611249903,
-        "price": 325
-      },
-      {
-        "participantId": 1611249904,
-        "price": 337
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Bryan Reynolds (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263785
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253263,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253264,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253265,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249905,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249906,
-        "price": 571
-      },
-      {
-        "participantId": 1611249907,
-        "price": 745
-      },
-      {
-        "participantId": 1611249908,
-        "price": 441
-      },
-      {
-        "participantId": 1611249909,
-        "price": 456
-      },
-      {
-        "participantId": 1611249910,
-        "price": 501
-      },
-      {
-        "participantId": 1611249911,
-        "price": 596
-      },
-      {
-        "participantId": 1611249912,
-        "price": 270
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Mark Vientos (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428263785
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253266,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253267,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253268,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249913,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249920,
-        "price": 656
-      },
-      {
-        "participantId": 1611249921,
-        "price": 778
-      },
-      {
-        "participantId": 1611249922,
-        "price": 955
-      },
-      {
-        "participantId": 1611249923,
-        "price": 1202
-      },
-      {
-        "participantId": 1611249924,
-        "price": 1539
-      },
-      {
-        "participantId": 1611249925,
-        "price": 971
-      },
-      {
-        "participantId": 1611249914,
-        "price": 1413
-      },
-      {
-        "participantId": 1611249915,
-        "price": 805
-      },
-      {
-        "participantId": 1611249916,
-        "price": 597
-      },
-      {
-        "participantId": 1611249917,
-        "price": 523
-      },
-      {
-        "participantId": 1611249918,
-        "price": 513
-      },
-      {
-        "participantId": 1611249919,
-        "price": 578
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Mark Vientos (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263785
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253269,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253270,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253271,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249926,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249927,
-        "price": 289
-      },
-      {
-        "participantId": 1611249928,
-        "price": 248
-      },
-      {
-        "participantId": 1611249929,
-        "price": 309
-      },
-      {
-        "participantId": 1611249930,
-        "price": 217
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Ronny Mauricio (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263785
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253272,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253273,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253274,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249931,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249932,
-        "price": 298
-      },
-      {
-        "participantId": 1611249933,
-        "price": 297
-      },
-      {
-        "participantId": 1611249934,
-        "price": 378
-      },
-      {
-        "participantId": 1611249935,
-        "price": 512
-      },
-      {
-        "participantId": 1611249936,
-        "price": 714
-      },
-      {
-        "participantId": 1611249937,
-        "price": 462
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Spencer Horwitz (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263785
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611253275,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 30,
+      "matchupCountSE": 30,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 54,
+        "matchupCountSE": 54,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611057165,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Pittsburgh Pirates",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "New York Mets",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:05:00+00:00"
+    },
+    "parentId": 1611057165,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611253276,
+        "name": "Over",
+        "order": 0,
+        "rotation": 952
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611253277,
+        "name": "Under",
+        "order": 0,
+        "rotation": 953
       }
     ],
-    "matchupId": 1611249938,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249939,
-        "price": 397
-      },
-      {
-        "participantId": 1611249940,
-        "price": 370
-      },
-      {
-        "participantId": 1611249941,
-        "price": 386
-      },
-      {
-        "participantId": 1611249942,
-        "price": 467
-      },
-      {
-        "participantId": 1611249943,
-        "price": 604
-      },
-      {
-        "participantId": 1611249944,
-        "price": 316
+        "cutoffAt": "2025-06-28T20:05:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249945,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249969,
-        "price": 2399
-      },
-      {
-        "participantId": 1611249970,
-        "price": 2290
-      },
-      {
-        "participantId": 1611249971,
-        "price": 2473
-      },
-      {
-        "participantId": 1611249972,
-        "price": 2784
-      },
-      {
-        "participantId": 1611249973,
-        "price": 3333
-      },
-      {
-        "participantId": 1611249974,
-        "price": 4180
-      },
-      {
-        "participantId": 1611249977,
-        "price": 3112
-      },
-      {
-        "participantId": 1611249978,
-        "price": 3108
-      },
-      {
-        "participantId": 1611249979,
-        "price": 3203
-      },
-      {
-        "participantId": 1611249980,
-        "price": 3649
-      },
-      {
-        "participantId": 1611249981,
-        "price": 4316
-      },
-      {
-        "participantId": 1611249985,
-        "price": 4294
-      },
-      {
-        "participantId": 1611249986,
-        "price": 4117
-      },
-      {
-        "participantId": 1611249987,
-        "price": 4237
-      },
-      {
-        "participantId": 1611249988,
-        "price": 4796
-      },
-      {
-        "participantId": 1611249946,
-        "price": 1524
-      },
-      {
-        "participantId": 1611249947,
-        "price": 1576
-      },
-      {
-        "participantId": 1611249948,
-        "price": 1825
-      },
-      {
-        "participantId": 1611249949,
-        "price": 2243
-      },
-      {
-        "participantId": 1611249950,
-        "price": 2984
-      },
-      {
-        "participantId": 1611249951,
-        "price": 3937
-      },
-      {
-        "participantId": 1611249953,
-        "price": 1637
-      },
-      {
-        "participantId": 1611249954,
-        "price": 1529
-      },
-      {
-        "participantId": 1611249955,
-        "price": 1560
-      },
-      {
-        "participantId": 1611249956,
-        "price": 1806
-      },
-      {
-        "participantId": 1611249957,
-        "price": 2324
-      },
-      {
-        "participantId": 1611249958,
-        "price": 2955
-      },
-      {
-        "participantId": 1611249959,
-        "price": 3898
-      },
-      {
-        "participantId": 1611249961,
-        "price": 1923
-      },
-      {
-        "participantId": 1611249962,
-        "price": 1832
-      },
-      {
-        "participantId": 1611249963,
-        "price": 1859
-      },
-      {
-        "participantId": 1611249964,
-        "price": 2214
-      },
-      {
-        "participantId": 1611249965,
-        "price": 2704
-      },
-      {
-        "participantId": 1611249966,
-        "price": 3419
-      },
-      {
-        "participantId": 1611249967,
-        "price": 4479
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069659782
+    "rotation": 952,
+    "special": {
+      "category": "Player Props",
+      "description": "Nick Gonzales (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:05:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428263785
   }
 ]
