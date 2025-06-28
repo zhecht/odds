@@ -1,2292 +1,5258 @@
 [
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;m",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": true,
+    "hasAltTotal": true,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611060638,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": null,
+    "parentId": null,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "home",
-        "price": 239
+        "alignment": "home",
+        "name": "Milwaukee Brewers",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 1
+          },
+          {
+            "period": 0
+          },
+          {
+            "period": 3
+          }
+        ]
       },
       {
-        "designation": "away",
-        "price": 322
-      },
-      {
-        "designation": "draw",
-        "price": -118
+        "alignment": "away",
+        "name": "Colorado Rockies",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 1
+          },
+          {
+            "period": 0
+          },
+          {
+            "period": 3
+          }
+        ]
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3160082602
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "hasMoneyline": false,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 1,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": true,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      },
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "hasMoneyline": true,
+        "hasSpread": true,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 3,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 22,
+    "type": "matchup",
+    "units": "Regular",
+    "version": 605985204
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;s;0.0",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611070299,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": -140
+        "alignment": "neutral",
+        "id": 1611070302,
+        "name": "Colorado Rockies",
+        "order": 0,
+        "rotation": 2575
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": 119
+        "alignment": "neutral",
+        "id": 1611070303,
+        "name": "Milwaukee Brewers",
+        "order": 0,
+        "rotation": 2576
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160082602
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 2575,
+    "special": {
+      "category": "Next Run",
+      "description": "Team To Score 1st Run"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "1st Run",
+    "version": 428256654
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;3;ou;0.5",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248453,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 3,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": "unique_matchups",
+    "participants": [
       {
-        "designation": "over",
-        "points": 0.5,
-        "price": -112
+        "alignment": "home",
+        "name": "Milwaukee Brewers  (Hits+Runs+Errors)",
+        "order": 1,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       },
       {
-        "designation": "under",
-        "points": 0.5,
-        "price": -104
+        "alignment": "away",
+        "name": "Colorado Rockies  (Hits+Runs+Errors)",
+        "order": 0,
+        "pitcher": null,
+        "stats": [
+          {
+            "period": 0
+          }
+        ]
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160082602
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "hasMoneyline": false,
+        "hasSpread": false,
+        "hasTeamTotal": false,
+        "hasTotal": true,
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 9957,
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "matchup",
+    "units": "Hits + Runs + Errors",
+    "version": 605979006
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248458,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "price": -148
+        "alignment": "neutral",
+        "id": 1611248465,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "away",
-        "price": 133
+        "alignment": "neutral",
+        "id": 1611248466,
+        "name": "Even",
+        "order": 0,
+        "rotation": 958
       }
     ],
-    "status": "open",
-    "type": "moneyline",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;4.5;home",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248481,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.5,
-        "price": -101
+        "alignment": "neutral",
+        "id": 1611248541,
+        "name": "0",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 4.5,
-        "price": -115
+        "alignment": "neutral",
+        "id": 1611248542,
+        "name": "1",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248543,
+        "name": "2",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248544,
+        "name": "3",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248545,
+        "name": "4",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248546,
+        "name": "5",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248547,
+        "name": "6",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248548,
+        "name": "7",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248549,
+        "name": "8+",
+        "order": 0,
+        "rotation": 965
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Exact Total Runs"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;tt;3.5;away",
-    "limits": [
-      {
-        "amount": 650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248563,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 3.5,
-        "price": -122
+        "alignment": "neutral",
+        "id": 1611248623,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 3.5,
-        "price": 105
+        "alignment": "neutral",
+        "id": 1611248624,
+        "name": "Even",
+        "order": 0,
+        "rotation": 958
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;s;-1.5",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248635,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.5,
-        "price": 141
+        "alignment": "neutral",
+        "id": 1611248649,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "away",
-        "points": 1.5,
-        "price": -159
+        "alignment": "neutral",
+        "id": 1611248650,
+        "name": "Even",
+        "order": 0,
+        "rotation": 958
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Colorado Rockies Runs Odd/Even"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.5",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248659,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.5,
-        "price": -257
+        "alignment": "neutral",
+        "id": 1611248665,
+        "name": "Colorado Rockies & Over 4.5",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "away",
-        "points": -1.5,
-        "price": 203
+        "alignment": "neutral",
+        "id": 1611248666,
+        "name": "Milwaukee Brewers & Over 4.5",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248667,
+        "name": "Draw & Over 4.5",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248668,
+        "name": "Colorado Rockies & Under 4.5",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248669,
+        "name": "Milwaukee Brewers & Under 4.5",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248670,
+        "name": "Draw & Under 4.5",
+        "order": 0,
+        "rotation": 962
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Double Result",
+      "description": "1st Half Winner/Total 4.5 Runs"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;1.0",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248729,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": -211
+        "alignment": "neutral",
+        "id": 1611248736,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": 175
+        "alignment": "neutral",
+        "id": 1611248737,
+        "name": "Even",
+        "order": 0,
+        "rotation": 958
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Colorado Rockies Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-1.0",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248748,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": -103
+        "alignment": "neutral",
+        "id": 1611248758,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -111
+        "alignment": "neutral",
+        "id": 1611248759,
+        "name": "Even",
+        "order": 0,
+        "rotation": 958
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Odd/Even 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-2.0",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248770,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -2.0,
-        "price": 185
+        "alignment": "neutral",
+        "id": 1611248774,
+        "name": "Odd",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "away",
-        "points": 2.0,
-        "price": -219
+        "alignment": "neutral",
+        "id": 1611248775,
+        "name": "Even",
+        "order": 0,
+        "rotation": 958
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Runs Odd/Even"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-2.5",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248783,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -2.5,
-        "price": 211
+        "alignment": "neutral",
+        "id": 1611248789,
+        "name": "0",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "away",
-        "points": 2.5,
-        "price": -261
+        "alignment": "neutral",
+        "id": 1611248790,
+        "name": "1",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248791,
+        "name": "2",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248792,
+        "name": "3",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248793,
+        "name": "4",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248794,
+        "name": "5",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248795,
+        "name": "6",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248796,
+        "name": "7",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248797,
+        "name": "8+",
+        "order": 0,
+        "rotation": 965
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Colorado Rockies Exact Total Runs"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;s;-3.0",
-    "limits": [
-      {
-        "amount": 4000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248813,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -3.0,
-        "price": 280
+        "alignment": "neutral",
+        "id": 1611248825,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "away",
-        "points": 3.0,
-        "price": -378
+        "alignment": "neutral",
+        "id": 1611248826,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248827,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248828,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248829,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248830,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248831,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248832,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248833,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248834,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 966
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248835,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 967
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248836,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 968
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248837,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 969
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248838,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 970
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248839,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 971
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248840,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248841,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 973
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248842,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 974
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248843,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 975
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248844,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248845,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248846,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248847,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248848,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248849,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248850,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248851,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 983
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248852,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 984
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248853,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 985
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248854,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 986
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248855,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 987
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248856,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 988
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248857,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 989
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248858,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 990
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248859,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 991
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248860,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 992
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248861,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 993
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248862,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 994
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248863,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 995
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248864,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 996
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248865,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 997
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248866,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 998
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248867,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 999
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248868,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1000
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248869,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1001
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248870,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1002
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248871,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1003
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248872,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1004
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248873,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1005
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248874,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1006
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248875,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1007
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248876,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1008
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248877,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1009
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248878,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1010
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248879,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1011
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248880,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1012
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;8.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248893,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 8.5,
-        "price": -112
+        "alignment": "neutral",
+        "id": 1611248903,
+        "name": "Colorado Rockies & Over 8.5",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 8.5,
-        "price": -100
+        "alignment": "neutral",
+        "id": 1611248904,
+        "name": "Milwaukee Brewers & Over 8.5",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248905,
+        "name": "Colorado Rockies & Under 8.5",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248906,
+        "name": "Milwaukee Brewers & Under 8.5",
+        "order": 0,
+        "rotation": 960
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Double Result",
+      "description": "Winner/Total 8.5 Runs"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;5.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248921,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.5,
-        "price": -393
+        "alignment": "neutral",
+        "id": 1611248938,
+        "name": "Colorado Rockies By 1",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 5.5,
-        "price": 298
+        "alignment": "neutral",
+        "id": 1611248939,
+        "name": "Colorado Rockies By 2",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248940,
+        "name": "Colorado Rockies By 3",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248941,
+        "name": "Colorado Rockies By 4",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248942,
+        "name": "Colorado Rockies By 5+",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248943,
+        "name": "Milwaukee Brewers By 1",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248944,
+        "name": "Milwaukee Brewers By 2",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248945,
+        "name": "Milwaukee Brewers By 3",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248946,
+        "name": "Milwaukee Brewers By 4",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248947,
+        "name": "Milwaukee Brewers By 5+",
+        "order": 0,
+        "rotation": 966
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;7.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248957,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.0,
-        "price": -215
+        "alignment": "neutral",
+        "id": 1611248964,
+        "name": "Colorado Rockies By 1 - 2",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 7.0,
-        "price": 186
+        "alignment": "neutral",
+        "id": 1611248965,
+        "name": "Colorado Rockies By 3 - 4",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248966,
+        "name": "Colorado Rockies By 5 - 6",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248967,
+        "name": "Colorado Rockies By 7+",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248968,
+        "name": "Milwaukee Brewers By 1 - 2",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248969,
+        "name": "Milwaukee Brewers By 3 - 4",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248970,
+        "name": "Milwaukee Brewers By 5 - 6",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248971,
+        "name": "Milwaukee Brewers By 7+",
+        "order": 0,
+        "rotation": 964
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin Range"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;7.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611248979,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 7.5,
-        "price": -154
+        "alignment": "neutral",
+        "id": 1611248988,
+        "name": "1",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 7.5,
-        "price": 136
+        "alignment": "neutral",
+        "id": 1611248989,
+        "name": "2",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248990,
+        "name": "3",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248991,
+        "name": "4",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248992,
+        "name": "5",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248993,
+        "name": "6",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248994,
+        "name": "7",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248995,
+        "name": "8",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248996,
+        "name": "9",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248997,
+        "name": "10",
+        "order": 0,
+        "rotation": 966
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248998,
+        "name": "11",
+        "order": 0,
+        "rotation": 967
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611248999,
+        "name": "12",
+        "order": 0,
+        "rotation": 968
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249000,
+        "name": "13",
+        "order": 0,
+        "rotation": 969
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249001,
+        "name": "14",
+        "order": 0,
+        "rotation": 970
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249002,
+        "name": "15+",
+        "order": 0,
+        "rotation": 971
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;8.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611249024,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 8.0,
-        "price": -134
+        "alignment": "neutral",
+        "id": 1611249038,
+        "name": "1 - 3",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 8.0,
-        "price": 118
+        "alignment": "neutral",
+        "id": 1611249039,
+        "name": "4 - 6",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249040,
+        "name": "7 - 9",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249041,
+        "name": "10 - 12",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249042,
+        "name": "13+",
+        "order": 0,
+        "rotation": 961
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;9.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611249055,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 9.0,
-        "price": 113
+        "alignment": "neutral",
+        "id": 1611249061,
+        "name": "Colorado Rockies By 1",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 9.0,
-        "price": -127
+        "alignment": "neutral",
+        "id": 1611249062,
+        "name": "Colorado Rockies By 2",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249063,
+        "name": "Colorado Rockies By 3+",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249064,
+        "name": "Tie",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249065,
+        "name": "Milwaukee Brewers By 1",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249066,
+        "name": "Milwaukee Brewers By 2",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249067,
+        "name": "Milwaukee Brewers By 3+",
+        "order": 0,
+        "rotation": 963
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Winning Margin 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;9.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611249074,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 9.5,
-        "price": 138
+        "alignment": "neutral",
+        "id": 1611249081,
+        "name": "0",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 9.5,
-        "price": -156
+        "alignment": "neutral",
+        "id": 1611249082,
+        "name": "1",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249083,
+        "name": "2",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249084,
+        "name": "3",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249085,
+        "name": "4",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249086,
+        "name": "5",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249087,
+        "name": "6",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249088,
+        "name": "7",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249089,
+        "name": "8",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249090,
+        "name": "9",
+        "order": 0,
+        "rotation": 966
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249091,
+        "name": "10",
+        "order": 0,
+        "rotation": 967
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249092,
+        "name": "11+",
+        "order": 0,
+        "rotation": 968
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;10.0",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611249094,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 10.0,
-        "price": 165
+        "alignment": "neutral",
+        "id": 1611249101,
+        "name": "0 - 2",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 10.0,
-        "price": -189
+        "alignment": "neutral",
+        "id": 1611249102,
+        "name": "3 - 4",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249103,
+        "name": "5 - 6",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249104,
+        "name": "7+",
+        "order": 0,
+        "rotation": 960
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Total Runs Range 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;0;ou;12.5",
-    "limits": [
-      {
-        "amount": 3000,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611249106,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 12.5,
-        "price": 340
+        "alignment": "neutral",
+        "id": 1611249170,
+        "name": "0",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 12.5,
-        "price": -463
+        "alignment": "neutral",
+        "id": 1611249171,
+        "name": "1",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249172,
+        "name": "2",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249173,
+        "name": "3",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249174,
+        "name": "4",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249175,
+        "name": "5+",
+        "order": 0,
+        "rotation": 962
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133578
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Colorado Rockies Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;2.5;home",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611249176,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 2.5,
-        "price": -106
+        "alignment": "neutral",
+        "id": 1611249177,
+        "name": "0",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 2.5,
-        "price": -114
+        "alignment": "neutral",
+        "id": 1611249178,
+        "name": "1",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249179,
+        "name": "2",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249180,
+        "name": "3",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249181,
+        "name": "4",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249182,
+        "name": "5+",
+        "order": 0,
+        "rotation": 962
       }
     ],
-    "side": "home",
-    "status": "open",
-    "type": "team_total",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Milwaukee Brewers Exact Total Runs 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;tt;1.5;away",
-    "limits": [
-      {
-        "amount": 325,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611249183,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 1.5,
-        "price": -143
+        "alignment": "neutral",
+        "id": 1611249184,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 957
       },
       {
-        "designation": "under",
-        "points": 1.5,
-        "price": 117
+        "alignment": "neutral",
+        "id": 1611249185,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249186,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 959
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249187,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 960
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249188,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 961
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249189,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 962
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249190,
+        "name": "Colorado Rockies 0, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 963
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249191,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 964
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249192,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 965
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249193,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 966
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249194,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 967
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249195,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 968
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249196,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 969
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249197,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 970
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249198,
+        "name": "Colorado Rockies 1, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 971
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249199,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 972
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249200,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 973
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249201,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 974
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249202,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 975
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249203,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 976
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249204,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 977
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249205,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 978
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249206,
+        "name": "Colorado Rockies 2, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 979
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249207,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 980
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249208,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 981
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249209,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 982
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249210,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 983
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249211,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 984
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249212,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 985
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249213,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 986
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249214,
+        "name": "Colorado Rockies 3, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 987
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249215,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 988
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249216,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 989
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249217,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 990
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249218,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 991
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249219,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 992
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249220,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 993
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249221,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 994
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249222,
+        "name": "Colorado Rockies 4, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 995
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249223,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 996
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249224,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 997
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249225,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 998
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249226,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 999
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249227,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 1000
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249228,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 1001
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249229,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1002
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249230,
+        "name": "Colorado Rockies 5, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1003
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249231,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 1004
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249232,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 1005
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249233,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 1006
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249234,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 1007
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249235,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 1008
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249236,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 1009
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249237,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1010
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249238,
+        "name": "Colorado Rockies 6, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1011
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249239,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 0",
+        "order": 0,
+        "rotation": 1012
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249240,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 1",
+        "order": 0,
+        "rotation": 1013
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249241,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 2",
+        "order": 0,
+        "rotation": 1014
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249242,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 3",
+        "order": 0,
+        "rotation": 1015
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249243,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 4",
+        "order": 0,
+        "rotation": 1016
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249244,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 5",
+        "order": 0,
+        "rotation": 1017
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249245,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 6",
+        "order": 0,
+        "rotation": 1018
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611249246,
+        "name": "Colorado Rockies 7, Milwaukee Brewers 7",
+        "order": 0,
+        "rotation": 1019
       }
     ],
-    "side": "away",
-    "status": "open",
-    "type": "team_total",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 1,
+        "status": "open"
+      }
+    ],
+    "rotation": 957,
+    "special": {
+      "category": "Exact Scores",
+      "description": "Correct Score 1st Half"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Runs",
+    "version": 428267703
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;s;0.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254751,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.0,
-        "price": -150
+        "alignment": "neutral",
+        "id": 1611254752,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "away",
-        "points": -0.0,
-        "price": 130
+        "alignment": "neutral",
+        "id": 1611254753,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Christian Yelich (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428268824
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254754,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 1.0,
-        "price": -299
+        "alignment": "neutral",
+        "id": 1611254755,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "away",
-        "points": -1.0,
-        "price": 231
+        "alignment": "neutral",
+        "id": 1611254756,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Christian Yelich (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268824
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254757,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": 0.5,
-        "price": -197
+        "alignment": "neutral",
+        "id": 1611254758,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "away",
-        "points": -0.5,
-        "price": 164
+        "alignment": "neutral",
+        "id": 1611254759,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Rhys Hoskins (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428268824
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-0.5",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254760,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -0.5,
-        "price": -107
+        "alignment": "neutral",
+        "id": 1611254761,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "away",
-        "points": 0.5,
-        "price": -109
+        "alignment": "neutral",
+        "id": 1611254762,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Rhys Hoskins (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268824
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;s;-1.0",
-    "limits": [
-      {
-        "amount": 1650,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254763,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "home",
-        "points": -1.0,
-        "price": 125
+        "alignment": "neutral",
+        "id": 1611254764,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "away",
-        "points": 1.0,
-        "price": -150
+        "alignment": "neutral",
+        "id": 1611254765,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "spread",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "William Contreras (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428268837
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;1;ou;5.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254766,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.0,
-        "price": 104
+        "alignment": "neutral",
+        "id": 1611254767,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "under",
-        "points": 5.0,
-        "price": -119
+        "alignment": "neutral",
+        "id": 1611254768,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "William Contreras (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268837
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;4.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254769,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.0,
-        "price": -173
+        "alignment": "neutral",
+        "id": 1611254770,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "under",
-        "points": 4.0,
-        "price": 149
+        "alignment": "neutral",
+        "id": 1611254771,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Brice Turang (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268837
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;4.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254772,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 4.5,
-        "price": -124
+        "alignment": "neutral",
+        "id": 1611254773,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "under",
-        "points": 4.5,
-        "price": 108
+        "alignment": "neutral",
+        "id": 1611254774,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Quinn Priester (Total Strikeouts)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "Strikeouts",
+    "version": 428268837
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;5.5",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254775,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 5.5,
-        "price": 131
+        "alignment": "neutral",
+        "id": 1611254776,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "under",
-        "points": 5.5,
-        "price": -151
+        "alignment": "neutral",
+        "id": 1611254777,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Quinn Priester (Hits Allowed)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HitsAllowed",
+    "version": 428268837
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": true,
-    "key": "s;1;ou;6.0",
-    "limits": [
-      {
-        "amount": 1250,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254778,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611057706,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 6.0,
-        "price": 173
+        "alignment": "neutral",
+        "id": 1611254779,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "under",
-        "points": 6.0,
-        "price": -203
+        "alignment": "neutral",
+        "id": 1611254780,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Quinn Priester (Earned Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "EarnedRuns",
+    "version": 428268837
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254781,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611065976,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611065977,
-        "price": -126
+        "alignment": "neutral",
+        "id": 1611254782,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "participantId": 1611065978,
-        "price": 108
+        "alignment": "neutral",
+        "id": 1611254783,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "type": "moneyline",
-    "version": 5069754343
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Quinn Priester (Pitching Outs)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "PitchingOuts",
+    "version": 428268837
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "isAlternate": false,
-    "key": "s;0;ou;26.0",
-    "limits": [
-      {
-        "amount": 500,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254784,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249755,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "designation": "over",
-        "points": 26.0,
-        "price": -127
+        "alignment": "neutral",
+        "id": 1611254785,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "designation": "under",
-        "points": 26.0,
-        "price": 108
+        "alignment": "neutral",
+        "id": 1611254786,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "status": "open",
-    "type": "total",
-    "version": 3160133580
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Sal Frelick (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268837
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254787,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249756,
-    "period": 1,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249757,
-        "price": 108
+        "alignment": "neutral",
+        "id": 1611254788,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "participantId": 1611249758,
-        "price": -126
+        "alignment": "neutral",
+        "id": 1611254789,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "type": "moneyline",
-    "version": 5069754343
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Isaac Collins (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268848
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254790,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611254791,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611254792,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "matchupId": 1611249759,
-    "period": 0,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249760,
-        "price": 1345
-      },
-      {
-        "participantId": 1611249761,
-        "price": 805
-      },
-      {
-        "participantId": 1611249762,
-        "price": 586
-      },
-      {
-        "participantId": 1611249763,
-        "price": 500
-      },
-      {
-        "participantId": 1611249764,
-        "price": 487
-      },
-      {
-        "participantId": 1611249765,
-        "price": 529
-      },
-      {
-        "participantId": 1611249766,
-        "price": 621
-      },
-      {
-        "participantId": 1611249767,
-        "price": 771
-      },
-      {
-        "participantId": 1611249768,
-        "price": 397
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069706569
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Joey Ortiz (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268848
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254793,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249769,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249770,
-        "price": -161
+        "alignment": "neutral",
+        "id": 1611254794,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "participantId": 1611249771,
-        "price": 136
+        "alignment": "neutral",
+        "id": 1611254795,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "type": "moneyline",
-    "version": 5069698084
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Jackson Chourio (Home Runs)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "HomeRuns",
+    "version": 428268848
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254796,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
       }
-    ],
-    "matchupId": 1611249772,
-    "period": 0,
-    "prices": [
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "participantId": 1611249773,
-        "price": -105
+        "alignment": "neutral",
+        "id": 1611254797,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
       },
       {
-        "participantId": 1611249774,
-        "price": -111
+        "alignment": "neutral",
+        "id": 1611254798,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "type": "moneyline",
-    "version": 5069658235
+    "periods": [
+      {
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
+      }
+    ],
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Jackson Chourio (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268848
   },
   {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
+    "ageLimit": 0,
+    "altTeaser": false,
+    "featureOrder": -1,
+    "hasAltSpread": false,
+    "hasAltTotal": false,
+    "hasBetshare": false,
+    "hasLive": true,
+    "hasMarkets": true,
+    "id": 1611254799,
+    "isBetshareEnabled": false,
+    "isFeatured": false,
+    "isHighlighted": false,
+    "isLive": false,
+    "isPromoted": false,
+    "league": {
+      "ageLimit": 0,
+      "featureOrder": 0,
+      "group": "USA",
+      "id": 246,
+      "isFeatured": true,
+      "isHidden": false,
+      "isPromoted": false,
+      "isSticky": false,
+      "matchupCount": 25,
+      "matchupCountSE": 25,
+      "name": "MLB",
+      "sequence": 1,
+      "sport": {
+        "featureOrder": 4,
+        "id": 3,
+        "isFeatured": true,
+        "isHidden": false,
+        "isSticky": false,
+        "matchupCount": 43,
+        "matchupCountSE": 43,
+        "name": "Baseball",
+        "primaryMarketType": "moneyline"
+      }
+    },
+    "liveMode": null,
+    "parent": {
+      "id": 1611060638,
+      "participants": [
+        {
+          "alignment": "home",
+          "name": "Milwaukee Brewers",
+          "score": null
+        },
+        {
+          "alignment": "away",
+          "name": "Colorado Rockies",
+          "score": null
+        }
+      ],
+      "startTime": "2025-06-28T20:10:00+00:00"
+    },
+    "parentId": 1611060638,
+    "parlayRestriction": null,
+    "participants": [
       {
-        "amount": 150,
-        "type": "maxRiskStake"
+        "alignment": "neutral",
+        "id": 1611254800,
+        "name": "Over",
+        "order": 0,
+        "rotation": 958
+      },
+      {
+        "alignment": "neutral",
+        "id": 1611254801,
+        "name": "Under",
+        "order": 0,
+        "rotation": 959
       }
     ],
-    "matchupId": 1611249775,
-    "period": 1,
-    "prices": [
+    "periods": [
       {
-        "participantId": 1611249776,
-        "price": 335
-      },
-      {
-        "participantId": 1611249777,
-        "price": 213
-      },
-      {
-        "participantId": 1611249778,
-        "price": 1381
-      },
-      {
-        "participantId": 1611249779,
-        "price": 439
-      },
-      {
-        "participantId": 1611249780,
-        "price": 333
-      },
-      {
-        "participantId": 1611249781,
-        "price": 633
+        "cutoffAt": "2025-06-28T20:10:00Z",
+        "period": 0,
+        "status": "open"
       }
     ],
-    "type": "moneyline",
-    "version": 5069754343
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249782,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249783,
-        "price": 112
-      },
-      {
-        "participantId": 1611249784,
-        "price": -131
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069754343
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249785,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249786,
-        "price": -105
-      },
-      {
-        "participantId": 1611249787,
-        "price": -111
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069658235
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249788,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611249789,
-        "price": -106
-      },
-      {
-        "participantId": 1611249790,
-        "price": -110
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069698084
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249791,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611249792,
-        "price": 965
-      },
-      {
-        "participantId": 1611249793,
-        "price": 584
-      },
-      {
-        "participantId": 1611249794,
-        "price": 486
-      },
-      {
-        "participantId": 1611249795,
-        "price": 474
-      },
-      {
-        "participantId": 1611249796,
-        "price": 511
-      },
-      {
-        "participantId": 1611249797,
-        "price": 592
-      },
-      {
-        "participantId": 1611249798,
-        "price": 722
-      },
-      {
-        "participantId": 1611249799,
-        "price": 913
-      },
-      {
-        "participantId": 1611249800,
-        "price": 506
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069706569
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249801,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611249802,
-        "price": 6201
-      },
-      {
-        "participantId": 1611249803,
-        "price": 5675
-      },
-      {
-        "participantId": 1611249804,
-        "price": 5668
-      },
-      {
-        "participantId": 1611249805,
-        "price": 6252
-      },
-      {
-        "participantId": 1611249806,
-        "price": 7095
-      },
-      {
-        "participantId": 1611249807,
-        "price": 8361
-      },
-      {
-        "participantId": 1611249808,
-        "price": 9990
-      },
-      {
-        "participantId": 1611249809,
-        "price": 4773
-      },
-      {
-        "participantId": 1611249810,
-        "price": 3432
-      },
-      {
-        "participantId": 1611249811,
-        "price": 3589
-      },
-      {
-        "participantId": 1611249812,
-        "price": 3900
-      },
-      {
-        "participantId": 1611249813,
-        "price": 4565
-      },
-      {
-        "participantId": 1611249814,
-        "price": 5467
-      },
-      {
-        "participantId": 1611249815,
-        "price": 6712
-      },
-      {
-        "participantId": 1611249816,
-        "price": 4617
-      },
-      {
-        "participantId": 1611249817,
-        "price": 2415
-      },
-      {
-        "participantId": 1611249818,
-        "price": 2647
-      },
-      {
-        "participantId": 1611249819,
-        "price": 3041
-      },
-      {
-        "participantId": 1611249820,
-        "price": 3510
-      },
-      {
-        "participantId": 1611249821,
-        "price": 4309
-      },
-      {
-        "participantId": 1611249822,
-        "price": 5304
-      },
-      {
-        "participantId": 1611249823,
-        "price": 4524
-      },
-      {
-        "participantId": 1611249824,
-        "price": 2870
-      },
-      {
-        "participantId": 1611249825,
-        "price": 1831
-      },
-      {
-        "participantId": 1611249826,
-        "price": 2551
-      },
-      {
-        "participantId": 1611249827,
-        "price": 3115
-      },
-      {
-        "participantId": 1611249828,
-        "price": 3731
-      },
-      {
-        "participantId": 1611249829,
-        "price": 4736
-      },
-      {
-        "participantId": 1611249830,
-        "price": 4773
-      },
-      {
-        "participantId": 1611249831,
-        "price": 3063
-      },
-      {
-        "participantId": 1611249832,
-        "price": 2561
-      },
-      {
-        "participantId": 1611249833,
-        "price": 1760
-      },
-      {
-        "participantId": 1611249834,
-        "price": 2822
-      },
-      {
-        "participantId": 1611249835,
-        "price": 3601
-      },
-      {
-        "participantId": 1611249836,
-        "price": 4514
-      },
-      {
-        "participantId": 1611249837,
-        "price": 5310
-      },
-      {
-        "participantId": 1611249838,
-        "price": 3450
-      },
-      {
-        "participantId": 1611249839,
-        "price": 2905
-      },
-      {
-        "participantId": 1611249840,
-        "price": 2778
-      },
-      {
-        "participantId": 1611249841,
-        "price": 1968
-      },
-      {
-        "participantId": 1611249842,
-        "price": 3524
-      },
-      {
-        "participantId": 1611249843,
-        "price": 4615
-      },
-      {
-        "participantId": 1611249844,
-        "price": 6123
-      },
-      {
-        "participantId": 1611249845,
-        "price": 4048
-      },
-      {
-        "participantId": 1611249846,
-        "price": 3434
-      },
-      {
-        "participantId": 1611249847,
-        "price": 3249
-      },
-      {
-        "participantId": 1611249848,
-        "price": 3380
-      },
-      {
-        "participantId": 1611249849,
-        "price": 2482
-      },
-      {
-        "participantId": 1611249850,
-        "price": 4732
-      },
-      {
-        "participantId": 1611249851,
-        "price": 7200
-      },
-      {
-        "participantId": 1611249852,
-        "price": 4860
-      },
-      {
-        "participantId": 1611249853,
-        "price": 4145
-      },
-      {
-        "participantId": 1611249854,
-        "price": 3982
-      },
-      {
-        "participantId": 1611249855,
-        "price": 4124
-      },
-      {
-        "participantId": 1611249856,
-        "price": 4506
-      },
-      {
-        "participantId": 1611249857,
-        "price": 3382
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069793749
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249858,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611249859,
-        "price": 304
-      },
-      {
-        "participantId": 1611249860,
-        "price": 212
-      },
-      {
-        "participantId": 1611249861,
-        "price": 345
-      },
-      {
-        "participantId": 1611249862,
-        "price": 220
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069706569
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249863,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611249864,
-        "price": 592
-      },
-      {
-        "participantId": 1611249865,
-        "price": 744
-      },
-      {
-        "participantId": 1611249866,
-        "price": 914
-      },
-      {
-        "participantId": 1611249867,
-        "price": 1181
-      },
-      {
-        "participantId": 1611249868,
-        "price": 666
-      },
-      {
-        "participantId": 1611249869,
-        "price": 370
-      },
-      {
-        "participantId": 1611249870,
-        "price": 646
-      },
-      {
-        "participantId": 1611249871,
-        "price": 767
-      },
-      {
-        "participantId": 1611249872,
-        "price": 949
-      },
-      {
-        "participantId": 1611249873,
-        "price": 458
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069706569
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249874,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611249875,
-        "price": 337
-      },
-      {
-        "participantId": 1611249876,
-        "price": 575
-      },
-      {
-        "participantId": 1611249877,
-        "price": 1040
-      },
-      {
-        "participantId": 1611249878,
-        "price": 1335
-      },
-      {
-        "participantId": 1611249879,
-        "price": 222
-      },
-      {
-        "participantId": 1611249880,
-        "price": 457
-      },
-      {
-        "participantId": 1611249881,
-        "price": 781
-      },
-      {
-        "participantId": 1611249882,
-        "price": 929
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069706569
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249883,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611249884,
-        "price": 2678
-      },
-      {
-        "participantId": 1611249885,
-        "price": 2540
-      },
-      {
-        "participantId": 1611249886,
-        "price": 1110
-      },
-      {
-        "participantId": 1611249887,
-        "price": 1241
-      },
-      {
-        "participantId": 1611249888,
-        "price": 702
-      },
-      {
-        "participantId": 1611249889,
-        "price": 885
-      },
-      {
-        "participantId": 1611249890,
-        "price": 594
-      },
-      {
-        "participantId": 1611249891,
-        "price": 817
-      },
-      {
-        "participantId": 1611249892,
-        "price": 614
-      },
-      {
-        "participantId": 1611249893,
-        "price": 891
-      },
-      {
-        "participantId": 1611249894,
-        "price": 758
-      },
-      {
-        "participantId": 1611249895,
-        "price": 1128
-      },
-      {
-        "participantId": 1611249896,
-        "price": 1035
-      },
-      {
-        "participantId": 1611249897,
-        "price": 1554
-      },
-      {
-        "participantId": 1611249898,
-        "price": 613
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069698084
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249899,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611249900,
-        "price": 773
-      },
-      {
-        "participantId": 1611249901,
-        "price": 321
-      },
-      {
-        "participantId": 1611249902,
-        "price": 209
-      },
-      {
-        "participantId": 1611249903,
-        "price": 325
-      },
-      {
-        "participantId": 1611249904,
-        "price": 337
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069698084
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249905,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249906,
-        "price": 587
-      },
-      {
-        "participantId": 1611249907,
-        "price": 755
-      },
-      {
-        "participantId": 1611249908,
-        "price": 434
-      },
-      {
-        "participantId": 1611249909,
-        "price": 471
-      },
-      {
-        "participantId": 1611249910,
-        "price": 513
-      },
-      {
-        "participantId": 1611249911,
-        "price": 599
-      },
-      {
-        "participantId": 1611249912,
-        "price": 257
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069754343
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249913,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249920,
-        "price": 632
-      },
-      {
-        "participantId": 1611249921,
-        "price": 746
-      },
-      {
-        "participantId": 1611249922,
-        "price": 912
-      },
-      {
-        "participantId": 1611249923,
-        "price": 1144
-      },
-      {
-        "participantId": 1611249924,
-        "price": 1461
-      },
-      {
-        "participantId": 1611249925,
-        "price": 901
-      },
-      {
-        "participantId": 1611249914,
-        "price": 1510
-      },
-      {
-        "participantId": 1611249915,
-        "price": 864
-      },
-      {
-        "participantId": 1611249916,
-        "price": 640
-      },
-      {
-        "participantId": 1611249917,
-        "price": 558
-      },
-      {
-        "participantId": 1611249918,
-        "price": 517
-      },
-      {
-        "participantId": 1611249919,
-        "price": 561
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069754343
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249926,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249927,
-        "price": 318
-      },
-      {
-        "participantId": 1611249928,
-        "price": 260
-      },
-      {
-        "participantId": 1611249929,
-        "price": 296
-      },
-      {
-        "participantId": 1611249930,
-        "price": 199
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069754343
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249931,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249932,
-        "price": 311
-      },
-      {
-        "participantId": 1611249933,
-        "price": 305
-      },
-      {
-        "participantId": 1611249934,
-        "price": 379
-      },
-      {
-        "participantId": 1611249935,
-        "price": 503
-      },
-      {
-        "participantId": 1611249936,
-        "price": 691
-      },
-      {
-        "participantId": 1611249937,
-        "price": 437
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069754343
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249938,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249939,
-        "price": 423
-      },
-      {
-        "participantId": 1611249940,
-        "price": 387
-      },
-      {
-        "participantId": 1611249941,
-        "price": 394
-      },
-      {
-        "participantId": 1611249942,
-        "price": 463
-      },
-      {
-        "participantId": 1611249943,
-        "price": 583
-      },
-      {
-        "participantId": 1611249944,
-        "price": 291
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069754343
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;1;m",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611249945,
-    "period": 1,
-    "prices": [
-      {
-        "participantId": 1611249969,
-        "price": 2548
-      },
-      {
-        "participantId": 1611249970,
-        "price": 2319
-      },
-      {
-        "participantId": 1611249971,
-        "price": 2419
-      },
-      {
-        "participantId": 1611249972,
-        "price": 2702
-      },
-      {
-        "participantId": 1611249973,
-        "price": 3212
-      },
-      {
-        "participantId": 1611249974,
-        "price": 4003
-      },
-      {
-        "participantId": 1611249977,
-        "price": 3161
-      },
-      {
-        "participantId": 1611249978,
-        "price": 3055
-      },
-      {
-        "participantId": 1611249979,
-        "price": 3123
-      },
-      {
-        "participantId": 1611249980,
-        "price": 3531
-      },
-      {
-        "participantId": 1611249981,
-        "price": 4148
-      },
-      {
-        "participantId": 1611249985,
-        "price": 4240
-      },
-      {
-        "participantId": 1611249986,
-        "price": 4033
-      },
-      {
-        "participantId": 1611249987,
-        "price": 4119
-      },
-      {
-        "participantId": 1611249988,
-        "price": 4630
-      },
-      {
-        "participantId": 1611249946,
-        "price": 1635
-      },
-      {
-        "participantId": 1611249947,
-        "price": 1675
-      },
-      {
-        "participantId": 1611249948,
-        "price": 1920
-      },
-      {
-        "participantId": 1611249949,
-        "price": 2244
-      },
-      {
-        "participantId": 1611249950,
-        "price": 2887
-      },
-      {
-        "participantId": 1611249951,
-        "price": 3785
-      },
-      {
-        "participantId": 1611249953,
-        "price": 1763
-      },
-      {
-        "participantId": 1611249954,
-        "price": 1632
-      },
-      {
-        "participantId": 1611249955,
-        "price": 1650
-      },
-      {
-        "participantId": 1611249956,
-        "price": 1814
-      },
-      {
-        "participantId": 1611249957,
-        "price": 2254
-      },
-      {
-        "participantId": 1611249958,
-        "price": 2847
-      },
-      {
-        "participantId": 1611249959,
-        "price": 3732
-      },
-      {
-        "participantId": 1611249960,
-        "price": 4983
-      },
-      {
-        "participantId": 1611249961,
-        "price": 2056
-      },
-      {
-        "participantId": 1611249962,
-        "price": 1943
-      },
-      {
-        "participantId": 1611249963,
-        "price": 1875
-      },
-      {
-        "participantId": 1611249964,
-        "price": 2157
-      },
-      {
-        "participantId": 1611249965,
-        "price": 2614
-      },
-      {
-        "participantId": 1611249966,
-        "price": 3282
-      },
-      {
-        "participantId": 1611249967,
-        "price": 4275
-      }
-    ],
-    "type": "moneyline",
-    "version": 5069754343
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;ou",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611256077,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611256078,
-        "points": 4.5,
-        "price": -132
-      },
-      {
-        "participantId": 1611256079,
-        "points": 4.5,
-        "price": -101
-      }
-    ],
-    "type": "total"
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;ou",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611256080,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611256081,
-        "points": 5.5,
-        "price": -155
-      },
-      {
-        "participantId": 1611256082,
-        "points": 5.5,
-        "price": 117
-      }
-    ],
-    "type": "total",
-    "version": 5069801292
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;ou",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611256083,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611256084,
-        "points": 2.5,
-        "price": -163
-      },
-      {
-        "participantId": 1611256085,
-        "points": 2.5,
-        "price": 122
-      }
-    ],
-    "type": "total"
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;ou",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611256086,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611256087,
-        "points": 4.5,
-        "price": -147
-      },
-      {
-        "participantId": 1611256088,
-        "points": 4.5,
-        "price": 111
-      }
-    ],
-    "type": "total"
-  },
-  {
-    "cutoffAt": "2025-06-28T17:10:00+00:00",
-    "key": "s;0;ou",
-    "limits": [
-      {
-        "amount": 150,
-        "type": "maxRiskStake"
-      }
-    ],
-    "matchupId": 1611256089,
-    "period": 0,
-    "prices": [
-      {
-        "participantId": 1611256090,
-        "points": 1.5,
-        "price": -178
-      },
-      {
-        "participantId": 1611256091,
-        "points": 1.5,
-        "price": 133
-      }
-    ],
-    "type": "total"
+    "rotation": 958,
+    "special": {
+      "category": "Player Props",
+      "description": "Caleb Durbin (Total Bases)(must start)"
+    },
+    "startTime": "2025-06-28T20:10:00Z",
+    "state": {},
+    "status": "pending",
+    "totalMarketCount": 1,
+    "type": "special",
+    "units": "TotalBases",
+    "version": 428268837
   }
 ]
