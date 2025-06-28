@@ -576,14 +576,14 @@ def writeCirca(date):
 
 		l,r = 610,650
 		if pageIdx == 1:
-			l,r = 590,635
+			l,r = 610,650
 			pass
 		oversImg = img.crop((l,top,r,bottom))
 		oversImg.save("out-overs.png", "PNG")
 
 		l,r = 715,760
 		if pageIdx == 1:
-			l,r = 705,755
+			l,r = 715,760
 			pass
 		undersImg = img.crop((l, top, r, bottom))
 
