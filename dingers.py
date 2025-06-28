@@ -529,8 +529,8 @@ def writeCirca(date):
 		#left,right = 145, 440
 
 		if pageIdx == 1:
-			bottom, top = 2350, 330
-			left, right = 260, 500
+			bottom, top = 2345, 315
+			left, right = 310, 530
 
 		h = 21
 		t = 273
