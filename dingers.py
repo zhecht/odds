@@ -2523,6 +2523,16 @@ def writeEV(date, dinger, parx=False, silent=False):
 
 				if "circa" in books:
 					devig(evData, playerFinal, data[game][player]["circa"], o, book="mgm-20-vs-circa")
+
+			if "b365" in books:
+				devig(evData, playerFinal, ou, int(data[game][player]["b365"].split("/")[0]), book="b365")
+				o = int(data[game][player]["b365"].split("/")[0])
+				o = convertAmericanOdds(1 + (convertDecOdds(o) - 1) * 1.50)
+				devig(evData, playerFinal, ou, o, book="b365-50")
+
+				if "circa" in books:
+					devig(evData, playerFinal, data[game][player]["circa"], o, book="b365-50-vs-circa")
+
 			if "fd" in books:
 				devig(evData, playerFinal, ou, int(data[game][player]["fd"]), book="fd-sweat", promo="fd-sweat")
 				devig(evData, playerFinal, ou, int(data[game][player]["fd"]), book="fd")
